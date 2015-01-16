@@ -34,4 +34,7 @@ ResidentsApp::Application.configure do
 
   # Print deprecation notices to the stderr
   config.active_support.deprecation = :stderr
+
+  #message on installing rspec: set it to false (unless you use a tool that preloads your test environment)
+  config.eager_load = false
 end
