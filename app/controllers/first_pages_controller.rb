@@ -4,4 +4,7 @@ class FirstPagesController < ApplicationController
 
   def contact
   end
+
+  def constitution
+  end
 end

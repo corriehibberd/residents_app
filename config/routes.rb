@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'first_pages/contact'
 
+  get 'first_pages/constitution'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
