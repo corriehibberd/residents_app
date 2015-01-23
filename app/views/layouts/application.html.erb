@@ -7,8 +7,22 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	<header class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<nav>
+					<ul class="navbar pull-right">
+						<li><%= link_to "Home",   '#' %></li>
+						<li><%= link_to "Contact"  '#' %></li>
+						<li><%= link_to "Constitution"  '#' %></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<%= yield %>
+	</div>
 
 </body>
 </html>
