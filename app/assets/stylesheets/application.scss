@@ -1,11 +1,6 @@
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
-h1, h2, h3, h4, h5, h6 {
-	line-height: 1;
-}
-
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -17,4 +12,6 @@ h1, h2, h3, h4, h5, h6 {
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
+ *= require_self
+ 
  */

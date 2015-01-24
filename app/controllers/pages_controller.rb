@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def constitution
   end
+
+  def testing
+  end
 end

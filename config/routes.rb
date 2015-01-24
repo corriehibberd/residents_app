@@ -8,6 +8,8 @@ root 'pages#home'
 
   get 'constitution', controller: 'pages', action: 'constitution'
 
+  get 'testing', controller: 'pages', action: 'testing'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
