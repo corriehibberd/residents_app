@@ -1,8 +1,9 @@
 body 
 {
-	background-color: grayLight;
+	background-color: #d2d2d2;
 }
 
+/*for navigation bar*/
 ul#navigation 
 {
 	margin-left: 0;
@@ -32,8 +33,28 @@ ul#navigation
 
 }
 
+/*for full width image*/
+.background_image
+{
+	text-align: center;
+	z-index: -1;
 
+}
 
+/*for welcome border*/
+.welcome {
+	margin-top: -40px;
+	background-color: #969696;
+	z-index: 0;
+}
+
+/*for text area */
+.content {
+	background-color: #fff;
+	margin: 2em 1em 3em;
+	padding: 5px;
+	z-index: 1;
+}
 
 /* universal*/
 html {
@@ -79,7 +100,7 @@ h2 {
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: normal;
-	color: #999
+	color: #fff
 }
 
 p {
