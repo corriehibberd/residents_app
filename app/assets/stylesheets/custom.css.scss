@@ -1,44 +1,53 @@
+$navbar-text: #999;
+$navbar-text-hover: #666;
+
 body {
   font-family: 'Raleway', Arial;
 	background-color: #F5F5F8;
 }
 
-/*for navigation bar*/
-.navbar
-{
-	margin-top: -50px;
+
+.navbar {
+  margin-bottom: 0;
+
+  .navbar-header {
+    font-size: 24px;
+    line-height: 14pt;
+    color: $navbar-text;
+    margin-top: 15px;
+
+    small {
+      font-size: 14px;
+    }
+  }
+
+  .container {
+    background: #FFFFFF;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  ul.navbar-nav {
+    float: right;
+
+    li a {
+      font-size: 18px;
+      color: $navbar-text;
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+
+    ul.dropdown-menu a {
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+  }
 }
-ul#navigation
-	{
-	list-style-type: none;
-	background-color: white;
-	float: left;
-	width: 100%;
-		li {
-						display: inline;
-			}
-		a
-			{
-			display: block;
-			float: left;
-			padding: 1em 2em;
-			text-decoration: none;
-			color: 787878;
-
-				&:hover
-					{
-						color: #222;
-						background: #69c;
-					}
-
-			}
-	}
 
 /*for full width image*/
 .background_image
 {
 	z-index: -1;
-	margin-top: -30px;
 	max-width: 100%;
 	height:auto;
 	width: auto\9; /*ie8*/
@@ -88,10 +97,6 @@ ul#navigation
 /* universal*/
 html {
 	overflow-y: scroll;
-}
-
-body {
-	padding-top: 60px;
 }
 
 section {
