@@ -43,6 +43,9 @@ body {
     }
   }
 }
+.dropdown:hover .dropdown-menu {
+    display: block;
+ }
 
 /*for full width image*/
 .background_image
