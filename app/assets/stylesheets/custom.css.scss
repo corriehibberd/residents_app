@@ -43,9 +43,10 @@ body {
     }
   }
 }
-.dropdown:hover .dropdown-menu {
-    display: block;
- }
+/* for hover dropdown - no good on ipads*/
+/*.dropdown:hover .dropdown-menu {*/
+   /* display: block;*/
+ 
 
 /*for full width image*/
 .background_image
