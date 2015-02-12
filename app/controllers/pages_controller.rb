@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   def news
   end
+
+  def history
+  end
 end
