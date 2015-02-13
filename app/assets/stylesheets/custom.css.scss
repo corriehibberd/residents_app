@@ -1,55 +1,143 @@
-/* universal*/
-html {
-	overflow-y: scroll;
-}
+$navbar-text: #999;
+$navbar-text-hover: #666;
 
 body {
-	padding-top: 60px;
+  font-family: 'Raleway', Arial;
+	background-color: #F5F5F8;
 }
 
-section {
-	overflow: auto;
+
+.navbar {
+  margin-bottom: 0;
+
+  .navbar-inner {
+    width: 1060px;
+    margin: auto;
+    background-color: #FFFFFF;
+
+    .navbar-header {
+      font-size: 24px;
+      line-height: 14pt;
+      color: $navbar-text;
+      margin-top: 15px;
+
+      small {
+        font-size: 14px;
+      }
+    }
+
+    .container {
+      background: #FFFFFF;
+    }
+
+    ul.navbar-nav {
+      float: right;
+
+      li a {
+        font-size: 18px;
+        color: $navbar-text;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+
+      ul.dropdown-menu a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+      }
+    }
+  }
+}
+/* for hover dropdown - no good on ipads*/
+/*.dropdown:hover .dropdown-menu {*/
+   /* display: block;*/
+
+
+#background_image {
+  height: 340px;
+
+  img {
+    opacity: 0.7;
+  }
 }
 
-textarea {
-	resize: vertical;
+/*for container*/
+.container {
+	max-width: 980px;
 }
 
-.center {
+#main-wrapper {
+  background: red;
+  width: 1060px;
+  margin: auto;
+  background: #cccccc; /* Old browsers */
+  background: -moz-linear-gradient(top, #cccccc 0px, #f5f5f8 250px); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0px,#cccccc), color-stop(250px,#f5f5f8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #cccccc 0px,#f5f5f8 250px); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #cccccc 0px,#f5f5f8 250px); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cccccc 0px,#f5f5f8 250px); /* IE10+ */
+  background: linear-gradient(to bottom, #cccccc 0px,#f5f5f8 250px); /* W3C */
+}
+
+#welcome-panel {
+  background: black;
+  padding-top: 10px;
+  width: 1060px;
+  margin: auto;
+  position: relative;
+  margin-top: -130px;
+  height: 130px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  color: white;
+  background-color:rgba(0,0,0,0.5);
+
+  h2 {
+    font-size: 36px;
+    margin-top: 10px;
+    text-shadow: 3px 3px 4px black;
+  }
+}
+
+/*for text area */
+#main-content {
+	background-color: #fff;
+  margin-top: -50px;
+  position: relative;
+  background: white;
+}
+
+/*for left hand columns*/
+.col-md-8 
+{
+  padding-top: 15px;
+}
+
+/*for right hand columns*/
+.col-md-4
+{
+	background-color: #ecede8;
+	margin-bottom: -15px;
+	padding-top: 15px
+}
+
+/*for constitution text*/
+.col-md-12
+{
+	h3 {
 	text-align: center;
+	background-color: #d2d2d2;
+	}
 }
 
-.center h1 {
-	margin-bottom: 10px;
+/*for news format*/
+.col-md-3 
+{
+  background-color: #ecede8;
+  margin-bottom: -15px;
+  padding-top: 15px
+
 }
-
-/* typography */
-
-h1, h2, h3, h4, h5, h6 {
-	line-height: 1;
-}
-
-h1 {
-	font-size: 3em;
-	letter-spacing: -2px;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-h2 {
-	font-size: 1.7em;
-	letter-spacing: -1px;
-	margin-bottom: 30px;
-	text-align: center;
-	font-weight: normal;
-	color: #999
-}
-
-p {
-	font-size: 1.1em;
-	line-height: 1.7em;
-}
-
 /* header*/
 #logo {
 	float: left;
@@ -62,17 +150,16 @@ p {
 
 footer {
 	margin-top: 45px;
-	padding-top: 5px;
+	padding: 5px 10px 10px;
 	border-top: 1px solid #eaeaea;
-	color: #999;
+	color: #555;
+	background-color: #f5f5f8;
 }
 
 footer a {
 	color: #555;
-}
-
-footer a:hover {
-	color: #222;
+	&:hover {
+	color: #222;}
 }
 
 footer small {
@@ -87,4 +174,5 @@ footer ul {
 footer ul li {
 	float: left;
 	margin-left: 10px;
+  padding: 5px;
 }
