@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def history
   end
+
+  def find
+  end
 end
