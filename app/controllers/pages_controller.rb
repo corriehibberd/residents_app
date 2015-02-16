@@ -22,4 +22,10 @@ class PagesController < ApplicationController
 
   def find
   end
+
+  def members
+  end
+
+  def grants
+  end
 end
