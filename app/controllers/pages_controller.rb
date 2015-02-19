@@ -28,4 +28,7 @@ class PagesController < ApplicationController
 
   def grants
   end
+
+  def chairman
+  end
 end

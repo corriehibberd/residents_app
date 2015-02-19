@@ -22,6 +22,8 @@ root 'pages#home'
 
   get 'grants', controller: 'pages', action: 'grants'
 
+  get 'chairman', controller: 'pages', action: 'chairman'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
