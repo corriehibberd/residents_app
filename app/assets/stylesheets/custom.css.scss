@@ -107,6 +107,14 @@ body {
   background: white;
 }
 
+.small_image {
+  float: right;
+}
+/* for grey background*/
+.grey-back {
+  background-color: #ecede8;
+}
+
 /*for left hand columns*/
 .col-md-8 
 {
@@ -124,6 +132,12 @@ body {
 	margin-bottom: -15px;
 	padding-top: 15px
 }
+
+.directory {
+  background-color: #fff;
+  padding-top: 15px;
+}
+
 
 /*for constitution text*/
 .col-md-12

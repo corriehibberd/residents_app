@@ -1,5 +1,5 @@
 <div class="background_image">
-  <%= image_tag "churchview1550.jpg", :class=> "img-responsive" %>
+  <%= image_tag "churchview1550.jpg", class: "img-responsive" %>
 </div>
 <div id="welcome-panel">
   <h2>Welcome to the Sanderstead Residents' Association</h2>
@@ -12,24 +12,25 @@
           <div class="col-md-8">
             <h2>Welcome</h2>
             <p>The Sanderstead residents' Association welcomes new members to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
-            <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its Aim is the promotion of the interests of the Residents of Sanderstead. </p>
-            <h2><%= link_to "Membership", members_path %></h2>
-            <p>Membership is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
+            <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
+            <h2>Membership</h2>
+            <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
             <h2>Sanderstead News</h2>
-            <p>The Association's newsletter, "Sanderstead News" provides reports form our MP, the Ward Councillors and our <%= link_to "Chairman", chairman_path %>. There are articles of local interests and advice on security matters provided by the police and Neighbourhood Watch. The magazine lists local organisations with their contacts and diearies of events. These items are also now available on this website. A youth page provides parents with information on all the Sanderstead youth activities from toddler age, to teenagers; for Scouts, Guides and sport.</p>
+            <p> <%= image_tag "small-images/sanderstead_news200.jpg", class: "small_image" %>The Association's newsletter, "Sanderstead News" provides reports form our MP, the Ward Councillors and our <%= link_to "Chairman", chairman_path %>. There are articles of local interests and advice on security matters provided by the police and Neighbourhood Watch. The magazine lists local organisations with their contacts and diearies of events. These items are also now available on this website. A youth page provides parents with information on all the Sanderstead youth activities from toddler age, to teenagers; for Scouts, Guides and sport.</p>
             <h2>AGM</h2>
             <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead.<p>
               <p>The AGM this year will be held on 14th May 2015 in ?All Saints' Hall?</p>
               <h2>Role of the Association</h2>
               <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a residents association, resisting planning applications likely to disadvantage residents and concerns such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
             <h2>Useful information</h2>
+            <span><%= image_tag "residents_logo200.gif", class: "small_image" %>
             <uL>
               <li>Planning Issues </li>
               <li><%= link_to "News from Croydon Council", "http://www.croydon.gov.uk/news/" %></li>
               <li>Local directory</li>
               <li><%= link_to "How the SRA can help you", grants_path %></li>
               <li><%= link_to "How you can join the SRA", members_path %></li>
-          </ul>
+          </ul></span>
           </div>
 
           <div class="col-md-4">

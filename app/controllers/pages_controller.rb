@@ -31,4 +31,7 @@ class PagesController < ApplicationController
 
   def chairman
   end
+
+  def directory
+  end
 end
