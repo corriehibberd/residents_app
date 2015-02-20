@@ -16,15 +16,15 @@
   <h4>Executive</h4>
   <div class="list-group">
     <h4 class="list-group-item-heading" >Chairman, Mr Dennis M King. </h4>
-    <p class="list-group-item-text">email: chairman@sanderstead-residents.co.uk</p>
+    <p class="list-group-item-text">email: <%= mail_to "chairman@sanderstead-residents.co.uk" %></p>
     <p class="list-group-item-text">tel: 020 8657 2661</p>
 
     <h4 class="list-group-item-heading">Hon. Treasurer, Mr John Kempsell</h4>
-    <p class="list-group-item-text">email: treasurer@sanderstead-residents.co.uk</p>
+    <p class="list-group-item-text">email: <%= mail_to "treasurer@sanderstead-residents.co.uk" %></p>
     <p class="list-group-item-text">tel: 020 8657 0482</p>
 
     <h4 class="list-group-item-heading">Hon. Secretary, Mr Mike Leach</h4>
-    <p class="list-group-item-text">email: secretary@sanderstead-residents.co.uk</p>
+    <p class="list-group-item-text">email: <%= mail_to "secretary@sanderstead-residents.co.uk" %></p>
     <p class="list-group-item-text">tel: 020 8657 8913	</p>
   </div> <!--list-group -->
     <h4>Committee</h4>
@@ -54,12 +54,12 @@
   <div class="list-group">
     <h4 class="list-group-item-heading" >Consultant for "Sanderstead News" Magazine</h4>
     <h4 class="list-group-item-heading">Cllr Yvette Hopley</h4>
-    <p class="list-group-item-text">email: yvette_hopley@hotmail.com</p>
+    <p class="list-group-item-text">email: <%= mail_to "yvette_hopley@hotmail.com" %></p>
     <p class="list-group-item-text">tel: 020 8657 0973</p>
   </br>
 
     <h4 class="list-group-item-heading">Webmaster, Mrs Corrie Hibberd</h4>
-    <p class="list-group-item-text">email: webmaster@sanderstead-residents.co.uk</p>
+    <p class="list-group-item-text">email: <%= mail_to "webmaster@sanderstead-residents.co.uk" %></p>
     <p class="list-group-item-text">tel: 020 8657 4562</p>
 </br>
     <h4 class="list-group-item-heading">Hon. Accounts Examiner, Mr D Scrafton</h4>
@@ -72,7 +72,7 @@
 	 </div> <!--col-md-8-->
 
           <div class="col-md-4">
-	<p> If you have any matters that you wish to bring to the attention of the SRA, please get in touch with the Chairman, Dennis King via email: chairman@sanderstead-residents.org.uk, or by phone, 020 8657 2661.</p>
+	<p> If you have any matters that you wish to bring to the attention of the SRA, please get in touch with the Chairman, Dennis King via email: <%= mail_to "chairman@sanderstead-residents.org.uk" %>, or by phone, 020 8657 2661.</p>
 	 </div> <!-- col-md-4 -->
       </div> <!-- /content -->
     </div><!--/welcome -->

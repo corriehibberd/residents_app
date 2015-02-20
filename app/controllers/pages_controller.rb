@@ -34,4 +34,7 @@ class PagesController < ApplicationController
 
   def directory
   end
+
+  def news1
+  end
 end

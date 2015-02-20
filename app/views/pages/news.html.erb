@@ -12,30 +12,38 @@
       <div class="content">
           <div class="row marketing">
            <div class="col-md-4">
-	<h3>News Headlines</h3>
-	<h4><%= link_to "Scam postcards delivered to residents", anchor: "scam" %> </h4>
-  <h4><%= link_to "Medieval gravestone discovered at All Saints", anchor: "grave" %></h4>
-  <h4><%= link_to "Sanderstead Residents' Association Chairman's Report", chairman_path %></h4>
-  <h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4>
+	<h2>News Headlines</h2>
+	<h3><%= link_to "Scam postcards delivered to residents", anchor: "scam" %> </h3>
+  <h3><%= link_to "Medieval gravestone discovered at All Saints", anchor: "grave" %></h3>
+  <h3><%= link_to "Sanderstead Residents' Association Chairman's Report", chairman_path %></h3>
+  <h3><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h3>
+  <h3><%= link_to "Children's Society Art Show", anchor: "pictures" %></h3>
   
 	 </div>
 
           <div class="col-md-8">
-	<h3> News in Detail</h3>
-  <h4><a name="scam"></a>Scam postcards delivered to residents</h4>
-  <p>The personally addressed postcards say: “The office is attempting to reach you.  To claim this parcel and accept this offer, you must telephone the number below immediately and arrange for a delivery.  The item is prepaid, but a processing and delivery free of £10 must be remitted.  This fee can be paid only by telephone and only with a credit card (VISA or MasterCard).  This is your only notification”</p>
+	<h2> News in Detail</h2>
+  <h3><a name="scam"></a>Scam postcards delivered to residents</h3>
+  <p><%= truncate("The personally addressed postcards say: “The office is attempting to reach you.  To claim this parcel and accept this offer, you must telephone the number below immediately and arrange for a delivery.  The item is prepaid, but a processing and delivery free of £10 must be remitted.  This fee can be paid only by telephone and only with a credit card (VISA or MasterCard).  This is your only notification”</p>
 <p>If you call the 020 number you are asked to pay £10 by credit card.  Victims who have reported this to Action Fraud have said that the automated service told them the package would be delivered the same day, but did not receive anything. </p>
 <p>Action Fraud has received several reports of this recently occurring fraud and this information has been assessed by National Fraud Intelligence Bureau (NFIB) resulting in disruption of the fraudster’s phone number.  Also be on the lookout for slight variations of this scam - which use different phone numbers and delivery items.  </p>
 <p>If you receive one these postcards:Do not call the number provided. 
 Do not give your card details.</p>
 <p>If you receive a delivery card through your letterbox which you do not believe is genuine and which asks you to dial a premium rate number, you can contact PhonepayPlus on 0800 500 212 (Mon-Fri, 8am-6pm) for further guidance.
-If you receive one of these delivery cards, do not pay any money and report it to Action Fraud by calling 0300 123 2040 or by using the online reporting tool. </p>
-<h4><a name="grave"></a>Medieval Gravestone discovered at All Saints</h4>
+If you receive one of these delivery cards, do not pay any money and report it to Action Fraud by calling 0300 123 2040 or by using the online reporting tool.",
+  length: 150,
+  separator: ' ',
+  omission: '...') {
+  link_to "Read more", news1_path
+  } %> </p>
+<h3><a name="grave"></a>Medieval Gravestone discovered at All Saints</h3>
 <p>Builders working in All Saints churchyard have uncovered a medieval gravestone decorated with a celtic cross symbol.</p>
 <p>All Saints is currently undergoing building work to create level access into the church. Over the centuries the height of the ground outside the church has been raised, and there are now two deep steps down to get into the church.</p>
 <p>With disabled access in mind, the church council has recruited an architect to design a way of allowing level access for wheelchairs and those with walking difficulty to get into the church.<p>
   <p>The resulting design required a lowering of the path outside the church, and it was while builders were digging down that the gravestone was uncovered.</p>
   <p>The diocesan archaeologist was on hand to record the discovery and is very excited by the find. She said "I have never seen such a fine example of celtic art in this part of the country before!"</p>
+  <h3><a name="pictures"></a>Exhibition and Sales of Pictures, Saturday March 21st, United Reformed Church Hall</h3>
+    <p> Our annual Children’s Society exhibition and sale of paintings and drawings, framed and unframed, by many local artists is open from 10am-4pm on March 21st in the URC hall on Sanderstead Hill. This is always a lively event with a wide variety of art to enjoy and a chance to buy original works at very reasonable prices. There will also be tea, coffee, a cake stall and raffle. Do come – as 20 per cent of proceeds go to the Society, you will also be supporting its important work with vulnerable children. </p>
 
 	 </div>
       </div> <!-- /content -->

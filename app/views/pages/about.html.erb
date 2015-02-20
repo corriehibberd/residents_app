@@ -12,13 +12,16 @@
       <div class="content">
           <div class="row marketing">
            <div class="col-md-8">
-	<p>In 1926 The Sanderstead Ratepayers' Association was formed, later to be known as The Sanderstead Residents' Association (SRA). The SRA is entirely non-political and non-sectarian. It is primarily concerned with promoting and stimulating interest in local government so as to safeguard the interests of residents and to assist members in Sanderstead, Hamsey Green and adjoining areas in local matters.</p>
+	<p>The Sanderstead Residents' Association is entirely non-political and non-sectarian. It is primarily concerned with promoting and stimulating interest in local government so as to safeguard the interests of residents and to assist members in Sanderstead, Hamsey Green and adjoining areas in local matters.</p>
 	 </div>
 
           <div class="col-md-4">
-	<p> If you have any matters that you wish to bring to the attention of the SRA, please get in touch with the Chairman, Dennis King via email: chairman@sanderstead-residents.org.uk, or by phone, 020 8657 2661.</p>
-	<h3>Membership</h3>
-	<p>Subscriptions are due by the end of January each year. If you wish to become a member, please contact the Hon. Treasurer, John Kempsell, email treasurer@sanderstead-residents.org.uk, or by phone, 020 8657 0482.</p>
+            <h2><%= link_to "Contact", contact_path %> </h2>
+	<p> If you have any matters that you wish to bring to the attention of the SRA, please get in touch with the Chairman, Dennis King via email: <%= mail_to "chairman@sanderstead-residents.org.uk" %> , or by phone, 020 8657 2661.</p>
+	<h3><%= link_to "Membership", members_path %></h3>
+	<p>Subscriptions are due by the end of January each year. If you wish to become a member, please contact the Hon. Treasurer, John Kempsell, email: <%= mail_to "treasurer@sanderstead-residents.org.uk" %>, or by phone, 020 8657 0482.</p>
+  <h2>Information</h2>
+  <p>The SRA provides information about local facilities, and events in Sanderstead. If you would like to advertise an event on this website, please contact the webmaster, email: <%= mail_to "webmaster@sanderstead-residents.co.uk" %>. Checkout what's happening in Sanderstead on our <%= link_to "news and events", news_path %> page.
 	         </div>
         </div> <!--/row marketing -->  
       </div> <!-- /content -->
