@@ -12,41 +12,124 @@
       <div class="content">
           <div class="row marketing">
           	<div class="col-md-12 grey-back">
-          		<h4 style="text-align: center;">Where we have not yet confirmed permission to use contact data online, please refer to the "Sanderstead News" magazine for directory information.</h4>
-          	</div>
+          		<p style="text-align: center;">Where we have not yet confirmed permission to use contact data online,<br/> please refer to the "Sanderstead News" magazine for directory information.</p>
+          </div>
            <div class="col-md-3 directory-md3">
-           	<h4><%= link_to "Youth Organisations", anchor: "youth" %></h4>
-            <h4><%= link_to "Church Information", anchor: "church" %></h4>
             <h4><%= link_to "Arts and History", anchor: "arts" %></h4>
-            <h4><%= link_to "Music", anchor: "music" %></h4>
-            <h4><%= link_to "Sport", anchor: "sport" %></h4>
-            <h4><%= link_to "Support groups", anchor: "support" %></h4>
-            <h4><%= link_to "Social", anchor: "social" %></h4>
             <h4><%= link_to "Care for the community", anchor: "care" %></h4>
             <h4><%= link_to "Care for the environment", anchor: "environ" %></h4>
             <h4><%= link_to "Charities", anchor: "charity" %></h4>
-           		
-           </div>
+            <h4><%= link_to "Church Information", anchor: "church" %></h4>
+            <h4><%= link_to "Music", anchor: "music" %></h4>
+            <h4><%= link_to "Social", anchor: "social" %></h4>
+            <h4><%= link_to "Sport and Games", anchor: "sport" %></h4>
+            <h4><%= link_to "Support groups", anchor: "support" %></h4>
+            <h4><%= link_to "Youth Organisations", anchor: "youth" %></h4>
+	         </div>
            <div class="col-md-9 directory-md9">
-            <h4><a name="youth"></a>Youth Organisations</h4>
-           	<h4>Scouts and Beavers</h4>
-              <h5>8th Purley (St Mary's)</h5>
-              <p>Scout Hut HQ, St Mary's Church, 85 Purley Oaks Road, CR2 0NY</p>
-              <p>Group Scout Leader, Yvonne Lamont <!-- tel 020 8763 2933 --></p>
+            <a name="top"></a>
+             <h4><a name="arts">
+             </a>Arts and History</h4>
+              <h5>Bourne Society</h5>
+                <p>Hon Membership Secretary, Mrs J Hurrion. <!--Tel 01883 349287 --></p>
+              <h5>Croydon Decorative and Fine Arts Society</h5>
+                <p>All Saints' Church Hall, Onslow Gardens, CR2 9AB</p>
+                <p>Meets on the 2nd Thursday of the month</p>
+                <p>Hon Secretary, Barbara Quinn</p>
+                <p>020 8680 3049</p> 
+              <h5>Croydon Open Group - Literature, Music and Art</h5>
+                <p>Secretary, Mrs Anne Slatford</p>
+                <p>62, Kendall Avenue South, CR2 0QQ.</p>
+                <p>020 8660 4378</p>
+              <h5>Purley Literary Society</h5>
+                <p>John and Bobbie Wilson</p>
+                <p>Purley United Reformed Church, 906, Brighton Road, Purley</p>
+                <p>020 8657 3189</p>
+
+            <h4><a name="environ"></a>Care for the Environment</h4>
+              <h5>Friends of Croham Hurst Woods</h5>
+                <p>Liaison Office, Councillor Maria Gatland</p>
+                <p>Floral House, 238 Selsdon Road, CR2 7AA</p>
+                <p>020 8686 2988</p>
+              <h5>Friends of King's Wood</h5>
+                <p>Secretary, Mrs Jenny Vereycken</p>
+                <p>21, Lime Meadow Avenue, CR2 9AS</p>
+                <p>020 8567 6302</p>
+              <h5>Friends of Purley Beeches</h5>
+                <p>Contact, Stan Lowy</p>
+                <p><%= mail_to "stanlowy@outlook.com" %></p>
+                <p>020 8657 3684</p>
+              <h5>Friends of the Wettern Tree Garden</h5>
+                <p>Co-ordinator, Joy Gadsby</p>
+                <p>5 Cedar Court, CR2 8RA</p>
+                <p>020 8657 0831</p>
+
+            <h4><a name="charity"></a>Charities</h4>
+              <h5>RNLI</h5>
+                <p>Hon Treasurer, Mr Mike Black</p>
+                <p>020 8660 3956</p>
+
             <h4><a name="church"></a>Churches</h4>
-           	  <h5>All Saints Parish Church - AD 1230</h5>
-           	  <p>Team Rector, Rev'd Canon Martin Greenfield, tel 020 8657 1366</p>
-           	  <p>Parish Secretary, Paul Shipley, tel 020 8657 0665</p>
-           	  <p>Email, parish.office@sanderstead-parish.org.uk</p>
-            <h4><a name="arts"></a>Arts and History</h4>
-           	  <h5>Bourne Society</h5>
-           	    <p>Hon Membership Secretary, Mrs J Hurrion. <!--Tel 01883 349287 --></p>
-              <h5>Bridge Thursday Club, Sanderstead</h5>
-           	    <p>Memorial Hall, Purley Oaks Road. Email honorshearing@googlemail.com. tel 020 8657 4082</p> 
+              <h5>All Saints Parish Church - AD 1230</h5>
+                <p>Team Rector, Rev'd Canon Martin Greenfield, tel 020 8657 1366</p>
+                <p>Parish Secretary, Paul Shipley</p>
+                <p><%= mail_to "parish.office@sanderstead-parish.org.uk" %></p>
+                <p>Tel 020 8657 0665</p>
+              
             <h4><a name="music"></a>Music</h4>
               <h5>Cantilena Singers (Ladies' Choir)</h5>
                 <p>Methodist Church, Wednesdays 7.30 - 9 pm</p>
                 <p>Contact Jill, tel 020 8660 2924 or 07957 6270783</p>
+
+            <h4><a name="social"></a>Social</h4>
+              <h5>Probus Club of South Croydon</h5>
+                <p>Secretary, John Barker</p>
+                <p><%= mail_to "bark@anjohn.orangehome.co.uk" %></p>
+                <p>020 8657 2093</p>
+              <h5>Probus Club of Sanderstead and Purley Oaks</h5>
+                <p>Secretary, Mr Peter Atkinson</p>
+                <p>4, Barnfield Road, CR2 0EY</p>
+                <p>020 8657 4188</p>
+              <h5>Rotary Club of Croydon Jubilee</h5>
+                <p>Hon Secretary, Mr David Gooch</p>
+                <p>1 Benchfield, South Croydon CR2 7HX</p>
+                <p>020 8668 0207</p>
+
+             <h4><a name="sport"></a>Sport and Games</h4>
+             <h5>Bridge Thursday Club, Sanderstead</h5>
+                <p>Memorial Hall, Purley Oaks Road.</p>
+                <p><%= mail_to "honorshearing@googlemail.com" %></p>
+                <p>020 8657 4082</p> 
+              <h5>Croham Hurst Golf Club</h5>
+                <p>Croham Road, South Croydon, CR2 7HJ</p>
+                <p>Secretary, Steve Mackinson.</p>
+                <p>020 8657 5581</p>
+
+              <h5>Purley Downs Golf Club</h5>
+                <p>106 Purley Downs Road</p>
+                <p><%= link_to "www.purleydownsgolfclub.co.uk", "http://www.purleydownsgolfclub.co.uk" %></p>
+                <p>020 8657 8347</p>
+              <h5>Purley Oaks Short Mat Bowling Club</h5>
+                <p>St Mary's Church Hall, Purley Oaks Road</p>
+                <p>Secretary, Mr Brian Grubb</p>
+                <p>020 8657 4412</p>
+
+                 <h4><a name="support"></a>Support Groups</h4>
+                 <h5>Croydon Alzheimer's Society</h5>
+                 <p>Heavers Resource Centre, 122 Selhurst Road, South Norwood, SE25 6LL</p>
+                 <p><%= mail_to "croydon@alzheimers.org.uk" %></p>
+                 <p>020 8916 3587</p>
+                 
+
+            <h4><a name="youth"></a>Youth Organisations</h4>
+            <h4>Scouts and Beavers</h4>
+              <h5>8th Purley (St Mary's)</h5>
+              <p>Scout Hut HQ, St Mary's Church, 85 Purley Oaks Road, CR2 0NY</p>
+              <p>Group Scout Leader, Yvonne Lamont </p>
+                <!-- <p>020 8763 2933</p>-->
+
+                <p><%= link_to "Back to top", anchor: "top" %><p>
+           
            </div>
            	</div> <!--/row marketing -->  
       </div> <!-- /content -->
