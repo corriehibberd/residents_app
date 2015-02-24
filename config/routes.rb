@@ -28,6 +28,8 @@ root 'pages#home'
 
   get 'news1', controller: 'pages', action: 'news1'
 
+  get 'gallery', controller: 'pages', action: 'gallery'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

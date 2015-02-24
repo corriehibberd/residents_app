@@ -37,4 +37,7 @@ class PagesController < ApplicationController
 
   def news1
   end
+
+  def gallery
+  end
 end
