@@ -20,8 +20,6 @@ root 'pages#home'
 
   get 'members', controller: 'pages', action: 'members'
 
-  get 'grants', controller: 'pages', action: 'grants'
-
   get 'chairman', controller: 'pages', action: 'chairman'
 
   get 'directory', controller: 'pages', action: 'directory'

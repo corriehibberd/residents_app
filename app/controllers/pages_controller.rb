@@ -26,9 +26,6 @@ class PagesController < ApplicationController
   def members
   end
 
-  def grants
-  end
-
   def chairman
   end
 
