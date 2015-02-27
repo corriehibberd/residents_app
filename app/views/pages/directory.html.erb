@@ -12,7 +12,7 @@
       <div class="content">
           <div class="row marketing">
           	<div class="col-md-12 grey-back">
-          		<p style="text-align: center;">Where we have not yet confirmed permission to use contact data online,<br/> please refer to the "Sanderstead News" magazine for directory information.</p>
+          		<p style="text-align: center;">We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
           </div>
            <div class="col-md-3 directory-md3">
             <h4><%= link_to "Arts and History", anchor: "arts" %></h4>
@@ -20,6 +20,8 @@
             <h4><%= link_to "Care for the Environment", anchor: "environ" %></h4>
             <h4><%= link_to "Charities", anchor: "charity" %></h4>
             <h4><%= link_to "Church Information", anchor: "church" %></h4>
+            <h4><%= link_to "Adult Education", anchor: "education" %></h4>
+            <h4><%= link_to "Halls for Letting", anchor: "halls" %></h4>
             <h4><%= link_to "Music", anchor: "music" %></h4>
             <h4><%= link_to "Social", anchor: "social" %></h4>
             <h4><%= link_to "Sport and Games", anchor: "sport" %></h4>
@@ -49,8 +51,9 @@
                 <p>Purley United Reformed Church, 906, Brighton Road, Purley</p>
                 <p>020 8657 3189</p>
               <h5>Sanderstead Decorative and Fine Arts Society</h5>
-                <p>Hon Secretary, Mrs Joy Lawrence</p>
-                <p>020 8660 1783</p>
+                <p>Lecture and Study Day Meetings in Sanderstead URC Hall</p>
+                <p><%= mail_to "sdfas@live.co.uk" %></p>
+                <p><%= link_to "www.sdfas.org.uk", "http://www.sdfas.org.uk" %></p>
               <h5>Sanderstead Dramatic Club</h5>
                 <p>Chairman, Mr John Desbottes</p>
                 <p>01883 625656</p>
@@ -59,6 +62,11 @@
                 <p>Alternate Wednesdays at 8pm, October to March</p>
                 <p>Hon Secretary, Mrs Pat Dominey</p>
                 <p>01883 622875</p>
+              <h5>Selsdon Camera Club</h5>
+                <p>Hon Secretary, Linda Nitsche</p>
+                <p><%= link_to "www.selsdoncameraclub.co.uk", "http://www.selsdoncameraclub.co.uk" %></p>
+                <p><%= mail_to "secretary@selsdoncameraclub.co.uk" %></p>
+                <p>020 8651 4048</p>
 
             <h4><a name="care"></a>Care for the Community</h4>
               <h5>Sanderstead Neighbourhood Care</h5>
@@ -66,6 +74,8 @@
                 <p>All Saints' Church Hall, Onslow Gardens, CR2 9AB</p>
                 <p>10 - 12.30 am weekdays, at other times answerphone available</p>
                 <p>020 8657 8289</p>
+              <h5>Sanderstead Safer Neighbourhood Team</h5>
+                <p><%= mail_to "sanderstead.snt@met.police.uk" %>
 
 
             <h4><a name="environ"></a>Care for the Environment</h4>
@@ -148,6 +158,49 @@
                     <p><%= mail_to "pastor@sandersteadec.org.uk" %></p>
                     <p>020 8657 9502</p>
 
+            <h4><a name="education"></a>Education</h4>
+              <h5>Workers Educational Association (Sanderstead and Selsdon Branch)</h5>
+                <p>Acting Chair, Mrs Jane Bishop</p>
+                <p>020 8763 2750</p>      
+
+            <h4><a name="halls"></a>Halls for Letting</h4>
+              <h5>All Saints' Church Halls</h5>
+                <p>Onslow Gardens, CR2 9AB</p>
+                <p>Parish Administrator, Paul Shipley</p>
+                <p><%= mail_to "parish.office@sanderstead-parish.org.uk" %></p>
+                <p>020 8657 0665</p>
+              <h5>St Antony's Hall</h5>
+                <p>Wentworth Way, Hamsey Green</p>
+                <p>Parish Administrator, Paul Shipley</p>
+                <p><%= mail_to "parish.office@sanderstead-parish.org.uk" %></p>
+                <p>020 8657 0665</p>
+              <h5>St Mary's Church Hall</h5>
+                <p>Purley Oaks Road</p>
+                <p>St Mary's Administrator, Sarah Goaman</p>
+                <p><%= mail_to "stmarys.office@sanderstead-parish.org.uk" %></p>
+                <p>020 8657 9232</p>
+              <h5>Sanderstead Memorial Hall</h5>
+                <p>Purley Oaks Road</p>
+                <p>Booking Secretary, Mrs Caroline Hubbard</p>
+                <p><%= mail_to "croline@thehubbards.eclipse.co.uk" %></p>
+                <p>020 8668 2783</p>
+              <h5>Sanderstead Methodist Church</h5>
+                <p>Limpsfield Road</p>
+                <p>Booking Secretary, Mrs Joyce Stephens</p>
+                <p>020 8657 3822</p>
+              <h5>Sanderstead United Reformed Church Hall</h5>
+                <p>Sanderstead Hill</p>
+                <p>Booking Secretary, Miss Cecily Hooff</p>
+                <p>020 8651 1943</p>
+              <h5>St John's Community Hall</h5>
+                <p>Upper Selsdon Road</p>
+                <p>Bookings, Jennifer Mattocks</p>
+                <p><%= mail_to "jennifer.mattocksbookingstjohns@gmail.com" %></p>
+              <h5>Trinity Mid-Whitgiftian Association</h5>
+                <p>Lime Meadow Avenue</p>
+                <p>Booking Secretary, Nick Trend</p>
+                <p>020 8657 2014</p>
+
 
               
             <h4><a name="music"></a>Music</h4>
@@ -178,6 +231,22 @@
               <h5>Rotary Club of Croydon South</h5>
                 <p>Hon Secretary Dr Vivien Beal</p>
                 <p>020 8405 9609</p>
+              <h5>Sanderstead and Selsdon Trefoil Guild</h5>
+                <p>Chair Mrs Jacklyn Sanderson</p>
+                <p>01689 846184</p>
+              <h5>Sanderstead Village WI (evenings)</h5>
+                <p>First Monday of the month, 7.30 pm</p>
+                <p>Sanderstead Methodist Church</p>
+                <p>Hon Secretary, Mrs Sheila Wilkie</p>
+                <p>020 8651 2388</p>
+              <h5>Sanderstead WI (afternoon)</h5>
+                <p>First Wednesday of the month</p>
+                <p>Hon Secretary, Mrs Dee Poulton</p>
+                <p>020 8657 3648</p>
+              <h5>Trinity Mid-Whitgiftian Association</h5>
+                <p>Lime Meadow Avenue, CR2 9AS</p>
+                <p>General Manager, Nick Trend</p>
+                <p>07979 421677</p>
 
              <h4><a name="sport"></a>Sport and Games</h4>
              <h5>Bridge Thursday Club, Sanderstead</h5>
@@ -210,9 +279,21 @@
                 <p>Hon Secretary, Mrs Charlotte Trazcinska</p>
                 <p><%= mail_to "sltc@gmail.com" %></p>
                 <p>020 8668 2113</p>
+              <h5>Sanderstead URC Tennis Club</h5>
+                <p>Hon Secretary, Mrs Sue Fairchild</p>
+                <p>020 8657 3761</p>
+              <h5>Sanderstead Village Lawn Tennis Club<h5>
+                <p>26a Sanderstead Court Avenue</p>
+                <p>Hon Secretary, Jenny Beal</p>
+                <p>01883 620730</p>
+              <h5>Scottish Country Dancing</h5>
+                <p>Tuesdays, 8pm. Social Dancing, beginners welcome</p>
+                <p>Sanderstead URC Hall</p>
+                <p>Hon Secretary, Mrs Madelaine Reeve</p>
+                <p><%= mail_to "madelainereeve@hotmail.com" %></p>
 
-                 <h4><a name="support"></a>Support Groups</h4>
-                 <h5>Croydon Alzheimer's Society</h5>
+              <h4><a name="support"></a>Support Groups</h4>
+                <h5>Croydon Alzheimer's Society</h5>
                  <p>Heavers Resource Centre, 122 Selhurst Road, South Norwood, SE25 6LL</p>
                  <p><%= mail_to "croydon@alzheimers.org.uk" %></p>
                  <p>020 8916 3587</p>

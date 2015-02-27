@@ -26,7 +26,7 @@
             <span><%= image_tag "residents_logo200.gif", class: "small_image" %>
             <uL>
               <li>Planning Issues </li>
-              <li><%= link_to "News from Croydon Council", "http://www.croydon.gov.uk/news/" %></li>
+              <li><%= link_to "Croydon Council planning applications", "http://publicaccess.croydon.gov.uk/online-applications/" %></li>
               <li>Local directory</li>
               <li><%= link_to "How the SRA can help you", about_path %></li>
               <li><%= link_to "How you can join the SRA", members_path %></li>
@@ -34,6 +34,18 @@
           </div>
 
           <div class="col-md-4">
+
+            <h2>Events</h3>
+              
+            <%= link_to("Events", events_path, class: 'btn btn-primary') %> 
+            <br/>
+            <b>Saturday March 21st</b>
+              <p><%= link_to("Children's Society Exhibition and Sale of Pictures", events_path(anchor:"pictures")) %></p>
+            <b>Thursday May 14th</b>
+              <p><%= link_to("Residents' Association AGM", events_path(anchor: "agm")) %></p>
+            <b>Saturday June 13th tbc</b>
+              <p><%= link_to("Scouts Gruffy Fair", events_path(anchor:"fair")) %></p>
+           
             <h2>Become a member</h2>
             <p>Find out about joining the SRA here.</p>
             <%= link_to("Membership", members_path, class: 'btn btn-primary') %>
