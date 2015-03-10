@@ -14,7 +14,7 @@
           	<div class="col-md-12 grey-back">
           		<p style="text-align: center;">We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
           </div>
-           <div class="col-md-3 directory-md3">
+           <div class="col-md-3 directory-md3-l">
             <h4><%= link_to "Arts and History", anchor: "arts" %></h4>
             <h4><%= link_to "Care for the Community", anchor: "care" %></h4>
             <h4><%= link_to "Care for the Environment", anchor: "environ" %></h4>
@@ -28,7 +28,7 @@
             <h4><%= link_to "Support groups", anchor: "support" %></h4>
             <h4><%= link_to "Youth Organisations", anchor: "youth" %></h4>
 	         </div>
-           <div class="col-md-9 directory-md9">
+           <div class="col-md-6 directory-md6">
             <a name="top"></a>
              <h4><a name="arts">
              </a>Arts and History</h4>
@@ -114,29 +114,30 @@
 
             <h4><a name="church"></a>Churches</h4>
               <h5>All Saints Parish Church - AD 1230</h5>
-                <p>Team Rector, Rev'd Canon Martin Greenfield, tel 020 8657 1366</p>
+                <p>Team Rector, Rev'd Canon Martin Greenfield</p>
+                <p>020 8657 1366</p>
                 <p>Parish Secretary, Paul Shipley</p>
                 <p><%= mail_to "parish.office@sanderstead-parish.org.uk" %></p>
                 <p>020 8657 0665</p>
-                <p><%= link_to "www.sanderstead-parish.org.uk", "www.sanderstead-parish.org.uk" %></p>
+                <p><%= link_to "www.sanderstead-parish.org.uk", "http://www.sanderstead-parish.org.uk" %></p>
                 <h5>St Antony's Church</h5>
                   <p>Wentworth Way, Hamsey Green, CR2 9EW</p>
                   <p>Team Vicar, Rev'd Susan Atkinson Jones</p>
                   <p><%= mail_to "susan@sanderstead-parish.org.uk" %></p>
                   <p>020 8657 5505</p>
-                  <p><%= link_to "www.sanderstead-parish.org.uk", "www.sanderstead-parish.org.uk" %></p>
+                  <p><%= link_to "www.sanderstead-parish.org.uk", "http://www.sanderstead-parish.org.uk" %></p>
                 <h5>St Edmund's Church</h5>
                   <p>Michley Avenue, Sanderstead, CR2 9HL</p>
                   <p>Team Vicar, Rev'd Susan Atkinson Jones</p>
                   <p><%= mail_to "susan@sanderstead-parish.org.uk" %></p>
                   <p>020 8657 5505</p>
-                  <p><%= link_to "www.sanderstead-parish.org.uk", "www.sanderstead-parish.org.uk" %></p>
+                  <p><%= link_to "www.sanderstead-parish.org.uk", "http://www.sanderstead-parish.org.uk" %></p>
                 <h5>St Mary's Church</h5>
                   <p>Purley Oaks Road, CR2 0NR</p>
                   <p>Team Vicar, Rev'd Grant Cohen</p>
                   <p><%= mail_to "grant@sanderstead-parish.org.uk" %></p>
                   <p>020 8657 1725</p>
-                  <p><%= link_to "www.sanderstead-parish.org.uk", "www.sanderstead-parish.org.uk" %></p>
+                  <p><%= link_to "www.sanderstead-parish.org.uk", "http://www.sanderstead-parish.org.uk" %></p>
                 <h5>Church of the Holy Family</h5>
                   <p>Limpsfield Road, Sanderstead</p>
                   <p>Parish Priest, Rev'd Gus Kinnane</p>
@@ -367,6 +368,15 @@
                 <p><%= link_to "Back to top", anchor: "top" %><p>
            
            </div>
+           <div class="col-md-3 directory-md3-r">
+            <h4>External Links</h4>
+            <p>For news and information from Croydon Council...</p>
+             <p><%= link_to "Croydon", "http://www.croydon.gov.uk", class: 'btn btn-primary' %></lp>
+              <p>For up to date news about local planning applications...</p>
+            <p><%= link_to "Planning", "http://publicaccess.croydon.gov.uk/online-applications/", class: 'btn btn-primary' %></p>
+            <p>For other local Residents' Associations...</p>
+            <p><%= link_to "Riddlesdown", "http://riddlesdownresidents.org.uk", class: 'btn btn-primary' %></p>
+           </div> 
            	</div> <!--/row marketing -->  
       </div> <!-- /content -->
     </div><!--/welcome -->
