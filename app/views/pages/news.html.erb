@@ -14,7 +14,8 @@
            <div class="col-md-4">
 	<h2>News Headlines</h2>
   <h4><%= link_to "Sanderstead Residents' Association Chairman's Report", chairman_path %></h4>
-	<h4><%= link_to "Scam postcards delivered to residents", anchor: "scam" %> </h4> 
+	<h4><%= link_to "Scam postcards delivered to residents", anchor: "scam" %> </h4>
+  <h4><%= link_to "Warning about pensions scam", anchor: "pensions" %></h4> 
   <h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4>
   <h4><%= link_to "Croydon Neighbourhood Watch News", "http://www.cbnwa.com" %></h4>  
 	 </div>
@@ -38,7 +39,10 @@ If you receive one of these delivery cards, do not pay any money and report it t
   omission: '...') {
   link_to "Read more", news1_path
   } %> </p>
-
+  <h3><a name="pensions"></a>Pension Scams are on the increase in the UK</h3>
+  <p>Pension scams can take many forms.  Many offer ‘One-off pension investments’, ‘pension loans’ or upfront cash to entice savers to transfer their pension funds.
+Recently there has been a rise in the number of people falling victim to pension scams.  Many individuals are offered the opportunity to gain access to their pension early or obtain benefits, which just aren’t available or, in some cases real.  Fraudsters often approach their victims through cold calls, trying to gain attention by offering a free pension review.  Many of the people that offer these sometimes claim to be ringing as part of a Government initiative.  This can make what is an illegal activity; appear legitimate and very appealing for the victim.
+If you’re approached in this way, you may be encouraged to transfer your pension quickly, and they may even send documents to you by courier in an attempt to pressurize you to sign.  <%= link_to "...Read more", news2_path %></p>
   <!--<h3><a name="grave"></a>Medieval Gravestone discovered at All Saints</h3>
 <p>Builders working in All Saints churchyard have uncovered a medieval gravestone decorated with a celtic cross symbol.</p>
 <p>All Saints is currently undergoing building work to create level access into the church. Over the centuries the height of the ground outside the church has been raised, and there are now two deep steps down to get into the church.</p>

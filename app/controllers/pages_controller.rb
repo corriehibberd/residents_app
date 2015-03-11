@@ -40,4 +40,7 @@ class PagesController < ApplicationController
 
   def events
   end
+
+  def news2
+  end
 end
