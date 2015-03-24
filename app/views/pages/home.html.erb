@@ -23,13 +23,18 @@
               <h2>Role of the Association</h2>
               <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a Residents' Association; resisting planning applications likely to disadvantage residents and raising concerns about matters such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
             <h2>Useful information</h2>
-            <span><%= image_tag "residents_logo200.gif", class: "small_image" %>
+            
             <uL>
-              <li><%= link_to "Croydon Council planning applications", "http://publicaccess.croydon.gov.uk/online-applications/" %></li>
-              <li><%= link_to "Local directory", directory_path %></li>
-              <li><%= link_to "How the SRA can help you", about_path %></li>
-              <li><%= link_to "How you can join the SRA", members_path %></li>
-          </ul></span>
+              <li><h4>  
+              <%= link_to("Croydon Council planning applications", "http://publicaccess.croydon.gov.uk/online-applications/") %></h4></li> 
+              <li><h4><%= link_to"Directory of local information", directory_path %></h4></li>
+              
+              <li><h4>
+              <%= link_to "How the SRA can help you", about_path %></h4></li>
+              <li><h4>
+              <%= link_to"How you can join the SRA", members_path %></h4></li>
+          </ul>
+        <span><%= image_tag "residents_logo200.gif", class: "small_image" %></span>
           </div>
 
           <div class="col-md-4">
