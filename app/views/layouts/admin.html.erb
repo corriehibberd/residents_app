@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head lang="en">
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title><%= full_title(yield(:title)) %></title>
+  		<%= stylesheet_link_tag 'admin', media: 'all', 'data-turbolinks-track' => true %>
+  		
+  		<%= csrf_meta_tags %>
+  		<%= render 'layouts/shim' %>
+	</head>
+	<body>
+    <div class="container">
+      <%= yield %>
+    </div>
+	</body>
+</html>

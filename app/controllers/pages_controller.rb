@@ -1,4 +1,25 @@
 class PagesController < ApplicationController
+
+  layout "admin", only: [:index, :new]
+
+  def show
+    @page = Page.where(slug: params[:id]).first
+  end
+
+  def index
+    @pages = Page.all 
+  end
+
+  def new
+    @page = Page.new
+  end
+
+  def create
+    @page = Page.new(page_params)
+    @page.save
+    redirect_to pages_path
+  end 
+
   def home
   end
 
@@ -42,5 +63,10 @@ class PagesController < ApplicationController
   end
 
   def news2
+  end
+
+  private
+  def page_params
+    params.require(:page).permit(:name, :title, :content)
   end
 end
