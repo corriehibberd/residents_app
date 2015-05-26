@@ -46,4 +46,7 @@ class PagesController < ApplicationController
 
   def news3
   end
+
+  def news4
+  end
 end
