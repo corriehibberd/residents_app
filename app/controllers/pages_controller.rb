@@ -65,8 +65,13 @@ class PagesController < ApplicationController
   def news2
   end
 
+  def news3
+  end
+
+  def news4
+  end
+
   private
   def page_params
     params.require(:page).permit(:name, :title, :content)
-  end
 end

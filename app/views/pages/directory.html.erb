@@ -22,6 +22,7 @@
             <h4><%= link_to "Church Information", anchor: "church" %></h4>
             <h4><%= link_to "Adult Education", anchor: "education" %></h4>
             <h4><%= link_to "Halls for Letting", anchor: "halls" %></h4>
+            <h4><%= link_to "Libraries", anchor: "library" %></h4>
             <h4><%= link_to "Music", anchor: "music" %></h4>
             <h4><%= link_to "Social", anchor: "social" %></h4>
             <h4><%= link_to "Sport and Games", anchor: "sport" %></h4>
@@ -150,9 +151,10 @@
                   <p>020 8409 0314</p>
                 <h5>Sanderstead United Reformed Church</h5>
                   <p>Sanderstead Hill</p>
-                  <p>Church Secretary, Mrs Christine Meekison</p>
+                  <p>Church Secretary, Mr John Ellery</p>
                   <p><%= mail_to "cpmsecretary@surc.org.uk" %></p>
-                  <p>020 8651 5786</p>
+                  <p><%= link_to("www.surc.org.uk", "http://www.surc.org.uk") %></p>
+                  <p>020 8657 6278</p>
                 <h5>Sanderstead Evangelical Church</h5>
                   <p>82 Limpsfield Road, CR2 9EB</p>
                   <p>Minister, Stephen Ridgeway<p>
@@ -161,6 +163,7 @@
 
             <h4><a name="education"></a>Education</h4>
               <h5>Workers Educational Association (Sanderstead and Selsdon Branch)</h5>
+                <p><%= link_to("Latest Newsletter", "/resource/wea_newsletter.pdf") %></p>
                 <p>Acting Chair, Mrs Jane Bishop</p>
                 <p>020 8763 2750</p>      
 
@@ -202,6 +205,31 @@
                 <p>Booking Secretary, Nick Trend</p>
                 <p>020 8657 2014</p>
 
+            <h4><a name="library"></a>Libraries</h4>
+              <h5>Sanderstead Library </h5>
+                <p>Farm Fields, Sanderstead, CR2 0HL</p>
+                <p><%= mail_to "croydon.sandersteadlibrary@carillionservices.co.uk" %></p>
+                <p>020 3700 1015</p>
+                <p>Opening hours:
+                  <ul>
+                    <li>Tuesday and Friday 9 am - 6 pm</li> 
+                    <li>Wednesday 9.30 am - 6 pm</li>
+                    <li>Saturday 9 am - 5 pm</li>
+                  </ul>
+                </p>
+                <p>Regular Events</p>
+                  <p>For Under 5s</p>
+                  <ul>
+                    <li>Every Wednesday Rhymetime 10-10.30am</li>
+                    <li>Wiggle and Jiggle 11 - 11.30 am</li>
+                    <li>Storytime 4 - 4.30pm</li>
+                  </ul>
+                  <p>For Adults</p>
+                  <ul>
+                   <li> Every 3rd Tuesday of the month: Adult Reading Group 4.30-5.30pm</li>
+                  <li>Every other Friday of the month: Knit &amp; Natter 2-4pm</li>
+                  <li>IT Taster sessions (by appointment): Tuesday 11-11.45 am and Friday 2.15-3 pm, 3 pm-3.45 pm</li>
+                  </ul>
 
               
             <h4><a name="music"></a>Music</h4>
@@ -260,6 +288,11 @@
                 <p>Croham Road, South Croydon, CR2 7HJ</p>
                 <p>Secretary, Steve Mackinson.</p>
                 <p>020 8657 5581</p>
+              <h5>Purley Bury Bowling Club</h5>
+                <p>53, Purley Bury Avenue, CR8 1JF</p>
+                <p><%= link_to "www.purleyburybc.co.uk", "http://www.purleyburybc.co.uk" %></p>
+                <p>Hon Secretary, John Tucker</p>
+                <p>020 8407 0664</p>
               <h5>Purley Downs Golf Club</h5>
                 <p>106 Purley Downs Road</p>
                 <p><%= link_to "www.purleydownsgolfclub.co.uk", "http://www.purleydownsgolfclub.co.uk" %></p>
@@ -355,11 +388,12 @@
                 <!-- <p>020 8651 1781</p> -->
               <h4>For Younger Children</h4>
                 <h5>Sanderstead Library</h5>
-                  <p>Farm Fields, Sanderstead CR2 0HL/p>
+                  <p>Farm Fields, Sanderstead CR2 0HL</p>
                   <p>020 8726 6900</p>
+                  <p>For Under 5s</p>
                   <p>Rhymetime, Wednesdays, 10am, babies and toddlers</p>
                   <p>Wiggle and Jiggle, Wednesdays, 11am, 18 months upwards</p>
-                  <p>storytime. Wednesdays, 4 pm, 2 1/2 years upwards</p>
+                  <p>Storytime. Wednesdays, 4 pm, 2 1/2 years upwards</p>
                 <h5>Sanderstead Toddler Group</h5>
                   <p>United Reformed Church Hall</p>
                   <p>Mondays at 9.30 am</p>

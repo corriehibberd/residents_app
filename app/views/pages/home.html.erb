@@ -13,6 +13,10 @@
             <h2>Welcome</h2>
             <p>The Sanderstead Residents' Association welcomes new members to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
             <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
+            <h2>Stop Press News</h2>
+            <p> <%= link_to "Changes to waste and recycling collection days in Sanderstead.", news4_path %>.</p>
+            <p>Volunteers needed by local libraries. See notice on our <%= link_to("Work in the Community", chairman_path(anchor: "library")) %> page.</p>
+            <p>See the grant recipients at our recent AGM on one of our <%= link_to"news pages", news3_path %>.</p>
             <h2>Membership</h2>
             <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
             <h2>Sanderstead News</h2>
@@ -20,8 +24,11 @@
             <h2>AGM</h2>
             <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead.<p>
               <p>The AGM this year will be held on 14th May 2015 at 8 pm in All Saints' Hall</p>
-              <h2>Role of the Association</h2>
+            <h2>Role of the Association</h2>
               <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a Residents' Association; resisting planning applications likely to disadvantage residents and raising concerns about matters such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
+            <h2>Local Councillors</h2>
+              <p>Details of the Sanderstead Ward Councillors, Lynne Hale, Yvette Hopley and Tim Pollard, and the Croham Ward Councillors, Michael Neal, Maria Gatland and Jason Perry, can be found on the <%= link_to "Contacts page", contact_path %>, along with all the officers of the Sanderstead Residents' Association.</p>
+              <p>Read the latest news from our Councillors on <%= link_to "The Sanderstead blog", "http://www.croydonconservatives.com/teams_blog.asp?BlogID=1297&WardID=30" %>.</p>
             <h2>Useful information</h2>
             
             <uL>
@@ -42,19 +49,35 @@
               
             <%= link_to("Events", events_path, class: 'btn btn-primary') %> 
             <br/>
-              <b>Thursday May 14th</b>
-              <p><%= link_to("Police Liaison Meeting", events_path(anchor: "police")) %></p>
-            <b>Thursday May 14th</b>
-              <p><%= link_to("Residents' Association AGM", events_path(anchor: "agm")) %></p>
-            <b>Thurs 14th - Sat 16th May</b>
-              <p><%= link_to("Parlour Players, Our Man in Havana", events_path(anchor: "play")) %></p>
+              <h4>2015</h4>
+            <b>Thurs 28th May</b>
+              <p><%= link_to("Alice in Wonderland at the Library", events_path(anchor: "alice")) %></p>
             <b>Saturday June 6th</b>
               <p><%= link_to("Scouts Gruffy Fair", events_path(anchor: "fair")) %></p>
+            <b>Saturday June 6th</b>
+            <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb06jun")) %></p>
+            <b>Saturday June 6th</b>
+            <p><%= link_to("Friends of Wettern Tree Gardens picnic", events_path(anchor: "wettern")) %></p>
+            <b>Tuesday June 16th</b>
+              <p><%= link_to("Reflexology talk at the Library", events_path(anchor: "reflex")) %></p>
+            <b>Tuesday 23rd June</b>
+              <p><%= link_to("Flower Fairies at the Library", events_path(anchor: "flower")) %></p>
             <b>Thursday June 25th</b>
               <p><%= link_to("Children's Society Fashion Show", events_path(anchor: "children")) %></p>
+            <b>Saturday June 27th</b>
+            <p><%= link_to("Sanderstead Horticultural Summer Show", events_path(anchor: "hort")) %></p>
+            <b>Saturday July 18th</b>
+            <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb18jul")) %></p>
+            <b>Monday 20 - Friday 24 July</b>
+            <p><%= link_to("St Antony's Holiday Club", events_path(anchor: "holiday")) %></p>
             <b>Sunday July 26th</b>
             <p><%= link_to("Jubilee 10k run", events_path(anchor: "run")) %></p>
-
+            <b>Saturday September 19th</b>
+            <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb19sep")) %></p>
+            <b>Saturday October 17th</b>
+            <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb17oct")) %></p>
+            <b>Thursday November 26th</b>
+            <p><%= link_to("Purley Beeches AGM", events_path(anchor: "fopb26nov")) %></p>
            
             <h2>Become a member</h2>
             <p>Find out about joining the SRA here.</p>
@@ -71,6 +94,9 @@
             <p>Since 2012 the Association has funded and made donations to or provided the following:</p>
             <ul>
 
+              <li>Croydon Carers Centre</li>
+              <li>Friends of Kingswood</li>
+              <li>8th Sanderstead Brownies</li>
               <li>Sanderstead Neighbourhood Care</li>
               <li>Selsdon Centre for the Retired</li>
               <li>Repair of Sanderstead War Memorial vandalised by metal thieves</li>
@@ -82,8 +108,8 @@
               <li>Friends of Purley Beeches</li>
               <li>Christmas Lights in the Village 2012</li>
               <li>Sanderstead Churches Floating Shelter</li>
-              <li>8th Purley Scout Group repairs to scout hut</li>
-              <li>16th Purley Scout Group repairs to scout hut</li>
+              <li>8th Purley Scout Group "Girls enjoy Scouting"</li>
+              <li>16th Purley Scout Group contribution for World Jamboree</li>
               <li>2nd Hamsey Green Scout Group repairs to scout hut</li>
               <li>Sanderstead Brownies 100th Birthday</li> 
               <li>Selsdon Little Football League Sponsorship</li>
