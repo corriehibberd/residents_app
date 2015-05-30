@@ -15,7 +15,7 @@ class PagesController < ApplicationController
   end
 
   def edit
-    @page = Page.find(params[:id])
+    @page = Page.where(slug: params[:id]).first
   end
 
   def create
