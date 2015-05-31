@@ -1,6 +1,20 @@
-<h1>pages</h1>
-<% @pages.each do |page| %>
-	<%= page.name %>
-<% end %>
+<h1 class="page-header">Pages</h1>
 
-<%= link_to "New Page", new_page_path %>
+<table class="table table-striped">
+  <thead>
+    <th>Name</th>
+    <th></th>
+    <th></th>
+  </thead>
+  <tbody>
+    <% @pages.each do |page| %>
+      <tr>
+        <td><%= page.name %></td>
+        <td><%= link_to "View", page_path(page.slug) %></td>
+        <td><%= link_to "Edit", edit_page_path(page.slug) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to "New Page", new_page_path, :class => 'btn btn-default' %>

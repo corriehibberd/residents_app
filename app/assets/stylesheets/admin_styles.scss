@@ -1,0 +1,22 @@
+.admin-header {
+  background: #333;
+
+  .navbar-header {
+    color: white;
+    padding-top: 15px;
+  }
+
+  .navbar-nav {
+    margin-left: 50px;
+
+    li {
+      a {
+        color: #eee;
+
+        &:hover {
+          background: #666;
+        }
+      }
+    }
+  }
+}

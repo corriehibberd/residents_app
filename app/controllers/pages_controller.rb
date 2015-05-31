@@ -1,24 +1,34 @@
 class PagesController < ApplicationController
 
-  layout "admin", only: [:index, :new]
+  layout "admin", only: [:index, :new, :edit]
 
   def show
     @page = Page.where(slug: params[:id]).first
   end
 
   def index
-    @pages = Page.all 
+    @pages = Page.all
   end
 
   def new
     @page = Page.new
   end
 
+  def edit
+    @page = Page.where(slug: params[:id]).first
+  end
+
   def create
     @page = Page.new(page_params)
     @page.save
     redirect_to pages_path
-  end 
+  end
+
+  def update
+    page = Page.find(params[:id])
+    page.update_attributes(page_params)
+    redirect_to pages_path
+  end
 
   def home
   end
