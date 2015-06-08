@@ -25,4 +25,6 @@ test:
 
 production:
   <<: *default
-  database: residents_production
+  database: <%= ENV['DATABASE'] %>
+  username: <%= ENV['USERNAME'] %>
+  password: <%= ENV['PASSWORD'] %>
