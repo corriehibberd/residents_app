@@ -10,40 +10,30 @@ body {
 .navbar {
   margin-bottom: 0;
 
-  .navbar-inner {
-    width: 1060px;
-    margin: auto;
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
 
-    .navbar-header {
-      font-size: 24px;
-      line-height: 14pt;
+  .navbar-header {
+    font-size: 24px;
+    line-height: 14pt;
+    color: $navbar-text;
+    padding: 8px;
+
+    small {
+      font-size: 14px;
+    }
+  }
+
+  ul.navbar-nav {
+    li a {
+      font-size: 18px;
       color: $navbar-text;
-      margin-top: 15px;
-
-      small {
-        font-size: 14px;
-      }
+      padding-top: 25px;
+      padding-bottom: 25px;
     }
 
-    .container {
-      background: #FFFFFF;
-    }
-
-    ul.navbar-nav {
-      float: right;
-
-      li a {
-        font-size: 18px;
-        color: $navbar-text;
-        padding-top: 25px;
-        padding-bottom: 25px;
-      }
-
-      ul.dropdown-menu a {
-        padding-top: 8px;
-        padding-bottom: 8px;
-      }
+    ul.dropdown-menu a {
+      padding-top: 8px;
+      padding-bottom: 8px;
     }
   }
 }
@@ -115,7 +105,7 @@ body {
 }
 
 /*for left hand columns*/
-.col-md-8 
+.col-md-8
 {
   padding-top: 15px;
 
