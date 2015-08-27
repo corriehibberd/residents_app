@@ -1,6 +1,8 @@
 module PagesHelper
   def markdown(text)
-    @markdown ||= Redcarpet::Markdown.new(Redcarpet::Render::HTML)
-    @markdown.render(text).html_safe
+    if text
+      @markdown ||= Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+      @markdown.render(text).html_safe
+    end
   end
 end
