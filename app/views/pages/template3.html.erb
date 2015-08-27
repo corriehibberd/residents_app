@@ -1,0 +1,22 @@
+<% provide(:title, @page.title) %>
+<div class="background_image">
+  <%= image_tag @page.background_image, :class=> "img-responsive" %>
+</div>
+
+<div id="welcome-panel" class="container">
+  <h2><%= @page.heading %></h2>
+</div>
+<div class="container" id="main-wrapper">
+  <div class="row main-content">
+    <div class="col-md-4 col-xs-12 grey-column">
+      <%= markdown(@page.content1) %>
+    </div>
+
+    <div class="col-md-8 col-xs-12 white-column">
+      <%= markdown(@page.content2) %>
+    </div>
+  </div>
+</div>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
