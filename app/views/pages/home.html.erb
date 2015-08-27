@@ -1,120 +1,114 @@
 <div class="background_image">
   <%= image_tag "churchview1550.jpg", class: "img-responsive" %>
 </div>
-<div id="welcome-panel">
+<div id="welcome-panel" class="container">
   <h2>Welcome to the Sanderstead Residents' Association</h2>
 </div>
-<div id="main-wrapper">
-  <div class="container" id="main-content">
-    <div class="welcome">
-      <div class="content">
-        <div class="row marketing">
-          <div class="col-md-8">
-            <h2>Welcome</h2>
-            <p>The Sanderstead Residents' Association welcomes new members to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
-            <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
-            <h2>Stop Press News</h2>
-            <p>Offers invited for leasing Sanderstead Pavilion. <%= link_to "Read the details here", news5_path %></p>
-            <p>New bus routes approved by Transport for London: <%= link_to("Latest infomation about bus stops", news_path(anchor: "busstops")) %>.</p>
-            <p> <%= link_to "Changes to waste and recycling collection days in Sanderstead.", news4_path %>.</p>
-            <p>Volunteers needed by local libraries. See notice on our <%= link_to("Work in the Community", chairman_path(anchor: "library")) %> page.</p>
-            <p>See the grant recipients at our AGM on our <%= link_to"news pages", news3_path %>.</p>
-            <h2>Membership</h2>
-            <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
-            <h2>Sanderstead News</h2>
-            <p> <%= image_tag "small-images/Sand_news_mar15.jpg", class: "small_image" %>The Association's newsletter, "Sanderstead News", is posted to all members of the Association and provides reports from our MP, the Ward Councillors and our <%= link_to "Chairman", chairman_path %>. There are articles of local interests and advice on security matters provided by the police and Neighbourhood Watch. The magazine lists local organisations with their contacts and diaries of events. These items are also now available on this website. A youth page provides parents with information on all the Sanderstead youth activities from toddler age, to teenagers; for Scouts, Guides and sport.</p>
-            <h2>AGM</h2>
-            <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead.<p>
-            <h2>Role of the Association</h2>
-              <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a Residents' Association; resisting planning applications likely to disadvantage residents and raising concerns about matters such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
-            <h2>Local Councillors</h2>
-              <p>Details of the Sanderstead Ward Councillors, Lynne Hale, Yvette Hopley and Tim Pollard, and the Croham Ward Councillors, Michael Neal, Maria Gatland and Jason Perry, can be found on the <%= link_to "Contacts page", contact_path %>, along with all the officers of the Sanderstead Residents' Association.</p>
-              <p>Read the latest news from our Councillors on <%= link_to "The Sanderstead blog", "http://www.croydonconservatives.com/teams_blog.asp?BlogID=1297&WardID=30" %>.</p>
-            <h2>Useful information</h2>
-            
-            <uL>
-              <li><h4>  
-              <%= link_to("Croydon Council planning applications", "http://publicaccess.croydon.gov.uk/online-applications/") %></h4></li> 
-              <li><h4><%= link_to"Directory of local information", directory_path %></h4></li>
-              
-              <li><h4>
-              <%= link_to "How the SRA can help you", about_path %></h4></li>
-              <li><h4>
-              <%= link_to"How you can join the SRA", members_path %></h4></li>
-          </ul>
-        <span><%= image_tag "residents_logo200.gif", class: "small_image" %></span>
-          </div>
-          <div class="col-md-4">
+<div class="container" id="main-wrapper">
+  <div class="row main-content">
+    <div class="col-md-8 col-xs-12 primary-column">
+      <h2>Welcome</h2>
+      <p>The Sanderstead Residents' Association welcomes new members to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
+      <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
+      <h2>Stop Press News</h2>
+      <p>Offers invited for leasing Sanderstead Pavilion. <%= link_to "Read the details here", news5_path %></p>
+      <p>New bus routes approved by Transport for London: <%= link_to("Latest infomation about bus stops", news_path(anchor: "busstops")) %>.</p>
+      <p> <%= link_to "Changes to waste and recycling collection days in Sanderstead.", news4_path %>.</p>
+      <p>Volunteers needed by local libraries. See notice on our <%= link_to("Work in the Community", chairman_path(anchor: "library")) %> page.</p>
+      <p>See the grant recipients at our AGM on our <%= link_to"news pages", news3_path %>.</p>
+      <h2>Membership</h2>
+      <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
+      <h2>Sanderstead News</h2>
+      <p> <%= image_tag "small-images/Sand_news_mar15.jpg", class: "small_image" %>The Association's newsletter, "Sanderstead News", is posted to all members of the Association and provides reports from our MP, the Ward Councillors and our <%= link_to "Chairman", chairman_path %>. There are articles of local interests and advice on security matters provided by the police and Neighbourhood Watch. The magazine lists local organisations with their contacts and diaries of events. These items are also now available on this website. A youth page provides parents with information on all the Sanderstead youth activities from toddler age, to teenagers; for Scouts, Guides and sport.</p>
+      <h2>AGM</h2>
+      <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead.<p>
+      <h2>Role of the Association</h2>
+        <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a Residents' Association; resisting planning applications likely to disadvantage residents and raising concerns about matters such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
+      <h2>Local Councillors</h2>
+        <p>Details of the Sanderstead Ward Councillors, Lynne Hale, Yvette Hopley and Tim Pollard, and the Croham Ward Councillors, Michael Neal, Maria Gatland and Jason Perry, can be found on the <%= link_to "Contacts page", contact_path %>, along with all the officers of the Sanderstead Residents' Association.</p>
+        <p>Read the latest news from our Councillors on <%= link_to "The Sanderstead blog", "http://www.croydonconservatives.com/teams_blog.asp?BlogID=1297&WardID=30" %>.</p>
+      <h2>Useful information</h2>
 
-            <h2>Events</h3>
-              
-            <%= link_to("Events", events_path, class: 'btn btn-primary') %> 
-            <br/>
-              <h4>2015</h4>
-            <b>Autumn Programme at Sanderstead Library</b>
-            <p><%= link_to("Autumn at Sanderstead Library", events_path(anchor: "reading")) %></p>
-            <b>Tuesday 1st to Thursday 3rd September</b>
-            <p><%= link_to("Summer in Sanderstead", events_path(anchor: "summer")) %></p>
-            <b>Thursday September 10th</b>
-            <p><%= link_to("Cake in the Park", events_path(anchor: "cakes")) %></p>
-            <b>Saturday September 12th</b>
-            <p><%= link_to("Conservation work at Hamsey Green Pond", events_path(anchor: "pond")) %></p>
-             <b>Sunday September 13th</b>
-            <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>
-            <b>Saturday September 19th</b>
-            <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb19sep")) %></p>
-            <b>Saturday September 26th</b>
-            <p><%= link_to("Priscilla's Community Day", events_path(anchor: "priscilla")) %></p>
-            <b>Sunday October 11th</b>
-            <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>
-            <b>Saturday October 17th</b>
-            <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb17oct")) %></p>
-            <b>Sunday November 8th</b>
-            <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>
-            <b>Thursday November 26th</b>
-            <p><%= link_to("Purley Beeches AGM", events_path(anchor: "fopb26nov")) %></p>
-           
-            <h2>Become a member</h2>
-            <p>Find out about joining the SRA here.</p>
-            <%= link_to("Membership", members_path, class: 'btn btn-primary') %>
+      <uL>
+        <li><h4>
+        <%= link_to("Croydon Council planning applications", "http://publicaccess.croydon.gov.uk/online-applications/") %></h4></li>
+        <li><h4><%= link_to"Directory of local information", directory_path %></h4></li>
 
-            <h2>Grants Available</h2>
-            <p>The Association has a small fund available to make grants to suitable local projects. Please follow the link to find out how to apply.</p>
-        <%= link_to("Grants", about_path, class: 'btn btn-primary') %>
+        <li><h4>
+        <%= link_to "How the SRA can help you", about_path %></h4></li>
+        <li><h4>
+        <%= link_to"How you can join the SRA", members_path %></h4></li>
+    </ul>
+  <span><%= image_tag "residents_logo200.gif", class: "small_image" %></span>
+    </div>
+    <div class="col-md-4 col-xs-12 secondary-column">
 
-            <h2>Map of Sanderstead</h2>
-            <%= link_to("Map", find_path, class: 'btn btn-primary') %>
+      <h2>Events</h3>
 
-            <h4>Local Organisations supported by SRA</h4>
-            <p>Since 2012 the Association has funded and made donations to or provided the following:</p>
-            <ul>
+      <%= link_to("Events", events_path, class: 'btn btn-primary') %>
+      <br/>
+        <h4>2015</h4>
+      <b>Autumn Programme at Sanderstead Library</b>
+      <p><%= link_to("Autumn at Sanderstead Library", events_path(anchor: "reading")) %></p>
+      <b>Tuesday 1st to Thursday 3rd September</b>
+      <p><%= link_to("Summer in Sanderstead", events_path(anchor: "summer")) %></p>
+      <b>Thursday September 10th</b>
+      <p><%= link_to("Cake in the Park", events_path(anchor: "cakes")) %></p>
+      <b>Saturday September 12th</b>
+      <p><%= link_to("Conservation work at Hamsey Green Pond", events_path(anchor: "pond")) %></p>
+       <b>Sunday September 13th</b>
+      <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>
+      <b>Saturday September 19th</b>
+      <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb19sep")) %></p>
+      <b>Saturday September 26th</b>
+      <p><%= link_to("Priscilla's Community Day", events_path(anchor: "priscilla")) %></p>
+      <b>Sunday October 11th</b>
+      <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>
+      <b>Saturday October 17th</b>
+      <p><%= link_to("Purley Beeches working party", events_path(anchor: "fopb17oct")) %></p>
+      <b>Sunday November 8th</b>
+      <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>
+      <b>Thursday November 26th</b>
+      <p><%= link_to("Purley Beeches AGM", events_path(anchor: "fopb26nov")) %></p>
 
-              <li>Croydon Carers Centre</li>
-              <li>Friends of Kingswood</li>
-              <li>8th Sanderstead Brownies</li>
-              <li>Sanderstead Neighbourhood Care</li>
-              <li>Selsdon Centre for the Retired</li>
-              <li>Repair of Sanderstead War Memorial vandalised by metal thieves</li>
-              <li>Bench seat on the Gruffy by the Sanderstead Pond</li>
-              <li>The Mayor’s Charity 2014</li>
-              <li>Books and display stand for Sanderstead Library</li>
-              <li>Friends of Wettern Tree Gardens</li>
-              <li>Friends of Croham Hurst Woods</li>
-              <li>Friends of Purley Beeches</li>
-              <li>Christmas Lights in the Village 2012</li>
-              <li>Sanderstead Churches Floating Shelter</li>
-              <li>8th Purley Scout Group "Girls enjoy Scouting"</li>
-              <li>16th Purley Scout Group contribution for World Jamboree</li>
-              <li>2nd Hamsey Green Scout Group repairs to scout hut</li>
-              <li>Sanderstead Brownies 100th Birthday</li> 
-              <li>Selsdon Little Football League Sponsorship</li>
-              <li>“Hear Me Speak” competition for Sanderstead Primary Schools</li>
-            </ul>
-          </div> <!--col-md-4-->
-        </div> <!-- row-marketing-->
-      </div> <!-- /content -->
-    </div><!--/welcome -->
-  </div><!--/#main-content -->
-</div><!-- #main-wrapper -->
+      <h2>Become a member</h2>
+      <p>Find out about joining the SRA here.</p>
+      <%= link_to("Membership", members_path, class: 'btn btn-primary') %>
+
+      <h2>Grants Available</h2>
+      <p>The Association has a small fund available to make grants to suitable local projects. Please follow the link to find out how to apply.</p>
+  <%= link_to("Grants", about_path, class: 'btn btn-primary') %>
+
+      <h2>Map of Sanderstead</h2>
+      <%= link_to("Map", find_path, class: 'btn btn-primary') %>
+
+      <h4>Local Organisations supported by SRA</h4>
+      <p>Since 2012 the Association has funded and made donations to or provided the following:</p>
+      <ul>
+
+        <li>Croydon Carers Centre</li>
+        <li>Friends of Kingswood</li>
+        <li>8th Sanderstead Brownies</li>
+        <li>Sanderstead Neighbourhood Care</li>
+        <li>Selsdon Centre for the Retired</li>
+        <li>Repair of Sanderstead War Memorial vandalised by metal thieves</li>
+        <li>Bench seat on the Gruffy by the Sanderstead Pond</li>
+        <li>The Mayor’s Charity 2014</li>
+        <li>Books and display stand for Sanderstead Library</li>
+        <li>Friends of Wettern Tree Gardens</li>
+        <li>Friends of Croham Hurst Woods</li>
+        <li>Friends of Purley Beeches</li>
+        <li>Christmas Lights in the Village 2012</li>
+        <li>Sanderstead Churches Floating Shelter</li>
+        <li>8th Purley Scout Group "Girls enjoy Scouting"</li>
+        <li>16th Purley Scout Group contribution for World Jamboree</li>
+        <li>2nd Hamsey Green Scout Group repairs to scout hut</li>
+        <li>Sanderstead Brownies 100th Birthday</li>
+        <li>Selsdon Little Football League Sponsorship</li>
+        <li>“Hear Me Speak” competition for Sanderstead Primary Schools</li>
+      </ul>
+    </div> <!--col-md-4-->
+  </div> <!-- row-marketing-->
+</div><!--/#main-content -->
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
