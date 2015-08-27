@@ -2,47 +2,40 @@
 <div class="background_image">
   <%= image_tag "roses1550.jpg", :class=> "img-responsive" %>
 </div>
-<div id="welcome-panel">
+<div id="welcome-panel" class="container">
   <h2>Membership of Sanderstead Residents' Association</h2>
 </div>
-<div id="main-wrapper">
-   <div class="container" id="main-content">
-    <div class="welcome">
-      <div class="content">
-          <div class="row marketing">
-           	<div class="col-md-8">
-<h2>Membership </h2>
-<p style="text-align: right"><%= link_to("Application Form", "/resource/application_form.pdf", class: 'btn btn-primary') %></p>
+<div class="container" id="main-wrapper">
+  <div class="row main-content">
+    <div class="col-md-8 col-xs-12 white-column">
+      <h2>Membership </h2>
+      <p style="text-align: right"><%= link_to("Application Form", "/resource/application_form.pdf", class: 'btn btn-primary') %></p>
 
-<p>The Residents' Association is always looking for members to help support our local community as best we can. If you want to get involved or find out more about how you can help then please get in touch with us.</p>
+      <p>The Residents' Association is always looking for members to help support our local community as best we can. If you want to get involved or find out more about how you can help then please get in touch with us.</p>
 
-<p>Make your voice heard on issues affecting your neighbourhood and quality of life by joining SRA. We always welcome new members. Your attendance and contribution will be welcomed at the Annual General Meeting, held in May.</p>
+      <p>Make your voice heard on issues affecting your neighbourhood and quality of life by joining SRA. We always welcome new members. Your attendance and contribution will be welcomed at the Annual General Meeting, held in May.</p>
 
-<p>The current annual subscription price for household membership is £5. The annual membership includes two colour copies of the Sanderstead News, which will be posted to your home in spring and autumn. Your subscription also helps to support events, to cover admin expenses, postage etc. (Audited Accounts are prepared each year and made available to Members at the AGM).</p>
+      <p>The current annual subscription price for household membership is £5. The annual membership includes two colour copies of the Sanderstead News, which will be posted to your home in spring and autumn. Your subscription also helps to support events, to cover admin expenses, postage etc. (Audited Accounts are prepared each year and made available to Members at the AGM).</p>
 
-<p>Please print off, complete and send in your <%= link_to "application form", "/resource/application_form.pdf" %> and send it with your cheque to SRA’s Hon. Treasurer: John Kempsell, email <%= mail_to "treasurer@sanderstead-residents.co.uk" %>, tel 020 8657 0482.</p>
-<p>Please notify any change of address to the Hon Treasurer, John Kempsell:  email <%= mail_to "treasurer@sanderstead-residents.co.uk" %>, tel 020 8657 0482.</p>
+      <p>Please print off, complete and send in your <%= link_to "application form", "/resource/application_form.pdf" %> and send it with your cheque to SRA’s Hon. Treasurer: John Kempsell, email <%= mail_to "treasurer@sanderstead-residents.co.uk" %>, tel 020 8657 0482.</p>
+      <p>Please notify any change of address to the Hon Treasurer, John Kempsell:  email <%= mail_to "treasurer@sanderstead-residents.co.uk" %>, tel 020 8657 0482.</p>
 
 
-<p>Sanderstead Residents’ Association (SRA)</p>
-	</div><!--/col-md-8 -->
-	<div class="col-md-4">
-    <h2>Local Organisations</h2>
+      <p>Sanderstead Residents’ Association (SRA)</p>
+    </div><!--/col-md-8 -->
+    <div class="col-md-4 col-xs-12 grey-column">
+      <h2>Local Organisations</h2>
       <p>Our directory page lists many of the local organisations open to everyone in Sanderstead. Follow the link to find out details of Arts and Music, Sports Clubs, Youth Organisations, local halls to let and much more...</p>
       <%= link_to("Directory", directory_path, class: 'btn btn-primary') %>
-    <h2>Local News</h2>
-    <p>Checkout our news page for local news and information for residents</p>
-    <%= link_to("News", news_path, class: 'btn btn-primary') %>
-	<h2>Planning Applications</h2>
-  <p>Visit Croydon Council's "Public access planning register" for news of the latest planning applications in our area. Once on the site click on the "weekly/monthly lists" tab and choose the ward and dates that you are interested in.</p>
-  <%= link_to("Planning", "http://publicaccess.croydon.gov.uk/online-applications/", class: 'btn btn-primary') %> 
-	</div> <!--/col-md-4 -->
-		</div> <!--/row marketing -->
-       </div> <!-- /content -->
-    </div><!--/welcome -->
-  </div><!--/#main-content -->
-</div><!-- #main-wrapper -->
+      <h2>Local News</h2>
+      <p>Checkout our news page for local news and information for residents</p>
+      <%= link_to("News", news_path, class: 'btn btn-primary') %>
+      <h2>Planning Applications</h2>
+      <p>Visit Croydon Council's "Public access planning register" for news of the latest planning applications in our area. Once on the site click on the "weekly/monthly lists" tab and choose the ward and dates that you are interested in.</p>
+      <%= link_to("Planning", "http://publicaccess.croydon.gov.uk/online-applications/", class: 'btn btn-primary') %>
+    </div>
+  </div>
+</div>
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
