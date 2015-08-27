@@ -27,6 +27,10 @@
 		<%= f.label :content3 %>
     <%= f.text_area :content3, class: 'form-control', rows: 10 %>
 	</div>
+	<div class="form-group">
+		<%= f.label :template %>
+    <%= f.select :template, %w(template1 template2 template3), {},  :class => 'form-control' %>
+	</div>
 	<div>
     <%= f.submit :class => 'btn btn-default' %>
 	</div>
