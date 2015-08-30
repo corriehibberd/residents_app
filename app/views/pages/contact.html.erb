@@ -2,106 +2,100 @@
 <div class="background_image">
   <%= image_tag "white_house1550.jpg", :class=> "img-responsive" %>
 </div>
-       
-<div id="welcome-panel">
+
+<div id="welcome-panel" class="container">
   <h2>Contact the Sanderstead Residents' Association</h2>
 </div>
-<div id="main-wrapper">
-   <div class="container" id="main-content">
-    <div class="welcome">
-      <div class="content">
-          <div class="row marketing">
-           <div class="col-md-8">
-	<h3>Committee Members 2015</h3>
-  <h4>Executive</h4>
-  <div class="list-group">
-    <h4 class="list-group-item-heading" >Chairman, Mr Dennis M King. </h4>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "chairman@sanderstead-residents.co.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8657 2661</p>
+<div class="container" id="main-wrapper">
+  <div class="row main-content">
+    <div class="col-md-8 col-xs-12 white-column">
+      <h3>Committee Members 2015</h3>
+      <h4>Executive</h4>
+      <div class="list-group">
+        <h4 class="list-group-item-heading" >Chairman, Mr Dennis M King. </h4>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "chairman@sanderstead-residents.co.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8657 2661</p>
 
-    <h4 class="list-group-item-heading">Hon. Treasurer, Mr John Kempsell</h4>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "treasurer@sanderstead-residents.co.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8657 0482</p>
+        <h4 class="list-group-item-heading">Hon. Treasurer, Mr John Kempsell</h4>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "treasurer@sanderstead-residents.co.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8657 0482</p>
 
-    <h4 class="list-group-item-heading">Hon. Secretary, Mr Mike Leach</h4>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "secretary@sanderstead-residents.co.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8657 8913	</p>
-  </div> <!--list-group -->
-    <h4>Committee</h4>
-  <div class="list-group">
-    <p class="list-group-item-text">Mr Jim Gibbons</p>
-    <p class="list-group-item-text">Miss Gill Hanson</p>
-    <p class="list-group-item-text">Mr Cliff Quartly</p>
-    <p class="list-group-item-text">Mrs Corrie Hibberd</p>
-  </div> <!--list-group -->
-   <h4>Local Councillors</h4>
-   <div class="list-group">
-    <h4 class="list-group-item-heading">Sanderstead Ward</h4>
-    <p class="list-group-item-text">Cllr Lynne Hale</p>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "lynne.hale@croydon.gov.uk" %></p>
-     <p class="list-group-item-text contact-details">tel: 020 8405 6721</p>
-    <p class="list-group-item-text">Cllr Yvette Hopley</p>
-     <p class="list-group-item-text contact-details">email: <%= mail_to "yvette_hopley@hotmail.com" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8657 0973</p>
-    <p class="list-group-item-text">Cllr Tim Pollard</p>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "councillor@timpollard.co.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8251 8500</p>
-  </div><!--list-group -->
-  <div class="list-group">
-    <h4 class="list-group-item-heading">Croham Ward</h4>
-    <p class="list-group-item-text">Cllr Jason Perry</p>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "jason.perry@croydon.gov.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 3253 2017</p>
-    <p class="list-group-item-text">Cllr Maria Gatland</p>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "maria.gatland@croydon.gov.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8405 6718</p>
-    <p class="list-group-item-text">Cllr Michael Neal</p>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "micheal.neal@croydon.gov.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8688 0429</p>
-  </div><!--list-group -->
-  <h4>Member of Parliament</h4>
-  <div class="list-group">
-    <h4 class="list-group-item-heading">Mr Chris Philp MP</h4>
-    <p class="list-group-item-text contact-details">telephone for constituency matters or surgery appointments: 020 8660 0491</p>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "chris.philp.mp@parliament.uk" %></p>
-    <p class="list-group-item-text contact-details">Website: <%= link_to "www.chrisphilp.com", "http://www.chrisphilp.com" %></p>
-    <p class="list-group-item-text contact-details">Twitter: @chrisphilp_mp</p>
-  </div><!--list-group -->
-  <div class="list-group">
-    <h4 class="list-group-item-heading" >Consultant for "Sanderstead News" Magazine</h4>
-    <h4 class="list-group-item-heading">Cllr Yvette Hopley</h4>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "yvette_hopley@hotmail.com" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8657 0973</p>
-  </br>
+        <h4 class="list-group-item-heading">Hon. Secretary, Mr Mike Leach</h4>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "secretary@sanderstead-residents.co.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8657 8913	</p>
+      </div> <!--list-group -->
+      <h4>Committee</h4>
+      <div class="list-group">
+        <p class="list-group-item-text">Mr Jim Gibbons</p>
+        <p class="list-group-item-text">Miss Gill Hanson</p>
+        <p class="list-group-item-text">Mr Cliff Quartly</p>
+        <p class="list-group-item-text">Mrs Corrie Hibberd</p>
+      </div> <!--list-group -->
+      <h4>Local Councillors</h4>
+      <div class="list-group">
+        <h4 class="list-group-item-heading">Sanderstead Ward</h4>
+        <p class="list-group-item-text">Cllr Lynne Hale</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "lynne.hale@croydon.gov.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8405 6721</p>
+        <p class="list-group-item-text">Cllr Yvette Hopley</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "yvette_hopley@hotmail.com" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8657 0973</p>
+        <p class="list-group-item-text">Cllr Tim Pollard</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "councillor@timpollard.co.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8251 8500</p>
+      </div><!--list-group -->
+      <div class="list-group">
+        <h4 class="list-group-item-heading">Croham Ward</h4>
+        <p class="list-group-item-text">Cllr Jason Perry</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "jason.perry@croydon.gov.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 3253 2017</p>
+        <p class="list-group-item-text">Cllr Maria Gatland</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "maria.gatland@croydon.gov.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8405 6718</p>
+        <p class="list-group-item-text">Cllr Michael Neal</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "micheal.neal@croydon.gov.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8688 0429</p>
+      </div><!--list-group -->
+      <h4>Member of Parliament</h4>
+      <div class="list-group">
+        <h4 class="list-group-item-heading">Mr Chris Philp MP</h4>
+        <p class="list-group-item-text contact-details">telephone for constituency matters or surgery appointments: 020 8660 0491</p>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "chris.philp.mp@parliament.uk" %></p>
+        <p class="list-group-item-text contact-details">Website: <%= link_to "www.chrisphilp.com", "http://www.chrisphilp.com" %></p>
+        <p class="list-group-item-text contact-details">Twitter: @chrisphilp_mp</p>
+      </div><!--list-group -->
+      <div class="list-group">
+        <h4 class="list-group-item-heading" >Consultant for "Sanderstead News" Magazine</h4>
+        <h4 class="list-group-item-heading">Cllr Yvette Hopley</h4>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "yvette_hopley@hotmail.com" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8657 0973</p>
+        </br>
 
-    <h4 class="list-group-item-heading">Webmaster, Mrs Corrie Hibberd</h4>
-    <p class="list-group-item-text contact-details">email: <%= mail_to "webmaster@sanderstead-residents.co.uk" %></p>
-    <p class="list-group-item-text contact-details">tel: 020 8657 4562</p>
-</br>
-    <h4 class="list-group-item-heading">Hon. Accounts Examiner, Mrs Indrani Balachandran</h4>
-    <p class="list-group-item-text contact-details">tel: 020 8657 3170  </p>
-  </div> <!--list-group -->
-<h4></h4>
-<p><p>
+        <h4 class="list-group-item-heading">Webmaster, Mrs Corrie Hibberd</h4>
+        <p class="list-group-item-text contact-details">email: <%= mail_to "webmaster@sanderstead-residents.co.uk" %></p>
+        <p class="list-group-item-text contact-details">tel: 020 8657 4562</p>
+        </br>
+        <h4 class="list-group-item-heading">Hon. Accounts Examiner, Mrs Indrani Balachandran</h4>
+        <p class="list-group-item-text contact-details">tel: 020 8657 3170  </p>
+      </div> <!--list-group -->
+      <h4></h4>
+      <p><p>
 
- 
-	 </div> <!--col-md-8-->
 
-          <div class="col-md-4">
-            <h3>Contact Us</h3>
-	<p> If you have any matters that you wish to bring to the attention of the SRA, please get in touch with the Chairman, Dennis King via email: <%= mail_to "chairman@sanderstead-residents.org.uk" %>, or by phone, 020 8657 2661.</p>
-  <h3><%= link_to "Membership", members_path %></h3>
-  <p>Subscriptions are due by the end of January each year. If you wish to become a member, please download the form available on the <%= link_to "members page", members_path %> and contact the Hon. Treasurer, John Kempsell, email: <%= mail_to "treasurer@sanderstead-residents.org.uk" %>, phone, 020 8657 0482.</p>
-  <h3><%= link_to "Information", directory_path %></h3>
-  <p>The SRA provides information about local facilities, and news and events in Sanderstead. If you would like to advertise an event on this website, please contact the webmaster, email: <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p> 
-   <h3><%= link_to "News", news_path %></h3>
-    <p>Checkout what's happening in Sanderstead now on our <%= link_to "news", news_path %> and <%= link_to "events", events_path %> pages.</p>
-	 </div> <!-- col-md-4 -->
-      </div> <!-- /content -->
-    </div><!--/welcome -->
-  </div><!--/#main-content -->
-</div><!-- #main-wrapper -->
+    </div> <!--col-md-8-->
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-	
+    <div class="col-md-4 col-xs-12 grey-column">
+      <h3>Contact Us</h3>
+      <p> If you have any matters that you wish to bring to the attention of the SRA, please get in touch with the Chairman, Dennis King via email: <%= mail_to "chairman@sanderstead-residents.org.uk" %>, or by phone, 020 8657 2661.</p>
+      <h3><%= link_to "Membership", members_path %></h3>
+      <p>Subscriptions are due by the end of January each year. If you wish to become a member, please download the form available on the <%= link_to "members page", members_path %> and contact the Hon. Treasurer, John Kempsell, email: <%= mail_to "treasurer@sanderstead-residents.org.uk" %>, phone, 020 8657 0482.</p>
+      <h3><%= link_to "Information", directory_path %></h3>
+      <p>The SRA provides information about local facilities, and news and events in Sanderstead. If you would like to advertise an event on this website, please contact the webmaster, email: <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
+      <h3><%= link_to "News", news_path %></h3>
+      <p>Checkout what's happening in Sanderstead now on our <%= link_to "news", news_path %> and <%= link_to "events", events_path %> pages.</p>
+    </div>
+  </div>
+</div>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

@@ -2,149 +2,140 @@
 <div class="background_image">
   <%= image_tag "autumn-leaves.jpg", :class=> "img-responsive" %>
 </div>
-       
-<div id="welcome-panel">
+
+<div id="welcome-panel" class="container">
   <h2>Views of Sanderstead</h2>
 </div>
-<div id="main-wrapper">
-   <div class="container" id="main-content">
-    <div class="welcome">
-      <div class="content">
-          <div class="row marketing">
-   
-   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="12"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="13"></li>
-  </ol>
+<div class="container" id="main-wrapper">
+  <div class="row main-content">
+    <div class="col-md-12 white-column">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="8"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="10"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="12"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="13"></li>
+        </ol>
 
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <%= image_tag "gallery/pond980.jpg", alt: "Sanderstead Pond" %>
-      <div class="carousel-caption">
-        <h2>Sanderstead Pond</h2>
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "gallery/bluebells980.jpg", alt: "Bluebells" %>
-      <div class="carousel-caption">
-        <h2>Bluebells in King's Wood</h2>
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "gallery/library980.jpg", alt: "Library" %>
-      <div class="carousel-caption">
-        <h2>Sanderstead Library</h2>
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "gallery/station980.jpg", alt: "Station" %>
-      <div class="carousel-caption">
-        <h2>Sanderstead Station</h2>
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "gallery/war_memorial980.jpg", alt: "War Memorial" %>
-      <div class="carousel-caption">
-        <h3>Sanderstead War Memorial</h3>
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "gallery/wettern980.jpg", alt: "Wettern Tree Garden" %>
-      <div class="carousel-caption">
-        <h2>Wettern Tree Garden</h2>
-      </div>
-    </div>
-     <div class="item">
-      <%= image_tag "gallery/elmfield980.jpg", alt: "Elmfield Way" %>
-      <div class="carousel-caption">
-        <h2>Elmfield Way</h2>
-      </div>
-    </div>
-     <div class="item">
-      <%= image_tag "gallery/allsaints980.jpg", alt: "All Saints Church" %>
-      <div class="carousel-caption">
-        <h2>All Saints Church</h2>
-      </div>
-    </div>
-     <div class="item">
-      <%= image_tag "gallery/northdown980.jpg", alt: "Northdown" %>
-      <div class="carousel-caption">
-        <h2>North Down</h2>
-      </div>
-    </div>
-     <div class="item">
-      <%= image_tag "gallery/sanderstead_hill980.jpg", alt: "Sanderstead Hill" %>
-      <div class="carousel-caption">
-        <h2>Sanderstead Hill</h2>
-      </div>
-    </div>
-     <div class="item">
-      <%= image_tag "gallery/mitchley980.jpg", alt: "Mitchley Avenue" %>
-      <div class="carousel-caption">
-        <h2>Homes above Mitchley Avenue</h2>
-      </div>
-    </div>
-     <div class="item">
-      <%= image_tag "gallery/blacksmith980.jpg", alt: "All Saints Church" %>
-      <div class="carousel-caption">
-        <h2>The Old Smithy</h2>
-      </div>
-    </div>
-    <div class="item">
-      <%= image_tag "gallery/daffodils980.jpg", alt: "All Saints Church" %>
-      <div class="carousel-caption">
-        <h2>Daffodils on the Rec</h2>
-      </div>
-    </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <%= image_tag "gallery/pond980.jpg", alt: "Sanderstead Pond" %>
+            <div class="carousel-caption">
+              <h2>Sanderstead Pond</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/bluebells980.jpg", alt: "Bluebells" %>
+            <div class="carousel-caption">
+              <h2>Bluebells in King's Wood</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/library980.jpg", alt: "Library" %>
+            <div class="carousel-caption">
+              <h2>Sanderstead Library</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/station980.jpg", alt: "Station" %>
+            <div class="carousel-caption">
+              <h2>Sanderstead Station</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/war_memorial980.jpg", alt: "War Memorial" %>
+            <div class="carousel-caption">
+              <h3>Sanderstead War Memorial</h3>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/wettern980.jpg", alt: "Wettern Tree Garden" %>
+            <div class="carousel-caption">
+              <h2>Wettern Tree Garden</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/elmfield980.jpg", alt: "Elmfield Way" %>
+            <div class="carousel-caption">
+              <h2>Elmfield Way</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/allsaints980.jpg", alt: "All Saints Church" %>
+            <div class="carousel-caption">
+              <h2>All Saints Church</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/northdown980.jpg", alt: "Northdown" %>
+            <div class="carousel-caption">
+              <h2>North Down</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/sanderstead_hill980.jpg", alt: "Sanderstead Hill" %>
+            <div class="carousel-caption">
+              <h2>Sanderstead Hill</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/mitchley980.jpg", alt: "Mitchley Avenue" %>
+            <div class="carousel-caption">
+              <h2>Homes above Mitchley Avenue</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/blacksmith980.jpg", alt: "All Saints Church" %>
+            <div class="carousel-caption">
+              <h2>The Old Smithy</h2>
+            </div>
+          </div>
+          <div class="item">
+            <%= image_tag "gallery/daffodils980.jpg", alt: "All Saints Church" %>
+            <div class="carousel-caption">
+              <h2>Daffodils on the Rec</h2>
+            </div>
+          </div>
 
-     <div class="item">
-      <%= image_tag "gallery/noticeboard980.jpg", alt: "Noticeboard" %>
-      <div class="carousel-caption">
-        <h3>Residents' Association Noticeboard on the Gruffy</h3>
-      </div>
-    </div>
+          <div class="item">
+            <%= image_tag "gallery/noticeboard980.jpg", alt: "Noticeboard" %>
+            <div class="carousel-caption">
+              <h3>Residents' Association Noticeboard on the Gruffy</h3>
+            </div>
+          </div>
 
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <p>Pictures of Sanderstead courtesy of Tim Wainwright and Corrie Hibberd</p>
+    </div>
   </div>
-
-  <!-- Controls -->
-  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
-        <p>Pictures of Sanderstead courtesy of Tim Wainwright and Corrie Hibberd</p>
-        </div> <!--/row marketing -->  
-      </div> <!-- /content -->
-    </div><!--/welcome -->
-  </div><!--/#main-content -->
-</div><!-- #main-wrapper -->
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-
-      
-
-    </div> <!-- /container -->
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 
 
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

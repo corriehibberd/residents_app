@@ -1,43 +1,31 @@
 <% provide(:title, 'Find Us') %>
 <div class="background_image">
-  <%= image_tag "mallards1550.jpg", :class=> "img-responsive" %>
+  <div class="map">
+    <iframe src="https://www.google.com/maps/d/embed?mid=zYlnj3Nw1njY.k_tzjyjoLEXU" width="100%" height="450" frameborder="0" style="border:0"></iframe>
+  </div>
 </div>
-<div id="welcome-panel">
+<div id="welcome-panel" class="container">
   <h2>Map of Sanderstead</h2>
 </div>
-<div id="main-wrapper">
-   <div class="container" id="main-content">
-    <div class="welcome">
-      <div class="content">
-          <div class="row marketing">
-           	<div class="col-md-12">
-           		<div class="map">
+<div class="container" id="main-wrapper">
+  <div class="row main-content">
+    <div class="col-md-12 white-column">
+      <h3>Transport Links</h3>
+      <p>Sanderstead lies on the southern edge of the London Borough of Croydon, with green belt land lying within its boundaries.</p>
+      <h4>Buses</h4>
+      <p>The 403 bus runs North - South through the village between central Croydon and Warlingham. The 412 bus runs East - West, from central Croydon, via Selsdon to Purley. Visit <%= link_to("www.londonbusroutes.net/routes", "http://www.londonbusroutes.net/routes.htm") %> for an enthusiast site which includes up to date information about bus routes and timetables in London.</p>
+      <h4>Trains</h4>
+      <p>Sanderstead has a choice of 3 stations on the Southern region line into London Victoria or London Bridge. Sanderstead and Riddlesdown stations are on the line between Victoria and East Grinstead. Purley Oaks station lies on the Brighton Line. Journey time into central London is approximately 30 minutes.</p>
+      <h4>Tram</h4>
+      <p>Tramlink which runs through Croydon, is just North of the Sanderstead area, but is another option for transport East - West through South London between New Addington, or Beckenham and Wimbledon.</p>
+      <h4>Car</h4>
+      <p>Within the M25 area, Sanderstead is approximately 5 miles (9 km) or 15 minutes drive from the motorway, and 11 miles (18 km) from central London. The journey into London can take from 40 minutes upwards to drive, depending on the time of day. The central London Low Emissions Zone boundary runs through Sanderstead.</p>
+      <h4>Airports</h4>
+      <p>Gatwick Airport to the South is the nearest major airport to Sanderstead; 16 miles (26 km) drive, via the M25 and M23, or by train via East Croydon or Purley stations.</p>
+      <p>Heathrow Airport is 34 miles (56 km) by road via the M25, or can be reached by various transport links through central London</p>
+    </div>
+  </div>
+</div>
 
-                <iframe src="https://www.google.com/maps/d/embed?mid=zYlnj3Nw1njY.k_tzjyjoLEXU" width="850" height="450" frameborder="0" style="border:0"></iframe>
-
-           	 	</div>
-              <h3>Transport Links</h3>
-              <p>Sanderstead lies on the southern edge of the London Borough of Croydon, with green belt land lying within its boundaries.</p>
-              <h4>Buses</h4>
-              <p>The 403 bus runs North - South through the village between central Croydon and Warlingham. The 412 bus runs East - West, from central Croydon, via Selsdon to Purley. Visit <%= link_to("www.londonbusroutes.net/routes", "http://www.londonbusroutes.net/routes.htm") %> for an enthusiast site which includes up to date information about bus routes and timetables in London.</p>
-              <h4>Trains</h4>
-              <p>Sanderstead has a choice of 3 stations on the Southern region line into London Victoria or London Bridge. Sanderstead and Riddlesdown stations are on the line between Victoria and East Grinstead. Purley Oaks station lies on the Brighton Line. Journey time into central London is approximately 30 minutes.</p> 
-              <h4>Tram</h4>
-              <p>Tramlink which runs through Croydon, is just North of the Sanderstead area, but is another option for transport East - West through South London between New Addington, or Beckenham and Wimbledon.</p>
-              <h4>Car</h4>
-              <p>Within the M25 area, Sanderstead is approximately 5 miles (9 km) or 15 minutes drive from the motorway, and 11 miles (18 km) from central London. The journey into London can take from 40 minutes upwards to drive, depending on the time of day. The central London Low Emissions Zone boundary runs through Sanderstead.</p>
-              <h4>Airports</h4>
-              <p>Gatwick Airport to the South is the nearest major airport to Sanderstead; 16 miles (26 km) drive, via the M25 and M23, or by train via East Croydon or Purley stations.</p>
-              <p>Heathrow Airport is 34 miles (56 km) by road via the M25, or can be reached by various transport links through central London</p>
-
-
-			       </div><!--/col-md-12 -->
-		      </div> <!--/row marketing -->
-       </div> <!-- /content -->
-    </div><!--/welcome -->
-  </div><!--/#main-content -->
-</div><!-- #main-wrapper -->
-
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-	
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>

@@ -4,6 +4,7 @@ class PagesController < ApplicationController
 
   def show
     @page = Page.where(slug: params[:id]).first
+    render @page.template
   end
 
   def index
@@ -86,6 +87,15 @@ class PagesController < ApplicationController
 
   private
   def page_params
-    params.require(:page).permit(:name, :title, :content)
+    params.require(:page).permit(
+      :name,
+      :title,
+      :heading,
+      :background_image,
+      :content1,
+      :content2,
+      :content3,
+      :template
+    )
   end
 end
