@@ -33,7 +33,7 @@ Rails.application.routes.draw do
 
   get 'news2', controller: 'pages', action: 'news2'
 
-  resources :pages
+  resources :pages, except: [:edit, :new, :index]
 
   get 'news3', controller: 'pages', action: 'news3'
 
@@ -43,8 +43,6 @@ Rails.application.routes.draw do
 
   get 'admin', to: 'admin#index'
   scope :admin do
-    resources :pages, only: [:edit, :new] do
-      get :index, on: :collection, action: 'admin_index', as: 'admin_index'
-    end
+    resources :pages, as: 'admin_pages', only: [:edit, :new, :index]
   end
 end
