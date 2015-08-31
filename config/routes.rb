@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :users
-root 'pages#home'
+  root 'pages#home'
 
   get 'home', controller: 'pages', action: 'home'
 
@@ -33,7 +33,7 @@ root 'pages#home'
 
   get 'news2', controller: 'pages', action: 'news2'
 
-  resources :pages 
+  resources :pages
 
   get 'news3', controller: 'pages', action: 'news3'
 
@@ -41,59 +41,10 @@ root 'pages#home'
 
   get 'news5', controller: 'pages', action: 'news5'
 
-
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
-
-  # Example of regular route:
-  #   get 'products/:id' => 'catalog#view'
-
-  # Example of named route that can be invoked with purchase_url(id: product.id)
-  #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
-
-  # Example resource route (maps HTTP verbs to controller actions automatically):
-  #   resources :products
-
-  # Example resource route with options:
-  #   resources :products do
-  #     member do
-  #       get 'short'
-  #       post 'toggle'
-  #     end
-  #
-  #     collection do
-  #       get 'sold'
-  #     end
-  #   end
-
-  # Example resource route with sub-resources:
-  #   resources :products do
-  #     resources :comments, :sales
-  #     resource :seller
-  #   end
-
-  # Example resource route with more complex sub-resources:
-  #   resources :products do
-  #     resources :comments
-  #     resources :sales do
-  #       get 'recent', on: :collection
-  #     end
-  #   end
-
-  # Example resource route with concerns:
-  #   concern :toggleable do
-  #     post 'toggle'
-  #   end
-  #   resources :posts, concerns: :toggleable
-  #   resources :photos, concerns: :toggleable
-
-  # Example resource route within a namespace:
-  #   namespace :admin do
-  #     # Directs /admin/products/* to Admin::ProductsController
-  #     # (app/controllers/admin/products_controller.rb)
-  #     resources :products
-  #   end
+  get 'admin', to: 'admin#index'
+  scope :admin do
+    resources :pages, only: [:edit, :new] do
+      get :index, on: :collection, action: 'admin_index', as: 'admin_index'
+    end
+  end
 end
