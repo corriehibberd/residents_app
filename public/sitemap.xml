@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+  <loc>http://www.sanderstead-residents.co.uk/</loc>
+  <lastmod>2015-08-30</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/about</loc>
+  	<priority>0.3</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/chairman</loc>
+  	<priority>0.3</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/constitution</loc>
+  	<priority>0.1</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/contact</loc>
+  	<lastmod>2015-08-30</lastmod>
+	<priority>0.8</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/directory</loc>
+  	<priority>0.7</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/events</loc>
+  	<lastmod>2015-08-30</lastmod>
+	<changefreq>weekly</changefreq>
+	<priority>0.8</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/find</loc>
+  	<priority>0.6</priority>
+  </url>
+
+ <url>
+  	<loc>http://www.sanderstead-residents.co.uk/history</loc>
+  	<priority>0.1</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/gallery</loc>
+  	<priority>0.3</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/members</loc>
+  	<lastmod>2015-08-30</lastmod>
+	<priority>0.7</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/news</loc>
+  	<priority>0.8</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/news1</loc>
+  	<priority>0.5</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/news2</loc>
+  	<priority>0.5</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/news3</loc>
+  	<priority>0.5</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/news4</loc>
+  	<priority>0.5</priority>
+  </url>
+
+  <url>
+  	<loc>http://www.sanderstead-residents.co.uk/news5</loc>
+  	<priority>0.5</priority>
+  </url>
+
+  </urlset>
