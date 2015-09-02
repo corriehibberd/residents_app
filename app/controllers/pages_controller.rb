@@ -1,5 +1,6 @@
 class PagesController < ApplicationController
 
+  before_action :authenticate_user!, only: [:new, :index, :edit, :create, :update, :destroy]
   layout "admin", only: [:index, :new, :edit]
 
   def show
@@ -22,13 +23,13 @@ class PagesController < ApplicationController
   def create
     @page = Page.new(page_params)
     @page.save
-    redirect_to pages_path
+    redirect_to admin_pages_path
   end
 
   def update
     page = Page.find(params[:id])
     page.update_attributes(page_params)
-    redirect_to pages_path
+    redirect_to admin_pages_path
   end
 
   def home

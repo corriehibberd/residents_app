@@ -11,10 +11,10 @@
       <tr>
         <td><%= page.name %></td>
         <td><%= link_to "View", page_path(page.slug) %></td>
-        <td><%= link_to "Edit", edit_page_path(page.slug) %></td>
+        <td><%= link_to "Edit", edit_admin_page_path(page.slug) %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
 
-<%= link_to "New Page", new_page_path, :class => 'btn btn-default' %>
+<%= link_to "New Page", new_admin_page_path, :class => 'btn btn-default' %>
