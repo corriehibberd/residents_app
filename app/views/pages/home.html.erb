@@ -11,6 +11,7 @@
       <p>The Sanderstead Residents' Association welcomes new members to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>Stop Press News</h2>
+      <p><%= link_to("Proposed development to the rear of Norman Avenue", news_path(anchor: "norman")) %></p>
       <p><%= link_to("Residents write to Health Secretary about urgent care services at Purley Hospital", "/resource/purley_hospital_letter.pdf") %>
       <p>Offers invited for leasing Sanderstead Pavilion. <%= link_to "Read the details here", news5_path %></p>
       <p>New bus routes approved by Transport for London: <%= link_to("Latest infomation about bus stops", news_path(anchor: "busstops")) %>.</p>
@@ -50,7 +51,7 @@
         <h4>2015</h4>
       <b>Autumn Programme at Sanderstead Library</b>
       <p><%= link_to("Autumn at Sanderstead Library", events_path(anchor: "reading")) %></p>
-      <b>Saturday October 3rd</b>
+      <b>During October</b>
       <p><%= link_to("Live Rugby World Cup at OMW Rugby Club", events_path(anchor: "rugby")) %></p>
       <b>Sunday October 11th</b>
       <p><%= link_to("Family Fun Hour", events_path(anchor: "funhour")) %></p>

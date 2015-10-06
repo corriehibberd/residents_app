@@ -10,18 +10,15 @@
   <div class="row main-content">
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
+      <h4><%= link_to "Proposed Development to the rear of Norman Avenue", anchor: "norman" %></h4>
       <h4><%= link_to "Residents' Associations write to the Health Secretary", anchor: "health" %></h4>
       <h4><%= link_to "Proposed new bus route", anchor: "busstops" %></h4>
       <h4><%= link_to "Proposal for a 16 storey skyscraper for Purley", anchor: "purley" %></h4>
       <h4><%= link_to "Opportunity to lease part of Sanderstead Pavilion on the Recreation Ground", anchor: "pavilion" %></h4>
       <h4><%= link_to "Advice for residents about anti social behaviour", anchor: "asb" %></h4>
       <h4><%= link_to "Thanks from Hamsey Green Scouts", anchor: "scouts" %></h4>
-      <h4><%= link_to "Changes to Waste and Recycling days", anchor: "waste" %></h4>
       <h4><%= link_to "Sanderstead Residents' Association AGM 2015", anchor: "agm" %></h4>
-      <h4><%= link_to "Sanderstead Residents' Association Chairman's Report", chairman_path %></h4>
       <h4><%= link_to "Rail Closure over Christmas 2015", anchor: "trains" %></h4>
-      <h4><%= link_to "Secure your sheds and garages", anchor: "secure" %> </h4>
-      <h4><%= link_to "Warning about pensions scam", anchor: "pensions" %></h4>
       <h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4>
       <h4><%= link_to "Local Councillors' blog", "http://www.croydonconservatives.com/teams_blog.asp?BlogID=1297&WardID=30" %></h4>
       <h4><%= link_to "Croydon Neighbourhood Watch News", "http://www.cbnwa.com" %></h4>
@@ -30,8 +27,11 @@
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
 
+      <h3><a name="norman"></a>Norman Avenue Development</h3>
+        <p>The Residents Associaton is concerned about a proposed new development of up to 37 homes in the land to the rear of Norman Avenue, and next to the Brighton line running from Purley Oaks Station. Our chairman has delivered a letter to those most likely to be affected by the development, detailing the ground on which to object to this proposal. <%= link_to("Read and download his letter here", "/resource/norman_avenue.pdf") %></p> .
+
       <h3><a name="health"></a>Urgent care provision at Purley Hospital</h3>
-      <p>Croydon Borough Residents' Associations have written a joint letter to Jeremy Hunt, the Health Secretary, asking him to intervene to reinstate urgent care services at Purley hospital. <%= link_to("Read the full letter here.", "/resource/purley_hospital_letter.pdf") %></p>
+      <p>Croydon Borough Residents Associations have written a joint letter to Jeremy Hunt, the Health Secretary, asking him to intervene to reinstate urgent care services at Purley hospital. <%= link_to("Read the full letter here.", "/resource/purley_hospital_letter.pdf") %></p>
 
       <h3><a name="busstops"></a>Proposed new bus route</h3>
       <p>Tfl have decided to extend bus route 359 from Selsdon Sainsbury’s to Purley Cross and extend operational hours on all days of the week from 0700 to 1945. Additionally the frequency will increase to a bus every 30 minutes. Four new stops will be sited in Purley Downs Road: <ul><li>Close to the junction with Sanderstead Hill</li><li>Near Merrion Hill</li><li>Near Tindale Close</li><li>Between Purley Bury Avenue and Penwortham Road</li></ul> <%= link_to "Full details available on the TFL website", "http://www.tfl.gov.uk/new-addington-buses" %>.</p>
@@ -49,15 +49,9 @@
       <p>Thank you,</p>
       <p>All leaders and helpers and scouts of Hamsey Green</p>
 
-      <h3><a name="waste"></a>Introduction of Village Approach for refuse collection</h3>
-      <p>On Monday 1 June a new service delivery approach will start in respect of how landfill and recycling collections, and street cleaning services will be delivered throughout the borough. This new system should ensure a better service and dialogue between Veolia staff and residents creating a sense of pride by working regularly together in the same village area. Veolia Staff will also wear name badges to encourage a friendly service led approach and will be encouraged to seek feedback from residents.
-      Residents within Sanderstead will and will have received a new service information leaflet which details their landfill and recycling collection dates from June to March next year. <%= link_to "Read more...", news4_path %></p>
-
       <h3><a name="agm"></a>Prizes awarded at the AGM on 14th May 2015</h3>
       <p>The Sanderstead Residents' Association was pleased to hand out a number of grants and prizes to local organisations, at the AGM, that was held in All Saints' Hall on Thursday 14th May 2015. View pictures of all those receiving prizes from Councillor and Past Mayor, Yvette Hopley, on <%= link_to "this news page", news3_path %>.
 
-      <h3><a name="chairman"></a>Chairman's Report Spring 2015</h3>
-      <p>The threat of the closure of the Purley Swimming Pool was the opening topic of my report for the Sanderstead News. I had drafted a letter to be sent to the Croydon Advertiser on behalf of seven South Croydon Resident Associations’ arguing the case for the Pool’s retention. I am delighted that the letter was not required because the Council reversed its decision to close the Pool prior to the Council meeting to confirm its closure. <%= link_to "Read more...", chairman_path %></p>
 
       <h3><a name="purley"></a>Skyscraper proposed for Purley</h3>
       <p>Purley Baptist Church have produced a detailed proposal for construction on the Purley Cross site. See <%= link_to "http://purleycentre.commonplace.is", "http://purleycentre.commonplace.is/" %>.</p>
@@ -72,26 +66,8 @@
       <p>The committee was concerned that there was to be major disruption on the main line, again, over Christmas and there was a long discussion about why it had to be done in one go. We asked why the work could not be carried out on the fast and slow lines at different times so that the trains could be kept running. We were told that the scale of the work was similar to the replacement of Stoats Nest Junction at Christmas 2013 and this was the best way to carry it out. The replacement of the junction is to be a like for like replacement so that there will be no changes to the signalling. However the spacing between the crossovers is to be increased to simplify maintenance. If the points on the fast and slow lines were replaced at different times there would be problems because it would not be possible for trains to switch between the fast and slow lines and there would be much more overall disruption.</p>
       <p>It is intended to replace the railway bridge at Old Lodge Lane at the same time.</p>
 
-      <h3><a name="secure"></a><%= link_to "Croydon Neighbourhood Watch", "http://www.cbnwa.com" %> gives some good advice about security</h3>
-      <p>
-        <%= truncate(
-          "Garden sheds are a very popular target with burglars and are often overlooked when security is being considered. The value of the contents, such as garden mowers, strimmers and cycles can often add up to many hundreds of pounds. It is therefore wise to secure the shed door with at least one heavy duty hasp and closed-shackle padlock.</p>
-            <p>It may not always be appropriate to fit a heavy duty padlock, hasp and staple as the shed door and frame may not be strong enough to support them. There is a range of smaller but sturdy padlocks, padbolts, hasps and staples which would be suitable. Whether fitting heavy duty devices or otherwise, always use coach-bolt fixings through the door and frame. All opening windows within the shed will require good window locks.</p>
-            <p>The major problem with vulnerable garden sheds is that they provide burglars with an arsenal of house breaking implements, e.g. the versatile garden spade: because of the blade size and the leverage that can be exerted, few door or window locks can withstand a prolonged attack from this implement. If the shed is too fragile to secure adequately, the spade should either be bolted or padlocked to a heavy bench or frame, or, better still, kept in a more secure place such as a locked garage. Alternatively, your tools can be secured by chaining them together.</p>
-            <p>Consider the use of a strong lockable box or cage within the shed in which you can store not only your garden tools but also insecticides, weed killers or other items which may be harmful to health or plants if improperly used.</p>
-            <h3>Garages</h3>
-            <p>Garages are frequently used for storing not only cars, motor bikes and cycles, but also property similar to those found in garden sheds, as well as DIY power tools and sporting equipment. Considering the value of the property contained therein, security precautions are often found to be wanting, and for this reason they are identified by burglars as easy targets.<p>
-            <p>It is probably best not to rely solely on the centre lock provided. If the door is the only means of entry to the garage, it should be fitted with a hasp and staple, together with a padlock as above. There are also mortice locks specially designed for garage doors that close into the side frame.<p>",
-          length: 300,
-          separator: ' ',
-          omission: '...') do
-            link_to "Read more", news1_path
-          end %>
-      </p>
-      <h3><a name="pensions"></a>Pension Scams are on the increase in the UK</h3>
-      <p>Pension scams can take many forms.  Many offer ‘One-off pension investments’, ‘pension loans’ or upfront cash to entice savers to transfer their pension funds.
-      Recently there has been a rise in the number of people falling victim to pension scams.  Many individuals are offered the opportunity to gain access to their pension early or obtain benefits, which just aren’t available or, in some cases real.  Fraudsters often approach their victims through cold calls, trying to gain attention by offering a free pension review.  Many of the people that offer these sometimes claim to be ringing as part of a Government initiative.  This can make what is an illegal activity; appear legitimate and very appealing for the victim.
-      If you’re approached in this way, you may be encouraged to transfer your pension quickly, and they may even send documents to you by courier in an attempt to pressurize you to sign.  <%= link_to "...Read more", news2_path %></p>
+     
+      
       <!--<h3><a name="grave"></a>Medieval Gravestone discovered at All Saints</h3>
         <p>Builders working in All Saints churchyard have uncovered a medieval gravestone decorated with a celtic cross symbol.</p>
         <p>All Saints is currently undergoing building work to create level access into the church. Over the centuries the height of the ground outside the church has been raised, and there are now two deep steps down to get into the church.</p>
