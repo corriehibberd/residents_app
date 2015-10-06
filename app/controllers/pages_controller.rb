@@ -86,6 +86,9 @@ class PagesController < ApplicationController
   def news5
   end
 
+  def advertisers
+  end
+
   private
   def page_params
     params.require(:page).permit(

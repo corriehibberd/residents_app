@@ -1,0 +1,44 @@
+<% provide(:title, 'Advertisers') %>
+<div class="background_image">
+  <%= image_tag "village1550.jpg", :class=> "img-responsive" %>
+</div>
+
+<div id="welcome-panel" class="container">
+  <h2>Advertisers</h2>
+</div>
+<div class="container" id="main-wrapper">
+	<div class="row main-content">
+    	<div class="col-md-12 white-column">
+      		<p style="text-align: center;">All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
+    	</div>
+    	 <div class="col-md-3">
+    	 	<h4>Home furnishings</h4>
+    	 	<h4>Builders</h4>
+    	 	<h4>Health care</h4>
+    	 	<h4>Retailers</h4>
+    	 	<h4>Schools</h4>
+    	 	<h4>Services</h4>
+    	 	<h4>Sports clubs</h4>
+
+    	 </div>
+    	 <div class="col-md-6">
+    	 	<h3>Home Furnishings</h3>
+    	 	<h4>Blinds, shutters and curtains</h4>
+    	 	<b>desres blinds</b>
+    	 	<p>020 8651 3569, mob 07961 827 917</p>
+    	 	<p>email <%= mail_to "info@desresblinds.co.uk" %></p>
+    	 	<p>website <%= link_to "www.desresblinds.co.uk", "http://www.desresblinds.co.uk" %></p>
+    	 </div>
+    	 <div class="col-md-3">
+    	 	 <h4>External Links</h4>
+      <p>For news and information from Croydon Council...</p>
+      <p><%= link_to "Croydon", "http://www.croydon.gov.uk", class: 'btn btn-primary' %></p>
+      <p>For up to date news about local planning applications...</p>
+      <p><%= link_to "Planning", "http://publicaccess.croydon.gov.uk/online-applications/", class: 'btn btn-primary' %></p>
+      <p>For other local Residents' Associations...</p>
+      <p><%= link_to "Riddlesdown", "http://riddlesdownresidents.org.uk", class: 'btn btn-primary' %></p>
+      <p>For nearby community information...</p>
+      <p><%= link_to "Purley Community Website", "http://purleyinfo.com", class: 'btn btn-primary' %></p>
+    	 </div>
+	</div>
+</div>

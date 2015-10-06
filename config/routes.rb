@@ -41,6 +41,8 @@ Rails.application.routes.draw do
 
   get 'news5', controller: 'pages', action: 'news5'
 
+  get 'advertisers', controller: 'pages', action: 'advertisers'
+
   get 'admin', to: 'admin#index'
   scope :admin do
     resources :pages, as: 'admin_pages', only: [:edit, :new, :index]
