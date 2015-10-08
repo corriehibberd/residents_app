@@ -11,7 +11,7 @@
     	<div class="col-md-12 white-column">
       		<p style="text-align: center;">All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
     	</div>
-    	 <div class="col-md-3">
+    	 <div class="col-md-3 grey-column">
     	 	<h4>Home furnishings</h4>
     	 	<h4>Builders</h4>
     	 	<h4>Health care</h4>
@@ -21,24 +21,161 @@
     	 	<h4>Sports clubs</h4>
 
     	 </div>
-    	 <div class="col-md-6">
-    	 	<h3>Home Furnishings</h3>
-    	 	<h4>Blinds, shutters and curtains</h4>
-    	 	<b>desres blinds</b>
-    	 	<p>020 8651 3569, mob 07961 827 917</p>
-    	 	<p>email <%= mail_to "info@desresblinds.co.uk" %></p>
-    	 	<p>website <%= link_to "www.desresblinds.co.uk", "http://www.desresblinds.co.uk" %></p>
+    	 <div class="col-md-9">
+        <table>
+          <tbody>
+          <tr>
+    	 	     <td><h3>Home Furnishings</h3></td>
+             <td>&nbsp;</td>
+           </tr>
+           <tr>
+    	 	     <td><h4>Blinds, shutters and curtains</h4></td>
+             <td>&nbsp;</td>
+    	 	   </tr>
+           <tr>
+             <td><b>desres blinds</b></td>
+    	 	     <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 3569 &nbsp; <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07961 827 917</p></td>
+           </tr>
+           <tr>
+    	 	     <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "info@desresblinds.co.uk" %></p></td>
+    	 	     <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.desresblinds.co.uk", "http://www.desresblinds.co.uk" %></p></td>
+          </tr>
+          <tr>
+
+            <td><h4>Carpets and Flooring</h4></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><b>CK Carpets</b></td>
+            <td><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 6833</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span> <%= link_to "www.ckcarpets.co.uk", "http://www.ckcarpets.co.uk" %></td>
+            
+          </tr>
+
+        <hr/>
+
+        <h3>Building Services</h3>
+        <h4>Builders</h4>
+        <b>Redfearns</b>
+        <b>P A Henery</b>
+        <b>E.J. Neal Prjects Co.</b>
+
+        <h4>Decorating</h4>
+        <b>Graham Marshall</b>
+
+        <h4>Electricians</h4>
+        <b>Jeff Borkett</b>
+        <b>D J Taylor</b>
+
+        <h4>Handyman</h4>
+        <b>Home Remedies</b>
+
+        <h4>Kitchens, Bedrooms and Bathrooms</h4>
+        <b>M Kitchens</b>
+
+        <h4>New Homes</h4>
+        <b>Inspired Homes</b>
+
+        <h4>Plumbing and Heating</h4>
+        <b>A C Heating</b>
+
+        <h4>Roofing</h4>
+        <b>C R Mackay</b>
+        <b>R C Ovenell</b>
+
+        <h4>Stone Floor Cleaning</h4>
+        <b>Direct Cleaners</b>
+
+        <hr/>
+
+        <h3>Health</h3>
+        <h4>Health and Beauty</h4>
+        <b>The Beauty Lounge</b>
+
+        <hr/>
+
+        <h3>Retailers</h3>
+        <h4>Butchers</h4>
+        <b>Bashford &amp; Co</b>
+
+        <h4>Chemists</h4>
+        <b>Medipharm</b>
+
+        <h4>DIY Supplies</h4>
+        <b>Keitom</b>
+
+        <h4>Jewellery</h4>
+        <b>GIN Jewellery</b>
+
+        <h4>Off Licence</h4>
+        <b>The Wine Cellar</b>
+
+        <h4>Pets and Pet Food</h4>
+        <b>Village Pets</b>
+
+        <hr/>
+
+        <h3>Services</h3>
+        <h4>Care</h4>
+        <b>Bluebird Care</b>
+
+        <h4>Cleaners</h4>
+        <b>Molly Maid</b>
+
+        <h4>Computer Support and Training</h4>
+        <b>Keystroke Associates</b>
+
+        <h4>Computer Repairs</h4>
+        <b>CC Computing</b>
+
+        <h4>Dry Cleaners</h4>
+        <b>Elmfield Dry Cleaners</b>
+
+        <h4>Estate Agents</h4>
+        <b>Paul Meakin</b>
+        <b>Pollard Machin</b>
+
+        <h4>Funeral Directors</h4>
+        <b>Pink's</b>
+        <b>J B Shakespeare</b>
+
+        <h4>Gardening and Patios</h4>
+        <b>Howard Duffy</b>
+        <b>Greenthumb</b>
+
+        <h4>Removals and Storage</h4>
+        <b>Britannia Sandersteads</b>
+
+        <h4>Retirement Homes</h4>
+        <b>McCarthy and Stone</b>
+
+        <h4>Solicitors</h4>
+        <b>G M Watts</b>
+
+        <h4>Video and DVD Services</h4>
+        <b>Surrey Video</b>
+
+        <hr/>
+
+        <h3>Schools</h3>
+        <p><b>Warlingham Park School</b></p>
+        <p><b>Croydon High School</b></p>
+        <p><b>Warlingham Village Primary School</b></p>
+
+        <hr/>
+
+        <h3>Sports Clubs</h3>
+        <h4>Golf Clubs</h4>
+        <b>Croham Hurst Golf Club</b>
+
+        <hr/>
+      </tbody>
+      </table>
+
     	 </div>
-    	 <div class="col-md-3">
-    	 	 <h4>External Links</h4>
-      <p>For news and information from Croydon Council...</p>
-      <p><%= link_to "Croydon", "http://www.croydon.gov.uk", class: 'btn btn-primary' %></p>
-      <p>For up to date news about local planning applications...</p>
-      <p><%= link_to "Planning", "http://publicaccess.croydon.gov.uk/online-applications/", class: 'btn btn-primary' %></p>
-      <p>For other local Residents' Associations...</p>
-      <p><%= link_to "Riddlesdown", "http://riddlesdownresidents.org.uk", class: 'btn btn-primary' %></p>
-      <p>For nearby community information...</p>
-      <p><%= link_to "Purley Community Website", "http://purleyinfo.com", class: 'btn btn-primary' %></p>
-    	 </div>
+    	
 	</div>
 </div>
