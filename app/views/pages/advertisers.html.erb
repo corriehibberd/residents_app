@@ -1,6 +1,6 @@
 <% provide(:title, 'Advertisers') %>
 <div class="background_image">
-  <%= image_tag "village1550.jpg", :class=> "img-responsive" %>
+  <%= image_tag "village1550no2.jpg", :class=> "img-responsive" %>
 </div>
 
 <div id="welcome-panel" class="container">
@@ -12,20 +12,23 @@
       		<p style="text-align: center;">All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
     	</div>
     	 <div class="col-md-3 grey-column">
-    	 	<h4>Home furnishings</h4>
-    	 	<h4>Builders</h4>
-    	 	<h4>Health care</h4>
-    	 	<h4>Retailers</h4>
-    	 	<h4>Schools</h4>
-    	 	<h4>Services</h4>
-    	 	<h4>Sports clubs</h4>
+            <a name="top"></a>
+    	 	<h4><%= link_to "Home Furnishings", anchor: "furnish" %></h4>
+    	 	<h4><%= link_to "Builders", anchor: "build" %></h4>
+    	 	<h4><%= link_to "Health", anchor: "health" %></h4>
+    	 	<h4><%= link_to "Retailers", anchor: "retail" %></h4>
+    	 	<h4><%= link_to "Schools", anchor: "school" %></h4>
+    	 	<h4><%= link_to "Services", anchor: "service" %></h4>
+    	 	<h4><%= link_to "Sports clubs", anchor: "sport" %></h4>
+            <hr/>
+            <p>All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
 
     	 </div>
     	 <div class="col-md-9">
         <table>
           <tbody>
           <tr>
-    	 	     <td><h2>Home Furnishings</h2></td>
+    	 	     <td><h2><a name="furnish"></a>Home Furnishings</h2></td>
              <td>&nbsp;</td>
            </tr>
            <tr>
@@ -61,7 +64,7 @@
           </tr>
 
         <tr>
-            <td><h2>Building Services</h2></td>
+            <td><h2><a name="build"></a>Building Services</h2></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -151,7 +154,6 @@
         </tr>
 
        
-
         <tr>
             <td><h3>Kitchens</h43></td>
             <td>&nbsp;</td>
@@ -193,113 +195,517 @@
         </tr>
 
         <tr class="adstable">
-            <td><h3>C R Mackay</h3></td>
+            <td><h4>C R Mackay</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 5514 &nbsp;   <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span> 07950 171369</p></td>
         </tr>
 
         <tr>
-            <td><h3>R C Ovenell</h3></td>
+            <td><h4>R C Ovenell</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 5602 &nbsp;   <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07970 113106</p></td>
         </tr>
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "rcovenell@icloud.com" %></td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "rcovenell@icloud.com" %></p></td>
             
         </tr>
 
+        <tr>
+            <td><h3>Stone Floor Cleaning</h3></td>
+            <td><td>&nbsp;</td>
+        </tr>
+        <tr>  
+            <td><h4>Direct Cleaners</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8687 1711 </p></td>
+        </tr>   
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"><%= link_to "www.marble-floor-polishing.info", "http://www.marble-floor-polishing.info" %>&nbsp;</span></p></td>
+        <tr>
+            <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><%= link_to "www.directcleaners.com", "http://www.directcleaners.com" %>&nbsp;</span></p></td>
+        </tr>
 
-<!--
+        <tr>
+            <td><h2><a name="health"></a>Health</h2><td>
+            <td>&nbsp;</td>
+        </tr>
 
-        <h4>Stone Floor Cleaning</h4>
-        <b>Direct Cleaners</b>
+        <tr>
+            <td><h3>Health and Beauty</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><h4>The Beauty Lounge</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 3395 </p></td>
+        </tr>
 
-        
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>39 Elmfield Way, Sanderstead CR2 0EJ</p></td>
+        </tr>
 
-        <h3>Health</h3>
-        <h4>Health and Beauty</h4>
-        <b>The Beauty Lounge</b>
 
+       <tr>
+        <td><h2><a name="retail"></a>Retailers</h2></td>
+        <td>&nbsp;</td>
+       </tr>
+
+       <tr>
+        <td><h3>Butchers</h3></td>
+        <td>&nbsp;</td>
+       </tr>
+
+        <tr>
+            <td><h4>Bashford &amp; Co</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 7558 </p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.bashfordandco.co.uk", "http://www.bashfordandco.co.uk" %></span></p></td>
+        </tr>
+
+        <tr>
+        <td><h3>Chemists</h3></td>
+        <td>&nbsp;</td>
+       </tr>
+
+        <tr>
+            <td><h4>Medipharm</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 2203 </p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>37 Limpsfield Rd, Sanderstead, CR2 9LA</p></td>
+        </tr>
+
+
+        <tr>
+            <td><h4>Makepeace &amp; Jackson</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 0221 </p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>7 Station Parade, Sanderstead, CR2 0PH</p></td>
+        </tr>
+
+        <tr>
+            <td><h3>DIY Supplies</h3></td>
+            <td>&nbsp;</td>
+        <tr>
+            <td><h4>Keitom</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 6499 </p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "sales@keitom.com" %></p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> 333D Limpsfield Rd, Hamsey Green, CR2 9DH</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.keitom.com", "http://www.keitom.com" %>
+        </tr>
+
+         
+    
+        <tr>
+            <td><h4>Jewellery</h4></td>
+            <td>&nbsp;</td>
+        </tr>
+
+         <tr>
+            <td><h4>GIN Jewellery</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 5881 </p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>59 limpsfield Rd, Sanderstead, CR2 9LB</p></td>
+        </tr>
+
+        <tr>
+          <td><h3>Off Licence</h3></td>
+          <td>&nbsp;</td>
+     
+        <tr>
+            <td><h4>The Wine Cellar</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 6939 </p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>9-10 Station Parade, Sanderstead, CR2 0PH</p></td>
+        </tr>
+
+        <tr>
+            <td><h3>Pets and Pet Food</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>Village Pets</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 1791</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>55 Limpsfield Rd, Sanderstead, CR2 9LB</p></td>
+        </tr>
+
+
+  <tr>
+            <td><h2><a name="school"></a>Schools</h2></td>
+            <td>&nbsp;</td>
+        </tr>
+
+         <tr>
+            <td><h4>Warlingham Park School</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01883 626844</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "info@warlinghamparkschool.com" %></p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.warlinghamparkschool.com", "http://www.warlinghamparkschool.com" %>
+        </tr>
+
+         <tr>
+            <td><h4>Croydon High School</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8260 7543</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.croydonhigh.gdst.net", "http://www.croydonhigh.gdst.net" %>
+        </tr>
+
+
+         <tr>
+            <td><h4>Warlingham Village Primary School</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01883 622747</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>Farleigh Road, Warlingham, CR6 9EJ</p></td>
+        </tr>
+
+        <tr>
+            <td><h2><a name="service"></a>Services</h2></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td> <h3>Care</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+         <tr>
+            <td><h4> Bluebird Care</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8686 9496</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span><%= mail_to "croydon@bluedirdcare.co.uk" %></p></td>
+        </tr>
+
+         <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>181 Brighton Rd, South Croydon, CR2 6EGs</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.bluebirdcare.co.uk/croydon", "http://www.bluebirdcare.co.uk/croydon" %>
+        </tr>
+    
+        <tr>
+        <td><h3>Cleaners</h3></td>
+        <td>&nbsp;</td>
+
+        <tr>
+            <td><h4>Molly Maid</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8407 3262</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "priti-patel@mollymaid.co.uk" %></p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.mollymaid.co.uk/croydon", "http://www.mollymaid.co.uk/croydon" %>
+        </tr>
+
+        <tr>
+            <td><h3>Computers</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h3>Support and Training</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>Keystroke Associates</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01883 346516</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "keystrokeassoc@aol.com" %></p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.keystrokeassociates.co.uk", "http://www.keystrokeassociates.co.uk" %></p>
+        </tr>
+
+        <tr>
+            <td><h3>Computer Repairs</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+
+         <tr>
+            <td><h4>CC Computing</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 3095 7750&nbsp;<span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07801 536610</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "chris@ccworld.co.uk" %></p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><%= link_to "www.ccworld.co.uk", "http://www.ccworld.co.uk" %>
+        </tr>
+
+        <tr>
+            <td><h3>Dry Cleaners</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><h4>Elmfield Dry Cleaners</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8768 3455</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>49 Elmfield Way, Sanderstead, CR2 0EJ</p></td>
+        </tr>
        
+        <tr>
+            <td><h3>Estate Agents</h3></td>
+            <td>&nbsp;</td>
+        </tr>
 
-        <h3>Retailers</h3>
-        <h4>Butchers</h4>
-        <b>Bashford &amp; Co</b>
+        <tr>
+            <td><h4>Paul Meakin</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 5000</p></td>
+        </tr>
 
-        <h4>Chemists</h4>
-        <b>Medipharm</b>
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.paulmeakin.co.uk", "http://www.paulmeakin.co.uk" %>
+        </tr>
 
-        <h4>DIY Supplies</h4>
-        <b>Keitom</b>
+         <tr>
+            <td><h4>Pollard Machin</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 4466</p></td>
+        </tr>
 
-        <h4>Jewellery</h4>
-        <b>GIN Jewellery</b>
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><%= link_to "www.pollardmachin.co.uk", "http://www.pollardmachin.co.uk" %>
+        </tr>
 
-        <h4>Off Licence</h4>
-        <b>The Wine Cellar</b>
+        <tr>
+            <td><h3>Funeral Directors</h3></td>
+            <td>&nbsp;</td>
+        </tr>
 
-        <h4>Pets and Pet Food</h4>
-        <b>Village Pets</b>
+         <tr>
+            <td><h4>Pink's</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 9922</p></td>
+        </tr>
 
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>344 Limpsfield Road, Hamsey Green, CR2 9BX</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.adpinkfunerals.co.uk", "http://www.adpinkfunerals.co.uk" %>
+        </tr>
         
+         <tr>
+            <td><h4>J B Shakespeare</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 3616</p></td>
+        </tr>
 
-        <h3>Services</h3>
-        <h4>Care</h4>
-        <b>Bluebird Care</b>
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>175 Selsdon Park Road, South Croydon, CR2 8JJ</p></td>
+        </tr>
 
-        <h4>Cleaners</h4>
-        <b>Molly Maid</b>
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.jbshakespearefunerals.co.uk", "http://www.jbshakespearefunerals.co.uk" %>
+        </tr>
 
-        <h4>Computer Support and Training</h4>
-        <b>Keystroke Associates</b>
+        <tr>
+            <td><h3>Gardening and Patios</h3></td>
+            <td>&nbsp;</td>
+        </tr>
 
-        <h4>Computer Repairs</h4>
-        <b>CC Computing</b>
+        <tr>
+            <td><h4>Howard Duffy</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01883 620039</p></td>
+        </tr>
 
-        <h4>Dry Cleaners</h4>
-        <b>Elmfield Dry Cleaners</b>
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "howard.duffy.uk@gmail.com" %></p></td>
+        </tr>
 
-        <h4>Estate Agents</h4>
-        <b>Paul Meakin</b>
-        <b>Pollard Machin</b>
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.howardduffy-gardensolutions.co.uk", "http://www.howardduffy-gardensolutions.co.uk" %>
+        </tr>
 
-        <h4>Funeral Directors</h4>
-        <b>Pink's</b>
-        <b>J B Shakespeare</b>
 
-        <h4>Gardening and Patios</h4>
-        <b>Howard Duffy</b>
-        <b>Greenthumb</b>
+         <tr>
+            <td><h4>Greenthumb</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01689 849830 / freephone 0800 0111 222</p></td>
+        </tr>
 
-        <h4>Removals and Storage</h4>
-        <b>Britannia Sandersteads</b>
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.greenthumb.co.uk", "http://www.greenthumb.co.uk" %>
+        </tr>
 
-        <h4>Retirement Homes</h4>
-        <b>McCarthy and Stone</b>
 
-        <h4>Solicitors</h4>
-        <b>G M Watts</b>
+        <tr>
+            <td><h3>Removals and Storage</h3></td>
+            <td>&nbsp;</td>
+        </tr>
 
-        <h4>Video and DVD Services</h4>
-        <b>Surrey Video</b>
+         <tr>
+            <td><h4>Britannia Sandersteads</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8669 6688</p></td>
+        </tr>
 
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "info@sandersteads.com" %></p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.sandersteads.com", "http://www.sandersteads.com" %>
+        </tr>
+
+        <tr>
+            <td><h3>Retirement Homes</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>McCarthy and Stone</h4></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.mccarthyandstone.co.uk", "http://www.mccarthyandstone.co.uk" %>
+        </tr>
+
+
+        <tr>
+            <td><h3>Solicitors</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>G M Watts</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 0391</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>2a Ridge Langley, Sanderstead, CR2 0AR</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.gmwatts.com", "http://www.gmwatts.com" %>
+        </tr>
+
+
+        <tr>
+            <td><h3>Video and DVD Services</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>Surrey Video</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 3252 2055</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.surreyvideo.co.uk", "http://www.surreyvideo.co.uk" %>
+        </tr>
+
+
+        <tr>
+            <td><h2><a name="sport"></a>Sports Clubs</h2></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h3>Golf Clubs</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>Croham Hurst Golf Club</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 5581</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>Croham Road, South Croydon, CR2 7HJ</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.chgc.co.uk", "http://www.chgc.co.uk" %>
+        </tr>
        
-
-        <h3>Schools</h3>
-        <p><b>Warlingham Park School</b></p>
-        <p><b>Croydon High School</b></p>
-        <p><b>Warlingham Village Primary School</b></p>
-
-        
-
-        <h3>Sports Clubs</h3>
-        <h4>Golf Clubs</h4>
-        <b>Croham Hurst Golf Club</b>
-
-         -->
       </tbody>
       </table>
+      <p><%= link_to "Back to top", anchor: "top" %></p>
 
     	 </div>
-
 	</div>
 </div>
