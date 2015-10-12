@@ -8,10 +8,8 @@
 </div>
 <div class="container" id="main-wrapper">
 	<div class="row main-content">
-    	<div class="col-md-12 white-column">
-      		<p style="text-align: center;">All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
-    	</div>
-    	 <div class="col-md-3 grey-column">
+    	
+    	 <div class="col-md-3 col-xs-12 grey-column">
             <a name="top"></a>
     	 	<h4><%= link_to "Home Furnishings", anchor: "furnish" %></h4>
     	 	<h4><%= link_to "Builders", anchor: "build" %></h4>
@@ -24,7 +22,7 @@
             <p>All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
 
     	 </div>
-    	 <div class="col-md-9">
+    	 <div class="col-md-9 col-xs-12 white-column">
         <table>
           <tbody>
           <tr>
@@ -44,7 +42,7 @@
     	 	     <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "info@desresblinds.co.uk" %></p></td>
     	 	     
           </tr>
-          <tr>
+          <tr class="adstable">
                  <td>&nbsp;</td>
                  <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.desresblinds.co.uk", "http://www.desresblinds.co.uk" %></p></td>
           </tr>
@@ -76,45 +74,32 @@
             <td><h4 class="advertisers">Redfearns</h4> </td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 5159</p></td>
         </tr>
-        <tr>
+        <tr  class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "mail@redfearnpartnership.co.uk" %>&nbsp;</p></td>
             
           </tr>
 
-          <tr>
+          <tr  class="adstable">
             <td><h4 class="advertisers">P A Henery</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 7321 &nbsp;<span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07973 145 530</p></td>
         </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
 
-        <tr>
+        <tr  class="adstable">
             <td><h4 class="advertisers">E.J. Neal Projects Co.</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01883 627819</p></td>
-        </tr>
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-       
+        </tr> 
 
         <tr>
             <td><h3>Decorating</h3></td>
             <td>&nbsp;</td>
         </tr>
 
-        <tr>
+        <tr  class="adstable">
             <td><h4 class="advertisers">Graham Marshall</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 6197 &nbsp;   <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07814 514213</p></td>
         </tr>
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
 
-        
         <tr>
             <td><h3>Electricians</h3></td>
             <td>&nbsp;</td>
@@ -124,20 +109,15 @@
             <td><h4 class="advertisers">Jeff Borkett</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 0177   &nbsp;   <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07951 015264</p></td>
         </tr>
-        <tr>
+        <tr  class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.electricalservicescroydon.co.uk", "http://www.electricalservicescroydon.co.uk" %></p></td>
         </tr>
 
-        <tr>
+        <tr class="adstable">
             <td><h4 class="advertisers">D J Taylor</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 4818 / 020 8651 4260</p></td>
         </tr>
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-        </tr>
-
 
         <tr>
             <td><h3>Handyman</h3></td>
@@ -177,7 +157,7 @@
         </tr>
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.inspiredhomes.uk.com" %></td>
+            <td><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.inspiredhomes.uk.com", "http://www.inspiredhomes.uk.com" %></td>
         </tr>
 
         <tr>
@@ -217,13 +197,11 @@
             <td><h4>Direct Cleaners</h4></td>
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8687 1711 </p></td>
         </tr>   
-        <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"><%= link_to "www.marble-floor-polishing.info", "http://www.marble-floor-polishing.info" %>&nbsp;</span></p></td>
-        <tr>
+    
+        <tr class="adstable">
             <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><%= link_to "www.directcleaners.com", "http://www.directcleaners.com" %>&nbsp;</span></p></td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.directcleaners.com", "http://www.directcleaners.com" %>&nbsp;</span></p></td>
         </tr>
 
         <tr>
@@ -240,9 +218,9 @@
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 3395 </p></td>
         </tr>
 
-        <tr>
+        <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>39 Elmfield Way, Sanderstead CR2 0EJ</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>39 Elmfield Way, Sanderstead CR2 0EJ</p></td>
         </tr>
 
 
@@ -278,7 +256,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>37 Limpsfield Rd, Sanderstead, CR2 9LA</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>37 Limpsfield Rd, Sanderstead, CR2 9LA</p></td>
         </tr>
 
 
@@ -289,7 +267,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>7 Station Parade, Sanderstead, CR2 0PH</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>7 Station Parade, Sanderstead, CR2 0PH</p></td>
         </tr>
 
         <tr>
@@ -307,10 +285,10 @@
 
         <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> 333D Limpsfield Rd, Hamsey Green, CR2 9DH</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span> 333D Limpsfield Rd, Hamsey Green, CR2 9DH</p></td>
         </tr>
 
-        <tr>
+        <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.keitom.com", "http://www.keitom.com" %>
         </tr>
@@ -327,9 +305,9 @@
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 5881 </p></td>
         </tr>
 
-        <tr>
+        <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>59 limpsfield Rd, Sanderstead, CR2 9LB</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>59 limpsfield Rd, Sanderstead, CR2 9LB</p></td>
         </tr>
 
         <tr>
@@ -343,7 +321,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>9-10 Station Parade, Sanderstead, CR2 0PH</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>9-10 Station Parade, Sanderstead, CR2 0PH</p></td>
         </tr>
 
         <tr>
@@ -358,7 +336,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>55 Limpsfield Rd, Sanderstead, CR2 9LB</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>55 Limpsfield Rd, Sanderstead, CR2 9LB</p></td>
         </tr>
 
 
@@ -400,7 +378,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>Farleigh Road, Warlingham, CR6 9EJ</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>Farleigh Road, Warlingham, CR6 9EJ</p></td>
         </tr>
 
         <tr>
@@ -420,12 +398,12 @@
 
         <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span><%= mail_to "croydon@bluedirdcare.co.uk" %></p></td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span><%= mail_to "croydon@bluebirdcare.co.uk" %></p></td>
         </tr>
 
          <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>181 Brighton Rd, South Croydon, CR2 6EGs</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>181 Brighton Rd, South Croydon, CR2 6EGs</p></td>
         </tr>
 
         <tr class="adstable">
@@ -495,7 +473,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><%= link_to "www.ccworld.co.uk", "http://www.ccworld.co.uk" %>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.ccworld.co.uk", "http://www.ccworld.co.uk" %>
         </tr>
 
         <tr>
@@ -509,7 +487,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>49 Elmfield Way, Sanderstead, CR2 0EJ</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>49 Elmfield Way, Sanderstead, CR2 0EJ</p></td>
         </tr>
        
         <tr>
@@ -524,7 +502,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.paulmeakin.co.uk", "http://www.paulmeakin.co.uk" %>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.paulmeakin.co.uk", "http://www.paulmeakin.co.uk" %></td>
         </tr>
 
          <tr>
@@ -534,7 +512,7 @@
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true"></span><%= link_to "www.pollardmachin.co.uk", "http://www.pollardmachin.co.uk" %>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.pollardmachin.co.uk", "http://www.pollardmachin.co.uk" %>
         </tr>
 
         <tr>
@@ -549,7 +527,7 @@
 
         <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>344 Limpsfield Road, Hamsey Green, CR2 9BX</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>344 Limpsfield Road, Hamsey Green, CR2 9BX</p></td>
         </tr>
 
         <tr class="adstable">
@@ -564,7 +542,7 @@
 
         <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>175 Selsdon Park Road, South Croydon, CR2 8JJ</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>175 Selsdon Park Road, South Croydon, CR2 8JJ</p></td>
         </tr>
 
         <tr class="adstable">
@@ -587,7 +565,7 @@
             <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "howard.duffy.uk@gmail.com" %></p></td>
         </tr>
 
-        <tr>
+        <tr  class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.howardduffy-gardensolutions.co.uk", "http://www.howardduffy-gardensolutions.co.uk" %>
         </tr>
@@ -652,7 +630,7 @@
 
         <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>2a Ridge Langley, Sanderstead, CR2 0AR</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>2a Ridge Langley, Sanderstead, CR2 0AR</p></td>
         </tr>
 
         <tr class="adstable">
@@ -694,7 +672,7 @@
 
         <tr>
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>Croham Road, South Croydon, CR2 7HJ</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>Croham Road, South Croydon, CR2 7HJ</p></td>
         </tr>
 
         <tr>
