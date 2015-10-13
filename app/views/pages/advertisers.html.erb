@@ -70,17 +70,45 @@
             <br/>
 
 
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Schools
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Schools", anchor: "school" %></li>
+                </ul>
+            </div>
+            <br/>
 
 
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Services
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Care", anchor: "care" %></li>
+                    <li><%= link_to "Cleaners", anchor: "cleaners" %></li>
+                    <li><%= link_to "Computers", anchor: "computers" %></li>
+                    <li><%= link_to "Dry Cleaners", anchor: "dryclean" %></li>
+                    <li><%= link_to "Funeral Directors", anchor: "funeral" %></li>
+                    <li><%= link_to "Gardening", anchor: "garden" %></li>
+                    <li><%= link_to "Removals", anchor: "move" %></li>
+                    <li><%= link_to "Solicitors", anchor: "law" %></li>
+                    <li><%= link_to "Video and DVD", anchor: "video" %></li>
+                </ul>
+            </div>
+            <br/>
 
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Sports
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Golf Clubs", anchor: "golf" %></li>
+                </ul>
+            </div>
+            <br/>
 
-
-    	 
-           
-    	 	
-    	 	<h4><%= link_to "Schools", anchor: "school" %></h4>
-    	 	<h4><%= link_to "Services", anchor: "service" %></h4>
-    	 	<h4><%= link_to "Sports clubs", anchor: "sport" %></h4>
             <hr/>
             <p>All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
 
@@ -481,7 +509,7 @@
         </tr>
 
         <tr>
-            <td> <h3>Care</h3></td>
+            <td><h3><a name="care"></a>Care</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -506,7 +534,7 @@
         </tr>
     
         <tr>
-        <td><h3>Cleaners</h3></td>
+        <td><h3><a name="cleaners"></a>Cleaners</h3></td>
         <td>&nbsp;</td>
 
         <tr>
@@ -525,7 +553,7 @@
         </tr>
 
         <tr>
-            <td><h3>Computers</h3></td>
+            <td><h3><a name="computers"></a>Computers</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -571,7 +599,7 @@
         </tr>
 
         <tr>
-            <td><h3>Dry Cleaners</h3></td>
+            <td><h3><a name="dryclean"></a>Dry Cleaners</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -585,7 +613,7 @@
         </tr>
        
         <tr>
-            <td><h3>Estate Agents</h3></td>
+            <td><h3><a name="estate"></a>Estate Agents</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -610,7 +638,7 @@
         </tr>
 
         <tr>
-            <td><h3>Funeral Directors</h3></td>
+            <td><h3><a name="funeral"></a>Funeral Directors</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -650,7 +678,7 @@
         </tr>
 
         <tr>
-            <td><h3>Gardening and Patios</h3></td>
+            <td><h3><a name="garden"></a>Gardening and Patios</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -682,7 +710,7 @@
 
 
         <tr>
-            <td><h3>Removals and Storage</h3></td>
+            <td><h3><a name="move"></a>Removals and Storage</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -702,7 +730,7 @@
         </tr>
 
         <tr>
-            <td><h3>Retirement Homes</h3></td>
+            <td><h3><a name="retire"><a/>Retirement Homes</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -718,7 +746,7 @@
 
 
         <tr>
-            <td><h3>Solicitors</h3></td>
+            <td><h3><a name="law"></a>Solicitors</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -739,7 +767,7 @@
 
 
         <tr>
-            <td><h3>Video and DVD Services</h3></td>
+            <td><h3><a name="video"></a>Video and DVD Services</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -760,7 +788,7 @@
         </tr>
 
         <tr>
-            <td><h3>Golf Clubs</h3></td>
+            <td><h3><a name="golf"></a>Golf Clubs</h3></td>
             <td>&nbsp;</td>
         </tr>
 
