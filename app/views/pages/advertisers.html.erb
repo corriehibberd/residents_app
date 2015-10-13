@@ -11,10 +11,73 @@
     	
     	 <div class="col-md-3 col-xs-12 grey-column">
             <a name="top"></a>
-    	 	<h4><%= link_to "Home Furnishings", anchor: "furnish" %></h4>
-    	 	<h4><%= link_to "Builders", anchor: "build" %></h4>
-    	 	<h4><%= link_to "Health", anchor: "health" %></h4>
-    	 	<h4><%= link_to "Retailers", anchor: "retail" %></h4>
+            <h4></h4>
+
+
+
+             <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Building Services
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Builders", anchor: "builders" %></li>
+                    <li><%= link_to "Decorators", anchor: "decoraters" %></li>
+                    <li><%= link_to "Electricians", anchor: "electricians" %></li>
+                    <li><%= link_to "Handyman", anchor: "handyman" %></li>
+                    <li><%= link_to "Kitchens", anchor: "kitchens" %></li>
+                    <li><%= link_to "New Homes", anchor: "new" %></li>
+                    <li><%= link_to "Plumbers", anchor: "plumb" %></li>
+                    <li><%= link_to "Roofing", anchor: "roof" %></li>
+                    <li><%= link_to "Floor Cleaning", anchor: "clean" %></li>
+                </ul>
+            </div>
+            <br/>
+
+             <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Home Furnishings
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Blinds", anchor: "curtains" %></li>
+                    <li><%= link_to "Carpets", anchor: "carpets" %></li>
+                </ul>
+            </div>
+            <br/>
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Health
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Health and Beauty", anchor: "health" %></li>
+                </ul>
+            </div>
+            <br/>
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Retailers
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Butchers", anchor: "butcher" %></li>
+                    <li><%= link_to "Chemists", anchor: "chemist" %></li>
+                    <li><%= link_to "DIY", anchor: "diy" %></li>
+                    <li><%= link_to "Jewellers", anchor: "jewel" %></li>
+                    <li><%= link_to "Off Licence", anchor: "wine" %></li>
+                    <li><%= link_to "Pets", anchor: "pets" %></li>
+                </ul>
+            </div>
+            <br/>
+
+
+
+
+
+
+
+    	 
+           
+    	 	
     	 	<h4><%= link_to "Schools", anchor: "school" %></h4>
     	 	<h4><%= link_to "Services", anchor: "service" %></h4>
     	 	<h4><%= link_to "Sports clubs", anchor: "sport" %></h4>
@@ -25,52 +88,14 @@
     	 <div class="col-md-9 col-xs-12 white-column">
         <table>
           <tbody>
-          <tr>
-    	 	     <td><h2><a name="furnish"></a>Home Furnishings</h2></td>
-             <td>&nbsp;</td>
-           </tr>
-           <tr>
-    	 	     <td><h3>Blinds, shutters and curtains</h3></td>
-             <td>&nbsp;</td>
-    	 	   </tr>
-           <tr>
-             <td><h4 class="advertisers">desres blinds</h4></td>
-    	 	     <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 3569 &nbsp; <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07961 827 917</p></td>
-           </tr>
-           <tr>
-                <td>&nbsp;</td>
-    	 	     <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "info@desresblinds.co.uk" %></p></td>
-    	 	     
-          </tr>
-          <tr class="adstable">
-                 <td>&nbsp;</td>
-                 <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.desresblinds.co.uk", "http://www.desresblinds.co.uk" %></p></td>
-          </tr>
-          <tr>
-
-            <td><h3>Carpets and Flooring</h3></td>
-            <td>&nbsp;</td>
-          </tr>
-          <tr>
-            <td><h4 class="advertisers">CK Carpets</h4></td>
-            <td><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 6833</td>
-          </tr>
-          <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>3 Limpsfield Road, Sanderstead, cR2 9LA</p></td>
-          </tr>
-          <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span> <%= link_to "www.ckcarpets.co.uk", "http://www.ckcarpets.co.uk" %></td>
-
-          </tr>
+         
 
         <tr>
             <td><h2><a name="build"></a>Building Services</h2></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td><h3>Builders</h3></td>
+            <td><h3><a name="builders"></a>Builders</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -104,7 +129,7 @@
 
 
         <tr>
-            <td><h3>Decorating</h3></td>
+            <td><h3><a name="decorators"></a>Decorating</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -114,7 +139,7 @@
         </tr>
 
         <tr>
-            <td><h3>Electricians</h3></td>
+            <td><h3><a name="electricians"></a>Electricians</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -133,7 +158,7 @@
         </tr>
 
         <tr>
-            <td><h3>Handyman</h3></td>
+            <td><h3><a name="handyman"></a>Handyman</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -148,7 +173,7 @@
 
        
         <tr>
-            <td><h3>Kitchens</h43></td>
+            <td><h3><a name="kitchens"></a>Kitchens</h43></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -161,7 +186,7 @@
         </tr>
 
         <tr>
-            <td><h3>New Homes</h3></td>
+            <td><h3><a name="new"></a>New Homes</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -174,7 +199,7 @@
         </tr>
 
         <tr>
-            <td><h3>Plumbing and Heating</h3></td>
+            <td><h3><a name="plumb"></a>Plumbing and Heating</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr class="adstable">
@@ -183,7 +208,7 @@
           
         </tr>
         <tr>
-            <td><h3>Roofing</h3></td>
+            <td><h3><a name="roof"></a>Roofing</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -208,7 +233,7 @@
         </tr>
 
         <tr>
-            <td><h3>Stone Floor Cleaning</h3></td>
+            <td><h3><a name="clean"></a>Stone Floor Cleaning</h3></td>
             <td><td>&nbsp;</td>
         </tr>
         <tr>  
@@ -227,7 +252,7 @@
         </tr>
 
         <tr>
-            <td><h3>Health and Beauty</h3></td>
+            <td><h3><a name="health"></a>Health and Beauty</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -241,13 +266,53 @@
         </tr>
 
 
+         <tr>
+                 <td><h2><a name="furnish"></a>Home Furnishings</h2></td>
+             <td>&nbsp;</td>
+           </tr>
+           <tr>
+                 <td><h3><a name="curtains"></a>Blinds, shutters and curtains</h3></td>
+             <td>&nbsp;</td>
+               </tr>
+           <tr>
+             <td><h4 class="advertisers">desres blinds</h4></td>
+                 <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 3569 &nbsp; <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07961 827 917</p></td>
+           </tr>
+           <tr>
+                <td>&nbsp;</td>
+                 <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "info@desresblinds.co.uk" %></p></td>
+                 
+          </tr>
+          <tr class="adstable">
+                 <td>&nbsp;</td>
+                 <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.desresblinds.co.uk", "http://www.desresblinds.co.uk" %></p></td>
+          </tr>
+          <tr>
+
+            <td><h3><a name="carpets"></a>Carpets and Flooring</h3></td>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td><h4 class="advertisers">CK Carpets</h4></td>
+            <td><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 6833</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>3 Limpsfield Road, Sanderstead, cR2 9LA</p></td>
+          </tr>
+          <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span> <%= link_to "www.ckcarpets.co.uk", "http://www.ckcarpets.co.uk" %></td>
+
+          </tr>
+
        <tr>
         <td><h2><a name="retail"></a>Retailers</h2></td>
         <td>&nbsp;</td>
        </tr>
 
        <tr>
-        <td><h3>Butchers</h3></td>
+        <td><h3><a name="butcher"></a>Butchers</h3></td>
         <td>&nbsp;</td>
        </tr>
 
@@ -267,7 +332,7 @@
         </tr>
 
         <tr>
-        <td><h3>Chemists</h3></td>
+        <td><h3><a name="chemist"></a>Chemists</h3></td>
         <td>&nbsp;</td>
        </tr>
 
@@ -293,7 +358,7 @@
         </tr>
 
         <tr>
-            <td><h3>DIY Supplies</h3></td>
+            <td><h3><a name="diy"></a>DIY Supplies</h3></td>
             <td>&nbsp;</td>
         <tr>
             <td><h4>Keitom</h4></td>
@@ -316,7 +381,7 @@
         </tr>
     
         <tr>
-            <td><h3>Jewellery</h3></td>
+            <td><h3><a name="jewel"></a>Jewellery</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -331,7 +396,7 @@
         </tr>
 
         <tr>
-          <td><h3>Off Licence</h3></td>
+          <td><h3><a name="wine"></a>Off Licence</h3></td>
           <td>&nbsp;</td>
      
         <tr>
@@ -349,7 +414,7 @@
 
 
         <tr>
-            <td><h3>Pets and Pet Food</h3></td>
+            <td><h3><a name="pets"></a>Pets and Pet Food</h3></td>
             <td>&nbsp;</td>
         </tr>
 
