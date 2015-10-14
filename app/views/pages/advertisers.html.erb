@@ -10,7 +10,7 @@
 	<div class="row main-content">
     	
     	 <div class="col-md-3 col-xs-12 grey-column">
-            <a name="top"></a>
+            <a class="anchor" id="top" name="thetop"></a>
             <h4></h4>
 
 
@@ -21,7 +21,7 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><%= link_to "Builders", anchor: "builders" %></li>
-                    <li><%= link_to "Decorators", anchor: "decoraters" %></li>
+                    <li><%= link_to "Decorators", anchor: "decorators" %></li>
                     <li><%= link_to "Electricians", anchor: "electricians" %></li>
                     <li><%= link_to "Handyman", anchor: "handyman" %></li>
                     <li><%= link_to "Kitchens", anchor: "kitchens" %></li>
@@ -33,7 +33,18 @@
             </div>
             <br/>
 
-             <div class="dropdown">
+             
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Health
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Health and Beauty", anchor: "health" %></li>
+                </ul>
+            </div>
+            <br/>
+
+            <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Home Furnishings
                     <span class="caret"></span>
                 </button>
@@ -44,15 +55,6 @@
             </div>
             <br/>
 
-            <div class="dropdown">
-                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Health
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><%= link_to "Health and Beauty", anchor: "health" %></li>
-                </ul>
-            </div>
-            <br/>
 
             <div class="dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Retailers
@@ -119,7 +121,7 @@
          
 
         <tr>
-            <td><h2><a name="build"></a>Building Services</h2></td>
+            <td><h2><a class="anchor" id="top" name="build"></a>Building Services</h2></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -157,7 +159,7 @@
 
 
         <tr>
-            <td><h3><a name="decorators"></a>Decorating</h3></td>
+            <td><a class="anchor" id="top" name="decorators"></a><h3>Decorating</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -167,7 +169,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="electricians"></a>Electricians</h3></td>
+            <td><h3><a class="anchor" id="top" name="electricians"></a>Electricians</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -186,7 +188,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="handyman"></a>Handyman</h3></td>
+            <td><a class="anchor" id="top" name="handyman"></a><h3>Handyman</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -201,7 +203,7 @@
 
        
         <tr>
-            <td><h3><a name="kitchens"></a>Kitchens</h43></td>
+            <td><h3><a class="anchor" id="top" name="kitchens"></a>Kitchens</h43></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -214,7 +216,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="new"></a>New Homes</h3></td>
+            <td><h3><a class="anchor" id="top" name="new"></a>New Homes</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -227,7 +229,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="plumb"></a>Plumbing and Heating</h3></td>
+            <td><h3><a class="anchor" id="top" name="plumb"></a>Plumbing and Heating</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr class="adstable">
@@ -236,7 +238,7 @@
           
         </tr>
         <tr>
-            <td><h3><a name="roof"></a>Roofing</h3></td>
+            <td><h3><a class="anchor" id="top" name="roof"></a>Roofing</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -261,7 +263,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="clean"></a>Stone Floor Cleaning</h3></td>
+            <td><h3><a class="anchor" id="top" name="clean"></a>Stone Floor Cleaning</h3></td>
             <td><td>&nbsp;</td>
         </tr>
         <tr>  
@@ -275,7 +277,7 @@
         </tr>
 
         <tr>
-            <td><h2><a name="health"></a>Health</h2><td>
+            <td><h2><a class="anchor" id="top" name="health"></a>Health</h2><td>
             <td>&nbsp;</td>
         </tr>
 
@@ -295,11 +297,11 @@
 
 
          <tr>
-                 <td><h2><a name="furnish"></a>Home Furnishings</h2></td>
+                 <td><h2>Home Furnishings</h2></td>
              <td>&nbsp;</td>
            </tr>
            <tr>
-                 <td><h3><a name="curtains"></a>Blinds, shutters and curtains</h3></td>
+                 <td><h3><a class="anchor" id="top" name="curtains"></a>Blinds, shutters and curtains</h3></td>
              <td>&nbsp;</td>
                </tr>
            <tr>
@@ -317,7 +319,7 @@
           </tr>
           <tr>
 
-            <td><h3><a name="carpets"></a>Carpets and Flooring</h3></td>
+            <td><h3><a class="anchor" id="top" name="carpets"></a>Carpets and Flooring</h3></td>
             <td>&nbsp;</td>
           </tr>
           <tr>
@@ -335,12 +337,12 @@
           </tr>
 
        <tr>
-        <td><h2><a name="retail"></a>Retailers</h2></td>
+        <td><h2>Retailers</h2></td>
         <td>&nbsp;</td>
        </tr>
 
        <tr>
-        <td><h3><a name="butcher"></a>Butchers</h3></td>
+        <td><h3><a class="anchor" id="top" name="butcher"></a>Butchers</h3></td>
         <td>&nbsp;</td>
        </tr>
 
@@ -360,7 +362,7 @@
         </tr>
 
         <tr>
-        <td><h3><a name="chemist"></a>Chemists</h3></td>
+        <td><h3><a class="anchor" id="top" name="chemist"></a>Chemists</h3></td>
         <td>&nbsp;</td>
        </tr>
 
@@ -386,7 +388,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="diy"></a>DIY Supplies</h3></td>
+            <td><h3><a class="anchor" id="top" name="diy"></a>DIY Supplies</h3></td>
             <td>&nbsp;</td>
         <tr>
             <td><h4>Keitom</h4></td>
@@ -409,7 +411,7 @@
         </tr>
     
         <tr>
-            <td><h3><a name="jewel"></a>Jewellery</h3></td>
+            <td><h3><a class="anchor" id="top" name="jewel"></a>Jewellery</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -424,7 +426,7 @@
         </tr>
 
         <tr>
-          <td><h3><a name="wine"></a>Off Licence</h3></td>
+          <td><h3><a class="anchor" id="top" name="wine"></a>Off Licence</h3></td>
           <td>&nbsp;</td>
      
         <tr>
@@ -442,7 +444,7 @@
 
 
         <tr>
-            <td><h3><a name="pets"></a>Pets and Pet Food</h3></td>
+            <td><h3><a class="anchor" id="top" name="pets"></a>Pets and Pet Food</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -458,7 +460,7 @@
 
 
   <tr>
-            <td><h2><a name="school"></a>Schools</h2></td>
+            <td><h2><a class="anchor" id="top" name="school"></a>Schools</h2></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -504,12 +506,12 @@
         </tr>
 
         <tr>
-            <td><h2><a name="service"></a>Services</h2></td>
+            <td><h2>Services</h2></td>
             <td>&nbsp;</td>
         </tr>
 
         <tr>
-            <td><h3><a name="care"></a>Care</h3></td>
+            <td><h3><a class="anchor" id="top" name="care"></a>Care</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -534,7 +536,7 @@
         </tr>
     
         <tr>
-        <td><h3><a name="cleaners"></a>Cleaners</h3></td>
+        <td><h3><a class="anchor" id="top" name="cleaners"></a>Cleaners</h3></td>
         <td>&nbsp;</td>
 
         <tr>
@@ -553,7 +555,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="computers"></a>Computers</h3></td>
+            <td><h3><a class="anchor" id="top" name="computers"></a>Computers</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -599,7 +601,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="dryclean"></a>Dry Cleaners</h3></td>
+            <td><h3><a class="anchor" id="top" name="dryclean"></a>Dry Cleaners</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
@@ -613,7 +615,7 @@
         </tr>
        
         <tr>
-            <td><h3><a name="estate"></a>Estate Agents</h3></td>
+            <td><h3><a class="anchor" id="top" name="estate"></a>Estate Agents</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -638,7 +640,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="funeral"></a>Funeral Directors</h3></td>
+            <td><h3><a class="anchor" id="top" name="funeral"></a>Funeral Directors</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -678,7 +680,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="garden"></a>Gardening and Patios</h3></td>
+            <td><h3><a class="anchor" id="top" name="garden"></a>Gardening and Patios</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -710,7 +712,7 @@
 
 
         <tr>
-            <td><h3><a name="move"></a>Removals and Storage</h3></td>
+            <td><h3><a class="anchor" id="top" name="move"></a>Removals and Storage</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -730,7 +732,7 @@
         </tr>
 
         <tr>
-            <td><h3><a name="retire"><a/>Retirement Homes</h3></td>
+            <td><h3><a class="anchor" id="top" name="retire"><a/>Retirement Homes</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -746,7 +748,7 @@
 
 
         <tr>
-            <td><h3><a name="law"></a>Solicitors</h3></td>
+            <td><h3><a class="anchor" id="top" name="law"></a>Solicitors</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -767,7 +769,7 @@
 
 
         <tr>
-            <td><h3><a name="video"></a>Video and DVD Services</h3></td>
+            <td><h3><a class="anchor" id="top" name="video"></a>Video and DVD Services</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -783,12 +785,12 @@
 
 
         <tr>
-            <td><h2><a name="sport"></a>Sports Clubs</h2></td>
+            <td><h2>Sports Clubs</h2></td>
             <td>&nbsp;</td>
         </tr>
 
         <tr>
-            <td><h3><a name="golf"></a>Golf Clubs</h3></td>
+            <td><h3><a class="anchor" id="top" name="golf"></a>Golf Clubs</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -808,7 +810,7 @@
         </tr>     
       </tbody>
       </table>
-      <p><%= link_to "Back to top", anchor: "top" %></p>
+      <p><%= link_to "Back to top", anchor: "thetop" %></p>
       <p style= "text-align: right;">
                 <%= link_to "http://www.glyphicons.com" do %>
                 <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>

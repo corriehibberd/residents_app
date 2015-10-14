@@ -216,6 +216,13 @@ body {
   border-bottom: solid 1px #ecede8;
 }
 
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 /* footer*/
 
 footer {
