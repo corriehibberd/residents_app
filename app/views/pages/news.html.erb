@@ -10,6 +10,7 @@
   <div class="row main-content">
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
+      <h4><%= link_to "Latest advice on scams from the police", anchor: "scams" %></h4>
       <h4><%= link_to "Proposed Development to the rear of Norman Avenue", anchor: "norman" %></h4>
       <h4><%= link_to "Residents' Associations write to the Health Secretary", anchor: "health" %></h4>
       <h4><%= link_to "Proposed new bus route", anchor: "busstops" %></h4>
@@ -26,6 +27,9 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="scams" ></a>Read the latest Edition of "The little Book of Big Scams" </h3>
+      <p>Produced by the Metropolitan Police, this book is vital reading for today's world. <%= link_to "Metropolitan Police Little Book of Big Scams", "http://www.met.police.uk/docs/little_book_scam.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="norman"></a>Norman Avenue Development</h3>
         <p>The Residents Associaton is concerned about a proposed new development of up to 37 homes in the land to the rear of Norman Avenue, and next to the Brighton line running from Purley Oaks Station. Our chairman has delivered a letter to those most likely to be affected by the development, detailing the grounds on which to object to this proposal. <%= link_to("Read and download his letter here", "/resource/norman_avenue.pdf") %></p> .
