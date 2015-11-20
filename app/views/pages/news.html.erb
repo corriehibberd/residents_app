@@ -10,14 +10,13 @@
   <div class="row main-content">
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
+      <h4><%= link_to "A message from the Metropolitan Police", anchor: "chishty" %></h4>
       <h4><%= link_to "A threat to urgent care services in the Borough of Croydon", anchor: "care" %></h4>
       <h4><%= link_to "Latest advice on scams from the police", anchor: "scams" %></h4>
       <h4><%= link_to "Proposed Development to the rear of Norman Avenue", anchor: "norman" %></h4>
       <h4><%= link_to "Residents' Associations write to the Health Secretary", anchor: "health" %></h4>
-      <h4><%= link_to "Proposed new bus route", anchor: "busstops" %></h4>
       <h4><%= link_to "Proposal for a 16 storey skyscraper for Purley", anchor: "purley" %></h4>
       <h4><%= link_to "Advice for residents about anti social behaviour", anchor: "asb" %></h4>
-      <h4><%= link_to "Thanks from Hamsey Green Scouts", anchor: "scouts" %></h4>
       <h4><%= link_to "Sanderstead Residents' Association AGM 2015", anchor: "agm" %></h4>
       <h4><%= link_to "Rail Closure over Christmas 2015", anchor: "trains" %></h4>
       <h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4>
@@ -27,6 +26,9 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name= "chishty"></a>A message from the Metropolitan Police in the wake of the terror attacks in Paris</h3>
+      <p>Commander Mak Chishty, a community engagement officer with the Metropolitan Police has written to all communities in London following the terror attacks in Paris. <%= link_to("His letter is available here", "/resource/Commander_Mak_Chishty.pdf") %>.</p>
 
       <h3><a class="anchor" id="top" name="care" ></a>A threat to urgent care services and Purley Hospital</h3>
       <p>Residents' Associations in the South of the Borough have produced a paper detailing their concern about the threat to urgent care services in Croydon and in particular regarding Purley Hospital. <%= link_to("The full paper is available to download here", "/resource/CCCG_briefing221015.pdf") %></p>
@@ -40,19 +42,9 @@
       <h3><a class="anchor" id="top" name="health"></a>Urgent care provision at Purley Hospital</h3>
       <p>Croydon Borough Residents Associations have written a joint letter to Jeremy Hunt, the Health Secretary, asking him to intervene to reinstate urgent care services at Purley hospital. <%= link_to("Read the full letter here.", "/resource/purley_hospital_letter.pdf") %></p>
 
-      <h3><a class="anchor" id="top" name="busstops"></a>Proposed new bus route</h3>
-      <p>Tfl have decided to extend bus route 359 from Selsdon Sainsbury’s to Purley Cross and extend operational hours on all days of the week from 0700 to 1945. Additionally the frequency will increase to a bus every 30 minutes. Four new stops will be sited in Purley Downs Road: <ul><li>Close to the junction with Sanderstead Hill</li><li>Near Merrion Hill</li><li>Near Tindale Close</li><li>Between Purley Bury Avenue and Penwortham Road</li></ul> <%= link_to "Full details available on the TFL website", "http://www.tfl.gov.uk/new-addington-buses" %>.</p>
-
-
       <h3><a class="anchor" id="top" name="asb"></a>Advice for Residents about Anti Social Behaviour</h3>
       <p>The Metropolitan Police have issued a paper giving useful advice for residents about many types of Anti Social Behaviour and what we can do about it. <%= link_to "Read and download the paper here", "resource/asb_faq.pdf" %>.</p>
 
-      <h3><a class="anchor" id="top" name="scouts"></a>Thanks from Hamsey Green Scouts</h3>
-      <p>Thank you</p>
-      <p>2nd Hamsey Green Scout Group would like to thank the Sanderstead Residents Association for agreeing to donate the generous sum of £1500.00 to help us in our quest to upgrade our hut. For too long now our doors to the hut have looked worn, and in need of replacing. The roof on our toilet block is leaking and doing damage within the walls.With this donation we have been able to begin preparations for this much needed work, thus ensuring that future generations of Scouts will enjoy the hut.</p>
-      <p>I thank Dennis for getting in touch with me, and helping to fulfil the work needed. We will in the future send pictures of the finished works.</p>
-      <p>Thank you,</p>
-      <p>All leaders and helpers and scouts of Hamsey Green</p>
 
       <h3><a class="anchor" id="top" name="agm"></a>Prizes awarded at the AGM on 14th May 2015</h3>
       <p>The Sanderstead Residents' Association was pleased to hand out a number of grants and prizes to local organisations, at the AGM, that was held in All Saints' Hall on Thursday 14th May 2015. View pictures of all those receiving prizes from Councillor and Past Mayor, Yvette Hopley, on <%= link_to "this news page", news3_path %>.
