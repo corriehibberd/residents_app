@@ -10,6 +10,7 @@
   <div class="row main-content">
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
+      <h4><%= link_to "Croydon Plan", anchor: "plan" %></h4>
       <h4><%= link_to "Planning application for Ken's Autos site, Hamsey Green", anchor: "kens" %></h4>
       <h4><%= link_to "A message from the Metropolitan Police", anchor: "chishty" %></h4>
       <h4><%= link_to "A threat to urgent care services in the Borough of Croydon", anchor: "care" %></h4>
@@ -27,6 +28,10 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="Plan"></a>Croydon Council's "Croydon Plan", consultation meetings</h3>
+      <p>Croydon Council has produced a multi page plan which is available online, <%= link_to "on this link", "https://www.croydon.gov.uk/sites/default/files/articles/downloads/Croydon%20Local%20Plan%20-%20Detailed%20Policies%20and%20Proposals%20%28Preferred%20and%20Alternative%20Options%29.pdf" %> detailing their proposals for the future management of Croydon and it's environment. <%= link_to "Consultation meetings are ongoing", "/resource/croydon_plan_meetings.pdf" %>. The nearest to Sanderstead will be on Tuesday 8th December at 3.30 and 8 pm at Purley Baptist Church.</p>
+
 
       <h3><a class="anchor" id="top" name="kens"></a>Planning application for Ken's Autos site, Hamsey Green</h3>
       <p>Comments re the planning application for the Ken's Autos site in Hamsey Green need to be submitted to Croydon Council's planning department by Thursday 3rd december 2015. Details of the planning application can be found <%= link_to "here", "http://publicaccess.croydon.gov.uk/online-applications" %>, application number 15/04958/P. A letter from local Councillors re the application is also available <%= link_to "here", "/resource/kens_autos.pdf" %>.</p>
