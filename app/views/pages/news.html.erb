@@ -11,11 +11,13 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Refurbishment of Riddlesdown Post Office", anchor: "post" %></h4></li>
+        <li><h4><%= link_to "Retirement accomodation in Sanderstead", anchor: "mccarthy" %></h4>
+        </li>
         <li><h4><%= link_to "Planning Application for 11 West Hill", "http://publicaccess.croydon.gov.uk/online-applications/" %> Planning no. 15/05061/P</h4></li>
         <li><h4><%= link_to "Hall for Hire", anchor: "hall" %></h4></li>
         <li><h4><%= link_to "Croydon Plan", anchor: "plan" %></h4></li>
         <li><h4><%= link_to "Planning application for Ken's Autos site, Hamsey Green", anchor: "kens" %></h4></li>
-        <li><h4><%= link_to "A message from the Metropolitan Police", anchor: "chishty" %></h4></li>
         <li><h4><%= link_to "A threat to urgent care services in the Borough of Croydon", anchor: "care" %></h4></li>
         <li><h4><%= link_to "Latest advice on scams from the police", anchor: "scams" %></h4></li>
         <li><h4><%= link_to "Proposed Development to the rear of Norman Avenue", anchor: "norman" %></h4></li>
@@ -23,7 +25,6 @@
         <li><h4><%= link_to "Proposal for a 16 storey skyscraper for Purley", anchor: "purley" %></a></h4></li>
         <li><h4><%= link_to "Advice for residents about anti social behaviour", anchor: "asb" %></a></h4></li>
         <li><h4><%= link_to "Sanderstead Residents' Association AGM 2015", anchor: "agm" %></h4></li>
-        <li><h4><%= link_to "Rail Closure over Christmas 2015", anchor: "trains" %></h4></li>
         <li><h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4></li>
         <li><h4><%= link_to "Local Councillors' blog", "http://www.croydonconservatives.com/teams_blog.asp?BlogID=1297&WardID=30" %></h4></li>
         <li><h4><%= link_to "Croydon Neighbourhood Watch News", "http://www.cbnwa.com" %></h4></li>
@@ -32,6 +33,19 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+      <h3><a class="anchor" id="top" name="post"></a>Riddlesdown Post Office will be closed from 28 January to 4 February for refurbishment</h3>
+      <p>Veejay the Postmaster informs us that due to the building work to the Post Office and shop, the Post Office will close at end of business on 27 January and will re-open again on 5 February 2016. The shop will remain open as far as possible for newspapers, magazines etc, and will have limited availability of other stock/food/drinks etc. The shop maybe closed for 1 day when the flooring is being renewed.</p>
+ 
+      <p>As an alternative, the nearest other Post Offices are at 41 Limpsfield Rd, Sanderstead; 6 The Broadway, Addington Rd, Selsdon; 940 Brighton Rd, Purley; or 41 Elmfield Way S. Croydon.</p>
+      <p>With thanks to <%= link_to "Riddlesdown Residents Association", "http://riddlesdownresidents.org.uk" %> for this information <%= link_to "Read more here", "https://www.postofficeviews.co.uk/images/pdf/riddlesdown_cr81hr_decision_letter.pdf" %>.</p>
+
+
+
+      <h3><a class="anchor" id="top" name="mccarthy"></a>Revised proposals for retirement accommodation in Sanderstead</h3>
+      <p>Plans for 30 Retirement Living apartments in Sanderstead have been amended by McCarthy and Stone, the UK’s leading retirement builder, resulting in a more traditional design appearance and increased green spaces and landscaping. <%= link_to "Read more here", "/resource/McCarthy_Stone.pdf" %>.</p>
+
+
+
       <h3><a class="anchor" id="top" name="hall"></a>Trinity Mid-Whitgiftian Hall now available for hire</h3>
       <p>Now available for hire: The Clubhouse at Trinity Sanderstead Sports and Social Club is set in tranquil surroundings, overlooking playing fields at the end of Lime Meadow Avenue. With a large free car park and its proximity to bus routes, it is the perfect venue for classes and clubs, rehearsals, parties, wakes, sporting events and business meetings. If you are interested in hiring The Clubhouse for a function or a regular booking please call 07582 910094 or email <%= mail_to "admin@tsssc.co.uk" %></p>
 
@@ -42,8 +56,6 @@
       <h3><a class="anchor" id="top" name="kens"></a>Planning application for Ken's Autos site, Hamsey Green</h3>
       <p>Comments re the planning application for the Ken's Autos site in Hamsey Green need to be submitted to Croydon Council's planning department by Thursday 3rd december 2015. Details of the planning application can be found <%= link_to "here", "http://publicaccess.croydon.gov.uk/online-applications" %>, application number 15/04958/P. A letter from local Councillors re the application is also available <%= link_to "here", "/resource/kens_autos.pdf" %>.</p>
 
-      <h3><a class="anchor" id="top" name= "chishty"></a>A message from the Metropolitan Police in the wake of the terror attacks in Paris</h3>
-      <p>Commander Mak Chishty, a community engagement officer with the Metropolitan Police has written to all communities in London following the terror attacks in Paris. <%= link_to("His letter is available here", "/resource/Commander_Mak_Chishty.pdf") %>.</p>
 
       <h3><a class="anchor" id="top" name="care" ></a>A threat to urgent care services and Purley Hospital</h3>
       <p>Residents' Associations in the South of the Borough have produced a paper detailing their concern about the threat to urgent care services in Croydon and in particular regarding Purley Hospital. <%= link_to("The full paper is available to download here", "/resource/CCCG_briefing221015.pdf") %></p>
@@ -68,14 +80,6 @@
       <p>Purley Baptist Church have produced a detailed proposal for construction on the Purley Cross site. See <%= link_to "http://purleycentre.commonplace.is", "http://purleycentre.commonplace.is/" %>.</p>
       <p>Croydon’s Labour Council is seeking to force the construction of a 16 floor skyscraper in the centre of Purley, on the site with the grey hoardings on Purley Cross.</p>
       <p>Parliamentary Candidate for Croydon South, Chris Philp, GLA Member Steve O'Connell and other local campaigners including ward councillors strongly believe that a 16 floor skyscraper is totally out of keeping with a peaceful town like Purley, and there is a danger that other developers will later try to use it as a precedent to build other skyscrapers in Purley. <%= link_to "Read more...", "http://www.croydonconservatives.com/news_search_results_detail.asp?StoryNo=1502" %></p>
-
-      <h3><a class="anchor" id="top" name="trains"></a>Railway works, Christmas 2015</h3>
-      <p>News from the East Surrey Transport Committee</p>
-      <p>Christmas 2015</p>
-      <p>The Southern main line is to be closed between South Croydon and Redhill from 22.30 24th December 2015 to 04.00 4th January 2016. This is to allow the replacement of the points and crossings at the north end of Purley Station.</p>
-      <p>There will be extra trains to East Grinstead with coaches from there to Gatwick Airport.There will also be through trains from Victoria to Gatwick Airport via Horsham. Replacement buses will run between East Croydon and Redhill. There will be a shuttle train service between Coulsdon Town and Tattenham Corner. It is also hoped to run a shuttle service between Coulsdon South and Redhill.</p>
-      <p>The committee was concerned that there was to be major disruption on the main line, again, over Christmas and there was a long discussion about why it had to be done in one go. We asked why the work could not be carried out on the fast and slow lines at different times so that the trains could be kept running. We were told that the scale of the work was similar to the replacement of Stoats Nest Junction at Christmas 2013 and this was the best way to carry it out. The replacement of the junction is to be a like for like replacement so that there will be no changes to the signalling. However the spacing between the crossovers is to be increased to simplify maintenance. If the points on the fast and slow lines were replaced at different times there would be problems because it would not be possible for trains to switch between the fast and slow lines and there would be much more overall disruption.</p>
-      <p>It is intended to replace the railway bridge at Old Lodge Lane at the same time.</p>
 
      
       
