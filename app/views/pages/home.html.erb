@@ -12,6 +12,7 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>Stop Press News</h2>
       <ul>
+        <li><p><%= link_to "A 'Croydon Advertiser' survey - what do you think about living in Croydon?", " https://croydonadvertiser.typeform.com/to/aulNDq" %></p></li>
         <li><p><%= link_to "The Future of Purley Hospital", "/resource/CCCG_130116.pdf" %></p></li>
         <li><p><%= link_to "Refurbishment to Riddlesdown Post Office", news_path(anchor: "post") %></p>
         </li>
@@ -19,12 +20,8 @@
         </li>
         <li><p><%= link_to "Planning Application for 11 West Hill", "http://publicaccess.croydon.gov.uk/online-applications/" %> Planning no. 15/05061/P</p>
         </li>
-        <li><p><%= link_to("Hall for hire", news_path(anchor: "hall")) %></p></li>
         <li><p><%= link_to("Croydon Plan", news_path(anchor: "plan")) %></p></li>
         <li><p><%= link_to("Planning application for Ken's Autos site, Hamsey Green", news_path(anchor: "kens")) %></p></li>
-        <li><p><%= link_to("A threat to urgent care services in the Borough of Croydon", news_path(anchor: "care")) %></p></li>
-        <li><p>Read the latest Edition of "The little Book of Big Scams" produced by the Metropolitan Police. <%= link_to "Metropolitan Police Little Book of Big Scams", "http://www.met.police.uk/docs/little_book_scam.pdf" %><p></li>
-        <li><p><%= link_to("Proposed development to the rear of Norman Avenue", news_path(anchor: "norman")) %></p></li>
     </ul>
       <h2>Membership</h2>
       <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
@@ -56,8 +53,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-      <b>Saturday 23rd January<b>
-      <p><%= link_to("Chris Philp MP", events_path(anchor: "mp")) %></p>
       <b>Saturday 30th January<b>
       <p><%= link_to("Chris Philp MP", events_path(anchor: "mp")) %></p>
       <b>Sunday 7th February</b>
