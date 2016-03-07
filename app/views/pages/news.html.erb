@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Ticket barriers at Sanderstead station", anchor: "station" %></h4></li>
         <li><h4><%= link_to "Purley Scouts clean up their streets", anchor: "scouts" %></h4></li>
         <li><h4><%= link_to "The Future of Purley Hospital", anchor: "hospital" %></h4></li>
         <li><h4><%= link_to "Retirement accomodation in Sanderstead", anchor: "mccarthy" %></h4>
@@ -35,6 +36,9 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="station"></a>New ticket Barriers at Sanderstead Station</h3>
+      <p>Jime Gibbons, on behalf of Sanderstead Residents Association has produced a paper of questions for Southern Region about the installation of new ticket barriers at Sanderstead station, and the consequent reduction in the hours that the station is staffed. <%= link_to "Read the full paper here", "/resource/Qs_for_SR.pdf" %>. </p>
 
       <h3><a class="anchor" id="top" name="scouts"></a>1st Purley Scouts lend a hand</h3>
       <p><%= image_tag "Purley_cubs.jpg", alt: "Purley Cubs" %></p>
