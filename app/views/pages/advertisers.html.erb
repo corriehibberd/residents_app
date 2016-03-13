@@ -115,7 +115,7 @@
             <p>All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
 
     	 </div>
-    	 <div class="col-md-10 col-xs-12 white-column">
+    	 <div class="col-md-7 col-xs-12 white-column">
         <table>
           <tbody>
          
@@ -500,6 +500,11 @@
             <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8260 7543</p></td>
         </tr>
 
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-education" aria-hidden="true">&nbsp;</span><%= link_to "Find out more", "/resource/croydon_high2016.pdf" %></td>
+        </tr>
+
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.croydonhigh.gdst.net", "http://www.croydonhigh.gdst.net" %>
@@ -824,5 +829,10 @@
             </p>
 
     	 </div>
+         <div class="col-md-3 col-xs-12 white-column">
+            <h3>Advertisements</h3>
+            <h4>Croydon High School</h4>
+            <p><%= link_to image_tag("CHS2016200px.jpg", alt: "CHS ad"), "/resource/croydon_high2016.pdf" %></p>
+         </div>
 	</div>
 </div>
