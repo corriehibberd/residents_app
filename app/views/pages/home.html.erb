@@ -15,9 +15,12 @@
         <li><p><%= link_to("Girl Guiding in Sanderstead", news_path(anchor: "guides")) %>
         <li><p><%= link_to("SRA queries Southern Region about new ticket barriers at Sanderstead station", news_path(anchor: "station")) %></p></li>
         <li><p><%= link_to("1st Purley Scouts Clean up the streets", news_path(anchor: "scouts")) %></p></li>
-        <li><p><%= link_to("Don't miss the Sanderstead Festival of Music and Dance on June 18th", events_path(anchor: "festival")) %> . The event will include music and dance, a flower festival, art exhibition, refreshments and much more with a Big Band Concert to finish off the event in the evening. The festival is sponsored by the Residents' Association together with our local Councillors, All Saints' Church and Priscilla's.</p></li>
-          <%= image_tag "Festival_image.jpg" %>
-        <li><p><%= link_to "A 'Croydon Advertiser' survey - what do you think about living in Croydon?", " https://croydonadvertiser.typeform.com/to/aulNDq" %></p></li>
+        <li><p><%= link_to("Don't miss the Sanderstead Festival of Music and Dance on June 18th", events_path(anchor: "festival")) %>. </p></li>
+          <%= image_tag "Festival_image.jpg", class: "small_image" %>
+          <p>The event will include music and dance, a flower festival, art exhibition, refreshments and much more with a Big Band Concert to finish off the event in the evening. The festival is sponsored by the Residents' Association together with our local Councillors, All Saints' Church and Priscilla's. </p>
+        
+          
+        <li><p class="clear"><%= link_to "A 'Croydon Advertiser' survey - what do you think about living in Croydon?", " https://croydonadvertiser.typeform.com/to/aulNDq" %></p></li>
         <li><p><%= link_to "The Future of Purley Hospital", "/resource/CCCG_130116.pdf" %></p></li>
         <li><p><%= link_to "Revised proposals for retirement accommodation in Sanderstead", news_path(anchor: "mccarthy") %></p>
         </li>
@@ -29,7 +32,7 @@
       <h2>Membership</h2>
       <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
       <h2>Sanderstead News</h2>
-      <p> <%= image_tag "small-images/Sand_news_mar16.gif", class: "small_image" %>The Association's newsletter, "Sanderstead News", is posted to all members of the Association and provides reports from our MP, the Ward Councillors and our <%= link_to "Chairman", chairman_path %>. There are articles of local interests and advice on security matters provided by the police and Neighbourhood Watch. The magazine lists local organisations with their contacts and diaries of events. These items are also now available on this website. A youth page provides parents with information on all the Sanderstead youth activities from toddler age, to teenagers; for Scouts, Guides and sport.</p>
+      <p> <%= image_tag "small-images/Sand_news_mar16.gif", class: "small_image" %>The Association's newsletter, "Sanderstead News", is posted to all members of the Association and provides reports from our MP, the Ward Councillors and our <%= link_to "Chairman", chairman_path %>. There are articles of local interests and advice on security matters provided by the police and Neighbourhood Watch. The magazine lists local organisations with their contacts and diaries of events. These items are also now available on this website. A youth page provides parents with information on all the Sanderstead youth activities from toddler age, to teenagers; for Scouts, Guides and sport. </p>
       <h2>AGM</h2>
       <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead.<p>
       <h2>Role of the Association</h2>

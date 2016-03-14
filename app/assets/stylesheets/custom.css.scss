@@ -95,9 +95,15 @@ body {
   background: #ffffff;
 }
 
-// .small_image {
-//    float: right;
-// }
+    .small_image {
+      float: left;
+      padding-right: 10px;
+     }
+
+     .clear {
+    clear: left;
+     }
+
 // /* for grey background*/
 // .grey-back {
 //   background-color: #ecede8;
