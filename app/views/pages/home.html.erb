@@ -12,6 +12,7 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>News</h2>
       <ul>
+        <li><p><%= link_to("A warning about rogue traders in the neighbourhood", news_path(anchor: "builders")) %></p></li>
         <li><p><%= link_to("Girl Guiding in Sanderstead", news_path(anchor: "guides")) %>
         <li><p><%= link_to("SRA queries Southern Region about new ticket barriers at Sanderstead station", news_path(anchor: "station")) %></p></li>
         <li><p><%= link_to("1st Purley Scouts Clean up the streets", news_path(anchor: "scouts")) %></p></li>
@@ -77,6 +78,8 @@
       <p><%= link_to("Residents' Association AGM", events_path(anchor: "agm")) %></p>
       <b>Friday 29th April</b>
       <p><%= link_to("Marion's Guided Walk", events_path(anchor: "mariona2")) %></p>
+      <b>Monday 2nd May</b>
+      <p><%= link_to("Tennis Club Charity Day", events_path(anchor: "tennis")) %></p>
       <b>Thurs 12 - Sat 14 May</b>
       <p><%= link_to("Parlour Players Present", events_path(anchor: "parlour")) %></p>
       <b>Saturday 14th May</b>
