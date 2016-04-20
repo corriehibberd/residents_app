@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Croydon Council consultation on the future of our libraries", anchor: "library" %></h4></li>
         <li><h4><%= link_to "Rogue Traders in the Neighbourhood", anchor: "builders" %></h4></li>
         <li><h4><%= link_to "Girl Guiding in Sanderstead", anchor: "guides" %></h4></li>
         <li><h4><%= link_to "Ticket barriers at Sanderstead station", anchor: "station" %></h4></li>
@@ -37,8 +38,10 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+      <h3><a class="anchor" id="top" name="library"></a>The Future of Croydon Libraries</h3>
+      <p>Croydon Council are asking residents to comment on the future of Croydon libraries via a questionnaire on the Council website via the "get involved" page at <%= link_to "https://getinvolved.croydon.gov.uk/KMS/DMart.aspx", "https://getinvolved.croydon.gov.uk/KMS/DMart.aspx" %>.Click on "Take part..." under the "voice" tab. Alternatively  <%= link_to "a paper questionnaire can be downloaded here", "resource/Library_survey.pdf" %> and returned to Allan Nimmo, Bernard Weatherill House, 8 Mint Walk, Croydon CR0 1EA by 2nd May. Details of a public meeting to be held on Tuesday 26th April can be found at this address <%= link_to "https://croydoncc.wordpress.com/2016/04/06/ccc-public-meeting-on-libraries-tues-26-april-2016/", "https://croydoncc.wordpress.com/2016/04/06/ccc-public-meeting-on-libraries-tues-26-april-2016/" %>.</p>
 
-      <h3><a class="anchor" id="top" name="builders"></a>A warning about rogue traders in the neighbourhood </h4>
+      <h3><a class="anchor" id="top" name="builders"></a>A warning about rogue traders in the neighbourhood </h3>
         <p>We have received the following warning from PCSO Sam Brooks, from the Sanderstead Neighbourhood Policing Team: Trading standards are currently dealing with an increased number of cold calling incidents leading to doorstep crime investigations. Callers are preying on vulnerable residents, who in turn have paid thousands out for home improvement works which are unnecessary or of poor quality. Often the work never takes place at all.</p>
         <p>Please look out for your neighbours and friends. If you receive any leaflets or flyers through your door please make the effort and send the leaflets to Trading standards so that we know who is working where in your borough. Your information could help us to solve a crime and to protect a person at risk of financial abuse.</p>
         <p>Please send any flyers/leaflets to <%= mail_to "trading.standards@croydon.gov.uk" %> or by post to Trading Standards, Zone B 10th Floor Bernard Weatherill House, 8 Mint Walk, Croydon, CR0 1EA. To report a doorstep crime incident call 03454 04 05 06.</p>
