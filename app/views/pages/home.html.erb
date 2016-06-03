@@ -12,6 +12,9 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>News</h2>
       <ul>
+        <li><p><%= link_to("Don't miss the Sanderstead Festival of Music and Dance on June 18th", events_path(anchor: "festival")) %>. </p></li>
+          <%= image_tag "Festival_image.jpg", class: "small_image" %>
+          <p>The event will include music and dance, a flower festival, art exhibition, refreshments and much more with a Big Band Concert to finish off the event in the evening. The festival is sponsored by the Residents' Association together with our local Councillors, All Saints' Church and Priscilla's. </p>
         <li><p><%= link_to("Pictures of the donations and prize winners at the SRA AGM", news3_path) %></p></li>
         <li><p><%= link_to("Croydon Council consultation on the future of our libraries", news_path(anchor: "library")) %><p></li>
         <li><p><%= link_to("Visit the Riddlesdown Residents Website for new information about disposal of waste paint", "http://www.riddlesdownresidents.org.uk/council%20information%20tel%20nos.html#Disposal") %><p></li>
@@ -19,11 +22,7 @@
         <li><p><%= link_to("Girl Guiding in Sanderstead", news_path(anchor: "guides")) %>
         <li><p><%= link_to("SRA queries Southern Region about new ticket barriers at Sanderstead station", news_path(anchor: "station")) %></p></li>
         <li><p><%= link_to("1st Purley Scouts Clean up the streets", news_path(anchor: "scouts")) %></p></li>
-        <li><p><%= link_to("Don't miss the Sanderstead Festival of Music and Dance on June 18th", events_path(anchor: "festival")) %>. </p></li>
-          <%= image_tag "Festival_image.jpg", class: "small_image" %>
-          <p>The event will include music and dance, a flower festival, art exhibition, refreshments and much more with a Big Band Concert to finish off the event in the evening. The festival is sponsored by the Residents' Association together with our local Councillors, All Saints' Church and Priscilla's. </p>
-        
-          
+           
         <li><p class="clear"><%= link_to "A 'Croydon Advertiser' survey - what do you think about living in Croydon?", " https://croydonadvertiser.typeform.com/to/aulNDq" %></p></li>
         <li><p><%= link_to "The Future of Purley Hospital", "/resource/CCCG_130116.pdf" %></p></li>
         <li><p><%= link_to "Revised proposals for retirement accommodation in Sanderstead", news_path(anchor: "mccarthy") %></p>
@@ -60,8 +59,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-        <b>Wednesday 1st June<b>
-          <p><%= link_to("Understanding the European Union", events_path(anchor: "europe")) %></p>
       <b>Saturday 4th June</b>
       <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches")) %></p>
       <b>Thursday 9th June</b>
@@ -72,6 +69,8 @@
       <p><%= link_to("Sanderstead Music and Dance Festival", events_path(anchor: "festival")) %></p>
       <b>Saturday 18th June</b>
       <p><%= link_to("Our Kind of Swing, Big Band Concert", events_path(anchor: "band")) %></p>
+      <b>Saturday 18th and Sunday 19th June</b>
+      <p><%= link_to("Flower Festival in All Saints", events_path(anchor: "flowers")) %></p>
       <b>Sunday 19th June</b>
       <p><%= link_to("A concert of contrasts at SURC", events_path(anchor: "surc")) %></p>
       <b>Friday 24th June</b>
