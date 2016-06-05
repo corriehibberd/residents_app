@@ -13,22 +13,6 @@
 
         <table>
           <tbody>
-        
-          <tr>
-              <td class="events">
-                <h3><a class="anchor" id="top" name="beeches"></a>Purley Beeches work party Saturday, 4th June, 23rd July</h3>
-                <p>Wow! What a success our last work party was, fifteen adults and four children turned out to help. Obviously the lure of a good bonfire promised an easy time, but not so, everybody including the children worked really hard to cut and drag more material to the fire.</p>
-
-                <p>Now it’s back to the regular stuff. It’s time to start clearing the spring growth around our newly planted saplings and to help with this the FOPB has bought a couple of sickles, but only to be used by experienced persons. More path widening and of course, continuing to press on into our new site, which looks bigger each time I visit. Removing dead wood and the thick undergrowth is the order of the day. Fortunately the ground has hardened which will make access to and from the site easier. I think most people now know where the site is, so it would make sense for the early birds to go directly there rather than waiting at the gate.</p>
-
-                <p>The usual request for hand tools and appropriate gloves, shoes and clothing apply. We will keep to the revised time of 10am to 1pm and the next two work party dates follow, June 4th and July 23rd</p>
-                <p>For further information please email or call Stanley Lowy: 020 8657 3684 or <%= mail_to "stanlowy@outlook.com" %>, Elizabeth Bennett: <%= mail_to "bennett_e@sky.com" %>, Mac Court   <%= mail_to "mac@skyy.me.uk" %></p>
-              </td>
-              <td class="events">
-              <%= link_to image_tag("small-images/purley_beeches100.jpg", alt: "Purley Beeches logo"), "/resource/purley_beeches_enrol.pdf" %>
-              </td>
-            </tr>
-
 
           <tr>
             <td class="events">
@@ -53,11 +37,11 @@
           <tr>
             <td class="events">
               <h3><a class="anchor" id="top" name="festival"></a>Sanderstead Festival of Music and Dance, Saturday 18th June 2016</h3>
-              <p>A new venture for Sanderstead Community, a music and dance festival will be held on Saturday 18th June, 2-6 pm. Sponsored by our local Councillors, the Residents' Association, All Saints' Church and Priscilla's, it will be held on the Gruffy, in All Saints' Halls and All Saints' Church. We are already booking some exciting acts, and if you would like to be involved please contact Dennis King tel: 020 8657 2661, <%= mail_to "chairman@sanderstead-residents.co.uk" %> View our flyers here.</p>
-              <p><%= link_to("Sanderstead Festival page 1", "resource/Flyer_Page_1.pdf") %></p>
-              <p><%= link_to("Sanderstead Festival page 2", "resource/Flyer_Page_2.pdf") %></p>
+              <p>A new venture for Sanderstead Community, a music and dance festival will be held on Saturday 18th June, 2-6 pm. Sponsored by our local Councillors, the Residents' Association, All Saints' Church and Priscilla's, it will be held on the Gruffy, in All Saints' Halls and All Saints' Church. Visit the festival website <%= link_to "www.sandersteadfestival.org.uk", "http://www.sandersteadfestival.org.uk" %> View our flyers here: 
+              <%= link_to("Sanderstead Festival page 1", "resource/Flyer_Page_1.pdf") %>, 
+              <%= link_to("Sanderstead Festival page 2", "resource/Flyer_Page_2.pdf") %></p>
             </td>
-            <td class="events"><%= link_to image_tag("Festival_image.jpg", alt: "Festival logo"), "resource/Flyer_Page_1.pdf" %>
+            <td class="events"><%= link_to image_tag("Festival_image.jpg", alt: "Festival logo"), "http://www.sandersteadfestival.org.uk" %>
             </td>
           </tr>
 
@@ -65,7 +49,7 @@
             <td class="events">
               <h3><a class="anchor" id="top" name="band"></a>Our Kind of Swing, featuring the Big Band Sound of The Nigel Garrard Orchestra on Saturday 18th June at 8 pm</h3>
               <p>Enjoy the music of Glenn Miller, Count Basie and Ted Heath. Join us on Saturday 18th June at All Saints’ Church Halls, Onslow Gardens, Sanderstead CR2 9AB.</p>
-              <p>Concert starts at 8.00pm. Doors open at 7.30pm. Tickets £15 (Children under 15 - £12). BOX OFFICE TELEPHONE 0208 657 2624. All profits will go to local charities and good causes. <%= link_to("Application form for tickets", "resource/swing_flyer.pdf") %>.</p>
+              <p>Concert starts at 8.00pm. Doors open at 7.30pm. Tickets £15 (Children under 15 - £12). Tickets will not be available on the door. BOX OFFICE TELEPHONE 0208 657 2624. All profits will go to local charities and good causes. <%= link_to("Application form for tickets", "resource/swing_flyer.pdf") %>.</p>
             </td>
             <td class="events"><h3><%= link_to image_tag("Festival_image.jpg", alt: "Festival logo", ), "resource/swing_flyer.pdf" %></h3>
             </td>
@@ -140,6 +124,21 @@ In addition an "0" gauge model railway will be running through a beautiful garde
 </td>
 <td class="events"><%= link_to image_tag("small-images/RNLIlogo.gif", alt: "RNLI logo"), "http://rnli.org/Pages/default.aspx" %></td>
           </tr>
+
+
+           <tr>
+              <td class="events">
+                <h3><a class="anchor" id="top" name="beeches"></a>Purley Beeches work party Saturday, 23rd July</h3>
+               
+                <p>Now it’s back to the regular stuff. It’s time to start clearing the spring growth around our newly planted saplings and to help with this the FOPB has bought a couple of sickles, but only to be used by experienced persons. More path widening and of course, continuing to press on into our new site, which looks bigger each time I visit. Removing dead wood and the thick undergrowth is the order of the day. Fortunately the ground has hardened which will make access to and from the site easier. I think most people now know where the site is, so it would make sense for the early birds to go directly there rather than waiting at the gate.</p>
+
+                <p>The usual request for hand tools and appropriate gloves, shoes and clothing apply. We will keep to the revised time of 10am to 1pm and the next work party date, July 23rd</p>
+                <p>For further information please email or call Stanley Lowy: 020 8657 3684 or <%= mail_to "stanlowy@outlook.com" %>, Elizabeth Bennett: <%= mail_to "bennett_e@sky.com" %>, Mac Court   <%= mail_to "mac@skyy.me.uk" %></p>
+              </td>
+              <td class="events">
+              <%= link_to image_tag("small-images/purley_beeches100.jpg", alt: "Purley Beeches logo"), "/resource/purley_beeches_enrol.pdf" %>
+              </td>
+            </tr>
 
           <tr>
             <td class="events">

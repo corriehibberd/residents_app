@@ -12,9 +12,9 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>News</h2>
       <ul>
-        <li><p><%= link_to("Don't miss the Sanderstead Festival of Music and Dance on June 18th", events_path(anchor: "festival")) %>. </p></li>
+        <li><h4>Saturday 18th June - <%= link_to "don't miss the Sanderstead Festival!", "http://www.sandersteadfestival.org.uk" %>. </h4></li>
           <%= image_tag "Festival_image.jpg", class: "small_image" %>
-          <p>The event will include music and dance, a flower festival, art exhibition, refreshments and much more with a Big Band Concert to finish off the event in the evening. The festival is sponsored by the Residents' Association together with our local Councillors, All Saints' Church and Priscilla's. </p>
+          <p>Visit the festival website at <%= link_to " www.sandersteadfestival.org.uk", "http://www.sandersteadfestival.org.uk" %>. The event will include music and dance, a flower festival, art exhibition, refreshments and much more with a Big Band Concert to finish off the event in the evening. The festival is sponsored by the Residents' Association together with our local Councillors, All Saints' Church and Priscilla's. </p>
         <li><p><%= link_to("Pictures of the donations and prize winners at the SRA AGM", news3_path) %></p></li>
         <li><p><%= link_to("Croydon Council consultation on the future of our libraries", news_path(anchor: "library")) %><p></li>
         <li><p><%= link_to("Visit the Riddlesdown Residents Website for new information about disposal of waste paint", "http://www.riddlesdownresidents.org.uk/council%20information%20tel%20nos.html#Disposal") %><p></li>
@@ -59,8 +59,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-      <b>Saturday 4th June</b>
-      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches")) %></p>
       <b>Thursday 9th June</b>
       <p><%= link_to("Hear Me Speak Competition", events_path(anchor: "hearme")) %></p>
       <b>Saturday 11th June</b>
@@ -81,6 +79,8 @@
       <p><%= link_to("Marion's Guided Walk", events_path(anchor: "marionj2")) %></p>
       <b>Saturday 9th July</b>
       <p><%= link_to("RNLI Garden open day", events_path(anchor: "rnli")) %></p>
+      <b>Saturday 23rd July</b>
+      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches")) %></p>
       <b>Saturday 23rd July</b>
       <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches")) %></p>
       <b>Sunday 24th July</b>
