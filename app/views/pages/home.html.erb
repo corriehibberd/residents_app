@@ -12,6 +12,7 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>News</h2>
       <ul>
+        <li><p><%= link_to "Sanderstead Memorial Hall needs volunteers", news_path(anchor: "memorial") %></p></li>
         <li><p><%= link_to "Get your dog microchipped for free on Tuesday 14th June, at Tesco's in Purley", "resource/dogs_trust.pdf" %></p></li> 
         <li><h4>Saturday 18th June - <%= link_to "don't miss the Sanderstead Festival!", "http://www.sandersteadfestival.org.uk" %>. </h4></li>
           <%= image_tag "Festival_image.jpg", class: "small_image" %>
@@ -22,13 +23,6 @@
         <li><p><%= link_to("Visit the Riddlesdown Residents Website for new information about disposal of waste paint", "http://www.riddlesdownresidents.org.uk/council%20information%20tel%20nos.html#Disposal") %><p></li>
         <li><p><%= link_to("A warning about rogue traders in the neighbourhood", news_path(anchor: "builders")) %></p></li>
         <li><p><%= link_to("Girl Guiding in Sanderstead", news_path(anchor: "guides")) %>
-        <li><p><%= link_to("SRA queries Southern Region about new ticket barriers at Sanderstead station", news_path(anchor: "station")) %></p></li>
-        <li><p><%= link_to("1st Purley Scouts Clean up the streets", news_path(anchor: "scouts")) %></p></li>
-           
-        <li><p class="clear"><%= link_to "A 'Croydon Advertiser' survey - what do you think about living in Croydon?", " https://croydonadvertiser.typeform.com/to/aulNDq" %></p></li>
-        <li><p><%= link_to "The Future of Purley Hospital", "/resource/CCCG_130116.pdf" %></p></li>
-        <li><p><%= link_to "Revised proposals for retirement accommodation in Sanderstead", news_path(anchor: "mccarthy") %></p>
-        </li>
         <li><p><%= link_to("Croydon Plan", news_path(anchor: "plan")) %></p></li>
     </ul>
       <h2>Membership</h2>
