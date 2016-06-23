@@ -13,52 +13,6 @@
 
         <table>
           <tbody>
-          <tr>
-            <td class="events">
-              <h3><a class="anchor" id="top" name="festival"></a>Sanderstead Festival of Music and Dance, Saturday 18th June 2016</h3>
-              <p>A new venture for Sanderstead Community, a music and dance festival will be held on Saturday 18th June, 2-6 pm. Sponsored by our local Councillors, the Residents' Association, All Saints' Church and Priscilla's, it will be held on the Gruffy, in All Saints' Halls and All Saints' Church. Visit the festival website <%= link_to "www.sandersteadfestival.org.uk", "http://www.sandersteadfestival.org.uk" %> View our flyers here: 
-              <%= link_to("Sanderstead Festival page 1", "resource/Flyer_Page_1.pdf") %>, 
-              <%= link_to("Sanderstead Festival page 2", "resource/Flyer_Page_2.pdf") %></p>
-            </td>
-            <td class="events"><%= link_to image_tag("Festival_image.jpg", alt: "Festival logo"), "http://www.sandersteadfestival.org.uk" %>
-            </td>
-          </tr>
-
-          <tr>
-            <td class="events">
-              <h3><a class="anchor" id="top" name="band"></a>Our Kind of Swing, featuring the Big Band Sound of The Nigel Garrard Orchestra on Saturday 18th June at 8 pm</h3>
-              <p>Enjoy the music of Glenn Miller, Count Basie and Ted Heath. Join us on Saturday 18th June at All Saints’ Church Halls, Onslow Gardens, Sanderstead CR2 9AB.</p>
-              <p>Concert starts at 8.00pm. Doors open at 7.30pm. Tickets £15 (Children under 15 - £12). Tickets will not be available on the door. BOX OFFICE TELEPHONE 0208 657 2624. All profits will go to local charities and good causes. <%= link_to("Application form for tickets", "resource/swing_flyer.pdf") %>.</p>
-            </td>
-            <td class="events"><h3><%= link_to image_tag("Festival_image.jpg", alt: "Festival logo", ), "resource/swing_flyer.pdf" %></h3>
-            </td>
-          </tr>
-
-            <tr>
-            <td class="events">
-              <h3><a class="anchor" id="top" name="flowers"></a>Flower Festival and Music in All Saints Church, Saturday 18th and Sunday 19th June</h3>
-              <p>All Saints Church in Onslow Gardens will be decorated with beautiful flowers as part of the Sanderstead Festival on 18th and 19th June. On Saturday 18th visitors will also be entertained by live organ and handbell music in the church. The church will be open from 2 - 6 pm on Saturday 18th and from 2 -4 pm on Sunday 19th.</p>
-            </td>
-            <td class="events"><h3><%= link_to image_tag("small-images/flower_festival.jpg", alt: "Festival logo", ), "resource/flower_festival.pdf" %></h3>
-            </td>
-          </tr>
-
-
-          <tr>
-            <td class="events">       
-              <h3><a class="anchor" id="top" name="surc"></a>Sunday afternoon Concerts at SURC</h3>
-              <p>The next concert in the SURC concert series is a concert of contrasts on Sunday 19th June. The concerts start at 3 pm and last around an hour, followed by tea, coffee and cakes which are included in the price of £7 and £3 (under 18).</p>
-              <ul>
-                <li><b>19th June</b> A concert of contrasts with trumpet, organ and harp</li>
-                <li><b>24th July</b> Surrey Harmony with their lively ladies' barbershop</li>
-            </ul>
-            <p>For more information contact: <%= mail_to "sanderstead.music@gmail.com" %>, <%= link_to "www.surc.org.uk", "http://www.surc.org.uk" %> or telephone 07563 917777</p>
-            </td>
-            <td class="events">
-              <%= link_to image_tag("small-images/surc.jpg", alt: "SURC logo"), "http://www.surc.org.uk" %>
-            </td>
-          </tr>
-
 
            <tr>
             <td class="events">
@@ -118,6 +72,21 @@ In addition an "0" gauge model railway will be running through a beautiful garde
               <%= link_to image_tag("small-images/purley_beeches100.jpg", alt: "Purley Beeches logo"), "/resource/purley_beeches_enrol.pdf" %>
               </td>
             </tr>
+
+            <tr>
+            <td class="events">       
+              <h3><a class="anchor" id="top" name="surc"></a>Sunday afternoon Concerts at SURC</h3>
+              <p>The concerts start at 3 pm and last around an hour, followed by tea, coffee and cakes which are included in the price of £7 and £3 (under 18).</p>
+              <ul>
+                <li><b>24th July</b> Surrey Harmony with their lively ladies' barbershop</li>
+            </ul>
+            <p>For more information contact: <%= mail_to "sanderstead.music@gmail.com" %>, <%= link_to "www.surc.org.uk", "http://www.surc.org.uk" %> or telephone 07563 917777</p>
+            </td>
+            <td class="events">
+              <%= link_to image_tag("small-images/surc.jpg", alt: "SURC logo"), "http://www.surc.org.uk" %>
+            </td>
+          </tr>
+
 
           <tr>
             <td class="events">
