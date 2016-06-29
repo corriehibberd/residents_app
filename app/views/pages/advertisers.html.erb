@@ -112,7 +112,7 @@
             <br/>
 
             <hr/>
-            <p>All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date,<br/> but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
+            <p>All the businesses advertised here are included in our newsletter - "Sanderstead News". We endeavour to keep this information up to date, but if you are aware of any corrections or updates please contact the webmaster, <%= mail_to "webmaster@sanderstead-residents.co.uk" %>.</p>
 
     	 </div>
     	 <div class="col-md-7 col-xs-12 white-column">
@@ -559,6 +559,11 @@
 
         <tr>
             <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span><%= mail_to "croydon@rightathomeuk.com" %></p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>347 Lower Addiscombe Road Addiscombe Croydon CR0 6RG</p></td>
         </tr>
 
@@ -846,9 +851,16 @@
 
     	 </div>
          <div class="col-md-3 col-xs-12 white-column">
-            <h3>Advertisements</h3>
-            <h4>Croydon High School</h4>
-            <p><%= link_to image_tag("CHS2016200px.jpg", alt: "CHS ad"), "/resource/croydon_high2016.pdf" %></p>
+            <div class="ad-sidebar">
+                <h3>Advertisements</h3>
+                <hr/>
+                <h3>Right At Home</h3>
+                <p><%= link_to image_tag("right_at_home.jpg", alt: "RAH ad"), "http://www.rightathomeuk.co.uk/croydon/" %></p>                
+            </div>
+            <div class="ad-sidebar">
+                <h3>Croydon High School</h3>
+                <p><%= link_to image_tag("CHS2016200px.jpg", alt: "CHS ad"), "/resource/croydon_high2016.pdf" %></p>
+            </div>
          </div>
 	</div>
 </div>
