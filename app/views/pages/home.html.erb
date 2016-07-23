@@ -12,6 +12,7 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>News</h2>
       <ul>
+        <li><p><%= link_to "The latest newsletter from Croydon Neighbourhood Watch includes thanks to the SRA for our help", "http://cbnwa.com/wp/index.php/newsletters/" %><p></li>
         <li><p><%= link_to "Chris Philp MP urges objections to the proposed 17 storey skyscraper in Purley", news_path(anchor: "skyscraper") %></p></li>
         <li><p><%= link_to "View pictures of the Sanderstead Festival on our Gallery page", gallery_path %></p></li>
         <li><p><%= link_to "Sanderstead Memorial Hall needs volunteers", news_path(anchor: "memorial") %></p></li>
@@ -51,14 +52,10 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-      <b>Saturday 9th July</b>
-      <p><%= link_to("RNLI Garden open day", events_path(anchor: "rnli")) %></p>
-      <b>Saturday 23rd July</b>
-      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches")) %></p>
-      <b>Saturday 23rd July</b>
-      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches")) %></p>
       <b>Sunday 24th July</b>
       <p><%= link_to("Surrey Harmony in Concert at SURC", events_path(anchor: "surc")) %></p>
+      <b>Tues 30th August - Thurs 1st September</b>
+      <p><%= link_to("Summer in Sanderstead", events_path(anchor: "summer")) %></p>
       <b>Friday 21st October</b>
       <p><%= link_to("Marion's Guided Walk", events_path(anchor: "walks")) %></p>
       <b>Sunday 23rd October</b>
@@ -79,7 +76,7 @@
       <h4>Local Organisations supported by SRA</h4>
       <p>Since 2012 the Association has funded and made donations to or provided the following:</p>
       <ul>
-
+        <li>18th Purley Scouts, for flood protection work</li>
         <li>Croydon Carers Centre</li>
         <li>Friends of Kingswood</li>
         <li>8th Sanderstead Brownies</li>
