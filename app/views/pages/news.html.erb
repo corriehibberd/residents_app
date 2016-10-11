@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Template letter re Local Plan", anchor: "letter" %></h4></li>
         <li><h4><%= link_to "Petition for debate on Local Plan", anchor: "petition" %></h4></li>
         <li><h4><%= link_to "Croydon Council Local Plan update", anchor: "local" %></h4></li>
         <li><h4><%= link_to "Croydon Neighbourhood Watch", anchor: "neighbourhood" %></h4></li>
@@ -38,6 +39,10 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="letter"></a>Template letter for objections to the local plan</h3>
+      <p><%= link_to "Councillor Tim Pollard writes", news4_path(anchor: "template") %> <p>...As the consultation is somewhat technical in nature we have created a downloadable template here: <b><%= link_to "(link to www.croydonconservatives.com/download/localplan.docx)", "http://www.croydonconservatives.com/download/localplan.docx" %>, </b> You can use this as the basis for your contribution, and please feel free to delete any bits you don’t agree with or modify it to make it reflect your views.</p>
+
 
       <h3><a class="anchor" id="top" name="petition"></a>Petition for a debate on the Local Plan</h3>
       <p>Some residents have started an online petition to bring forward a public debate on the Local Plan, at the next Full Council meeting being held on 17th October 2016. The Full Council meeting coincides with the last day of the consultation itself. So, it would be timely to hold a debate at that meeting, led by the public, that would ask the Council to once again re-think some of their policies within the Local Plan. Please follow this link to sign the petition. <%= link_to "https://www.surveymonkey.co.uk/r/CroydonLocalPlan", "https://www.surveymonkey.co.uk/r/CroydonLocalPlan"  %></p>
