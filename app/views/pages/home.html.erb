@@ -11,9 +11,9 @@
       <p>The Sanderstead Residents' Association welcomes <%= link_to "new members", members_path %> to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
       <h2>News</h2>
-      <h3>Important! </h3>
-      <p class="stoppress">Croydon Council's local plan contains proposals that will have an impact on Sanderstead. If you wish to comment on or object to these proposals, the final date is Monday 17th October. Coucillor Tim Pollard has provided a template letter that may be used to let the Council know of your feelings about the Croydon Local Plan. <%= link_to "(link to www.croydonconservatives.com/download/localplan.docx)", "http://www.croydonconservatives.com/download/localplan.docx" %> Follow the links below for information about the local plan.</h3>
+     
       <ul>
+        <li><p><%= link_to "Watch the webcast of the Croydon Council meeting on 17th October", "http://croydon.public-i.tv/core/portal/webcast_interactive/248189" %></p></li>
         <li><p><%= link_to "Avoid Trick or Treaters", police_path(anchor: "halloween") %></p></li>
         <li><p><%= link_to "Crime Survey", police_path(anchor: "survey") %></p></li>
         <li><p><%= link_to "Tim Pollard writes regarding the Croydon Plan", news4_path(anchor: "template") %></p></li>
@@ -52,8 +52,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-        <b>Sunday 16th October</b>
-        <p><%= link_to("Concert at All Saints", events_path(anchor: "sayles")) %></p>
         <b>Friday 21st October</b>
         <p><%= link_to("Marion's Guided Walk", events_path(anchor: "walks")) %></p>
         <b>Sunday 23rd October</b>
