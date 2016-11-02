@@ -10,11 +10,14 @@
       <h2>Welcome</h2>
       <p>The Sanderstead Residents' Association welcomes <%= link_to "new members", members_path %> to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
-      <h2>News</h2>
+       <h3><%= link_to image_tag("lights3.png", class: "small_image", alt: "Christmas light"), events_path(anchor: "lights") %>Sanderstead Christmas Illuminations</h3> 
+      <h3>Grand switch-on </h3>
+      <h3>Saturday 26th November</h3>
+      <h3>7 pm on the Rec</h3>
+      <h2  class="clear">News</h2>
      
       <ul>
         <li><p><%= link_to "Watch the webcast of the Croydon Council meeting on 17th October", "http://croydon.public-i.tv/core/portal/webcast_interactive/248189" %></p></li>
-        <li><p><%= link_to "Avoid Trick or Treaters", police_path(anchor: "halloween") %></p></li>
         <li><p><%= link_to "Crime Survey", police_path(anchor: "survey") %></p></li>
         <li><p><%= link_to "Tim Pollard writes regarding the Croydon Plan", news4_path(anchor: "template") %></p></li>
         <li><p><%= link_to "Petition for debate on Local Plan", news_path(anchor: "petition") %></p></li>
@@ -52,10 +55,10 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-        <b>Friday 28th October</b>
-        <p><%= link_to("Children's Society Race Night", events_path(anchor: "race")) %></p>
-        <b>Sunday 30th November</b>
+        <b>Sunday 20th November</b>
         <p><%= link_to("Marion's Guided Walk", events_path(anchor: "walks")) %></p>
+        <b>Saturday 26th November</b>
+        <p><%= link_to("Christmas Lights, grand switch on", events_path(anchor: "lights")) %></p>
         <b>Saaturday 10th December</b>
         <p><%= link_to("Christmas Tree Festival at St Mary's", events_path(anchor: "trees")) %></p>
       <h2>Become a member</h2>
