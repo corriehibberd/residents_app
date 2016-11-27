@@ -12,22 +12,30 @@
         <h2>Events for 2016</h2>
 
         <table>
-          <tbody>         
+          <tbody>
 
-             <tr>
+            <tr>
               <td class="events">
-                <h3><a class="anchor" id="top" name="lights"></a>Grand Switch on of Sanderstead's Christmas lights. Saturday 26th November, 7pm</h3>
-               <p>The grand switch on of the Christmas lights in Sanderstead Village takes place on Saturday 26th November at 7pm beside "Priscilla's" on the Rec. 
-              Father Christmas himself will press the button to switch on the lights and begin the celebrations. With Christmas carols sung by local choirs and stalls selling Christmassy items, there will be entertainment for all. Proceeds will go to South Croydon Rotary Club's Christmas Collection.</p>
-              <p>Visit the facebook page for more about <%= link_to "Sanderstead's Christmas lights", "https://www.facebook.com/events/1856845034551259/permalink/1858952407673855/" %>.</p>
-              <p>Sanderstead Residents' association have funded the lights at Sanderstead and Hamsey Green, as well as a prize of £200 for the best dressed Christmas shop window. </p>
+                <h3><a class="anchor" id="top" name="advent"></a>ADVENTure in Sanderstead, every evening from 1st - 24th December</h3>
+                <p>Discover a real advent calendar in Sanderstead! Every evening from 1st December to Christmas Eve a garage will open like a door on an Advent calendar. From 6 to 7pm. Come and see! Come to just one or fillow the whole ADVENTure a2016 alphabet trail. There's a prize for those who visit the most. <%= link_to "Where to go each evening from 6 - 7 pm", "/resource/ADVENTure_addresses.pdf" %>.</p>
               </td>
               <td class="events">
-               <%= link_to image_tag("lights4.png", alt: "Christmas light"), "https://www.facebook.com/events/1856845034551259/permalink/1858952407673855/" %>
+                <h3><%= link_to("ADVENTure", "/resource/ADVENTure_addresses.pdf")%></h3>
               </td>
-            </tr>
+            </tr>    
 
-             <tr>
+
+            <tr>
+              <td class="events">
+                <h3><a class="anchor" id="top" name="urc"></a>Sanderstead URC Christmas Market and Fayre Saturday 3rd Dec, 11am-2pm </h3>
+                <p>Entrance 50p. Cakes, Jams, Books, Bottle Stall, Gifts, Bric-a-brac, Tombola. Hot lunches and Waffles available.</p>
+              </td>
+              <td class="events">
+                <h3><%= link_to("Sanderstead URC", "http://www.surc.org.uk") %></h3>
+              </td>
+            </tr>         
+
+            <tr>
               <td class="events">
                 <h3><a class="anchor" id="top" name="trees"></a>Christmas Tree Festival at St Mary's, Sat 10th December. 2 - 6pm </h3>
                <p>Come and enjoy the beautifully decorated Christmas trees and the Christmas Market and listen to live music in St Mary's church, Purley Oaks Road.  Call 020 8657 9232 or email <%= mail_to "stmarys.office@sanderstead-parish.org.uk" %> for more information. </p>
@@ -37,6 +45,15 @@
               </td>
             </tr>
 
+            <tr>
+              <td class="events">
+                <h3><a class="anchor" id="top" name="bells"></a>Handbell Concert in All Saints Halls. 3pm</h3>
+               <p>Wandle Ringers present a concert of handbell music, in All Saints' Church Halls, Onslow Gardens, Sanderstead. 3pm on Sunday 11th December. Refreshments provided. Retiring Collection. </p>
+              </td>
+              <td class="events">
+                <h3>Handbells</h3>
+              </td>
+            </tr>
 
            <!--<td class="events">
               <%= link_to image_tag("http://www.tcv.org.uk/sites/all/themes/tcvmain/images/logo.png", alt: "TCV logo"), "http://www.tcv.org.uk/" %>
@@ -100,7 +117,6 @@
             <!--<td class="events">
                 <h3><%= link_to("Marion's Walks", "/resource/Marion_autumn2016.pdf")%></h3>
               </td>-->
-
 
         </tbody>
       </table>

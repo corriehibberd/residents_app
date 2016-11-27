@@ -10,10 +10,8 @@
       <h2>Welcome</h2>
       <p>The Sanderstead Residents' Association welcomes <%= link_to "new members", members_path %> to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
-       <h3><%= link_to image_tag("lights3.png", class: "small_image", alt: "Christmas light"), events_path(anchor: "lights") %>Sanderstead Christmas Illuminations</h3> 
-      <h3>Grand switch-on </h3>
-      <h3>Saturday 26th November</h3>
-      <h3>7 pm on the Rec</h3>
+       <h3><%= link_to image_tag("lights3.png", class: "small_image", alt: "Christmas light") %>Sanderstead Christmas Illuminations</h3> 
+     
       <h2  class="clear">News</h2>
      
       <ul>
@@ -55,10 +53,16 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>
         <h4>2016</h4>
-        <b>Saturday 26th November</b>
-        <p><%= link_to("Christmas Lights, grand switch on", events_path(anchor: "lights")) %></p>
-        <b>Saaturday 10th December</b>
+        <b>1st - 24th December</b>
+        <p><%= link_to("ADVENTure in Sanderstead", events_path(anchor: "advent")) %></p>
+
+        <b>Saturday 3rd December</b>
+        <p><%= link_to("SURC Christmas Fail", events_path(anchor: "urc")) %></p>
+       
+        <b>Saturday 10th December</b>
         <p><%= link_to("Christmas Tree Festival at St Mary's", events_path(anchor: "trees")) %></p>
+        <b>Sunday 11th December</b>
+        <p><%= link_to("Handbell Concert at All Saints", events_path(anchor: "bells")) %></p>
       <h2>Become a member</h2>
       <p>Find out about joining the SRA here.</p>
       <%= link_to("Membership", members_path, class: 'btn btn-primary') %>
