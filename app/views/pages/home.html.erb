@@ -9,8 +9,7 @@
     <div class="col-md-8 col-xs-12 white-column">
       <h2>Welcome</h2>
       <p>The Sanderstead Residents' Association welcomes <%= link_to "new members", members_path %> to take part in its role in supporting local organisations for the young, the elderly and the well being of Sanderstead.</p>
-      <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p>
-       <h3><%= link_to image_tag("lights3.png", class: "small_image", alt: "Christmas light") %>Sanderstead Christmas Illuminations</h3> 
+      <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p> 
      
       <h2  class="clear">News</h2>
      
@@ -60,11 +59,7 @@
       <h2>Events</h3>
 
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
-      <br/>
-        <h4>2016</h4>
-        <b>1st - 24th December</b>
-        <p><%= link_to("ADVENTure in Sanderstead", events_path(anchor: "advent")) %></p>
-  
+      <br/>  
         <h4>2017</h4>
         <b>Thursday 4th May</b>
         <p><%= link_to("Sanderstead Residents' Association AGM", events_path(anchor: "sraagm")) %></p>
