@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Residents association objects to 20mph limit ", anchor: "pseed" %></h4></li>
         <li><h4><%= link_to "Template letter re Local Plan", anchor: "letter" %></h4></li>
         <li><h4><%= link_to "Petition for debate on Local Plan", anchor: "petition" %></h4></li>
         <li><h4><%= link_to "Croydon Council Local Plan update", anchor: "local" %></h4></li>
@@ -39,6 +40,12 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="speed"></a>Report of meeting about Croydon Council proposal to extend 20mph speed limit in South of Borough</h3>
+      <p><%= link_to "Residents Association objections", "/resource/20mphSpeed.pdf" %></p>
+      <p>"Having considered all aspects of the proposed scheme, the Committee believe that the complete blanket approach is neither justified nor necessary. Roads should be assessed both in light of any previous accident or incident or potential risk of accident and if speed is considered to have been or may be a factor, a restriction to be considered."</p>
+      <p>Sanderstead Residents Association request as many residents as possible participate in the process, noting that the process requires all objection[s] to be explained.</p>
+      <p><%= link_to "Follow this link to access the Council's report", "https://www.croydon.gov.uk/sites/default/files/20mph_faq.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="letter"></a>Template letter for objections to the local plan</h3>
       <p><%= link_to "Councillor Tim Pollard writes...", news4_path(anchor: "template") %> <p>...As the consultation is somewhat technical in nature we have created a downloadable template here: <b><%= link_to "(link to www.croydonconservatives.com/download/localplan.docx)", "http://www.croydonconservatives.com/download/localplan.docx" %>, </b> You can use this as the basis for your contribution, and please feel free to delete any bits you don’t agree with or modify it to make it reflect your views.</p>
