@@ -108,6 +108,7 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Canoe Clubs", anchor: "canoe" %></li>
                     <li><%= link_to "Golf Clubs", anchor: "golf" %></li>
                 </ul>
             </div>
@@ -747,7 +748,31 @@
             <td><h2>Sports Clubs</h2></td>
             <td>&nbsp;</td>
         </tr>
+         <tr>
+            <td><h3><a class="anchor" id="top" name="canoe"></a>Canoe Clubs</h3></td>
+            <td>&nbsp;</td>
+        </tr>
 
+        <tr>
+            <td><h4>Croydon Active Paddlers Canoe Club</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 0395</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span> <%= mail_to "Info@croydonactivepaddlers.org" %></p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>13 Foxearth Rd, South Croydon, Surrey, CR2 8EH</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.croydonactivepaddlers.org", "http://www.croydonactivepaddlers.org" %>
+        </tr>     
+        
         <tr>
             <td><h3><a class="anchor" id="top" name="golf"></a>Golf Clubs</h3></td>
             <td>&nbsp;</td>
