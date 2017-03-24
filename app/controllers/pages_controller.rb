@@ -86,6 +86,9 @@ class PagesController < ApplicationController
   def news5
   end
 
+  def news6
+  end
+
   def advertisers
   end
 
