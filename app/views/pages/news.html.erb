@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Recommended Ward Boundary Changes", news_path(anchor: "boundary") %></h4></li>
         <li><h4><%= link_to "Changes to urgent care services", news5_path %></h4></li>
         <li><h4><%= link_to "Tim Wainwright 1942 - 2017", news_path(anchor: "RIP") %></h4></li>
         <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
@@ -45,6 +46,20 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <a class="anchor" id="top"  name="boundary"></a>
+      <h3>Recommended Changes to Ward Boundaries</h3>
+      <p>The Sanderstead Residents’ Association is pleased that the Local Government Boundary Commission have considered the views of the Sanderstead Residents’ Association and its members in the published draft recommendations.The boundaries in the recommendations accurately reflect the place of Sanderstead and is much more in line with the parish boundaries and what residents living in areas like West Hill, Ewhurst Road, Elmfield Way and many of the other roads leading up to the hard boundary with the Upper Selsdon Road feel is naturally the home of Sanderstead.</p>
+
+      <p>The only little piece of the map that we feel is perhaps more in line with the new South Croydon ward, which we like, as nobody ever knew where the place of Croham was, is those roads north of Essenden Road. If that small change could be made we would feel that the Commission had got our ward 100% correct!</p>
+
+      <p>Whilst having the opportunity to comment we think it is perfectly sensible to have a Riddlesdown and Purley Oaks ward. The hard boundary which is formed alongside the Purley Downs Golf Course brings these two areas together. We also know that there is an extremely strong Residents' Association in the area and these residents are bound by a similar postcode. The railway line forms a hard boundary between Sanderstead and Riddlesdown station.</p>
+
+      <p>In having the opportunity to comment on the draft recommendations as a whole, it seems that the places of Croydon are more accurately respected, particularly across the centre of Croydon which we know will be greatly intensified by the Hammerson/Westfield development bringing more homes into the centre of Croydon.</p>
+
+      <p>The Sanderstead Residents’ Association and its members fully support the LGBC recommendations which we feel will be good for community cohesion and the support that residents associations such as ourselves give to the people in these locations.</p>
+      <p>Maps and information about the boundary changes can be found here:
+        <%= link_to "Local Government Boundary Commission, Croydon Map", "https://consultation.lgbce.org.uk/node/8775" %> and <%= link_to "Croydon Council Boundary Review", "https://www.croydon.gov.uk/democracy/electoral-review-of-croydon/electoral-review-of-croydon-council" %> </p>
 
       <h3>Changes to urgent care services in Croydon</h3>
       <p><%= link_to "Read the full report here", news5_path %></p>
