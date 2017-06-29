@@ -14,6 +14,7 @@
       <h2  class="clear">News</h2>
      
       <ul>
+        <li><p><%= link_to "Advice about securing garages and sheds", police_path(anchor: "garages") %></p></li>
         <li><p><%= link_to "Advice about the use of drones", police_path(anchor: "drones") %></p></li>
         <li><p><%= link_to "Response to Manchester terrorism", police_path(anchor: "manchester") %></p></li>
         <li><p><%= link_to "Support the recommended changes to Sanderstead Ward Boundaries", news_path(anchor: "boundary") %></p></li>
@@ -43,7 +44,7 @@
       <h2>Email Newsletter</h2>
       <p>From time to time the Association would like to be able to contact members via an email newsletter. If you would like to receive this news please follow this link to sign up your name and email address. <%= link_to "Sign up here for Email Newsletter", news6_path, data: {no_turbolink: "true"} %></p>
       <h2>AGM</h2>
-      <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead. Our 2017 AGM will be held on Thursday 4th May at 8 pm in All Saints' Church Hall, Onslow Gardens, CR2 9AB<p>
+      <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead.<p>
       <h2>Role of the Association</h2>
         <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a Residents' Association; resisting planning applications likely to disadvantage residents and raising concerns about matters such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
       <h2>Local Councillors</h2>
@@ -68,8 +69,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2017</h4>
-      <b>Saturday 24th June</b>
-      <p><%= link_to("Little League open morning", events_path(anchor: "footy")) %></p>
       <b>Monday 26th Jun - Sunday 2nd Jul</b>
       <p><%= link_to("Purley Festival", events_path(anchor: "purley")) %></p>
       <b>Sunday 2nd July</b>
