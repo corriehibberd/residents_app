@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "20 MPH Speed limit", anchor: "speed" %></h4></li>
         <li><h4><%= link_to "Police Action Fraud Website", police_path(anchor: "fraud") %></h4></li>
         <li><h4><%= link_to "Support the recommended Ward Boundary Changes", news_path(anchor: "boundary") %></h4></li>
         <li><h4><%= link_to "Changes to urgent care services", news5_path %></h4></li>
@@ -18,7 +19,6 @@
         <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
         <li><h4><%= link_to "Neighbourhood Watch advice on scams", "http://cbnwa.com/wp/index.php/2017/02/23/information-network-bulletin-edition-4/" %></h4></li>
         <li><h4><%= link_to "Examination of Croydon local plan", anchor: "exam" %></h4></li>
-        <li><h4><%= link_to "Residents association objects to 20mph limit ", anchor: "speed" %></h4></li>
         <li><h4><%= link_to "Template letter re Local Plan", anchor: "letter" %></h4></li>
         <li><h4><%= link_to "Petition for debate on Local Plan", anchor: "petition" %></h4></li>
         <li><h4><%= link_to "Croydon Council Local Plan update", anchor: "local" %></h4></li>
@@ -47,6 +47,11 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <a class="anchor" id="top" name="speed"></a>
+      <h3>Croydon Council agree to implement 20 MPH speed limit in south of borough</h3>
+      <p>The Council Members of the Traffic Management Advisory Committee, at their meeting on 9th May, 2017 considered any objections but agreed to proceed with the implementation of the 20mph speed limit. You can read the committee report on  <%= link_to "Croydon Council website ", "https://secure.croydon.gov.uk/akscroydon/users/public/admin/kab12.pl?operation=SUBMIT&meet=15&cmte=TMA&grpid=public&arc=1" %>
+      </p>
 
       <h3><%= link_to "Read the latest edition of the Neighbourhood Watch newsletter", "resource/CroydonEye_Summer2017.pdf" %></h3>
 
@@ -126,7 +131,7 @@
       </p>
       <p>Anyone wishing to speak at the public hearing must confirm by 14th March 2017.</p>
 
-      <h3><a class="anchor" id="top" name="speed"></a>Report of meeting about Croydon Council proposal to extend 20mph speed limit in South of Borough</h3>
+      <h3><a class="anchor" id="top" name="speedlimit"></a>Report of meeting about Croydon Council proposal to extend 20mph speed limit in South of Borough</h3>
       <p><%= link_to "Residents Association objections", "/resource/20mphSpeed.pdf" %></p>
       <p>"Having considered all aspects of the proposed scheme, the Committee believe that the complete blanket approach is neither justified nor necessary. Roads should be assessed both in light of any previous accident or incident or potential risk of accident and if speed is considered to have been or may be a factor, a restriction to be considered."</p>
       <p>Sanderstead Residents Association request as many residents as possible participate in the process, noting that the process requires all objection[s] to be explained.</p>
