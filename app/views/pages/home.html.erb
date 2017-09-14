@@ -14,12 +14,11 @@
       <h2  class="clear">News</h2>
      
       <ul>
+        <li><p><%= link_to "Planning application on Mitchley Hill", news_path(anchor: "Mitchley") %></p></li>
         <li><p><%= link_to "20 MPH speed limit to be implemented", news_path(anchor: "speed") %></p></li>
         <li><p><%= link_to "Advice about securing garages and sheds", police_path(anchor: "garages") %></p></li>
         <li><p><%= link_to "Advice about the use of drones", police_path(anchor: "drones") %></p></li>
         <li><p><%= link_to "Changes to urgent care services in Croydon", news5_path %></p></li>
-        <li><p><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></p></li>
-        <li><p><%= link_to "Follow this link for the latest advice about scams from Neighbourhood Watch", "http://cbnwa.com/wp/index.php/2017/02/23/information-network-bulletin-edition-4/" %></p></li>
     </ul>
       <h2>Membership</h2>
       <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
@@ -60,9 +59,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2017</h4>
-
-      <b>Tuesday 12th Sept</b>
-      <p><%= link_to("Soul Symphony Choir", events_path(anchor: "singing")) %></p>
 
       <b>Saturday 16th Sept</b>
       <p><%= link_to("Purley Beeches work party", events_path(anchor: "beeches")) %></p>

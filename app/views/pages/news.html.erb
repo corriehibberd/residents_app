@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Mitchley Hill planning application", anchor: "Mitchley" %></h4></li>
         <li><h4><%= link_to "20 MPH Speed limit", anchor: "speed" %></h4></li>
         <li><h4><%= link_to "Police Action Fraud Website", police_path(anchor: "fraud") %></h4></li>
         <li><h4><%= link_to "Support the recommended Ward Boundary Changes", news_path(anchor: "boundary") %></h4></li>
@@ -47,6 +48,12 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <a class="anchor" id="top" name="Mitchley"></a>
+      <h3>A new planning application has been submitted for 9 or 10 apartments in Borrowdale Close on Mitchley Hill</h3>
+      <p>Another planning application for flats has been submitted. This time at 48 Mitchley Hill, at the junction with Borrowdale Close. It is for the "demolition of existing and erection of a building comprising of 9 x 2 bedroom apartments with parking, secure cycle storage and bin storage and modification of an existing access". <%= link_to "More details can be found on the Croydon Council Planning web page.", "http://publicaccess2.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=OUZJBEJLHPW00" %></p>
+
+
 
       <a class="anchor" id="top" name="speed"></a>
       <h3>Croydon Council agree to implement 20 MPH speed limit in south of borough</h3>
