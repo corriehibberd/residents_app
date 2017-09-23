@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Changes to way Croydon Council advises residents about planning" %></h4></li>
         <li><h4><%= link_to "Mitchley Hill planning application", anchor: "Mitchley" %></h4></li>
         <li><h4><%= link_to "20 MPH Speed limit", anchor: "speed" %></h4></li>
         <li><h4><%= link_to "Police Action Fraud Website", police_path(anchor: "fraud") %></h4></li>
@@ -48,6 +49,12 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <a class="anchor" id="top" name="planning"></a>
+      <h3>Changes to the way Croydon Council advises residents about planning applications</h3>
+      <p>The system of putting notices on lighting or telegraph poles was changed in August. Now immediate adjoining owners will be advised by letter, however should there be a footpath or alley the next property will not be informed, in fact letters could be sent to adjoining empty properties or to adjoining owners who do not appreciate the implications of the proposed application. Residents living opposite or behind the property will not be aware of the planning application.</p>
+      <p>The only means of checking planning applications in your area is to regularly check on the Council's Planning website. <%= link_to("Croydon Council planning applications", "http://publicaccess2.croydon.gov.uk/online-applications/") %></p>
+
 
       <a class="anchor" id="top" name="Mitchley"></a>
       <h3>A new planning application has been submitted for 9 or 10 apartments in Borrowdale Close on Mitchley Hill</h3>
