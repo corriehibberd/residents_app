@@ -14,6 +14,7 @@
       <h2  class="clear">News</h2>
      
       <ul>
+        <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>
         <li><p>There will be a Ward Panel meeting with out local neighbourhood police team at 6pm on Thursday 28th September at Riddlesdown, Collegiate.</p></li>
         <li><p><%= link_to "Changes to the way Croydon Council informs residents about planning applications", news_path(anchor: "planning") %></p></li>
         <li><p><%= link_to "Planning application on Mitchley Hill", news_path(anchor: "Mitchley") %></p></li>
@@ -61,15 +62,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2017</h4>
-
-      <b>Tuesday 26th Sept - Saturday 30th Sept</b>
-      <p><%= link_to("Poetry competition", events_path(anchor: "poetry")) %></p>
-
-      <b>Saturday 30th Sept</b>
-      <p><%= link_to("SNC book sale", events_path(anchor: "books")) %></p>
-
-      <b>Saturday 30th Sept </b>
-      <p><%= link_to("Sanderstead Community Day", events_path(anchor: "priscilla")) %></p>
 
       <b>Sunday 29th Oct</b>
       <p><%= link_to("Beethoven Piano Recital", events_path(anchor: "recital")) %></p>

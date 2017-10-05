@@ -11,7 +11,8 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
-        <li><h4><%= link_to "Changes to way Croydon Council advises residents about planning" %></h4></li>
+        <li><h4><%= link_to "Residents form a group to fight proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></h4></li>
+        <li><h4><%= link_to "Changes to way Croydon Council advises residents about planning", anchor: "planning" %></h4></li>
         <li><h4><%= link_to "Mitchley Hill planning application", anchor: "Mitchley" %></h4></li>
         <li><h4><%= link_to "20 MPH Speed limit", anchor: "speed" %></h4></li>
         <li><h4><%= link_to "Police Action Fraud Website", police_path(anchor: "fraud") %></h4></li>
@@ -49,6 +50,8 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2> News in Detail</h2>
+
+      <h3><%= link_to "Residents form a group to fight proposed developments in the area - Read the report in the Croydon Advertiser", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></h3>
 
       <a class="anchor" id="top" name="planning"></a>
       <h3>Changes to the way Croydon Council advises residents about planning applications</h3>
