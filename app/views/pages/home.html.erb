@@ -12,18 +12,13 @@
       <p>The Association which is non political and non sectarian is governed by its <%= link_to "Constitution", constitution_path %> under which its aim is the promotion of the interests of the residents of Sanderstead. </p> 
      
       <h2  class="clear">News</h2>
-     
       <ul>
+        <li><p><%= link_to "Latest Police news update now available on the Police news page", police_path %></p></li>
         <li><p>Free call blockers for people living with dementia. <b>From 6th November </b><%= link_to "visit www.FriendsAgainstScams.org.uk/callblocker", "http://www.FriendsAgainstScams.org.uk/callblocker" %></p></li>
         <li><p><%= link_to "The latest Neighbourhood Watch Newsletter", news_path(anchor: "watch") %></p></li>
         <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>
-        <li><p>There will be a Ward Panel meeting with out local neighbourhood police team at 6pm on Thursday 28th September at Riddlesdown, Collegiate.</p></li>
         <li><p><%= link_to "Changes to the way Croydon Council informs residents about planning applications", news_path(anchor: "planning") %></p></li>
-        <li><p><%= link_to "Planning application on Mitchley Hill", news_path(anchor: "Mitchley") %></p></li>
-        <li><p><%= link_to "20 MPH speed limit to be implemented", news_path(anchor: "speed") %></p></li>
-        <li><p><%= link_to "Advice about securing garages and sheds", police_path(anchor: "garages") %></p></li>
-        <li><p><%= link_to "Advice about the use of drones", police_path(anchor: "drones") %></p></li>
-        <li><p><%= link_to "Changes to urgent care services in Croydon", news5_path %></p></li>
+       
     </ul>
       <h2>Membership</h2>
       <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
@@ -64,8 +59,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2017</h4>
-      <b>Saturday 4th Nov</b>
-      <p><%= link_to("SNC Quiz Night", events_path(anchor: "quiz")) %></p>
 
       <b>Thurs 9th - Sat 11th November</b>
       <p><%= link_to("Parlour Players present Dangerous Corner", events_path(anchor: "dangerous")) %></p>
