@@ -14,7 +14,7 @@
       <h2  class="clear">News</h2>
       <ul>
         <li><p><%= link_to "Latest Police news update now available on the Police news page", police_path %></p></li>
-        <li><p>Free call blockers for people living with dementia. <b>From 6th November </b><%= link_to "visit www.FriendsAgainstScams.org.uk/callblocker", "http://www.FriendsAgainstScams.org.uk/callblocker" %></p></li>
+        <li><p>Free call blockers for people living with dementia. <%= link_to "visit www.FriendsAgainstScams.org.uk/callblocker", "http://www.FriendsAgainstScams.org.uk/callblocker" %></p></li>
         <li><p><%= link_to "The latest Neighbourhood Watch Newsletter", news_path(anchor: "watch") %></p></li>
         <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>
         <li><p><%= link_to "Changes to the way Croydon Council informs residents about planning applications", news_path(anchor: "planning") %></p></li>
@@ -65,9 +65,11 @@
       
       <b>Thursday 16th November</b>
       <p><%= link_to("Flying Concorde, a talk presented by the RNLI", events_path(anchor: "concorde")) %></p>
-      <h4>2018</h4>
+      <b>Friday 17th Nov</b>
+      <p><%= link_to("Purley Beeches AGM", events_path(anchor: "beechesnov")) %></p>
       <b>Saturday 18th Nov</b>
       <p><%= link_to("Purley Beeches work party", events_path(anchor: "beechesnov")) %></p>
+      <h4>2018</h4>
       <b>Saturday 17th March</b>
       <p><%= link_to("Exhibition and sale of pictures", events_path(anchor: "childrensoc")) %></p>
       <b>Thursday 10th May</b>
