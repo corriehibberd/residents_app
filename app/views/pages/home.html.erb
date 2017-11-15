@@ -13,18 +13,17 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Westfield is coming to Croydon", news_path(anchor: "westfield") %></p></li>
         <li><p><%= link_to "Latest Police news update now available on the Police news page", police_path %></p></li>
         <li><p>Free call blockers for people living with dementia. <%= link_to "visit www.FriendsAgainstScams.org.uk/callblocker", "http://www.FriendsAgainstScams.org.uk/callblocker" %></p></li>
         <li><p><%= link_to "The latest Neighbourhood Watch Newsletter", news_path(anchor: "watch") %></p></li>
-        <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>
-        <li><p><%= link_to "Changes to the way Croydon Council informs residents about planning applications", news_path(anchor: "planning") %></p></li>
-       
+        <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>       
     </ul>
       <h2>Membership</h2>
       <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
       <div class="row">
         <div class="col-md-4">
-          <%= image_tag "small-images/sand_news_mar17.jpg", class: "small_image" %>
+          <%= image_tag "small-images/sand_news_sep17.jpg", class: "small_image" %>
         </div>
         <div class="col-md-8">
           <h2>Sanderstead News</h2>
@@ -68,6 +67,8 @@
       <p><%= link_to("Purley Beeches AGM", events_path(anchor: "beechesnov")) %></p>
       <b>Saturday 18th Nov</b>
       <p><%= link_to("Purley Beeches work party", events_path(anchor: "beechesnov")) %></p>
+      <b>Saturdday 2nd December</b>
+      <p><%= link_to("Sanderstead Christmas Lights", events_path(anchor: "lights")) %></p>
       <h4>2018</h4>
       <b>Saturday 17th March</b>
       <p><%= link_to("Exhibition and sale of pictures", events_path(anchor: "childrensoc")) %></p>
