@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Tips for keeping your memory strong", news_path(anchor: "memory") %></p></li>
         <li><p><%= link_to "Westfield is coming to Croydon", news_path(anchor: "westfield") %></p></li>
         <li><p><%= link_to "Latest Police news update now available on the Police news page", police_path %></p></li>
         <li><p>Free call blockers for people living with dementia. <%= link_to "visit www.FriendsAgainstScams.org.uk/callblocker", "http://www.FriendsAgainstScams.org.uk/callblocker" %></p></li>
@@ -20,7 +21,6 @@
         <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>       
     </ul>
       <h2>Membership</h2>
-      <p><%= link_to "Membership", members_path %> is open to all adults living in Sanderstead, including parts of Hamsey Green, Selsdon and Croham. Members pay an annual subscription of £5 per househould per year, for which they receive the support of the Association and the Association's newsletter, "Sanderstead News" twice a year.</p>
       <div class="row">
         <div class="col-md-4">
           <%= image_tag "small-images/sand_news_sep17.jpg", class: "small_image" %>
@@ -33,7 +33,7 @@
       <h2>Email Newsletter</h2>
       <p>From time to time the Association would like to be able to contact members via an email newsletter. If you would like to receive this news please follow this link to sign up your name and email address. <%= link_to "Sign up here for Email Newsletter", news6_path, data: {no_turbolink: "true"} %></p>
       <h2>AGM</h2>
-      <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead. The 2018 AGM will be held on Thursday 10th May at 8 pm (tbc) in All Saints' Hall, Onslow Gardens, CR2 9AB.<p>
+      <p>At the Association's AGM members elect the committee and have the opportunity to question the Councillors and Committee on matters relating to Sanderstead. The 2018 AGM will be held on Thursday 10th May at 8 pm in All Saints' Hall, Onslow Gardens, CR2 9AB.<p>
       <h2>Role of the Association</h2>
         <p>Today the role of the association is to promote the interests of Sanderstead and its residents in several ways. We are able to provide financial support to assist and promote Sanderstead based organisations perform their work within our community. We also continue to undertake the traditional role of a Residents' Association; resisting planning applications likely to disadvantage residents and raising concerns about matters such as the proposed closure of the Sanderstead Library and the Purley Swimming Pool.</p>
       <h2>Local Councillors</h2>
@@ -59,16 +59,9 @@
       <br/>  
       <h4>2017</h4>
 
-      <b>Tuesday 14th November</b>
-      <p><%= link_to("Friends of Croham Hurst Woods AGM", events_path(anchor: "croham")) %></p>
-      <b>Thursday 16th November</b>
-      <p><%= link_to("Flying Concorde, a talk presented by the RNLI", events_path(anchor: "concorde")) %></p>
-      <b>Friday 17th Nov</b>
-      <p><%= link_to("Purley Beeches AGM", events_path(anchor: "beechesnov")) %></p>
-      <b>Saturday 18th Nov</b>
-      <p><%= link_to("Purley Beeches work party", events_path(anchor: "beechesnov")) %></p>
-      <b>Saturdday 2nd December</b>
+      <b>Saturday 2nd December</b>
       <p><%= link_to("Sanderstead Christmas Lights", events_path(anchor: "lights")) %></p>
+      <p><%= link_to("Carols by candlelight in All Saints Church", events_path(anchor: "carols")) %></p>
       <h4>2018</h4>
       <b>Saturday 17th March</b>
       <p><%= link_to("Exhibition and sale of pictures", events_path(anchor: "childrensoc")) %></p>

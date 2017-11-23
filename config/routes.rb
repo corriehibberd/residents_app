@@ -43,6 +43,8 @@ Rails.application.routes.draw do
 
   get 'news6', controller: 'pages', action: 'news6'
 
+  get 'news7', controller: 'pages', action: 'news7'
+
   get 'advertisers', controller: 'pages', action: 'advertisers'
 
   get 'police', controller: 'pages', action: 'police'
