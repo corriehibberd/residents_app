@@ -39,7 +39,7 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><%= link_to "Health and Beauty", anchor: "health" %></li>
+                    <li><%= link_to "Hearing", anchor: "hearing" %></li>
                 </ul>
             </div>
             <br/>
@@ -51,6 +51,7 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><%= link_to "Blinds", anchor: "curtains" %></li>
                     <li><%= link_to "Carpets", anchor: "carpets" %></li>
+                    <li><%= link_to "Crafts", anchor: "crafts" %></li>
                 </ul>
             </div>
             <br/>
@@ -98,16 +99,6 @@
                     <li><%= link_to "Removals", anchor: "move" %></li>
                     <li><%= link_to "Solicitors", anchor: "law" %></li>
                     <li><%= link_to "Video and DVD", anchor: "video" %></li>
-                </ul>
-            </div>
-            <br/>
-
-            <div class="dropdown">
-                <button class="btn default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Sports
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><%= link_to "Canoe Clubs", anchor: "canoe" %></li>
                 </ul>
             </div>
             <br/>
@@ -256,19 +247,23 @@
         </tr>
 
         <tr>
-            <td><h3><a name="health"></a>Health and Beauty</h3></td>
+            <td><h3><a name="health"></a>Hearing</h3></td>
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td><h4>The Beauty Lounge</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 3395 </p></td>
+            <td><h4><a class="anchor" id="top" name="hearing"></a>Select Hearing</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8487 1488 </p></td>
         </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>info@selecthearingcare.co.uk</p></td>              
+          </tr>
 
         <tr class="adstable">
             <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>39 Elmfield Way, Sanderstead CR2 0EJ</p></td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>121 Addington Road, South Croydon CR2 8LH</p></td>
         </tr>
-
 
          <tr>
                  <td><h2>Home Furnishings</h2></td>
@@ -308,6 +303,29 @@
             <td>&nbsp;</td>
             <td><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span> <%= link_to "www.ckcarpets.co.uk", "http://www.ckcarpets.co.uk" %></td>
 
+          </tr>
+
+           <tr>
+                 <td><h3><a class="anchor" id="top" name="crafts"></a>Craft materials and tuition</h3></td>
+             <td>&nbsp;</td>
+               </tr>
+           <tr>
+             <td><h4 class="advertisers">Threadbear</h4></td>
+                 <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 5050</p></td>
+           </tr>
+           <tr>
+                <td>&nbsp;</td>
+                 <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>enquiries@thread-bear.co.uk</p></td>               
+          </tr>
+
+          <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>350 Limpsfield Road, CR2 9BX</p></td>
+          </tr>
+
+          <tr class="adstable">
+                 <td>&nbsp;</td>
+                 <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.thread-bear.co.uk", "http://www.thread-bear.co.uk" %></p></td>
           </tr>
 
        <tr>
@@ -523,6 +541,27 @@
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.rightathomeuk.co.uk/croydon/", "http://www.rightathomeuk.co.uk/croydon/" %></p></td>
         </tr>
+
+         <tr>
+            <td><h4>Home Instead</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8404 4444</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>croydon@homeinstead.co.uk</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>67 Windmill Road, Croydon, CR0 2XR</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.homeinstead.co.uk/croydondulwich/", "http://www.homeinstead.co.uk/croydondulwich/" %></p></td>
+        </tr>
+
     
         <tr>
         <td><h3><a class="anchor" id="top" name="cleaners"></a>Cleaners</h3></td>
@@ -541,6 +580,11 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.mollymaid.co.uk/croydon", "http://www.mollymaid.co.uk/croydon" %>
+        </tr>
+
+        <tr class="adstable">
+            <td><h4>Oven Cleaning Service</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07960 272 493</p></td>
         </tr>
 
         <tr>
@@ -653,6 +697,26 @@
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.greenthumb.co.uk", "http://www.greenthumb.co.uk" %>
         </tr>
 
+        <tr>
+            <td><h4>Absolute Gardens</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8660 6361/020 8407 0491</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07961 837 867</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>info@absolutegardens.co.uk</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.absolutegardens.co.uk", "http://www.absolutegardens.co.uk" %>
+        </tr>
+
 
         <tr>
             <td><h3><a class="anchor" id="top" name="move"></a>Removals and Storage</h3></td>
@@ -726,35 +790,6 @@
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.surreyvideo.co.uk", "http://www.surreyvideo.co.uk" %>
         </tr>
 
-
-        <tr>
-            <td><h2>Sports Clubs</h2></td>
-            <td>&nbsp;</td>
-        </tr>
-         <tr>
-            <td><h3><a class="anchor" id="top" name="canoe"></a>Canoe Clubs</h3></td>
-            <td>&nbsp;</td>
-        </tr>
-
-        <tr>
-            <td><h4>Croydon Active Paddlers Canoe Club</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 0395</p></td>
-        </tr>
-
-        <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>Info@croydonactivepaddlers.org</p></td>
-        </tr>
-
-        <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>13 Foxearth Rd, South Croydon, Surrey, CR2 8EH</p></td>
-        </tr>
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.croydonactivepaddlers.org", "http://www.croydonactivepaddlers.org" %>
-        </tr>     
         
       </tbody>
       </table>
