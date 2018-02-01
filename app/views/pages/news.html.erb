@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "CBNWA in danger of closing", news_path(anchor: "cbnwa") %></h4></li>
         <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
         <li><h4><%= link_to "Planning application in Briton Hill Road", anchor: "briton" %></h4></li>
         <li><h4><%= link_to "Trading Standards alert", anchor: "beware" %></h4></li>
@@ -30,8 +31,6 @@
         <li><h4><%= link_to "Croydon Council Local Plan update", anchor: "local" %></h4></li>
         <li><h4><%= link_to "Croydon Neighbourhood Watch", anchor: "neighbourhood" %></h4></li>
         <li><h4><%= link_to "Sanderstead Memorial Hall", anchor: "memorial" %></h4></li>
-        <li><h4><%= link_to "Pictures from the 2016 AGM", news3_path %></h4></li>
-        <li><h4><%= link_to "Rogue Traders in the Neighbourhood", anchor: "builders" %></h4></li>
         <li><h4><%= link_to "Hall for Hire", anchor: "hall" %></h4></li>
         <li><h4><%= link_to "Latest advice on scams from the police", anchor: "scams" %></h4></li>
         <li><h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4></li>
@@ -50,6 +49,11 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="cbnwa"></a>Neighbourhood Watch appeals for help and donations</h3>
+      <p>There is a real risk that Croydon Borough Neighbourhood Watch will have to close at the end of April due to a lack of short-term funding. At a time of such concern about crime in our borough this would be a serious development. We are therefore writing to ask you to make a donation to keep the Charity going... <%= link_to "Read the full details here", "resource/CBNWA29Jan18.pdf" %>.</p>
+      <p>
+      <p>To continue to function the CBNWA is also looking for a part-time administrator. <%= link_to "The attached job specification", "resource/NHWManager.pdf" %> outlines what is needed. Due to the financial situation of the charity, the paid part-time position would be on a 3 month basis (if funding were to be received this would be extended). If you are interested in the role please email Katie Moorie on nhw@cbnwa.com by 15th February as you would need to be available for a handover on Friday 16th February. </p>
 
       <h3><a class="anchor" id="top" name="flats"></a>Sanderstead Road Car Park Under Threat!</h3>
       <p>Council plans to replace Sanderstead Road car park with 20 flats – and no residents’ parking.</p>
