@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></h4></li>
         <li><h4><%= link_to "CBNWA in danger of closing", news_path(anchor: "cbnwa") %></h4></li>
         <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
         <li><h4><%= link_to "Planning application in Briton Hill Road", anchor: "briton" %></h4></li>
@@ -29,7 +30,6 @@
         
         <li><h4><%= link_to "Neighbourhood Watch advice on scams", "http://cbnwa.com/wp/index.php/2017/02/23/information-network-bulletin-edition-4/" %></h4></li>
         <li><h4><%= link_to "Croydon Council Local Plan update", anchor: "local" %></h4></li>
-        <li><h4><%= link_to "Croydon Neighbourhood Watch", anchor: "neighbourhood" %></h4></li>
         <li><h4><%= link_to "Sanderstead Memorial Hall", anchor: "memorial" %></h4></li>
         <li><h4><%= link_to "Hall for Hire", anchor: "hall" %></h4></li>
         <li><h4><%= link_to "Latest advice on scams from the police", anchor: "scams" %></h4></li>
@@ -49,6 +49,9 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="brownies"></a>3rd Sanderstead Brownies are looking for more adult volunteers</h3>
+      <p>The 3rd Sanderstead Brownies is 90 years old this year. But they could close unless enough volunteers step forward to help run the group. <%= link_to "Read more", "resource/3rd_Sanderstead_Brownies.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="cbnwa"></a>Neighbourhood Watch appeals for help and donations</h3>
       <p>There is a real risk that Croydon Borough Neighbourhood Watch will have to close at the end of April due to a lack of short-term funding. At a time of such concern about crime in our borough this would be a serious development. We are therefore writing to ask you to make a donation to keep the Charity going... <%= link_to "Read the full details here", "resource/CBNWA29Jan18.pdf" %>.</p>
