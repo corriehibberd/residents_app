@@ -3,13 +3,13 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
+gem 'rails', '~>4.2.3'
 gem 'bootstrap-sass'
 gem 'redcarpet'
 gem 'devise'
 
 # Use sqlite3 as the database for Active Record
-gem 'pg'
+gem 'pg', '~> 0.18.4'
 
 group :production do
 	gem 'rails_12factor'
