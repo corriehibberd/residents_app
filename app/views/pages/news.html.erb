@@ -11,7 +11,9 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
-        <li><h4><%= link_to "Kerbside Christmas tree recycling", anchor: "trees" %></h4></li>
+        <li><h4><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></h4></li>
+        <li><h4><%= link_to "CBNWA in danger of closing", news_path(anchor: "cbnwa") %></h4></li>
+        <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
         <li><h4><%= link_to "Planning application in Briton Hill Road", anchor: "briton" %></h4></li>
         <li><h4><%= link_to "Trading Standards alert", anchor: "beware" %></h4></li>
         <li><h4><%= link_to "Keeping your memory strong", anchor: "memory" %></h4></li>
@@ -25,29 +27,12 @@
         <li><h4><%= link_to "Police Action Fraud Website", police_path(anchor: "fraud") %></h4></li>
         <li><h4><%= link_to "Support the recommended Ward Boundary Changes", news_path(anchor: "boundary") %></h4></li>
         <li><h4><%= link_to "Changes to urgent care services", news5_path %></h4></li>
-        <li><h4><%= link_to "Tim Wainwright 1942 - 2017", news_path(anchor: "RIP") %></h4></li>
-        <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
+        
         <li><h4><%= link_to "Neighbourhood Watch advice on scams", "http://cbnwa.com/wp/index.php/2017/02/23/information-network-bulletin-edition-4/" %></h4></li>
-        <li><h4><%= link_to "Examination of Croydon local plan", anchor: "exam" %></h4></li>
-        <li><h4><%= link_to "Template letter re Local Plan", anchor: "letter" %></h4></li>
-        <li><h4><%= link_to "Petition for debate on Local Plan", anchor: "petition" %></h4></li>
         <li><h4><%= link_to "Croydon Council Local Plan update", anchor: "local" %></h4></li>
-        <li><h4><%= link_to "Croydon Neighbourhood Watch", anchor: "neighbourhood" %></h4></li>
-        <li><h4><%= link_to "Purley Skyscraper update", anchor: "skyscraper" %></h4></li>
         <li><h4><%= link_to "Sanderstead Memorial Hall", anchor: "memorial" %></h4></li>
-        <li><h4><%= link_to "Pictures from the 2016 AGM", news3_path %></h4></li>
-        <li><h4><%= link_to "Rogue Traders in the Neighbourhood", anchor: "builders" %></h4></li>
-        <li><h4><%= link_to "Girl Guiding in Sanderstead", anchor: "guides" %></h4></li>
-        <li><h4><%= link_to "Purley Scouts clean up their streets", anchor: "scouts" %></h4></li>
-        <li><h4><%= link_to "The Future of Purley Hospital", anchor: "hospital" %></h4></li>
         <li><h4><%= link_to "Hall for Hire", anchor: "hall" %></h4></li>
-        <li><h4><%= link_to "Croydon Plan", anchor: "plan" %></h4></li>
-        <li><h4><%= link_to "SRA Chairman's comments on the Croydon Plan", anchor: "comments" %></h4></li>
-        <li><h4><%= link_to "A threat to urgent care services in the Borough of Croydon", anchor: "care" %></h4></li>
         <li><h4><%= link_to "Latest advice on scams from the police", anchor: "scams" %></h4></li>
-        <li><h4><%= link_to "Residents' Associations write to the Health Secretary", anchor: "health" %></h4></li>
-        <li><h4><%= link_to "Proposal for a 16 storey skyscraper for Purley", anchor: "purley" %></a></h4></li>
-        <li><h4><%= link_to "Advice for residents about anti social behaviour", anchor: "asb" %></a></h4></li>
         <li><h4><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h4></li>
         <li><h4><%= link_to "Local Councillors' blog", "http://www.croydonconservatives.com/teams_blog.asp?BlogID=1297&WardID=30" %></h4></li>
         <li><h4><%= link_to "Croydon Neighbourhood Watch News", "http://www.cbnwa.com" %></h4></li>
@@ -65,9 +50,30 @@
 
       <h2> News in Detail</h2>
 
-      <a class="anchor" id="top" name="trees"></a>
-      <h3>Christmas Tree Recycling</h3>
-      <p>Croydon Council have agreed to collect Christmas trees for recycling from the kerbside in January. <%= link_to "Full details here", "https://www.croydon.gov.uk/environment/rrandw/christmas-tree-recycling?home=banner" %></p>
+      <h3><a class="anchor" id="top" name="brownies"></a>3rd Sanderstead Brownies are looking for more adult volunteers</h3>
+      <p>The 3rd Sanderstead Brownies is 90 years old this year. But they could close unless enough volunteers step forward to help run the group. <%= link_to "Read more", "resource/3rd_Sanderstead_Brownies.pdf" %></p>
+
+      <h3><a class="anchor" id="top" name="cbnwa"></a>Neighbourhood Watch appeals for help and donations</h3>
+      <p>There is a real risk that Croydon Borough Neighbourhood Watch will have to close at the end of April due to a lack of short-term funding. At a time of such concern about crime in our borough this would be a serious development. We are therefore writing to ask you to make a donation to keep the Charity going... <%= link_to "Read the full details here", "resource/CBNWA29Jan18.pdf" %>.</p>
+      <p>
+      <p>To continue to function the CBNWA is also looking for a part-time administrator. <%= link_to "The attached job specification", "resource/NHWManager.pdf" %> outlines what is needed. Due to the financial situation of the charity, the paid part-time position would be on a 3 month basis (if funding were to be received this would be extended). If you are interested in the role please email Katie Moorie on nhw@cbnwa.com by 15th February as you would need to be available for a handover on Friday 16th February. </p>
+
+      <h3><a class="anchor" id="top" name="flats"></a>Sanderstead Road Car Park Under Threat!</h3>
+      <p>Council plans to replace Sanderstead Road car park with 20 flats – and no residents’ parking.</p>
+      <p>The Council’s in-house development company Brick By Brick is planning to close the car park on Sanderstead Road and in its place erect a 4/5 storey building with 20-22 flats, and provision for few car spaces for the new residents. There would be a permanent loss of about 25 parking spaces in this very popular car park, while at the same time the local demand for car spaces will be massively increased as a result of the influx of new residents.</p>
+      <p>The car park is used both by local train commuters and by customers of the shops opposite the car park, and its loss would surely be a blow to the local community. One way of retaining some car parking spaces would be if most of the building was up on stilts, leaving part of the ground floor still available for parking, and no doubt there are many other planning options.</p>
+      <p>Further details of this proposal may be found in the Croydon section of the <%= link_to "www.newmanfrancis.org website", "http://newmanfrancis.org/brick-brick-sanderstead-road-car-park/" %>.</p>
+      <p>Two articles examine the objections to this development:
+        <ul>
+          <li><%= link_to "A recent article by Olivia Tobin in the online Croydon Advertiser", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-could-lose-very-valuable-1092903" %></li>
+          <li> <%= link_to "A paper by Jim Gibbons", "resource/Sanderstead_road_car_park.pdf" %></li>
+        </ul> 
+      </p>
+      <p>This site is in Purley ward so do contact the local councillors if you have any queries or questions.  The shops are in Croham ward and interestingly St Mary’s Road is in Sanderstead.  It is the junction of three wards.</p>
+      <p>Simon Brew - Simon.brew@croydon.gov.uk 07803 618096</p>
+      <p>Badsha Quadir - Badsha.quadir@croydon.gov.uk 07956 537023</p>
+      <p>Donald Speakman - Donald.speakman@croydon.gov.uk 07710 183672
+      </p>
 
       <a class="anchor" id="top" name="briton"></a>
       <h3>Planning Application for 11 Briton Hill Road</h3>
@@ -101,8 +107,6 @@
       <p>It was confirmed on 14th November that the critical Westfield Shopping Centre scheme in Croydon town centre will now go ahead, with work due to start by the end of next year. The project will help to transform the town centre, create 7,000 jobs and entails building 1,000 new flats on the site as well. The Westfield shopping centre will be similar to the existing ones in Stratford and Shepherd’s Bush, and will stand on the site of the current Whitgift centre. Further details are at: <%= link_to "www.gov.uk/government/news/minister-for-london-welcomes-14-billion-croydon-redevelopment", "https://www.gov.uk/government/news/minister-for-london-welcomes-14-billion-croydon-redevelopment" %></p>
       <p>This is fantastic news for Croydon. It will provide world-leading retail facilities in the town centre, and act as a spur to other much-needed regeneration projects there. We are hopeful that John Lewis will be confirmed as the anchor store before too long.</p>
 
-
-
       <a class="anchor" id="top" name="block"></a>
       <h3>Call blockers for people with dementia</h3>
       <p>Many of us suffer with the problem of nuisance calls on our phones, but this can be a particular problem for people with dementia. To help with this the government is providing funding for call blockers to tackle this issue. Free call blockers will be available to anyone living with dementia who is currently suffering from scam or nuisance calls.</p>
@@ -123,19 +127,14 @@
       <p>The system of putting notices on lighting or telegraph poles was changed in August. Now immediate adjoining owners will be advised by letter, however should there be a footpath or alley the next property will not be informed, in fact letters could be sent to adjoining empty properties or to adjoining owners who do not appreciate the implications of the proposed application. Residents living opposite or behind the property will not be aware of the planning application.</p>
       <p>The only means of checking planning applications in your area is to check regularly on the Council's Planning website. <%= link_to("Croydon Council planning applications", "http://publicaccess2.croydon.gov.uk/online-applications/") %></p>
 
-
       <a class="anchor" id="top" name="Mitchley"></a>
       <h3>A new planning application has been submitted for 9 or 10 apartments in Borrowdale Close on Mitchley Hill</h3>
       <p>Another planning application for flats has been submitted. This time at 48 Mitchley Hill, at the junction with Borrowdale Close. It is for the "demolition of existing and erection of a building comprising of 9 x 2 bedroom apartments with parking, secure cycle storage and bin storage and modification of an existing access". <%= link_to "More details can be found on the Croydon Council Planning web page.", "http://publicaccess2.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=OUZJBEJLHPW00" %></p>
-
-
 
       <a class="anchor" id="top" name="speed"></a>
       <h3>Croydon Council agree to implement 20 MPH speed limit in south of borough</h3>
       <p>The Council Members of the Traffic Management Advisory Committee, at their meeting on 9th May, 2017 considered any objections but agreed to proceed with the implementation of the 20mph speed limit. You can read the committee report on  <%= link_to "Croydon Council website ", "https://secure.croydon.gov.uk/akscroydon/users/public/admin/kab12.pl?operation=SUBMIT&meet=15&cmte=TMA&grpid=public&arc=1" %>
       </p>
-
-      <h3><%= link_to "Read the latest edition of the Neighbourhood Watch newsletter", "resource/CroydonEye_Summer2017.pdf" %></h3>
 
       <a class="anchor" id="top"  name="boundary"></a>
       <h3>Recommended Changes to Ward Boundaries</h3>
@@ -184,76 +183,7 @@
       <p>Tim was an excellent  photographer and his front cover photos of Sanderstead landmarks and activities coaxed the reader to examine further.</p>
       <p>Tim came across as a quiet and very helpful person, wishing to contribute his skills to the best of his undoubted ability. We will miss Tim’s contribution to the production of the magazine and his calm and friendly personality.</p>
       <p>We send our deepest condolences to Pauline.</p> 
-
-
-      <h3><a class="anchor" id="top" name="flats"></a>Sanderstead Road Car Park Under Threat!</h3>
-      <p>Council plans to replace Sanderstead Road car park with 20 flats – and no residents’ parking.</p>
-      <p>Did you attend the recent exhibition at Sanderstead URC? The Council’s in-house development company Brick By Brick is planning to close the car park on Sanderstead Road and in its place erect a 4/5 storey building with 20-22 flats, and NO provision of ANY car spaces for the new residents. There would be a permanent loss of about 25 parking spaces in this very popular car park, while at the same time the local demand for car spaces will be massively increased as a result of the influx of new residents.</p>
-      <p>The car park is used both by local train commuters and by customers of the shops opposite the car park, and its loss would surely be a blow to the local community. One way of retaining some car parking spaces would be if most of the building was up on stilts, leaving part of the ground floor still available for parking, and no doubt there are many other planning options.</p>
-      <p>Further details of this proposal may be found in the Croydon section of the <%= link_to "www.newmanfrancis.org website", "http://newmanfrancis.org/projects/brick-by-brick-croydon/" %>. If you wish to express an opinion on this development, please write to <%= mail_to "croydon@newmanfrancis.org" %> by the end of March 2017.</p>
-      <p>This site is in Purley ward so do contact the local councillors if you have any queries or questions.  The shops are in Croham ward and interestingly St Mary’s Road is in Sanderstead.  It is the junction of three wards.</p>
-      <p>Simon Brew - Simon.brew@croydon.gov.uk 07803 618096</p>
-      <p>Badsha Quadir - Badsha.quadir@croydon.gov.uk 07956 537023</p>
-      <p>Donald Speakman - Donald.speakman@croydon.gov.uk 07710 183672
-      </p>
-
-      <h3><a class="anchor" id="top" name="exam"></a>Examination of Croydon's Local Plan</h3>
-      <p>The Examination of the Croydon Local Plan: <em>Strategic Policies – Partial Review</em> and the Croydon Local Plan: <em>Detailed Policies and Proposals</em>, will be held on the following dates at the Community Space, Bernard Weatherill House, 8 Mint Walk, Croydon, CR0 1EA. The Hearing Sessions are expected to commence at 10am each day and a finishing time is to be confirmed.</p>
-      <p>The confirmed dates are as follows:</p>
-      <ul>
-        <li>Tuesday 16 May</li>
-        <li>Wednesday 17 May</li>
-        <li>Friday 19 May – morning only</li>
-        <li>Tuesday 23 May- Thursday 25 May inclusive</li>
-        <li>Friday 26 May – morning only</li>
-        <li>Tuesday 30 May- Thursday 1 June inclusive</li>
-        <li>Friday 2 June – morning only.</li>
-      </ul>
-      <p>The programme and Matters and Issues to be considered are determined by the Inspector. More details can be found on the Croydon Council website.<%= link_to "www.croydon.gov.uk", "https://www.croydon.gov.uk/planningandregeneration/framework/localplan/croydon-local-plan-examination/croydon-local-plan-examination" %>
-      </p>
-      <p>Anyone wishing to speak at the public hearing must confirm by 14th March 2017.</p>
-
-      <h3><a class="anchor" id="top" name="speedlimit"></a>Report of meeting about Croydon Council proposal to extend 20mph speed limit in South of Borough</h3>
-      <p><%= link_to "Residents Association objections", "/resource/20mphSpeed.pdf" %></p>
-      <p>"Having considered all aspects of the proposed scheme, the Committee believe that the complete blanket approach is neither justified nor necessary. Roads should be assessed both in light of any previous accident or incident or potential risk of accident and if speed is considered to have been or may be a factor, a restriction to be considered."</p>
-      <p>Sanderstead Residents Association request as many residents as possible participate in the process, noting that the process requires all objection[s] to be explained.</p>
-      <p><%= link_to "Follow this link to access the Council's report ", "https://www.croydon.gov.uk/transportandstreets/roadsafety/20mph-areas-for-residential-roads/" %></p>
-
-      <h3><a class="anchor" id="top" name="letter"></a>Template letter for objections to the local plan</h3>
-      <p><%= link_to "Councillor Tim Pollard writes...", news4_path(anchor: "template") %> <p>...As the consultation is somewhat technical in nature we have created a downloadable template here: <b><%= link_to "(link to www.croydonconservatives.com/download/localplan.docx)", "http://www.croydonconservatives.com/download/localplan.docx" %>, </b> You can use this as the basis for your contribution, and please feel free to delete any bits you don’t agree with or modify it to make it reflect your views.</p>
-
-
-      <h3><a class="anchor" id="top" name="petition"></a>Petition for a debate on the Local Plan</h3>
-      <p>Some residents have started an online petition to bring forward a public debate on the Local Plan, at the next Full Council meeting being held on 17th October 2016. The Full Council meeting coincides with the last day of the consultation itself. So, it would be timely to hold a debate at that meeting, led by the public, that would ask the Council to once again re-think some of their policies within the Local Plan. Please follow this link to sign the petition. <%= link_to "https://www.surveymonkey.co.uk/r/CroydonLocalPlan", "https://www.surveymonkey.co.uk/r/CroydonLocalPlan"  %></p>
-
-      <h3><a class="anchor" id="top" name="local"></a>Latest news on the Council's "Local Plan" relating to Sanderstead</h3>
-      <p>Read the latest news from our Coucillors re the Croydon Council Local Plan. <%= link_to "In Touch", "resource/2016-09-Sanderstead-Local-Plan.pdf" %></p>
-
-      <h3><a class="anchor" id="top" name="neighbourhood"></a>Neighbourhood Watch thank Sanderstead Residents Association in their latest newsletter</h3>
-      <p>"As a result of the income generated by individuals, co-ordinators, or groups (especially Sanderstead Residents’ Association) we are now in a better financial position. I would like to thank those of you who have made, or promised to make, donations to help ensure the future of the charity..." Read more in the <%= link_to "latest newsletter which can be downloaded here", "http://cbnwa.com/wp/index.php/newsletters/" %>.</p>
-      <h3><a class="anchor" id="top" name="skyscraper"></a>Chris Philp MP urges us to sign a petition and object to plans to build a 17 storey skyscraper in Purley</h3>
-      <p>Dear All, Last month, a planning application was submitted to build a 17 floor skyscraper in the centre of Purley on the site with the grey hoardings on Purley Cross.</p>
- 
-      <p>The owner of the site had wanted to build a much smaller building which included community facilities. However, Croydon Council has made various demands (including a £2m cash payment to the council and a significant social housing component which requires a subsidy) meaning that the only way the scheme is financially viable is to build 17 floors. The council has indicated in Pre-Application hearings that it is minded to approve the planning application for the 17 floor Skyscraper.</p>
- 
-      <p>I and many other local campaigners (including 7 local residents' associations) believe that a 17 floor skyscraper is totally out of keeping with a peaceful town like Purley, where the next tallest building is only 5 floors. There is a danger that other developers will in the future try to use this as a precedent to build more skyscrapers in Purley. Finally, there are only 37 parking spaces for 220 flats, which will add to the existing parking problems in Purley.</p>
- 
-      <p>The site does need redeveloping but a much smaller scheme would be more suitable. Full details of the planning application are on the council website under planning reference 16/02994/P.</p>
- 
-      <p>Please join me in opposing the skyscraper by doing the following:
-      <ol>
-        <li>Sign my online petition at: <%= link_to "www.surveymonkey.com/r/StopPurleySkyscraper", "https://www.surveymonkey.com/r/StopPurleySkyscraper" %>. Please also forward this link to as many friends and neighbours as you can.</li>
- 
-        <li>Submit your own objection directly to the council by this Monday (11th July)
-Email them at <%= mail_to "development.management@croydon.gov.uk" %> quoting reference 16/02994/P explaining your views on the proposed scheme.</li>
- 
-       <li>Attend a demonstration on the steps of the Town Hall on Katharine Street in Croydon Town Centre at 6pm on Monday 18th July. This coincides with the start of the next full Council Meeting at which Councillors will be considering the Local Plan, which includes provision for a skyscraper in Purley.</li>
-     </ol></p>
- 
-      <p>Please join me in trying to prevent this totally inappropriate skyscraper.</p>
- 
-      <p>Kind regards, Chris Philp MP, Member of Parliament for Croydon South</p>
-
+      
       <h3><a class="anchor" id="top" name="memorial"></a>Sanderstead Memorial Hall</h3>
       <p>Sanderstead Memorial Hall was built as a tribute to the men and women who died or served their country in the First World War. The hall was opened in June 1922 by Vice Admiral A.F.B. Carpenter VC of Zeebrugge fame. The Sanderstead Hall Association was formed in 1923 to manage the hall. The hall is used as a facility for residents of Sanderstead and, subject to availability and proposed use, may be hired. It is used on a regular basis for various activities by several groups. These include:</p>
         <ul>
@@ -265,35 +195,6 @@ Email them at <%= mail_to "development.management@croydon.gov.uk" %> quoting ref
         <p>The hall is managed on a daily basis by Caroline Hubbard and overseen by a small, volunteer committee who meet twice a year to review the management of the hall and any refurbishments necessary. We would like to see a few more volunteers join this small committee and continue the work of this facility in Sanderstead.</p>
         <p>If you are interested and would like to find out more please contact Caroline Hubbard on 07775 680087</p>
 
-      <h3><a class="anchor" id="top" name="builders"></a>A warning about rogue traders in the neighbourhood </h3>
-        <p>We have received the following warning from PCSO Sam Brooks, from the Sanderstead Neighbourhood Policing Team: Trading standards are currently dealing with an increased number of cold calling incidents leading to doorstep crime investigations. Callers are preying on vulnerable residents, who in turn have paid thousands out for home improvement works which are unnecessary or of poor quality. Often the work never takes place at all.</p>
-        <p>Please look out for your neighbours and friends. If you receive any leaflets or flyers through your door please make the effort and send the leaflets to Trading standards so that we know who is working where in your borough. Your information could help us to solve a crime and to protect a person at risk of financial abuse.</p>
-        <p>Please send any flyers/leaflets to <%= mail_to "trading.standards@croydon.gov.uk" %> or by post to Trading Standards, Zone B 10th Floor Bernard Weatherill House, 8 Mint Walk, Croydon, CR0 1EA. To report a doorstep crime incident call 03454 04 05 06.</p>
-
-
-      <h3><a class="anchor" id="top" name="guides"></a>Girl Guiding in Sanderstead</h3>
-      <p>There are currently 4 active Brownie units for girls aged 7 – 10 years within the Sanderstead area. We meet on a weekly basis during term time at various churches around the area. Our girls take part in a wide variety activities including art &amp; craft, outdoor fun, a variety of sporting challenges, games nights &amp; everyone’s favourite: nights away with all their Brownie friends.</p>
-
-      <p>There is also wide range of badges they can earn either individually or as a unit. These include such things as, cookery, first aid, crime prevention, fire safety, cyclist, artist, book lover, toymaker, hostess &amp; many more.</p>
-
-      <p>Brownies is just one part worldwide family of girl guiding. Enrolling in Brownies gives girls a world of fun, exciting &amp; challenging opportunities. We currently have several spaces available in a couple of our units.</p>
-
-      <p>We are also looking for adult volunteers to help at our meetings. Volunteering is a fun &amp; rewarding way to help the girls of Sanderstead develop &amp; grow. Our adult volunteers are a fun &amp; friendly team who would warmly welcome anyone wishing to help, you only need be able to spare 3 – 4 hours a week.</p>
-
-      <p>If you would like to join us as a Brownie or adult volunteer, please e-mail your contact details to jacquiwheel@lineone.net</p>
-
-      <h3><a class="anchor" id="top" name="station"></a>New ticket Barriers at Sanderstead Station</h3>
-      <p>Jim Gibbons, on behalf of Sanderstead Residents Association has produced a paper of questions for Southern Region about the installation of new ticket barriers at Sanderstead station, and the consequent reduction in the hours that the station is staffed. Any resident may make their own comment to <%= mail_to "enquires@londontravelwatch.org.uk" %> by e-mail or writing to them at 169 Union St, London SE1 0LL. <%= link_to "Read the full paper here", "/resource/Qs_for_SR.pdf" %>. </p>
-
-      <h3><a class="anchor" id="top" name="scouts"></a>1st Purley Scouts lend a hand</h3>
-      <p><%= image_tag "Purley_cubs.jpg", alt: "Purley Cubs" %></p>
-      <p>On Saturday 28 February, 22 cubs and leaders from the 1st Purley Cub Scouts carried out a litter pick covering pockets of private land and footways between Purley Park Road, Brancaster Lane, Lower Barn Road, Mitchley Avenue, Buttermere Gardens, Ingleboro Drive and Honister Heights. They collected 38 bags of litter. The Cubs will now take part in a reflection session at cubs to look at how they felt when they saw the litter and how they felt after the litter was cleared. They will then look at how this will make them act in the future regarding litter. The cubs are working on their "Our World" badge, which asks them to identify an issue in the community and how the pack can help with it.</p>
-
-      <p>Tracy Bellamy, Croydon Council Clean and Green Champion co-ordinator, thanks the 1st Purley Cubs who were polite, well behaved and a credit their pack.</p>
-
-      <h3><a class="anchor" id="top" name="hospital"></a>Local Residents Associations have written to the Croydon Clinical Commissioning Group regarding the future of Purley Hospital</h3>
-      <p>"For the past 18 months, representatives from our Residents Associations have been in discussions with the executive team of the Croydon Clinical Commissioning Group regarding the provision of urgent care facilities within Croydon Borough. Additionally, our representatives have attended many of the engagement meetings organised by the CCG, and by others, regarding the urgent care review...
-        <%= link_to "Read the full letter here", "/resource/CCCG_130116.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="hall"></a>Trinity Mid-Whitgiftian Hall now available for hire</h3>
       <p>Now available for hire: The Clubhouse at Trinity Sanderstead Sports and Social Club is set in tranquil surroundings, overlooking playing fields at the end of Lime Meadow Avenue. With a large free car park and its proximity to bus routes, it is the perfect venue for classes and clubs, rehearsals, parties, wakes, sporting events and business meetings. If you are interested in hiring The Clubhouse for a function or a regular booking please call 07582 910094 or email <%= mail_to "admin@tsssc.co.uk" %></p>
@@ -309,25 +210,8 @@ Email them at <%= mail_to "development.management@croydon.gov.uk" %> quoting ref
             <p><%= link_to "Read the full text here", news4_path %></p>
 
 
-      <h3><a class="anchor" id="top" name="care" ></a>A threat to urgent care services and Purley Hospital</h3>
-      <p>Residents' Associations in the South of the Borough have produced a paper detailing their concern about the threat to urgent care services in Croydon and in particular regarding Purley Hospital. <%= link_to("The full paper is available to download here", "/resource/CCCG_briefing221015.pdf") %></p>
-
       <h3><a class="anchor" id="top" name="scams" ></a>Read the latest Edition of "The little Book of Big Scams" </h3>
       <p>Produced by the Metropolitan Police, this book is vital reading for today's world. <%= link_to "Metropolitan Police Little Book of Big Scams", "http://www.met.police.uk/docs/little_book_scam.pdf" %></p>
-
-
-      <h3><a class="anchor" id="top" name="health"></a>Urgent care provision at Purley Hospital</h3>
-      <p>Croydon Borough Residents Associations have written a joint letter to Jeremy Hunt, the Health Secretary, asking him to intervene to reinstate urgent care services at Purley hospital. <%= link_to("Read the full letter here.", "/resource/purley_hospital_letter.pdf") %></p>
-
-      <h3><a class="anchor" id="top" name="asb"></a>Advice for Residents about Anti Social Behaviour</h3>
-      <p>The Metropolitan Police have issued a paper giving useful advice for residents about many types of Anti Social Behaviour and what we can do about it. <%= link_to "Read and download the paper here", "resource/asb_faq.pdf" %>.</p>
-
-
-      <h3><a class="anchor" id="top" name="purley"></a>Skyscraper proposed for Purley</h3>
-      <p>Purley Baptist Church have produced a detailed proposal for construction on the Purley Cross site. See <%= link_to "http://purleycentre.commonplace.is", "http://purleycentre.commonplace.is/" %>.</p>
-      <p>Croydon’s Labour Council is seeking to force the construction of a 16 floor skyscraper in the centre of Purley, on the site with the grey hoardings on Purley Cross.</p>
-      <p>Parliamentary Candidate for Croydon South, Chris Philp, GLA Member Steve O'Connell and other local campaigners including ward councillors strongly believe that a 16 floor skyscraper is totally out of keeping with a peaceful town like Purley, and there is a danger that other developers will later try to use it as a precedent to build other skyscrapers in Purley. <%= link_to "Read more...", "http://www.croydonconservatives.com/news_search_results_detail.asp?StoryNo=1502" %></p>
-
      
       
       <!--<h3><a name="grave"></a>Medieval Gravestone discovered at All Saints</h3>

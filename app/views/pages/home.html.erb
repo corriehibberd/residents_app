@@ -13,15 +13,16 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></p></li>
+        <li><p><%= link_to "Croydon Neighbourhood Watch looking for help to continue", news_path(anchor: "cbnwa") %></p></li>
+        <li><p><%= link_to "WEA Branch looking for help to continue", "resource/WEA_Newsletter2018.pdf" %></p></li>
+        <li><p><%= link_to "Beware scammers offering to do building work", police_path(anchor: "driveway") %></p></li>
+        <li><p><%= link_to "Development in Sanderstead Road Car Park", news_path(anchor: "flats") %></p></li>
         <li><p><%= link_to "Latest police news update", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Vehicle crime prevention advice from the police", police_path(anchor: "vehicle") %></p></li>
         <li><p><%= link_to "Planning application in Briton Hill Road", news_path(anchor: "briton") %></p></li>
-        <li><p><%= link_to "Advice for keeping safe from burglars at Christmas from our local police team", police_path(anchor: "christmas") %></p></li>
-        <li><p><%= link_to "Christmas tree recycling", news_path(anchor: "trees") %></p></li>
         <li><p><%= link_to "Trading Standards alert", news_path(anchor: "beware") %></p></li>
-        <li><p><%= link_to "Tips for keeping your memory strong", news_path(anchor: "memory") %></p></li>
-        <li><p><%= link_to "Westfield is coming to Croydon", news_path(anchor: "westfield") %></p></li>
-        <li><p><%= link_to "A group of Sanderstead residents have formed a committee to protest a series of proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></p></li>       
+        <li><p><%= link_to "Tips for keeping your memory strong", news_path(anchor: "memory") %></p></li>       
     </ul>
       <h2>Membership</h2>
       <div class="row">
@@ -63,12 +64,16 @@
       <br/>  
       
       <h4>2018</h4>
-      <b>Sunday 14th January</b>
-      <p><%= link_to("Family Fun Hour", events_path(anchor: "fun")) %></p>
       <b>Saturday 10th February</b>
       <p><%= link_to("Book Sale", events_path(anchor: "books")) %></p>
+       <b>Sunday 11th February</b>
+      <p><%= link_to("Family Fun Hour", events_path(anchor: "fun")) %></p>
+      <b>Saturday 3rd March</b>
+      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches_mar")) %></p>
       <b>Saturday 17th March</b>
       <p><%= link_to("Exhibition and sale of pictures", events_path(anchor: "childrensoc")) %></p>
+      <b>Saturday 7th April</b>
+      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches_apr")) %></p>
       <b>Saturday 21st April</b>
       <p><%= link_to("SNC Quiz Night", events_path(anchor: "snc")) %> </p>
       <b>Thursday 10th May</b>
