@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Selsdon Park Medical Practice", news_path(anchor: "medical") %></h4></li>
         <li><h4><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></h4></li>
         <li><h4><%= link_to "CBNWA in danger of closing", news_path(anchor: "cbnwa") %></h4></li>
         <li><h4><%= link_to "Council plans to replace Sanderstead Road car park with 20 flats", news_path(anchor: "flats") %></h4></li>
@@ -49,6 +50,10 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top", name="medical"></a>Selsdon Park Medical Practice needs your help</h3>
+      <p>The Selsdon Park Medical Practice Patient Participation Group (PPG) was established to strengthen the relationship between the Practice and its Patients. The PPG committee consists of up to twelve members who meet regularly to discuss the services on offer and how improvements can be made for the benefit of patients and the practice. The make up of the committee should reflect that of the patient body but at the present time the committee lacks representation from those aged under 45 years (including young parents), carers, disabled and other homebound individuals who find it difficult to attend regular meetings. The committee intends to set up a reference group to involve these patient categories by inviting subjects for discussion and seeking comment on agendas prior to meetings. If you are a patient of the practice and would like to be included in this reference group or if you would like to raise any practice issues you can contact the committee at their email address: selsdonppg@gmail.com or through reception at the surgery.</p>
+      
 
       <h3><a class="anchor" id="top" name="brownies"></a>3rd Sanderstead Brownies are looking for more adult volunteers</h3>
       <p>The 3rd Sanderstead Brownies is 90 years old this year. But they could close unless enough volunteers step forward to help run the group. <%= link_to "Read more", "resource/3rd_Sanderstead_Brownies.pdf" %></p>
