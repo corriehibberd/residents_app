@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Have your say at Sanderstead Library", news_path(anchor: "library") %></h4></li>
         <li><h4><%= link_to "Selsdon Park Medical Practice", news_path(anchor: "medical") %></h4></li>
         <li><h4><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></h4></li>
         <li><h4><%= link_to "CBNWA in danger of closing", news_path(anchor: "cbnwa") %></h4></li>
@@ -51,7 +52,11 @@
 
       <h2> News in Detail</h2>
 
-      <h3><a class="anchor" id="top", name="medical"></a>Selsdon Park Medical Practice needs your help</h3>
+      <h3><a class="anchor" id="top" name="library"></a>Have your say at Sanderstead Library</h3>
+      <p>Sanderstead Library: "Have Your Say" up to 26th March. When you visit the Library put down your views about your visit to the Library, results of the survey will be available in April. You can also post answers online at <%= link_to "https://getinvolved.croydon.gov.uk", "https://getinvolved.croydon.gov.uk" %> </p>
+
+
+      <h3><a class="anchor" id="top" name="medical"></a>Selsdon Park Medical Practice needs your help</h3>
       <p>The Selsdon Park Medical Practice Patient Participation Group (PPG) was established to strengthen the relationship between the Practice and its Patients. The PPG committee consists of up to twelve members who meet regularly to discuss the services on offer and how improvements can be made for the benefit of patients and the practice. The make up of the committee should reflect that of the patient body but at the present time the committee lacks representation from those aged under 45 years (including young parents), carers, disabled and other homebound individuals who find it difficult to attend regular meetings. The committee intends to set up a reference group to involve these patient categories by inviting subjects for discussion and seeking comment on agendas prior to meetings. If you are a patient of the practice and would like to be included in this reference group or if you would like to raise any practice issues you can contact the committee at their email address: selsdonppg@gmail.com or through reception at the surgery.</p>
       
 
