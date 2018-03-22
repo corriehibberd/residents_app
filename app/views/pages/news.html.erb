@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Petition about Croydon Council's building company Brick by Brick", news_path(anchor: "petition") %></h4></li>
         <li><h4><%= link_to "Have your say at Sanderstead Library", news_path(anchor: "library") %></h4></li>
         <li><h4><%= link_to "Selsdon Park Medical Practice", news_path(anchor: "medical") %></h4></li>
         <li><h4><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></h4></li>
@@ -52,7 +53,26 @@
 
       <h2> News in Detail</h2>
 
-      <h3><a class="anchor" id="top" name="library"></a>Have your say at Sanderstead Library</h3>
+      <h3><a class="anchor" id="top" name="petition"></a>New petition about Brick by Brick</h3>
+      <p>A second petition against Croydon Council's building company "Brick by Brick" has been issued. The petition can be found on this address <%= link_to " https://www.surveymonkey.co.uk/r/fixcroydonplanning", " https://www.surveymonkey.co.uk/r/fixcroydonplanning" %>.</p>
+      <p>Petition wording: “We, the undersigned, have lost faith in the current administrations Planning Committee and Planning Department. Planning should be a collective enterprise, yet the valid concerns of Residents, of the London Borough of Croydon, have been ignored and, additionally, Residents have been restricted from taking part in debates that should be shaping our communities. Since 2014, decisions made by the Planning Committee have appeared to be partial, partisan and predetermined, angering existing Residents and the voting public across the entire Borough.</p>
+      <p>We believe the process has not been conducted in an "independent, reasoned and transparent manner"</p>
+      <p>We question the conflict of interests within the Planning and Housing departments, which may be legal but appear dubious.</p>
+      <p>The public concerns have been ignored in an attempt to satisfy a housing quota. We appreciate &amp; support the need for more housing and 'affordable' homes but development must be sustainable, ensuring that such developments do not mean increased suffering for current and future residents.</p>
+      <p>We call for a full meeting of the Council to discuss openly all of the Brick by Brick projects.</p>
+      <p>We request that the full council meeting, or an independent review, hear the petitions and objections against each of the planning applications in question - giving us, the residents, greater and more reasonable time to speak and be heard.</p>
+      <p>We call for the launch of a thorough, impartial review of all Planning Department guidance and Committee decisions on Brick by Brick developments to:
+        <ul>
+          <li>Reduce the overcrowding, invasive designs &amp; invasion of privacy</li>
+          <li>Consider our Communities’ delicate social infrastructure.</li>
+          <li>Ensure architecture and design is in keeping with local buildings and the community's identity</li>
+          <li>Consider the significant impact in the loss of parking spaces caused by their forced removal and the significant increase in demand caused by the new homes.</li>
+          <li>Ensure that developments are not within a flood zone/investigation area.</li>
+          <li>Ensure all future planning meetings are chaired fairly, free from partisan pressure, with common sense prevailing."</li>
+        </ul>
+      </p>
+
+      <h3><a class="anchor" id="top" name="library"></a>Have y https://www.surveymonkey.co.uk/r/fixcroydonplanningo, your say at Sanderstead Library</h3>
       <p>Sanderstead Library: "Have Your Say" up to 26th March. When you visit the Library put down your views about your visit to the Library, results of the survey will be available in April. You can also post answers online at <%= link_to "https://getinvolved.croydon.gov.uk", "https://getinvolved.croydon.gov.uk" %> </p>
 
 
