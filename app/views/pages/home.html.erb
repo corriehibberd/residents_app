@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Read the latest Neighbourhood Watch ebulletin", "/resource/NHW_April2018.pdf" %></p></li>
         <li><p><%= link_to "Petition about Croydon Council's building company Brick by Brick", news_path(anchor: "petition") %></p></li>
         <li><p><%= link_to "Latest police news update and Neighbourhood Watch newsletter", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Are you a patient at the Selsdon Park Medical Practice?", news_path(anchor: "medical") %></p></li>
@@ -69,6 +70,8 @@
       <p><%= link_to("Family Fun Hour", events_path(anchor: "fun")) %></p>
       <b>Saturday 21st April</b>
       <p><%= link_to("SNC Quiz Night", events_path(anchor: "snc")) %> </p>
+      <b>Saturday 21st April</b>
+      <p><%= link_to("Sanderstead and Riddlesdown Crime Prevention Day", events_path(anchor: "crime")) %></p>
       <b>Saturday 5th May</b>
       <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches_may")) %></p>
       <b>Thursday 10th May</b>
