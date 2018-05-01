@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Points to consider if approached by a developer", news_path(anchor: "developer") %></h4></li>
         <li><h4><%= link_to "Petition about Croydon Council's building company Brick by Brick", news_path(anchor: "petition") %></h4></li>
         <li><h4><%= link_to "Selsdon Park Medical Practice", news_path(anchor: "medical") %></h4></li>
         <li><h4><%= link_to "3rd Sanderstead Brownies need more volunteers", news_path(anchor: "brownies") %></h4></li>
@@ -51,6 +52,9 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="developer"></a>Points to consider if approached by a developer</h3>
+      <p><%= link_to "Riddlesdown Residents' Association website has useful information about what a householder should consider if approached by a developer wishing to buy their home.", "http://www.riddlesdownresidents.org.uk/planning-tips%20on%20apps.html#Points" %></p>
 
       <h3><a class="anchor" id="top" name="petition"></a>New petition about Brick by Brick</h3>
       <p>A second petition against Croydon Council's building company "Brick by Brick" has been issued. The petition can be found on this address <%= link_to " https://www.surveymonkey.co.uk/r/fixcroydonplanning", " https://www.surveymonkey.co.uk/r/fixcroydonplanning" %>.</p>
