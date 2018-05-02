@@ -11,6 +11,8 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "A new train timetable from 20th May", news_path(anchor: "trains") %></h4></li>
+        <li><h4><%= link_to "A new head for Warlingham Park School", news_path(anchor: "head") %></h4></li>
         <li><h4><%= link_to "Points to consider if approached by a developer", news_path(anchor: "developer") %></h4></li>
         <li><h4><%= link_to "Petition about Croydon Council's building company Brick by Brick", news_path(anchor: "petition") %></h4></li>
         <li><h4><%= link_to "Selsdon Park Medical Practice", news_path(anchor: "medical") %></h4></li>
@@ -52,6 +54,25 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="trains"></a>New Train Timetable comes into force on 20th May</h3>
+      <p>In a spectacular boost for Croydon, Govia Thameslink Railway (GTR), which runs Thameslink and Southern services, has promised four times as many services as present on some routesin an upcoming timetable shake-up from 2am on Sunday, May 20 following major consultation.</p>
+      <p>We are pleased to see the years this Conservative government has spent pushing for improved rail services for residents rewarded - with particular credit going to Croydon South MP Chris Philp for his tireless advocacy, and Transport Secretary Chris Grayling for his hard work pressing GTR to get it together.</p>
+      <p>The changes being introduced include:
+        <ul>
+          <li>Thameslink is introducing two new services from East Croydon to its current schedule, with two trains per hour going to Peterborough and one to Cambridge every day.</li>
+          <li>East Croydon will see four times as many services to Blackfriars during peak morning hours.</li>
+          <li>There will be an increase to two trains per hour from East Croydon for anyone heading to Reigate, and an increase to five trains per hour for people travelling to Brighton.</li>
+          <li>Norwood Junction is set to get an increase in services, including an all-day-long Thameslink service to Bedford, which stops at Blackfriars and St Pancras.</li>
+          <li>South Croydon will receive an extra service to London Bridge.</li>
+        </ul>
+        <p>The initial target is for 22 trains an hour to run through London, with this increasing to 24 an hour by December 2019. The system could eventually be used even more widely.</p>
+        <p>We are sure residents across Croydon will feel the benefits of this much-needed overhaul and investment, and hope it will mark the beginning of a bright new chapter in Croydon's history.</p>
+        <p>Councillor Tim Pollard
+      </p>
+
+      <h3><a class="anchor" id="top" name="head"></a>A new Head Teacher for Warlingham Park School</h3>
+      <p>Mrs Sarah Buist has been appointed to be the new Headteacher at Warlingham Park School with effect from 1st September 2018. The present Headteacher, Mr Michael Donald will be retiring at the end of this academic year after 25 years of dedicated service to the school. <%= link_to "Read more...", "resource/new_head_teacher.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="developer"></a>Points to consider if approached by a developer</h3>
       <p><%= link_to "Riddlesdown Residents' Association website has useful information about what a householder should consider if approached by a developer wishing to buy their home.", "http://www.riddlesdownresidents.org.uk/planning-tips%20on%20apps.html#Points2" %></p>
