@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "New signs in king's Wood", news_path(anchor: "kingswood") %></h4></li>
         <li><h4><%= link_to "Royal British Legion poppies on lampposts", news_path(anchor: "poppies") %></h4></li>
         <li><h4><%= link_to "Sanderstead Memorial Hall needs more committee members", news_path(anchor: "memorial") %></h4></li>
         <li><h4><%= link_to "Planning application for 45 The Ridge Way", news_path(anchor: "ridgeway") %></h4></li>
@@ -61,6 +62,10 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="kingswood"></a>New signs in king's Wood</h3>
+      <p>Sanderstead Residents' Association and our local Councillors have arranged for smart new signs to be erected in the entrances to King's Wood in Sanderstead.</p>
+      <p><%= image_tag "KingsWoodSign.jpg", alt: "King's Wood Sign" %></p>
 
       <h3><a class="anchor" id="top" name="poppies"></a>Royal British Legion poppies on lampposts</h3>
       <p>This year we are commemorating 100 years since the end of the First World War and the Royal British Legion will be launching their "Thank You Movement" on the 8th August to run through 100 days until Armistice Day on Sunday 11th November. They are inviting members of the public to say "Thank You" to all those who served, sacrificed and changed our world.</p>

@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "New signs erected in King's Wood", news_path(anchor: "kingswood") %></p></li>
         <li><p><%= link_to "Poppies on lampposts", news_path(anchor: "poppies") %></p></li>
         <li><p><%= link_to "Sanderstead Memorial Hall requires committee members", news_path(anchor: "memorial") %></p></li>
         <li><p><%= link_to "Planning application for 45 The Ridge Way", news_path(anchor: "ridgeway") %></p></li>
@@ -66,14 +67,6 @@
       <h4>2018</h4>
       <b>Every Thursday</b>
       <p><%= link_to "Women's Football on Sanderstead Rec", "/resource/Women_Football.pdf", target: "blank" %></p>
-      <b>Saturday 9th June</b>
-      <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches_june")) %></p>
-      <b>Saturday 9th June</b>
-      <p><%= link_to("Junior Football Trials", events_path(anchor: "junior-football")) %></p>
-      <b>Sunday 10th June</b>
-      <p><%= link_to("Family Fun Hour", events_path(anchor: "fun")) %></p>
-      <b>Saturday 16th June</b>
-      <p><%= link_to("Fashion Show in aid of SECHC", events_path(anchor: "Fashion_show")) %></p>
       <b>Saturday 23rd June</b>
       <p><%= link_to("Barn Dance", events_path(anchor: "barn")) %></p>
       <b>Saturday 23rd June</b>
@@ -86,6 +79,8 @@
       <p><%= link_to("Purley Beeches working party", events_path(anchor: "beeches_july")) %></p>
       <b>Tues - Thurs 28th - 30th August</b>
       <p><%= link_to("Mission Rescue Holiday club for Children", events_path(anchor: "mission")) %></p>
+      <b>Sunday 16th September</b>
+      <p><%= link_to("Family Fun at All Saints Church", events_path(anchor: "fun")) %></p>
       <b>Saturday 29th September</b>
       <p><%= link_to("Sanderstead Community Day", events_path(anchor: "community")) %></p>
       <h2>Become a member</h2>
@@ -102,6 +97,7 @@
       <h4>Local Organisations supported by SRA</h4>
       <p>Since 2012 the Association has funded and made donations to or provided the following:</p>
       <ul>
+        <li>Signs in King's Wood</li>
         <li><%= link_to "South East Cancer Help Centre", "http://www.sechc.org.uk/" %></li>
         <li>Sanderstead Neighbourhood Watch</li>
         <li>Hamsey Green pond</li>
