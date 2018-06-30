@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Warning about suspicious leaflets left in doors", police_path(anchor: "leaflets") %></p></li>
         <li><p><%= link_to "Recycling and waste disposal changes", news_path(anchor: "waste") %></p></li>
         <li><p><%= link_to "Planning application for 1 Addington Road", "http://publicaccess2.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=P2FT6CJLM0B00" %></p></li>
         <li><p><%= link_to "New signs erected in King's Wood", news_path(anchor: "kingswood") %></p></li>
@@ -64,8 +65,6 @@
       <h4>2018</h4>
       <b>Every Thursday</b>
       <p><%= link_to "Women's Football on Sanderstead Rec", "/resource/Women_Football.pdf", target: "blank" %></p>
-      <b>Saturday 30th June</b>
-      <p><%= link_to("Football open day", events_path(anchor: "football")) %></p>
       <b>Sunday 1st July</b>
       <p><%= link_to("Jubilee Running 10K", events_path(anchor: "Jubilee")) %></p>
       <b>Saturday 14th July</b>
