@@ -13,16 +13,14 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Police appeal for witnesses", police_path(anchor: "witnesses") %></p></li>
+        <li><p><%= link_to "Feeding the birds on Sanderstead pond", news_path(anchor: "pond") %></p></li>
         <li><p><%= link_to "SRA committee in Waitrose", events_path(anchor: "SRA") %></p></li>
         <li><p><%= link_to "Warning about suspicious leaflets left in doors", police_path(anchor: "leaflets") %></p></li>
         <li><p><%= link_to "Recycling and waste disposal changes", news_path(anchor: "waste") %></p></li>
         <li><p><%= link_to "Planning application for 1 Addington Road", "http://publicaccess2.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=P2FT6CJLM0B00" %></p></li>
         <li><p><%= link_to "New signs erected in King's Wood", news_path(anchor: "kingswood") %></p></li>
-        <li><p><%= link_to "Poppies on lampposts", news_path(anchor: "poppies") %></p></li>
-        <li><p><%= link_to "Sanderstead Memorial Hall requires committee members", news_path(anchor: "memorial") %></p></li>
-        <li><p><%= link_to "Planning application for 45 The Ridge Way", news_path(anchor: "ridgeway") %></p></li>
-        <li><p><%= link_to "Support for legal action against Croydon Council planning dept", news_path(anchor: "norwood") %></p></li>
-        <li><p><%= link_to "Riddlesdown 'Residents' Association has useful information about what to do if approached by a developer", news_path(anchor: "developer") %></p></li>     
+        <li><p><%= link_to "Poppies on lampposts", news_path(anchor: "poppies") %></p></li>     
     </ul>
       <h2>Membership</h2>
       <div class="row">
@@ -70,7 +68,7 @@
       <p><%= link_to("Summer Reading Challenge", events_path(anchor: "reading")) %></p>
       <b>Tuesday 17th July</b>
       <p><%= link_to("Bead making at the Library", events_path(anchor: "beads")) %></p>
-      <p>Saturday 4th August</b>
+      <b>Saturday 4th August</b>
       <p><%= link_to("SRA in Waitrose", events_path(anchor: "SRA")) %></p>
       <b>Tues - Thurs 21st - 23rd August</b>
       <p><%= link_to("Summer in Sanderstead holiday club for older people", events_path(anchor: "summer")) %></p>
