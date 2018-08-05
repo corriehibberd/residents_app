@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Police update report for July", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Police appeal for witnesses", police_path(anchor: "witnesses") %></p></li>
         <li><p><%= link_to "Feeding the birds on Sanderstead pond", news_path(anchor: "pond") %></p></li>
         <li><p><%= link_to "SRA committee in Waitrose", events_path(anchor: "SRA") %></p></li>
@@ -62,12 +63,8 @@
       <br/>  
       
       <h4>2018</h4>
-      <b>Every Thursday</b>
-      <p><%= link_to "Women's Football on Sanderstead Rec", "/resource/Women_Football.pdf", target: "blank" %></p>
       <b>Through Summer</b>
       <p><%= link_to("Summer Reading Challenge", events_path(anchor: "reading")) %></p>
-      <b>Saturday 4th August</b>
-      <p><%= link_to("SRA in Waitrose", events_path(anchor: "SRA")) %></p>
       <b>Tues - Thurs 21st - 23rd August</b>
       <p><%= link_to("Summer in Sanderstead holiday club for older people", events_path(anchor: "summer")) %></p>
       <b>Tues - Thurs 28th - 30th August</b>
@@ -78,6 +75,9 @@
       <p><%= link_to("Family Fun at All Saints Church", events_path(anchor: "fun")) %></p>
       <b>Saturday 29th September</b>
       <p><%= link_to("Sanderstead Community Day", events_path(anchor: "community")) %></p>
+      <b>Every Thursday</b>
+      <p><%= link_to "Women's Football on Sanderstead Rec", "/resource/Women_Football.pdf", target: "blank" %></p>
+      
       <h2>Become a member</h2>
       <p>Find out about joining the SRA here.</p>
       <%= link_to("Membership", members_path, class: 'btn btn-primary') %>
