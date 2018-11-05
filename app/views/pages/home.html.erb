@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Scam advice from the Safer Neighbourhood Team", police_path(anchor: "scam_advice")%></p></li>
         <li><p><%= link_to "Councillor Hopley reports the latest news on Sanderstead pond", news_path(anchor: "pondoct") %></p></li>
         <li><p><%= link_to "SRA headline the Croydon Advertiser to question the new 20mph limit", "https://www.croydonadvertiser.co.uk/news/croydon-news/drivers-croydon-taking-no-notice-1995336" %></p></li>
         <li><p><%= link_to "Report of Hear Me Speak competition", news4_path %></p></li>
@@ -73,6 +74,8 @@
       <p><%= link_to("Purley Beeches work party", events_path(anchor: "beeches_nov")) %></p>
       <b>1st to 24th December</b>
       <p><%= link_to("ADVENTure in Sanderstead", events_path(anchor: "ADVENT")) %></p>
+      <b>Thursday 6th December</b>
+      <p><%= link_to("Fraud and Scam advice", events_path(anchor: 'fraud')) %></p>
       <b>Every Thursday</b>
       <p><%= link_to "Women's Football on Sanderstead Rec", "/resource/Women_Football.pdf", target: "blank" %></p>
       
