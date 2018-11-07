@@ -13,16 +13,12 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Poppies for Remembrance", news_path(anchor: "remembrance") %></p></li>
         <li><p><%= link_to "Scam advice from the Safer Neighbourhood Team", police_path(anchor: "scam_advice")%></p></li>
         <li><p><%= link_to "Councillor Hopley reports the latest news on Sanderstead pond", news_path(anchor: "pondoct") %></p></li>
         <li><p><%= link_to "SRA headline the Croydon Advertiser to question the new 20mph limit", "https://www.croydonadvertiser.co.uk/news/croydon-news/drivers-croydon-taking-no-notice-1995336" %></p></li>
         <li><p><%= link_to "Report of Hear Me Speak competition", news4_path %></p></li>
-        <li><p><%= link_to "Fake British Gas Scam", police_path(anchor: "gas") %></p></li>
-        <li><p><%= link_to "Police update report for July", police_path(anchor: "update") %></p></li>
-        <li><p><%= link_to "Police appeal for witnesses", police_path(anchor: "witnesses") %></p></li>
-        <li><p><%= link_to "Feeding the birds on Sanderstead pond", news_path(anchor: "pond") %></p></li>
-        <li><p><%= link_to "Warning about suspicious leaflets left in doors", police_path(anchor: "leaflets") %></p></li>
-        <li><p><%= link_to "Recycling and waste disposal changes", news_path(anchor: "waste") %></p></li>    
+          
     </ul>
       <h2>Membership</h2>
       <div class="row">
@@ -72,8 +68,14 @@
       <p><%= link_to("Family Fun at All Saints church", events_path(anchor: "fun")) %></p>  
       <b>Saturday 17th November</b>
       <p><%= link_to("Purley Beeches work party", events_path(anchor: "beeches_nov")) %></p>
+      <b>Thursday 20th November</b>
+      <p><%= link_to "Purley Literary Society", events_path(anchor: "purleylit20") %></p>
+      <b>Saturday 1st December</b>
+      <p><%= link_to "Switching on the Christmas lights", events_path(anchor: "lights") %></p>
       <b>1st to 24th December</b>
       <p><%= link_to("ADVENTure in Sanderstead", events_path(anchor: "ADVENT")) %></p>
+      <b>Wednesday 5th December</b>
+      <p><%= link_to "Christmas Family Fun", events_path(anchor: "Christmasfun") %></p>
       <b>Thursday 6th December</b>
       <p><%= link_to("Fraud and Scam advice", events_path(anchor: 'fraud')) %></p>
       <b>Every Thursday</b>
@@ -91,8 +93,9 @@
       <%= link_to("Map", find_path, class: 'btn btn-primary') %>
 
       <h4>Local Organisations supported by SRA</h4>
-      <p>Since 2012 the Association has funded and made donations to or provided the following:</p>
+      <p>Since 2012 the Association has funded, made donations to or provided the following:</p>
       <ul>
+        <li>Remembrance poppies</li>
         <li>Sanderstead Library</li>
         <li>Signs in King's Wood</li>
         <li><%= link_to "South East Cancer Help Centre", "http://www.sechc.org.uk/" %></li>
