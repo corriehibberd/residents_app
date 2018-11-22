@@ -13,6 +13,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Consultation on change to bus route 403", news_path(anchor: "bus") %></p></li>
         <li><p><%= link_to "Switching on Sanderstead's Christmas lights", "resource/switch_on2018.pdf" %></p></li>
         <li><p><%= link_to "Planning application for 33 flats next to Sanderstead Rec", "resource/barrowsfield_flyer.pdf" %></p></li>
         <li><p><%= link_to "Poppies for Remembrance", news_path(anchor: "remembrance") %></p></li>
@@ -63,12 +64,10 @@
       
       <h4>2018</h4>
       
-      <b>Saturday 17th November</b>
-      <p><%= link_to("Purley Beeches work party", events_path(anchor: "beeches_nov")) %></p>
-      <b>Thursday 20th November</b>
-      <p><%= link_to "Purley Literary Society", events_path(anchor: "purleylit20") %></p>
       <b>Saturday 24th November</b>
       <p><%= link_to "SURC Christmas Fair", events_path(anchor: "fair") %></p>
+      <b>Wednesday 28th November</b>
+      <p><%= link_to "SNT Drop-in", events_path(anchor: "police") %></p>
       <b>Saturday 1st December</b>
       <p><%= link_to "Switching on the Christmas lights", events_path(anchor: "lights") %></p>
       <b>1st to 24th December</b>
@@ -80,7 +79,9 @@
       <b>Wednesday 5th December</b>
       <p><%= link_to "Christmas Family Fun", events_path(anchor: "Christmasfun") %></p>
       <b>Thursday 6th December</b>
-      <p><%= link_to("Fraud and Scam advice", events_path(anchor: 'fraud')) %></p>
+      <p><%= link_to("Fraud and Scam advice", events_path(anchor: "fraud")) %></p>
+      <b>Tuesday 11th December</b>
+      <p><%= link_to "Christmas crafts at Sanderstead Library", events_path(anchor: "crafts") %></p>
       <b>Every Thursday</b>
       <p><%= link_to "Women's Football on Sanderstead Rec", "/resource/Women_Football.pdf", target: "blank" %></p>
       
