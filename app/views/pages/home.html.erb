@@ -13,17 +13,13 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Some simple steps for crime prevention", police_path(anchor: "safe") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", "/resource/Sanderstead_Update_NOV18.pdf" %></p></li>
         <li><p><%= link_to "Purley skyscraper plans turned down by governnment", "https://www.croydonadvertiser.co.uk/news/croydon-news/purley-skyscraper-now-wont-built-2288289?fbclid=IwAR1ycvftqECRe6XJcxHE1CepexmQ-4AZH7CrOyPbDjkIopVAcNSQIAl0aTk", target: "_blank" %></p></li>
         <li><p><%= link_to "Croydon Advertiser reports residents' concern over Barrowsfield development", "https://www.croydonadvertiser.co.uk/news/new-sanderstead-flats-look-like-2274950", target: "_blank" %></p></li>
         <li><p><%= link_to "Consultation on change to bus route 403", news_path(anchor: "bus") %></p></li>
         <li><p><%= link_to "Switching on Sanderstead's Christmas lights", "resource/switch_on2018.pdf" %></p></li>
         <li><p><%= link_to "Planning application for 33 flats next to Sanderstead Rec", "resource/barrowsfield_flyer.pdf" %></p></li>
-        <li><p><%= link_to "Poppies for Remembrance", news_path(anchor: "remembrance") %></p></li>
-        <li><p><%= link_to "Scam advice from the Safer Neighbourhood Team", police_path(anchor: "scam_advice")%></p></li>
-        <li><p><%= link_to "Councillor Hopley reports the latest news on Sanderstead pond", news_path(anchor: "pondoct") %></p></li>
-        <li><p><%= link_to "SRA headline the Croydon Advertiser to question the new 20mph limit", "https://www.croydonadvertiser.co.uk/news/croydon-news/drivers-croydon-taking-no-notice-1995336" %></p></li>
-        <li><p><%= link_to "Report of Hear Me Speak competition", news4_path %></p></li>
           
     </ul>
       <h2>Membership</h2>
@@ -71,10 +67,6 @@
       <p><%= link_to("ADVENTure in Sanderstead", events_path(anchor: "ADVENT")) %></p>
       <b>December</b>
       <p><%= link_to "Christmas services at Sanderstead URC", events_path(anchor: "URC") %></p>
-      <b>Saturday 8th December</b>
-      <p><%= link_to "Soul Symphony Concert", events_path(anchor: "soul") %></p>
-      <b>Tuesday 11th December</b>
-      <p><%= link_to "Christmas crafts at Sanderstead Library", events_path(anchor: "crafts") %></p>
       <b>5th - 12th January</b>
       <p><%= link_to "Sanderstead Panto", events_path(anchor: "panto") %></p>
       <b>Tuesday 8th January</b>
