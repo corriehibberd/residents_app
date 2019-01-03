@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Planning application for 12 Ridge Way", news_path(anchor: "12ridgeway") %></h4></li>
         <li><h4><%= link_to "Croydon Advertiser reports residents' concern over Barrowsfield development", "https://www.croydonadvertiser.co.uk/news/new-sanderstead-flats-look-like-2274950", target: "_blank" %></h4></li>
         <li><h4><%= link_to "Consultation on change to 403 bus route", news_path(anchor: "bus") %></h4></li>
         <li><h4><%= link_to "Planning application for 33 flats next to Sanderstead Rec", news_path(anchor: "barrowsfield") %></h4></li>
@@ -71,6 +72,10 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="12ridgeway"></a>Planning application for 12 The Ridge Way</h3>
+      <p>The latest planning application to affect Sanderstead residents is for No. 12 The Ridge Way to be demolished and replaced by NINE apartments. This may be viewed on the Council`s on-line planning register <%= link_to "www.croydon.gov.uk/planningandregeneration/view-application", "https://www.croydon.gov.uk/planningandregeneration/view-application" %> and clicking on `Planning Applications`. Enter the reference 18/05986/FUL to view the proposal.</p>
+      <p><%= link_to "Full details of the objections to this proposal can be downloaded here", "resource/12ridgeway.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="bus"></a>Consutation on changes 403 bus route</h3>
       <p>TFL are asking for comments on proposed changes to the 403 bus route among others. See the message below and respond by 13th January 2019.</p>
