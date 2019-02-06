@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Red Box Project Collection", news_path(anchor: "redbox") %></h4></li>
         <li><h4><%= link_to "Planning application for 12 Ridge Way", news_path(anchor: "12ridgeway") %></h4></li>
         <li><h4><%= link_to "Croydon Advertiser reports residents' concern over Barrowsfield development", "https://www.croydonadvertiser.co.uk/news/new-sanderstead-flats-look-like-2274950", target: "_blank" %></h4></li>
         <li><h4><%= link_to "Consultation on change to 403 bus route", news_path(anchor: "bus") %></h4></li>
@@ -72,6 +73,12 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="redbox"></a>Red Box Project</h3>
+      <p>The Red Box Project is a project that is trying to end period poverty by collecting sanitary products that are distributed to local schools as a way to help girls who are unable to attend school during their period as they can't access sanitary products. From Sunday 3 February they began a collection at St Mary's Church, Purley Oaks Road, Sanderstead CR2 0NY.</p>
+      <p>If anyone would like to drop off donations the best time would be Thursdays 10.45-12.00 or Sundays 11.00-12.00.</p>
+      <p>If anyone would like to donate money the easiest way is via their Just Giving page on <%= link_to "www.justgiving.com/crowdfunding/theredboxprojectcroydon", "https://www.justgiving.com/crowdfunding/theredboxprojectcroydon" %></p>
+      <p>For more information see the facebook page for the Red Box Project in Croydon: <%= link_to "www.facebook.com/redboxprojectcroydoncity/", "https://www.facebook.com/redboxprojectcroydoncity/" %>. Or the website on <%= link_to "http://redboxproject.org/", "http://redboxproject.org/" %></p>
 
       <h3><a class="anchor" id="top" name="clinic"></a>Sanderstead Clinic</h3>
       <p>Re SANDERSTEAD CLINIC. Official statement</p>
