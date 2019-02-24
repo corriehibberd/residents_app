@@ -51,8 +51,24 @@
         <li><h4><%= link_to "Directory of advertisers", advertisers_path %></h4></li>
         <li><h4><%= link_to "How the SRA can help you", about_path %></h4></li>
         <li><h4><%= link_to"How you can join the SRA", members_path %></h4></li>
+        <li><h4><%= link_to "Visit our Facebook page", "http://www.facebook.com/Newbs113" %></h4></li>
       </ul>
-  <span><%= image_tag "residents_logo200.gif", class: "small_image" %></span>
+
+      <p>
+       <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNewbs113&tabs=timeline&width=300&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+     </p>
+
+       
+
+
+      <span><p><%= image_tag "residents_logo200.gif", class: "small_image" %></p></span>
+
+
+
+
+
+
+
     </div>
     <div class="col-md-4 col-xs-12 grey-column">
 
@@ -62,9 +78,6 @@
       <br/>  
       
       <h4>2019</h4>
-      
-      <b>Saturday 23rd February</b>
-      <p><%= link_to "SNC Book Sale", events_path(anchor: "sncbooks") %></p>
       <b>Wednesday 27th February</b>
       <p><%= link_to "Sanderstead Local History Group", events_path(anchor: "sandhist") %></p>
       <b>Saturday 2nd March</b>
