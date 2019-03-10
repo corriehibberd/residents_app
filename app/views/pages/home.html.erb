@@ -13,8 +13,8 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", "/resource/Sanderstead_Update_FEB2019.pdf" %></p></li>
         <li><p><%= link_to "Sanderstead LIbrary Poetry Competition", news_path(anchor: "poetry") %></p></li>
-        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", "/resource/Sanderstead_update_JAN19.pdf" %></p></li>
         <li><p><%= link_to "The Red Box Project collection at St Mary's Church", news_path(anchor: "redbox") %></p></li>
         <li><p><%= link_to "Take part in the Safer Croydon partnership's Fear of Crime survey", police_path(anchor: "fear") %></p></li>
         <li><p><%= link_to "The future for Sanderstead Clinic", news_path(anchor: "clinic") %></p></li>       
@@ -95,8 +95,14 @@
       <p><%= link_to "Exhibition of Pictures", events_path(anchor: "childrenssoc") %></p>
       <b>Wednesday 24th March</b>
       <p><%= link_to "Sanderstead Local History Group", events_path(anchor: "sandhist") %></p>
+      <b>saturday 28th April</b>
+      <p><%= link_to "Rotary Classic Car Run", events_path(anchor: "rotarycar") %></p>
       <b>Wednesday 8th May</b>
       <p><%= link_to "Sanderstead Residents' Association AGM", events_path(anchor: "sraagm") %></p>
+      <b>Friday 14th June</b>
+      <p><%= link_to "Rotary Big Band Concert", events_path(anchor: "rotaryband") %></p>
+      <b>Saturday 22nd June</b>
+      <p><%= link_to "Rotary Charity Walk", "/resource/rotary_walk2019.pdf", target: "blank" %></p>
       <b>Thursdays and Saturdays</b>
       <p><%= link_to "Selsdon Hawks Football open training sessions", events_path(anchor: "hawks") %></p>
       <b>Every Thursday</b>
