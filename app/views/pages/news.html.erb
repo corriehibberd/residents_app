@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "A Cherry tree for Sanderstead", news_path(anchor: "sakura") %></h4></li>
         <li><h4><%= link_to "MP Chris Philp calls for action against Croydon's planning blight", news_path(anchor: "petition") %></h4></li>
         <li><h4><%= link_to "Sanderstead LIbrary Poetry Competition", news_path(anchor: "poetry") %></h4></li>
         <li><h4><%= link_to "Red Box Project Collection", news_path(anchor: "redbox") %></h4></li>
@@ -67,6 +68,12 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="sakura"></a>A Cherry Tree from Japan for Sanderstead</h3>
+      <p>The Ambassador of the Embassy of Japan has introduced the Sakura Cherry Tree Project, a UK-wide project distributing Japanese cherry trees to publicly accessible spaces across the UK. One of the prospective sites is the 'Sanderstead Recreational Ground'. The Sanderstead Residents Association  and local councillors are meeting with officers at the council to look at how they can take this project forward at Sanderstead Recreation Ground. <%= link_to "Letter to MPs from the Japanese Embassy", "resource/Cherry_Tree_project .pdf" %>.
+
+
+
 
       <h3><a class="anchor" id="top" name="petition"></a>MP Chris Philp campaigns to stop Croydon's planning blight</h3>
       <p>MP Chris Philp raises concerns about Croydon Council's planning decisions and asks us to join him.</p>
