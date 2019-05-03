@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Local Councillors raise 30K for Lily Pad appeal", news_path(anchor: "lily") %></h4></li>
         <li><h4><%= link_to "A Cherry tree for Sanderstead", news_path(anchor: "sakura") %></h4></li>
         <li><h4><%= link_to "MP Chris Philp calls for action against Croydon's planning blight", news_path(anchor: "petition") %></h4></li>
         <li><h4><%= link_to "Sanderstead LIbrary Poetry Competition", news_path(anchor: "poetry") %></h4></li>
@@ -68,6 +69,16 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="lily"></a>Local Councillors raise 30k for Lily Pad appeal</h3>
+      <p>Croydon Conservatives help fight child cancer in the Borough. Local councillors have made a £30,000 donation toward a new Oncology Unit at CUH.</p>
+      <p>From Coulsdon to Crystal Palace, people across Croydon are passionate about taking the fight to child cancer. That’s why, Croydon’s Conservative group of Councillors has pooled together money from their community ward budgets in order to donate £30,000 to the Chartwell Cancer Trust’s Lily Pad Appeal. The Chartwell Cancer Trust supports cancer patients – adults and children – across South London and Kent.  Recently, the trust has launched the ‘Lily Pad’ appeal in a bid to raise £750,000 to build a new and modernised Oncology Unit at Croydon University Hospital.  The donation from the Croydon Conservatives group will help fund a brand-new play area to provide moments of respite for young patients.</p>
+      <p>Inspired by the great work of the Trust, Croydon Conservatives have thrown themselves into wider fundraising activities to help secure the necessary cash. On the 5th May, a team of councillors will take part in a 5K walk in Lloyd Park and are encouraging community members to sponsor them as they do their best to stumble through one of Croydon’s most beautiful green spaces.</p>
+      <p>You can sponsor the Croydon Conservatives Councillor team by visiting their Virgin Money sponsorship page: <%= link_to "https://uk.virginmoneygiving.com/CroydonConservatives", "https://uk.virginmoneygiving.com/CroydonConservatives" %></p>
+      <p><%= image_tag "CUH_Donation.jpg", alt: "Conservatives donate to Cancer appeal" %>
+
+
+
 
       <h3><a class="anchor" id="top" name="sakura"></a>A Cherry Tree from Japan for Sanderstead</h3>
       <p>The Ambassador of the Embassy of Japan has introduced the Sakura Cherry Tree Project, a UK-wide project distributing Japanese cherry trees to publicly accessible spaces across the UK. One of the prospective sites is the 'Sanderstead Recreational Ground'. The Sanderstead Residents Association  and local councillors are meeting with officers at the council to look at how they can take this project forward at Sanderstead Recreation Ground. <%= link_to "Letter to MPs from the Japanese Embassy", "resource/Cherry_Tree_project .pdf" %>.
