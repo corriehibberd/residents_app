@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Threat to Sanderstead Library", news_path(anchor: "library") %></h4></li>
         <li><h4><%= link_to "Local Councillors raise 30K for Lily Pad appeal", news_path(anchor: "lily") %></h4></li>
         <li><h4><%= link_to "A Cherry tree for Sanderstead", news_path(anchor: "sakura") %></h4></li>
         <li><h4><%= link_to "MP Chris Philp calls for action against Croydon's planning blight", news_path(anchor: "petition") %></h4></li>
@@ -69,6 +70,23 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="library"></a>Threat to Sanderstead Library</h3>
+      <p>We've recently obtained a copy of a well-hidden report with secret plans to close four of Croydon's libraries</p>
+      <p>Croydon's Labour administration had tried to bury the report deep in meeting papers for the Cabinet Meeting on 7th May 2019 when their libraries strategy was nodded through.</p>
+      <p>Addington Village's councillor Helen Pollard, Conservative libraries spokesperson, asked for the report and was shocked to find that one of the recommendations is the closure of four local libraries:</p>
+      <p>
+        <ul>
+          <li>Bradmore Green Library in Old Coulsdon</li>
+          <li>Purley Library</li>
+          <li>Sanderstead Library</li>
+          <li>Shirley Library</li>
+        </ul>
+      </p>
+      <p>In a report by consultants Red Quadrant, hidden from public and councillor scrutiny for 9 months, the consultants’ Asset Review singles out these four libraries as sites prime for ‘relocation’ and ‘releasing space’. Cutting the spin, the report suggests selling them off and directing users to other libraries, or at the least removing and redeveloping large portions of the library for other uses.</p>
+      <p>This could well mean more unpopular Brick-by-Brick developments going up in library-shaped holes in the hearts of local communities.</p>
+      <p><%= link_to "Sign the petition put forward by Mario Creatura, prospective conservative MP for Central Croydon, and join the campaign to get our Council to keep all our libraries open!", "https://www.mariocreatura.org.uk/form/save-our-libraries-petition" %></p>
+
 
       <h3><a class="anchor" id="top" name="lily"></a>Local Councillors raise 30k for Lily Pad appeal</h3>
       <p>Croydon Conservatives help fight child cancer in the Borough. Local councillors have made a £30,000 donation toward a new Oncology Unit at CUH.</p>
