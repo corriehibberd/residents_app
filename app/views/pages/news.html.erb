@@ -11,10 +11,10 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Confirmation that Sanderstead library remains open", news_path(anchor: "library") %></h4></li>
         <li><h4><%= link_to "Barrowsfield development given go ahead despite over 1,000 objections", "https://www.thisislocallondon.co.uk/news/17821934.croydon-sanderstead-flats-given-go-ahead-despite-1-000-objections/?ref=rss" %></h4></li>
         <li><h4><%= link_to "Objections to Barrowsfield development", news_path(anchor: "Barrowsfield3") %></h4></li>
         <li><h4><%= link_to "Revised proposal for Barrowsfield development", news_path(anchor: "barrowsfield2") %></h4></li>    
-        <li><h4><%= link_to "Threat to Sanderstead Library", news_path(anchor: "library") %></h4></li>
         <li><h4><%= link_to "Local Councillors raise 30K for Lily Pad appeal", news_path(anchor: "lily") %></h4></li>
         <li><h4><%= link_to "A Cherry tree for Sanderstead", news_path(anchor: "sakura") %></h4></li>
         <li><h4><%= link_to "MP Chris Philp calls for action against Croydon's planning blight", news_path(anchor: "petition") %></h4></li>
@@ -74,6 +74,15 @@
 
       <h2> News in Detail</h2>
 
+      <h3><a class="anchor" if="top" name="library"></a>Sanderstead Library</h3>
+      <p>The Sanderstead Residents' Association has received confirmation that there are no plans to close Sanderstead library.</p>
+      <p>"Dear Chairman and Secretary,</p>
+      <p>... I can confirm that no Croydon libraries will be closed in the borough. Indeed, rather than slashing £800k from the budget and farming our libraries out to a private company like the previous administration, we are committed to our libraries and are investing £5m in them.</p>
+      <p>I was pleased to open our first refurbished library at Selsdon in August. I would like to invite you both to see it for yourselves, if you have not already been. I look forward to further improvements at all our libraries in the borough over the next few years.</p>
+      <p>Best regards, Oliver</p>
+      <p>Oliver Lewis</p>
+      <p>Councillor for New Addington South</p>
+      <p>Cabinet Member for Culture, Leisure & Sport"</p>
       <h3><a class="anchor" id="top" name="barrowsfield3"></a>Objections to Barrowsfield development</h3>
       <p>Councillor Lynne Hale has written the letter below, listing her objections to the proposed development.</p>
       <p>Re: 18/05157/FUL – 2-5 Barrowsfield South Croydon CR2 9BZ</p>
@@ -123,22 +132,6 @@
       </p>
       <p>The plans can be viewed on the application file on the website. Any comments on the amended proposal by 19th July 2019.</p>
       <p>You can view the revised plans following <%= link_to "this link", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=relatedCases&keyVal=PH065PJLFOH00" %>.
-
-      <h3><a class="anchor" id="top" name="library"></a>Threat to Sanderstead Library</h3>
-      <p>We've recently obtained a copy of a well-hidden report with secret plans to close four of Croydon's libraries</p>
-      <p>Croydon's Labour administration had tried to bury the report deep in meeting papers for the Cabinet Meeting on 7th May 2019 when their libraries strategy was nodded through.</p>
-      <p>Addington Village's councillor Helen Pollard, Conservative libraries spokesperson, asked for the report and was shocked to find that one of the recommendations is the closure of four local libraries:</p>
-      <p>
-        <ul>
-          <li>Bradmore Green Library in Old Coulsdon</li>
-          <li>Purley Library</li>
-          <li>Sanderstead Library</li>
-          <li>Shirley Library</li>
-        </ul>
-      </p>
-      <p>In a report by consultants Red Quadrant, hidden from public and councillor scrutiny for 9 months, the consultants’ Asset Review singles out these four libraries as sites prime for ‘relocation’ and ‘releasing space’. Cutting the spin, the report suggests selling them off and directing users to other libraries, or at the least removing and redeveloping large portions of the library for other uses.</p>
-      <p>This could well mean more unpopular Brick-by-Brick developments going up in library-shaped holes in the hearts of local communities.</p>
-      <p><%= link_to "Sign the petition put forward by Mario Creatura, prospective conservative MP for Central Croydon, and join the campaign to get our Council to keep all our libraries open!", "https://www.mariocreatura.org.uk/form/save-our-libraries-petition" %></p>
 
 
       <h3><a class="anchor" id="top" name="lily"></a>Local Councillors raise 30k for Lily Pad appeal</h3>
