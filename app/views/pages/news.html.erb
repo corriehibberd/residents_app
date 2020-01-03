@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Deadline for Local plan consultation", news_path(anchor: "consultation2") %></h4></li>
         <li><h4><%= link_to "Friends of Purley Beeches response", news_path(anchor: "fopb") %></h4></li>
         <li><h4><%= link_to "Threat to Green Belt in Sanderstead", news_path(anchor: "consultation") %></h4></li>
         <li><h4><%= link_to "Democratically elected Mayor of Croydon", news_path(anchor: "democ") %></h4></li>
@@ -78,6 +79,42 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="consultation2"></a>Deadline for consultation on local plan</h3>
+      <p>Croydon Council have released details of their 2019 Croydon Local Plan Review which outlines three options to deliver an additional 46,040 homes within the borough between now and 2039.</p>
+      <p>The consultation documents can be viewed at: <%= link_to "https://www.croydon.gov.uk/planningandregeneration/framework/localplan/croydon-local-plan-review", "https://www.croydon.gov.uk/planningandregeneration/framework/localplan/croydon-local-plan-review" %>. Please carefully consider all the options below and make sure you express any concerns or opinions by engaging with the consultation before the <b>closing date of 13 January 2020</b></p>
+      <p>The detailed documents comprise a very substantial package of information with various policies and proposals amongst numerous pages of text. To assist with extracting the key issues having a direct impact on Sanderstead and neighbouring areas, we have summarised the points below.</p>
+      <p>The three principal options are:
+        <ul>
+          <li>Option 1: All residential growth to take place in the existing urban and brownfield areas.  This would impact some areas in the north of Sanderstead which would see focussed intensification in areas with better access to public transport.</li>
+          <li>Option 2:  Major redevelopment of the Purley Way area to provide up to 12,000 new homes including major infrastructure works.  This will ease some pressure for residential growth within existing suburban areas.</li>
+          <li>Option 3: Release of Green Belt land for residential development to reduce pressure for residential growth within the existing suburban area.  The existing Green Belt farmland bounded by Mitchley Hill, Rectory Park and Borrowdale Drive is identified for release to allow up to 780 new homes to be built on the site.</li>
+        </ul>
+      </p>
+      <p>Sanderstead has one of the lowest Public Transport Accessibility Levels (PTAL) within London adding stress to existing services whilst TFL current plans indicate there are no proposals for any improvements.</p>
+      <p>Green Belt is recognised as an intrinsic fundamental benefit to prevent urban sprawl and provide health and ecological benefits to communities.  It must be protected and attempts to remove its protection should be resisted.  If some areas of Green Belt are released it is likely there will be future pressure for more to be re-designated and built upon.</p>
+      <p>In addition to the above options, the following sites have been proposed for future development:
+        <ol>
+          <li>Sanderstead Recreation Ground, Limpsfield Road:  Proposal to take a substantial part of the Green Belt community parkland to extend Gresham Primary School.</li>
+          <li>2 Red Gables, Beech Avenue: Residential development for up to 47 new homes.</li>
+          <li>Waitrose:  Mixed residential and retail development subject to impact on designated views for up to 54 homes.</li>
+          <li>The Good Companions site, Tithepit Shaw Lane: Mixed residential and retail use for up to 24 new homes</li>
+        </ol>
+      </p>
+      <p>We have summarised below five relevant documents:
+        <ol>
+          <li>National Planning Policy Framework 2019 (Chapter 13, paras 133 to 147): The fundamental aim of Green Belt policy is to prevent urban sprawl by keeping land permanently open; the essential characteristics of Green Belts are their openness and their permanence.  Once established, Green Belt boundaries should only be altered where exceptional circumstances are fully evidenced and justified. For exceptional circumstances to exist to justify changes to Green Belt boundaries, Croydon Council would need to demonstrate that it has examined fully all other reasonable options for meeting its identified need for development, including making as much use as possible of suitable brownfield sites and underutilised land and promoting a significant uplift in minimum density standards in town centres and other locations well served by public transport.</li>
+          <li>Croydon Site Appraisal: Croydon Green Belt and Metropolitan Open Land Study –Technical Note Nov 2019 states that development of the Mitchley Hill/Rectory Park/Borrowdale Drive Green Belt is judged to result in Moderate to Significant degree of harm to the Green Belt, reflecting the clear loss of openness on a visually sensitive slope.</li>
+          <li>Croydon Site Appraisal: Croydon Green Belt & Metropolitan Open Land Study Appendix A - Parcel Survey Proformas, Nov 2019 concludes that Sanderstead Recreation Ground is of local importance in respect of providing character, openness and facilities within Sanderstead.</li>
+          <li>The 2019 Draft New London Plan: Policy G2 (London’s Green Belt) states that ‘The Green Belt should be protected from inappropriate development: 1) development proposals that would harm the Green Belt should be refused and 2) the enhancement of the Green Belt to provide appropriate multi-functional beneficial uses for Londoners should be supported.  The extension of the Green Belt will be supported, where appropriate.  Its de-designation will not be supported.</li>
+          <li>Croydon Brownfield Land Register: (updated in December 2018) It identifies potential capacity for 5,756 dwellings on previously developed sites in the Borough which do not currently have planning permission and capacity for a further 5480 dwellings on sites which have already been granted either full or outline permission, or where permission is pending (Scoping report for the Croydon Local Plan Sustainability Appraisal Nov 2019).</li>
+        </ol>
+      </p>
+      <p>Please carefully consider all the above options and make sure you express any concerns or opinions by engaging with the consultation before the closing date of 13 January 2020</p>
+      <p><%= link_to "This paper can be downloaded here", "resource/Local_plan_consultation_jan2020.pdf" %>.</p>
+      <p>Online: <%= link_to "https://www.croydon.gov.uk/planningandregeneration/framework/localplan/croydon-local-plan-review", "https://www.croydon.gov.uk/planningandregeneration/framework/localplan/croydon-local-plan-review" %></p>
+      <p>Email:  ldf@croydon.gov.uk</p>
+      <p>Post: Spatial Planning, Bernard Weatherill House, Zone 6B, 8 Mint Walk, Croydon CR0 1EA</p>
 
       <h3><a class="anchor" id="top" name="fopb"></a>Friends of Purley Beeches response to the threat to Green Belt land in Sanderstead</h3>
       <p>Friends of Purley Beeches have produced a detailed response to the threat to Green Belt land in Sanderstead. <%= link_to "Read the document here", "resource/fopb_green_spaces_submission.pdf" %></p>

@@ -14,17 +14,14 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Deadline of 13th January for consultation re Green Belt in Sanderstead", news_path(anchor: "consultation2") %></p></li>
         <li><p><%= link_to "Friends of Purley Beeches response to threat to Green Belt in Sanderstead", news_path(anchor: "fopb") %></p></li>
         <li><p><%= link_to "Threat to Green Belt in Sanderstead", news_path(anchor: "consultation") %></p></li>
-        <li><p><%= link_to "Chris Philp MP's Planning survey", "http://surveymonkey.com/r/croydonhousing" %></p></li>
         <li><p><%= link_to "Democratically elected Mayor of Croydon", news_path(anchor: "democ") %></p></li>
         <li><p>Download the petition forms here: <%= link_to "http://www.democ.org.uk/sign-petition", "http://www.democ.org.uk/sign-petition" %></p></li> 
         <li><p><%= link_to "Friends of Sanderstead Rec", news_path(anchor: "friends") %></p></li>
         <li><p><%= link_to "Replacement of Sanderstead Road rail bridge", news_path(anchor: "bridge") %></p></li>    
-        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
-        <li><p><%= link_to "A cherry tree for Sanderstead", news_path(anchor:"sakura") %></p></li>
-        <li><p><%= link_to "MP Chris Philp calls for action against Croydon's planning blight", news_path(anchor: "petition") %></p></li>
-        
+        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>        
           
     </ul>
       <h2>Membership</h2>
@@ -72,13 +69,11 @@
 
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
-      
-      <h4>2019</h4>       
-      <b>Sunday 22 December and Christmas Eve</b>
-      <p><%= link_to "Christmas at All Saints Church", events_path(anchor: "carols") %></p>
       <h4>2020</h4>
-      <b>Tuesday 4 January</b>
-      <p><%= link_to "Purley Literary Society", events_path(anchor: "purleylit04") %></p>
+      <b>Tuesday 14 January</b>
+      <p><%= link_to "Purley Literary Society", events_path(anchor: "purleylit14") %></p>
+      <b>Tuesday 28 January</b>
+      <p><%= link_to "Purley Literary Society", events_path(anchor: "purleylit28") %></p>
       <b>Saturday 21 March</b>
       <p><%= link_to "Children's Society Picture Exhibition", events_path(anchor: "artshow") %></p>
       <b>2nd Thursday of month</b>
