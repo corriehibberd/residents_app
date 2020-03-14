@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Planning application for 2-4 Addington Road", news_path(anchor: "addington") %></h4></li>
         <li><h4><%= link_to "Planning application in the Woodfields", news_path(anchor: "woodfields") %></h4></li>
         <li><h4><%= link_to "Deadline for Local plan consultation", news_path(anchor: "consultation2") %></h4></li>
         <li><h4><%= link_to "Friends of Purley Beeches response", news_path(anchor: "fopb") %></h4></li>
@@ -81,8 +82,11 @@
 
       <h2> News in Detail</h2>
 
+      <h3><a class="anchor" id="top" name="addington"></a>Planning application for 2 - 4 Addington Road</h3>
+      <p>A planning application has been submitted for 2 - 4 Addington Road, to demolish 2 family homes and build a five story block of 20 apartments. Comments and objections need to be submitted by Thursday 19th March on the  <%= link_to "Croydon Council Planning site", "http://publicaccess2.croydon.gov.uk/online-applications/" %>, reference 20/00107/FUL</p>
+
       <h3><a class="anchor" id="top" name="woodfields"></a>Planning application for 28 The Woodfields</h3>
-      <p>A planning application has been submitted for 28 The Woodfields, to demolish the existing family home and build a block including 9 flats. Full details can be found on the <%= link_to "Croydon Council Planning site", "http://publicaccess2.croydon.gov.uk/online-applications/" %>, reference 19/03984/FUL. Comments on this proposal must be received by 12th March 2020.</p>
+      <p>A planning application has been submitted for 28 The Woodfields, to demolish the existing family home and build a block including 9 flats. Full details can be found on the <%= link_to "Croydon Council Planning site", "http://publicaccess2.croydon.gov.uk/online-applications/" %>,  reference 19/03984/FUL. Comments on this proposal must be received by 12th March 2020.</p>
 
       <h3><a class="anchor" id="top" name="consultation2"></a>Deadline for consultation on local plan extended to 20th January</h3>
       <p>Croydon Council have released details of their 2019 Croydon Local Plan Review which outlines three options to deliver an additional 46,040 homes within the borough between now and 2039.</p>
