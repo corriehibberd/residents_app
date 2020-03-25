@@ -14,6 +14,8 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Imformation from our Councillors re COVID-19", news_path(anchor: "covid_info") %></p></li>
+        <li><p><%= link_to "News from our Councillors", news_path(anchor: "other_news") %></p></li>
         <li><p><%= link_to "Urgent notice re COVID-19", news_path(anchor: "covid") %></p></li>
         <li><p><%= link_to "Deadline of 19th March for comments on the planning application for 2-4 Addington Road", news_path(anchor: "addington") %></p></li>
         <li><p><%= link_to "Planning application for 28 The Woodfields", news_path(anchor: "woodfields") %></p></li>
@@ -70,16 +72,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2020</h4>
-      <b>Saturday 21 March</b>
-      <p><%= link_to "Children's Society Picture Exhibition is Now Cancelled", events_path(anchor: "artshow") %></p>
-      <b>Saturday 21 March</b>
-      <p><%= link_to "Charity Boot Sale", events_path(anchor: "bootsale") %></p>
-      <b>Tuesday 24 March</b>
-      <p><%= link_to "Purley Literary Society", events_path(anchor: "purleylit24") %></p>
-      <b>Wednesday 25 March</b>
-      <p><%= link_to "Sanderstead Local History Group", events_path(anchor: "historymar") %></p>
-      <b>Friday 8 - Sunday 10 May</b>
-      <p><%= link_to "VE Day anniversary weekend", events_path(anchor: "veday") %></p>
       <b>Wednesday 20 May</b>
       <p><%= link_to "SRA AGM", events_path(anchor: "AGM") %></p>
       <b>Saturday 13 June</b>
