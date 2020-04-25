@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Pointers for objecting to contentious planning applications by Councillor Tim Pollard", news2_path %></h4></li>
         <li><h4><%= link_to "Information re COVID-19 from our Councillors", news_path(anchor: "covid_info") %></h4></li>
         <li><h4><%= link_to "News from our Councillors", news_path(anchor: "other_news") %></h4></li>
         <li><h4><%= link_to "Urgent notice re COVID-19", news_path(anchor: "covid") %></h4></li>
@@ -74,6 +75,10 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="objecting"></a>How to object to a planning application</h3>
+      <p>Councillor Tim Pollard has written the attached paper poiting out how to and how not to complain about contentious planning applications, with reference to the latest application to build a block of flats on Sanderstead Hill.</p>
+      <p><%= link_to "Follow the link to our News 2 page for the full report", news2_path %></p>
 
       <h3><a class="anchor" id="top" name="covid_info"></a>Where you can get help during the coronavirus crisis - Information from our Councillors</h3>
       <p>Dear Resident</p>
