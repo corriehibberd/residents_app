@@ -14,6 +14,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Pointers for objection to contentious planning applications by Councillor Tim Pollard", news2_path %></p></li>
         <li><p><%= link_to "Protect yourself from scams during the coronavirus crisis", police_path(anchor: "corona_scam") %></p></li>
         <li><p><%= link_to "Planning application for 44 Sanderstead Hill ref 20/01299/FUL", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=documents&keyVal=Q7CHIKJLL8X00" %></p></li>
@@ -26,7 +27,7 @@
         <li><p><%= link_to "Democratically elected Mayor of Croydon", news_path(anchor: "democ") %></p></li>
         <li><p>Download the petition forms here: <%= link_to "http://www.democ.org.uk/sign-petition", "http://www.democ.org.uk/sign-petition" %></p></li> 
         <li><p><%= link_to "Friends of Sanderstead Rec", news_path(anchor: "friends") %></p></li>    
-        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>        
+                
           
     </ul>
       <h2>Membership</h2>
@@ -70,7 +71,7 @@
       <br/>  
       <h4>2020</h4>
       <b>Wednesday 20 May</b>
-      <p><%= link_to "SRA AGM", events_path(anchor: "AGM") %></p>
+      <p><%= link_to "SRA AGM postponed", events_path(anchor: "AGM") %></p>
       <b>Saturday 13 June</b>
       <p><%= link_to "Model Railway Show", events_path(anchor: "railway") %></p>
       <b>2nd Thursday of month</b>
