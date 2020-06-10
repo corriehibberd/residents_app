@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Planning application for 85 Purley Downs Road", news_path(anchor: "purleydowns") %></h4></li>
          <li><h4><%= link_to "Planning application for 1 Sandhurst Way", news_path(anchor: "sandhurst") %></h4></li>
         <li><h4><%= link_to "Pointers for objecting to contentious planning applications by Councillor Tim Pollard", news2_path %></h4></li>
         <li><h4><%= link_to "Information re COVID-19 from our Councillors", news_path(anchor: "covid_info") %></h4></li>
@@ -76,6 +77,9 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="purleydowns"></a>Planning application for 85 Purley Downs Road</h3>
+      <p>An application has been submitted for demolition of existing house, erection of three storey building comprising nine flats, formation of vehicular access/access road and provision of associated parking and cycle storage. Ref 20/02354/FUL <%= link_to "Croydon Council Planning link", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=QBCVVZJLJR000" %>. The closing date for neighbour consultation is 10 Jul 2020.</p>
 
       <h3><a class="anchor" id="top" name="sandhurst"></a>Planning Application for 1 Sandhurst Way</h3>
       <p>An application has been proposed for demolotion of one house at 1 Sandhurst Way, Sanderstead, and construction of a block of 13 self contained flats. The closing date for neighbour consultation about this plan is 28th June 2020. <%= link_to "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=Q6O0VKJLK0F00", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=Q6O0VKJLK0F00" %></p>
