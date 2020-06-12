@@ -14,6 +14,7 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "List of all recent and current planning applications in the Sanderstead area", "resource/Planning_list_June2020.pdf" %></p></li>
         <li><p><%= link_to "Planning application for 85 Purley Downs Road ref 20/02354/FUL", news_path(anchor: "purleydowns") %></p></li>
          <li><p><%= link_to "Planning application for 1 Sandhurst Way ref 20/01061/OUT", news_path(anchor: "sandhurst") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
@@ -72,8 +73,8 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2020</h4>
-      <b>Wednesday 20 May</b>
-      <p><%= link_to "SRA AGM was postponed - see info on events page", events_path(anchor: "AGM") %></p>
+      <b>Tuesday 16 June</b>
+      <p><%= link_to "SNT contact point", events_path(anchor: "SNT") %></p>
       <b>2nd Thursday of month</b>
       <p><%= link_to "The Arts Society Croydon", events_path(anchor: "theartssept") %></p>
       <b>4th Tuesday of the month</b>
