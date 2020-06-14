@@ -23,6 +23,7 @@
                     <li><%= link_to "Builders", anchor: "builders" %></li>
                     <li><%= link_to "Decorators", anchor: "decorators" %></li>
                     <li><%= link_to "Electricians", anchor: "electricians" %></li>
+                    <li><%= link_to "Flooring", anchor: "flooring" %></li>
                     <li><%= link_to "Garages", anchor: "garages" %></li>
                     <li><%= link_to "Handyman", anchor: "handyman" %></li>
                     <li><%= link_to "Kitchens", anchor: "kitchens" %></li>
@@ -53,7 +54,6 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><%= link_to "Blinds", anchor: "curtains" %></li>
                     <li><%= link_to "Carpets", anchor: "carpets" %></li>
-                    <li><%= link_to "Crafts", anchor: "crafts" %></li>
                 </ul>
             </div>
             <br/>
@@ -64,8 +64,6 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><%= link_to "Butchers", anchor: "butcher" %></li>
-                    <li><%= link_to "Chemists", anchor: "chemist" %></li>
                     <li><%= link_to "DIY", anchor: "diy" %></li>
                     <li><%= link_to "Jewellers", anchor: "jewel" %></li>
                     <li><%= link_to "Off Licence", anchor: "wine" %></li>
@@ -81,7 +79,6 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><%= link_to "Schools", anchor: "school" %></li>
-                    <li><%= link_to "Music", anchor: "music" %></li>
                 </ul>
             </div>
             <br/>
@@ -96,7 +93,6 @@
                     <li><%= link_to "Catering", anchor: "meals" %></li>
                     <li><%= link_to "Cleaners", anchor: "cleaners" %></li>
                     <li><%= link_to "Computers", anchor: "computers" %></li>
-                    <li><%= link_to "Dry Cleaners", anchor: "dryclean" %></li>
                     <li><%= link_to "Estate Agents and Developers", anchor: "estate" %></li>
                     <li><%= link_to "Finance Planning", anchor: "finance" %></li>
                     <li><%= link_to "Funeral Directors", anchor: "funeral" %></li>
@@ -104,6 +100,16 @@
                     <li><%= link_to "Removals", anchor: "move" %></li>
                     <li><%= link_to "Solicitors", anchor: "law" %></li>
                     <li><%= link_to "Vets", anchor: "vets" %></li>
+                </ul>
+            </div>
+            <br/>
+
+            <div class="dropdown">
+                <button class="btn default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Sport
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><%= link_to "Tennis", anchor: "tennis" %></li>
                 </ul>
             </div>
             <br/>
@@ -199,6 +205,21 @@
         </tr>
 
          <tr>
+            <td><a class="anchor" id="top" name="flooring"></a><h3>Flooring</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4 class="advertisers">T Marks Flooring</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>01883 500733 &nbsp;   <span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>  07836 201 751</p></td>
+        </tr>
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to"www.tmarksflooring.com", "https://www.tmarksflooring.com" %></td>
+            
+        </tr>
+
+         <tr>
             <td><a class="anchor" id="top" name="garages"></a><h3>Garages</h3></td>
             <td>&nbsp;</td>
         </tr>
@@ -277,9 +298,9 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>38 Overbury Crescent, New Addington CR0 0LL</p></td>
-          </tr>
+        </tr>
 
-           <tr>
+        <tr>
             <td><h3><a class="anchor" id="top" name="windows"></a>Windows</h3></td>
             <td>&nbsp;</td>
         </tr>
@@ -380,79 +401,10 @@
 
           </tr>
 
-           <tr>
-                 <td><h3><a class="anchor" id="top" name="crafts"></a>Craft materials and tuition</h3></td>
-             <td>&nbsp;</td>
-               </tr>
-           <tr>
-             <td><h4 class="advertisers">Threadbear</h4></td>
-                 <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 5050</p></td>
-           </tr>
-           <tr>
-                <td>&nbsp;</td>
-                 <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>enquiries@thread-bear.co.uk</p></td>               
-          </tr>
-
-          <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>350 Limpsfield Road, CR2 9BX</p></td>
-          </tr>
-
-          <tr class="adstable">
-                 <td>&nbsp;</td>
-                 <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.thread-bear.co.uk", "http://www.thread-bear.co.uk" %></p></td>
-          </tr>
-
        <tr>
         <td><h2>Retailers</h2></td>
         <td>&nbsp;</td>
        </tr>
-
-       <tr>
-        <td><h3><a class="anchor" id="top" name="butcher"></a>Butchers</h3></td>
-        <td>&nbsp;</td>
-       </tr>
-
-        <tr>
-            <td><h4>Bashford &amp; Co</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 7558 </p></td>
-        </tr>
-        <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>35 Elmfield Way, South Croydon, CR2 0EJ</p></td>
-          </tr>
-
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.bashfordandco.co.uk", "http://www.bashfordandco.co.uk" %></span></p></td>
-        </tr>
-
-        <tr>
-        <td><h3><a class="anchor" id="top" name="chemist"></a>Chemists</h3></td>
-        <td>&nbsp;</td>
-       </tr>
-
-        <tr>
-            <td><h4>Medipharm</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 2203 </p></td>
-        </tr>
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>37 Limpsfield Rd, Sanderstead, CR2 9LA</p></td>
-        </tr>
-
-
-        <tr>
-            <td><h4>Makepeace &amp; Jackson</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 0221 </p></td>
-        </tr>
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>7 Station Parade, Sanderstead, CR2 0PH</p></td>
-        </tr>
 
         <tr>
             <td><h3><a class="anchor" id="top" name="diy"></a>DIY Supplies</h3></td>
@@ -564,13 +516,7 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.croydonhigh.gdst.net", "http://www.croydonhigh.gdst.net" %>
-        </tr>
-
-        <tr>
-            <td><h2><a class="anchor" id="top" name="music"></a>Music</h2></td>
-            <td>&nbsp;</td>
-        </tr>
-        
+        </tr>      
 
         <tr>
             <td><h2>Services</h2></td>
@@ -622,6 +568,21 @@
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.bluebirdcare.co.uk/croydon", "http://www.bluebirdcare.co.uk/croydon" %>
         </tr>
 
+         <tr>
+            <td><h4> Churchgate Services</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 7399 2291</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>philipc@curtinco.com</p></td>
+        </tr>
+
+         <tr class=adstable>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>RTEL-AYJX-KXUA, Exhibition Feedback Curtin &amp; Co, 299 Oxford Street, London, W1C 2DZ</p></td>
+        </tr>
+
 
         <tr>
             <td><h4>Right at Home</h4></td>
@@ -641,6 +602,26 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.rightathomeuk.co.uk/croydon/", "http://www.rightathomeuk.co.uk/croydon/" %></p></td>
+        </tr>
+
+        <tr>
+            <td><h4>Rokewood Court<h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 3051 7902</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>rokewood.haa@cinnamoncc.com</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>20 Roke Road, Kenley, Croydon, CR8 5DY</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.cinnamoncc.com/rokewoodcourt", "http://www.www.cinnamoncc.com/rokewoodcourt" %></p></td>
         </tr>
 
          <tr>
@@ -708,7 +689,7 @@
         </tr>
 
         <tr>
-            <td><h3>Computer Repairs</h3></td>
+            <td><h3>Computer Repairs and Support</h3></td>
             <td>&nbsp;</td>
         </tr>
 
@@ -727,21 +708,12 @@
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.ccworld.co.uk", "http://www.ccworld.co.uk" %>
         </tr>
-
-        <tr>
-            <td><h3><a class="anchor" id="top" name="dryclean"></a>Dry Cleaners</h3></td>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td><h4>Elmfield Dry Cleaners</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8768 3455</p></td>
-        </tr>
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>49 Elmfield Way, Sanderstead, CR2 0EJ</p></td>
-        </tr>
        
+        <tr class="adstable">
+            <td><h4>Cyber 8</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8688 1893&nbsp;<span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07762 525 738</p></td>
+        </tr>
+
         <tr>
             <td><h3><a class="anchor" id="top" name="estate"></a>Estate Agents and House Builders</h3></td>
             <td>&nbsp;</td>
@@ -755,16 +727,6 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.pollardmachin.co.uk", "http://www.pollardmachin.co.uk" %>
-        </tr>
-
-         <tr>
-            <td><h4>Crest Nicholson</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 3437 1663</p></td>
-        </tr>
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.crestnicholson.com", "http://www.crestnicholson.com" %>
         </tr>
 
         <tr>
@@ -835,26 +797,6 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.absolutegardens.co.uk", "http://www.absolutegardens.co.uk" %>
-        </tr>
-
-         <tr>
-            <td><h4>Green Fingers</h4></td>
-            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8651 2318</p></td>
-        </tr>
-
-        <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-phone" aria-hidden="true">&nbsp;</span>07840 647281</p></td>
-        </tr>
-
-        <tr>
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-envelope" aria-hidden="true">&nbsp;</span>greenfingersuk@hotmail.co.uk</p></td>
-        </tr>
-
-        <tr class="adstable">
-            <td>&nbsp;</td>
-            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.greenfingersuk.com", "http://www.greenfingersuk.com" %>
         </tr>
 
         <tr>
@@ -950,6 +892,32 @@
         <tr class="adstable">
             <td>&nbsp;</td>
             <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.elmfieldvets.co.uk", "http://www.elmfieldvets.co.uk" %>
+        </tr>
+
+        <tr>
+            <td><h2>Sport</h2></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h3><a class="anchor" id="top" name="tennis"></a>Tennis</h3></td>
+            <td>&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td><h4>Sanderstead Village Lawn Tennis Club</h4></td>
+            <td><p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true">&nbsp;</span>020 8657 2072</p></td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-home" aria-hidden="true">&nbsp;</span>26a Sanderstead Court Avenue, CR2 9AG</p></td>
+        </tr>
+
+        <tr class="adstable">
+            <td>&nbsp;</td>
+            <td><p><span class="glyphicon glyphicon-globe" aria-hidden="true">&nbsp;</span><%= link_to "www.svltc.co.uk", "http://www.svltc.co.uk" %>
+            </p></td>
         </tr>
 
 
