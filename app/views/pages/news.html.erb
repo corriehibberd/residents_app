@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Information about scams from Trading Standards", news_path(anchor: "trading") %></h4></li>
         <li><h4><%= link_to "Planning application for 85 Purley Downs Road", news_path(anchor: "purleydowns") %></h4></li>
          <li><h4><%= link_to "Planning application for 1 Sandhurst Way", news_path(anchor: "sandhurst") %></h4></li>
         <li><h4><%= link_to "Pointers for objecting to contentious planning applications by Councillor Tim Pollard", news2_path %></h4></li>
@@ -77,6 +78,8 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="trading"></a><%= link_to "Latest Bulletin from Trading Standards with information about current scams", "resource/Trading_standards_bulletin0720.pdf" %></h3>
 
       <h3><a class="anchor" id="top" name="list"></a><%= link_to "List of all recent and current planning applications in the Sanderstead area", "resource/Planning_list_June2020.pdf" %></h3>
       <h3><a class="anchor" id="top" name="purleydowns"></a>Planning application for 85 Purley Downs Road</h3>
