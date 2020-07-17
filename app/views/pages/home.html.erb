@@ -14,6 +14,9 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Inside Croydon report: Residents Associations angrily reject Croydon's housing plans", "https://insidecroydon.com/2020/07/17/residents-associations-angrily-reject-scotts-concrete-plans/" %></p></li>
+        <li><p><%= link_to "Friends of Sanderstead Recreation Ground and Green Spaces newsletter", news_path(anchor: "FOSRGAGS") %></p></li>
+        <li><p><%= link_to "Information about library opening", news_path(anchoe: "open_library") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Information about scams from Trading Standards", news_path(anchor: "trading") %></p></li>
         <li><p><%= link_to "List of all recent and current planning applications in the Sanderstead area", "resource/Planning_list_June2020.pdf" %></p></li>
@@ -64,6 +67,8 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2020</h4>
+      <b>Saturday 15 August</b>
+      <p><%= link_to "Selsdon Little League trials", events_path(anchor: "littleleague") %></p>
       <b>2nd Thursday of month</b>
       <p><%= link_to "The Arts Society Croydon", events_path(anchor: "theartssept") %></p>
       <b>4th Tuesday of the month</b>

@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Information about Library opening", news_path(anchor: "open_library") %></h4></li>
         <li><h4><%= link_to "Information about scams from Trading Standards", news_path(anchor: "trading") %></h4></li>
         <li><h4><%= link_to "Planning application for 85 Purley Downs Road", news_path(anchor: "purleydowns") %></h4></li>
          <li><h4><%= link_to "Planning application for 1 Sandhurst Way", news_path(anchor: "sandhurst") %></h4></li>
@@ -78,6 +79,18 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="insidecroydon"></a>Residents Associations reject Scott's concrete plans</h3>
+      <p>"Inside Croydon" reports on an angry rejection of Croydon's planning Committee's housing plans by many of Croydon's Residents' Association, including the Sanderstead Residents' Associations. <%= link_to "Read the full article here", "https://insidecroydon.com/2020/07/17/residents-associations-angrily-reject-scotts-concrete-plans/" %></p>
+
+      <h3><a class="anchor" id="top" name="FOSRGAGS"></a>Friends of Sanderstead Rec newsletter</h3>
+      <p><%= link_to "Read the latest newsletter from the Friends of Sanderstead Recreation Ground and Green Spaces", "resource/FOSRGAGS_Newsletter_June2020.pdf" %></p>
+
+
+      <h3><a class="anchor" id="top" name="open_library"></a>Information about library opening, July 2020</h3>
+      <p>Currently, we will be operating a Select & Collect service from 20th July from, Central, Selsdon, Coulsdon, Ashburton and Thornton Heath</p>
+      <p>We are, unfortunately, unable to offer a Select and Collect service from Sanderstead at the moment. We currently have reduced Libraries’ staff availability because they are supporting our shielding service. Once Libraries’ staff return to their normal duties we will review the opportunity to increase the Select and Collect service. In the meantime, the nearest Select & Collect service for Sanderstead Library members is Selsdon Library.</p>
+      <p>For residents who are unable to travel because of covid-19, they are able to apply to join the Home Libraries Service, where books are delivered to the door of our most vulnerable members. Residents who are interested in joining this scheme can call 020 7884 5158, leave a message, and a Libraries colleague will call them back; or send an email to homelibraryservice@croydon.gov.uk.</p>
 
       <h3><a class="anchor" id="top" name="trading"></a><%= link_to "Latest Bulletin from Trading Standards with information about current scams", "resource/Trading_standards_bulletin0720.pdf" %></h3>
 
