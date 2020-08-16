@@ -14,6 +14,8 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Croydon Parks and Green Spaces survey", "https://getinvolved.croydon.gov.uk/kms/elab.aspx?noip=1&CampaignId=987" %></p></li>
+        <li><p><%= link_to "Neighbourhood Watch national impact survey", police_path(anchor: "nwsurvey") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Neighbourhood Watch, Safety in Neighbours Campaign", "https://www.ourwatch.org.uk/get-involved/support-campaign/safety-neighbours-campaign" %></p></li>
         <li><p><%= link_to "Temporary diversion of bus routes", news_path(anchor: "buses") %></p></li>
@@ -65,8 +67,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2020</h4>
-      <b>Saturday 15 August</b>
-      <p><%= link_to "Selsdon Little League trials", events_path(anchor: "littleleague") %></p>
       <b>2nd Thursday of month</b>
       <p><%= link_to "The Arts Society Croydon", events_path(anchor: "theartssept") %></p>
       <b>4th Tuesday of the month</b>
