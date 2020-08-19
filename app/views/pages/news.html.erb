@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Planning application for 3-5 Harewood Gardens", news_path(anchor: "harewood") %></h4></li>
         <li><h4><%= link_to "TFL information about school travel", news_path(anchor: "school") %></h4></li>
         <li><h4><%= link_to "Neighbourhood Watch, Safety in Neighbours Campaign", "https://www.ourwatch.org.uk/get-involved/support-campaign/safety-neighbours-campaign" %></h4></li>
         <li><h4><%= link_to "Temporary diversion of bus routes", news_path(anchor: "buses") %></h4></li>
@@ -83,6 +84,8 @@
 
       <h2> News in Detail</h2>
 
+      <h3><a class="anchor" id="top" name="harewood"></a>Planning application for 3-5 Harewood Gardens</h3>
+      <p>Application Number: 20/03366/FUL, Location: 3 - 5 Harewood Gardens, South Croydon, CR2 9BU. Details of Application: Demolition of two family dwellinghouses and erection of 8x semi-detached houses with associated access, car parking, cycle and refuse storage. Note that 1 Harewood Gardens is currently attached to 3 Harewood Gardens which will be demolished. <%= link_to "Planning details", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=QE8KNZJLH3Q00" %></p>
       <h3><a class="anchor" id="top" name="school"></a>Information from TFL about school travel</h3>
       <p>I’m writing to let you know that we have today announced proposals to help schoolchildren travel safely and sustainably as they return to schools in September. Plans include additional buses and dedicated school services, a range of Streetspace measures and a comprehensive communication and engagement programme. <%= link_to "A link to the full press release is here", "https://tfl.gov.uk/info-for/media/press-releases/2020/august/tfl-urges-children-to-walk-cycle-and-scoot-to-school-to-help-children-safely-return-to-the-classroom" %>.</p>
       <p>We are encouraging parents, students and school staff to plan ahead, and to walk, cycle, scoot or use public transport for their journeys. While we are running a normal service on weekdays on public transport, social distancing reduces the number of people we can carry, so those who can are advised to travel during quiet off-peak times, and allow more time if travelling by bus during school travel times. </p>
