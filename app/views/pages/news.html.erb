@@ -11,6 +11,7 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <li><h4><%= link_to "Essential roadworks on Purley Cross", news_path(anchor: "roadworks") %></h4></li>
         <li><h4><%= link_to "Planning application for 3-5 Harewood Gardens", news_path(anchor: "harewood") %></h4></li>
         <li><h4><%= link_to "TFL information about school travel", news_path(anchor: "school") %></h4></li>
         <li><h4><%= link_to "Neighbourhood Watch, Safety in Neighbours Campaign", "https://www.ourwatch.org.uk/get-involved/support-campaign/safety-neighbours-campaign" %></h4></li>
@@ -83,6 +84,11 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3><a class="anchor" id="top" name="roadworks"></a>Essential Roadworks on Purley Cross</h3>
+      <p>TFL write: "From Sunday 23 August we are restarting essential road maintenance at Purley Cross. Work will take place on the A22 and A23 Purley Road between its junctions with Brighton Road, Banstead Road, Russell Hill Road, High Street, Whytecliffe Road South and the approach to A22 Godstone Road. This work began in March but was brought to a safe stop due to the pandemic. To reduce disruption this work will take place at night and is split into phases to enable the road to be resurfaced in sections and to allow some parts of the junction to remain open. Work is scheduled to be complete by 26 September.</p>
+      <p>"Work will not take place on Saturday nights. We will make every effort to finish the works on time, although poor weather conditions or other unforeseen events may mean we need to reschedule at short notice. Please be aware that during the above times local road closures will be required, and access from side roads onto Purley Way and into Purley Cross will be restricted.</p>
+      <p>"Please be aware local bus services will be affected by these works and bus stops may temporarily close or be located nearby. This includes routes 60, 127, 166, 289, 405, 407, 412, 455, 466 and N68. Please plan ahead and allow plenty of time when travelling."</p>
 
       <h3><a class="anchor" id="top" name="harewood"></a>Planning application for 3-5 Harewood Gardens</h3>
       <p>Application Number: 20/03366/FUL, Location: 3 - 5 Harewood Gardens, South Croydon, CR2 9BU. Details of Application: Demolition of two family dwellinghouses and erection of 8x semi-detached houses with associated access, car parking, cycle and refuse storage. Note that 1 Harewood Gardens is currently attached to 3 Harewood Gardens which will be demolished. <%= link_to "Planning details", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=QE8KNZJLH3Q00" %></p>
