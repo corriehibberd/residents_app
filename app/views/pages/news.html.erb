@@ -11,8 +11,8 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
-        <li><h4><%= link_to "DEMOC petition handed in", news_path(anchor: "democ2") %></h4></li>
         <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
+        <li><h4><%= link_to "DEMOC petition handed in", news_path(anchor: "democ2") %></h4></li>       
         <li><h4><%= link_to "Essential roadworks on Purley Cross", news_path(anchor: "roadworks") %></h4></li>
         <li><h4><%= link_to "Planning application for 3-5 Harewood Gardens", news_path(anchor: "harewood") %></h4></li>
         <li><h4><%= link_to "TFL information about school travel", news_path(anchor: "school") %></h4></li>
@@ -86,7 +86,10 @@
 
       <h2> News in Detail</h2>
 
-      <h3>3 Sept 2020</h3>
+      <h3>Sept 2020</h3>
+
+      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/planning_applications_sep2020.pdf" %>.</p>
+
       <h3><a class="anchor" id="top" name="democ2"></a>DEMOC petition handed into Town Hall</h3>
       <p>The Campaign for a Democratically Elected Mayor of Croydon “DEMOC” P O Box 3254, Purley,CR8 9ER <%= link_to "www.democ.org.uk", "http://www.democ.org.uk" %> info@democ.org.uk</p>
 
@@ -104,8 +107,6 @@
 
       <h3>August 2020</h3>
 
-      <h3><a class="anchor" id="top" name="list"></a>Latest planning applications including 1 Sandhurst Way</h3>
-      <p> Latest news, the application for 1 Sandhurst Way has been refused. <%= link_to "Download this list of all the latest applications and their status", "resource/Planning_applications_aug20.pdf" %>.</p>
 
       <h3><a class="anchor" id="top" name="roadworks"></a>Essential Roadworks on Purley Cross</h3>
       <p>TFL write: "From Sunday 23 August we are restarting essential road maintenance at Purley Cross. Work will take place on the A22 and A23 Purley Road between its junctions with Brighton Road, Banstead Road, Russell Hill Road, High Street, Whytecliffe Road South and the approach to A22 Godstone Road. This work began in March but was brought to a safe stop due to the pandemic. To reduce disruption this work will take place at night and is split into phases to enable the road to be resurfaced in sections and to allow some parts of the junction to remain open. Work is scheduled to be complete by 26 September.</p>
