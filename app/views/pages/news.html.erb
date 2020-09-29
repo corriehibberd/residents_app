@@ -11,6 +11,9 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+
+        <li><h4><%= link_to "Sign the petition to save Purley Pool", news_path(anchor: "pool") %></h4></li>
+        <li><h4><%= link_to "Planning for the future, a questionnaire", news_path(anchor: "future") %></h4></li>
         <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
         <li><h4><%= link_to "DEMOC petition handed in", news_path(anchor: "democ2") %></h4></li>       
         <li><h4><%= link_to "Essential roadworks on Purley Cross", news_path(anchor: "roadworks") %></h4></li>
@@ -85,6 +88,20 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3>Oct 2020</h3>
+      <h3><a class="anchor" id="top" name="future"></a>Planning for the future, a questionnaire</h3>
+      <p>The Ministry of Housing, Communities & Local Government has issued a white paper consultation which has wide ranging proposals to reform the planning system to streamline and modernise the planning process, bring a new focus to design and sustainability, improve the system of developer contributions to infrastructure, and ensure more land is available for development where it is needed.</p>
+      <p>It may be accessed at <%= link_to "https://www.gov.uk/government/consultations/planning-for-the-future", "https://www.gov.uk/government/consultations/planning-for-the-future" %> </p>
+      <p>Sanderstead Residents Association is preparing a response to the questionnaire together with other Associations in the South of the Borough. HOWEVER, our response only counts as ‘one’. Every resident is encouraged, therefore to participate in the consultation process, please. The more responses submitted, the more chance the policy makers will listen.</p>
+      <p><%= link_to "Read more...", "resource/planning_for_the_future.pdf" %></p>
+
+      <h3><a class="anchor" id="top" name="pool"></a>Save Purley Pool</h3>
+      <p>MP Chris Philp has urges us to sign a petition to prevent the council from closing down Purley Pool.</p>
+      <p>"Croydon council is currently refusing to re-open Purley Pool – despite several other council-run pools being re-opened already. They are giving no time frame to re-open it. Pools have been re-opened elsewhere in the Borough, but as usual with the council's Labour-run administration, we are being ignored. There are fears that this is a precursor to the council’s plans to close the pool permanently, as they tried to do a few years ago. Local residents, councillors and I successfully stopped the closure plans then, and we must re-start the campaign now."</p>
+      <p>Sign the petition here: <%= link_to " https://www.surveymonkey.co.uk/r/SavePurleyPool", " https://www.surveymonkey.co.uk/r/SavePurleyPool" %></p>
+
+
 
       <h3>Sept 2020</h3>
 
