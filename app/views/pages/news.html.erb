@@ -11,10 +11,11 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
-
+        <li><h4><%= link_to "Planning application for 56 West Hill", "https://publicaccess3.croydon.gov.uk/online-applications/centralDistribution.do?caseType=Application&keyVal=QH0FZRJLM2V00" %></h4></li>
+        <li><h4><%= link_to "Update on traffic scheme around Ridgeway School", news_path(anchor: "ridgeway") %></h4></li>
+        <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
         <li><h4><%= link_to "Sign the petition to save Purley Pool", news_path(anchor: "pool") %></h4></li>
         <li><h4><%= link_to "Planning for the future, a questionnaire", news_path(anchor: "future") %></h4></li>
-        <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
         <li><h4><%= link_to "DEMOC petition handed in", news_path(anchor: "democ2") %></h4></li>       
         <li><h4><%= link_to "Essential roadworks on Purley Cross", news_path(anchor: "roadworks") %></h4></li>
         <li><h4><%= link_to "Planning application for 3-5 Harewood Gardens", news_path(anchor: "harewood") %></h4></li>
@@ -90,6 +91,16 @@
       <h2> News in Detail</h2>
 
       <h3>Oct 2020</h3>
+
+      <h3><a class="anchor" id="top" name="westhill"></a>Renewed planning application for 56 West Hill</h3>
+      <p>56 West Hill is opposite 444 Selsdon Road which has already been approved. It is on an awkward junction of West Hill snd Selsdon Road. The application is submitted by the same developer as 1 Sandhurst Way (next door) which was recently refused but the developer will undoubtedly come back with another plan. <%= link_to "Find the details here", "https://publicaccess3.croydon.gov.uk/online-applications/centralDistribution.do?caseType=Application&keyVal=QH0FZRJLM2V00" %></p>
+
+      <h3><a class="anchor" id="top" name="ridgeway"> </a>Update on traffic scheme around Ridgeway School</h3>
+      <p>
+<%= link_to "Read the latest information about traffic restrictions in Southcote Road by Ridgeway School.", "https://www.croydonconservatives.com/news/ridgeway-primary-school-street-scheme" %> </p>
+
+      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/planning_applications_Oct20.pdf" %>.</p>
+
       <h3><a class="anchor" id="top" name="future"></a>Planning for the future, a questionnaire</h3>
       <p>The Ministry of Housing, Communities & Local Government has issued a white paper consultation which has wide ranging proposals to reform the planning system to streamline and modernise the planning process, bring a new focus to design and sustainability, improve the system of developer contributions to infrastructure, and ensure more land is available for development where it is needed.</p>
       <p>It may be accessed at <%= link_to "https://www.gov.uk/government/consultations/planning-for-the-future", "https://www.gov.uk/government/consultations/planning-for-the-future" %> </p>
@@ -104,8 +115,6 @@
 
 
       <h3>Sept 2020</h3>
-
-      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/planning_applications_sep2020.pdf" %>.</p>
 
       <h3><a class="anchor" id="top" name="democ2"></a>DEMOC petition handed into Town Hall</h3>
       <p>The Campaign for a Democratically Elected Mayor of Croydon “DEMOC” P O Box 3254, Purley,CR8 9ER <%= link_to "www.democ.org.uk", "http://www.democ.org.uk" %> info@democ.org.uk</p>
