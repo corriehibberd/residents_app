@@ -12,6 +12,7 @@
       <h2>News Headlines</h2>
       <ul>
         <h4>October 2020</h4>
+        <li><h4><%= link_to "Planning application for 37 Kingswood Lane", news_path(anchor: "37kingswood") %></h4></li>
         <li><h4><%= link_to "Changes to parking charges", news_path(anchor: "parking") %></h4></li>
         <li><h4><%= link_to "Planning application for 56 West Hill", "https://publicaccess3.croydon.gov.uk/online-applications/centralDistribution.do?caseType=Application&keyVal=QH0FZRJLM2V00" %></h4></li>
         <li><h4><%= link_to "Update on traffic scheme around Ridgeway School", news_path(anchor: "ridgeway") %></h4></li>
@@ -95,6 +96,10 @@
       <h2> News in Detail</h2>
 
       <h3>Oct 2020</h3>
+
+      <h3><a class="anchor" id="top" name="37kingswood"></a>Planning application for 37 Kingswood Lane</h3>
+      <p>Visit <%= link_to "the planning pages for details of this latest planning application", "https://publicaccess3.croydon.gov.uk/online-applications/applicationDetails.do?activeTab=summary&keyVal=QI75D7JLHGC00" %></p>
+      <p><%= link_to "More details here", "resource/37 Kingswood lane.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="85pdr"></a>Planning permission refused for 85 Purley Downs Road</h3>
       <p>Demolition of existing house, erection of three storey building comprising nine flats, formation of vehicular access/access road and provision of associated parking and cycle storage - 85 Purley Downs Road South Croydon CR2 0RJ. Ref. No: 20/02354/FUL | Status: Permission Refused | Case Type: Planning Application</p>
