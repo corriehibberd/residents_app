@@ -11,7 +11,11 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+
+        <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
+
         <h4>November 2020</h4>
+        <li><h4><%= link_to "Planning application for 11 The Windings", news_path(anchor: "windings") %></h4></li>
         <li><h4><%= link_to "Malcolm Saunders RIP", news_path(anchor: "malcolm") %></h4></li>
         <li><h4><%= link_to "Development of Garages to the rear of Elmfield Way", news_path(anchor: "elmfield") %></h4></li>
         <li><h4><%= link_to "Poppy appeal", news_path(anchor: "poppy") %></h4></li>
@@ -21,7 +25,7 @@
         <li><h4><%= link_to "Changes to parking charges", news_path(anchor: "parking") %></h4></li>
         <li><h4><%= link_to "Planning application for 56 West Hill", "https://publicaccess3.croydon.gov.uk/online-applications/centralDistribution.do?caseType=Application&keyVal=QH0FZRJLM2V00" %></h4></li>
         <li><h4><%= link_to "Update on traffic scheme around Ridgeway School", news_path(anchor: "ridgeway") %></h4></li>
-        <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
+       
         <li><h4><%= link_to "Sign the petition to save Purley Pool", news_path(anchor: "pool") %></h4></li>
         <li><h4><%= link_to "Planning for the future, a questionnaire", news_path(anchor: "future") %></h4></li>
         <h4>September 2020</h4>
@@ -90,6 +94,7 @@
 
     <div class="col-md-8 col-xs-12 white-column">
       <h2>Local News Websites</h2>
+      <h3><%= link_to "Croydon Council Planning pages", "https://new.croydon.gov.uk/planning-and-regeneration" %></h3>
       <h3><%= link_to "Croydon Council News", "http://www.croydon.gov.uk/news/" %></h3>
         <h3><%= link_to "Local Councillors' blog", "https://www.croydonconservatives.com/sanderstead" %></h3>
         <h3><%= link_to "Croydon Neighbourhood Watch News", "http://www.cbnwa.com" %></h3>
@@ -98,7 +103,13 @@
 
       <h2> News in Detail</h2>
 
-      <h3>Noc 2020</h3>
+      <h3>Nov 2020</h3>
+
+      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/SRA PlanningApplications_nov20.pdf" %>.</h3>
+
+      <h3><a class="anchor", id="top" name="windings"></a><%= link_to "Planning application for 11 The Windings", "https://publicaccess3.croydon.gov.uk/online-applications/" %></h3>
+      <p>An application has been submitted for a new build house on the site of 11 The Windings with access from Sanderstead Hill</p>
+      <p>Application Number: 20/05832/FUL. Location: 11 The Windings, South Croydon, CR2 0HW. Details of Application: Erection of a 4 bedroom detached house and provision of two parking spaces. Creation of new access onto Sanderstead Hill.</p>
 
       <h3><a class="anchor" id="top" name="malcolm"></a>A tribute to Malcolm Saunders</h3>
       <p>It is with much regret that the SRA Committee have to inform you that a valued member of our executive passed away recently. Malcom Saunders joined the committee in 1995 for nine years and later re-joined in 2018. He quietly and efficiently assisted in many tasks. He will be sorely missed.</p>
@@ -148,7 +159,6 @@
       <p>
 <%= link_to "Read the latest information about traffic restrictions in Southcote Road by Ridgeway School.", "https://www.croydonconservatives.com/news/ridgeway-primary-school-street-scheme" %> </p>
 
-      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/planning_applications_Oct20.pdf" %>.</p>
 
       <h3><a class="anchor" id="top" name="future"></a>Planning for the future, a questionnaire</h3>
       <p>The Ministry of Housing, Communities & Local Government has issued a white paper consultation which has wide ranging proposals to reform the planning system to streamline and modernise the planning process, bring a new focus to design and sustainability, improve the system of developer contributions to infrastructure, and ensure more land is available for development where it is needed.</p>
