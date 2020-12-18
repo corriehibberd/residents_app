@@ -11,7 +11,8 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
-         <h4>December 2020</h4>
+        <h4>December 2020</h4>
+        <li><h4><%= link_to "Selsdon Road Bridge Replacement", news_path(anchor: "selsdon_bridge") %></h4></li>
         <li><h4><%= link_to "Petition to save the library", news_path(anchor: "ACVlibrary") %></h4></li>
         <li><h4><%= link_to "Croydon's Renewal Plan", news_path(anchor: "renewal") %></h4></li>
         <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
@@ -109,6 +110,10 @@
       <h2> News in Detail</h2>
 
       <h3>Dec 2020</h3>
+
+      <h3><a class="anchor" id="top" name="selsdon_bridge"></a>Selsdon Road Bridge Works and diversions</h3>
+      <p>Read the attached letter from Network Rail about the works on the Selsdon Road rail bridge over Christmas and diversions to bus services</p>
+      <p><%= link_to "Rail Bridge Replacement works", "resource/Selsdon_Road_Bridge_Replacement.pdf" %></p>
 
       <h3><a class="anchor" id="top" name="ACVlibrary"></a>Petition to Save the Library</h3>
       <p><b><%= link_to "Download the form", "resource/ACV_Signature_Form_v2.pdf" %>, sign it and return to Jim Gibbons, vice chair of Sanderstead Residents' Association by either e-mail, post or by hand to:</b></p>
