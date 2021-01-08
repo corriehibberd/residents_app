@@ -45,7 +45,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Node.js
 #Apple JavaScriptCore - Included with Mac OS X
 #Microsoft Windows Script Host (JScript)
-gem 'therubyracer'
+gem 'mini_racer'
 
 
 # Use ActiveModel has_secure_password

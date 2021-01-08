@@ -11,7 +11,11 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
-        <h4>December 2020</h4>
+
+        <h4>January 2021</h4>
+        <li><h4><%= link_to "Beware text scam about covid vaccination", news_path(anchor: "vaccination") %></h4></li>
+        
+        <h4>December 2020</h4>      
         <li><h4><%= link_to "Selsdon Road Bridge Replacement", news_path(anchor: "selsdon_bridge") %></h4></li>
         <li><h4><%= link_to "Petition to save the library", news_path(anchor: "ACVlibrary") %></h4></li>
         <li><h4><%= link_to "Croydon's Renewal Plan", news_path(anchor: "renewal") %></h4></li>
@@ -108,6 +112,15 @@
        <h3><%= link_to "Information about the latest scams", "https://www.croydon.gov.uk/advice/tstandards/doorstep-crime/infonetwork" %></h3>
 
       <h2> News in Detail</h2>
+
+      <h3>Jan 2021</h3>
+
+
+      <h3><a class="anchor" id="top" name="vaccination"></a>Beware new phone scam about covid vaccination</h3>
+      <p>There have been reports of a new scam where a person receives a text saying they need to book a vaccination appointment and it takes them to a fake NHS form which then asks for their bank details to prove their identity.</p>
+      <p>The NHS will never ask for peoples banking information.</p>
+      <p>There is a texting scam leaflet you can download here: <%= link_to "https://cfa.nhs.uk/resources/downloads/fraud-awareness/covid-19/COVID-19_SMS_and_Text_Message_Scams.pdf", "https://cfa.nhs.uk/resources/downloads/fraud-awareness/covid-19/COVID-19_SMS_and_Text_Message_Scams.pdf" %></p>
+      <p>The scam has been reported in the media here: <%= link_to "https://www.express.co.uk/life-style/science-technology/1378158/NHS-Covid-19-Vaccination-Vaccine-Appointment-Pfizer-BioNTech-Text-Scam-How-To-Avoid", "https://www.express.co.uk/life-style/science-technology/1378158/NHS-Covid-19-Vaccination-Vaccine-Appointment-Pfizer-BioNTech-Text-Scam-How-To-Avoid" %></p>
 
       <h3>Dec 2020</h3>
 
