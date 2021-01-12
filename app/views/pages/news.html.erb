@@ -13,13 +13,13 @@
       <ul>
 
         <h4>January 2021</h4>
+        <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
         <li><h4><%= link_to "Beware text scam about covid vaccination", news_path(anchor: "vaccination") %></h4></li>
         
         <h4>December 2020</h4>      
         <li><h4><%= link_to "Selsdon Road Bridge Replacement", news_path(anchor: "selsdon_bridge") %></h4></li>
         <li><h4><%= link_to "Petition to save the library", news_path(anchor: "ACVlibrary") %></h4></li>
-        <li><h4><%= link_to "Croydon's Renewal Plan", news_path(anchor: "renewal") %></h4></li>
-        <li><h4><%= link_to "List of current planning applications", news_path(anchor: "list") %></h4></li>
+        <li><h4><%= link_to "Croydon's Renewal Plan", news_path(anchor: "renewal") %></h4></li>       
         <li><h4><%= link_to "SRA response to Library closure", news_path(anchor: "sralibrary") %></h4></li>
         <li><h4><%= link_to "Save Sanderstead Library", news_path(anchor: "library") %></h4></li>
 
@@ -115,6 +115,8 @@
 
       <h3>Jan 2021</h3>
 
+      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/SRAPlanningApplications_jan21.pdf" %>.</h3>
+
 
       <h3><a class="anchor" id="top" name="vaccination"></a>Beware new phone scam about covid vaccination</h3>
       <p>There have been reports of a new scam where a person receives a text saying they need to book a vaccination appointment and it takes them to a fake NHS form which then asks for their bank details to prove their identity.</p>
@@ -196,7 +198,7 @@ heritage/locally-listed-buildings" %></li>
       <h3><a class="anchor" id="top" name="bridge"></a>Selsdon Road rail bridge</h3>
       <p><%= link_to "Click here", "resource/Selsdon_rail_bridge.pdf" %> for a letter giving information about the work on the Selsdon Road rail bridge, including details of a Zoom consultation on Monday 30 November.</p>
 
-      <h3><a class="anchor" id="top" name="list"></a> <%= link_to "Download this list of the status of all the latest applications", "resource/SRA PlanningApplications_nov20.pdf" %>.</h3>
+      
 
       <h3><a class="anchor" id="top" name="lights"></a>Christmas Lights</h3>
       <p>Sanderstead Residents Association together with the Concillors have contributed towards the new Christmas lights in Elmfield Way, in addition to the existing lights in Sanderstead village and Hamsey Green.</p>
