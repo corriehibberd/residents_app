@@ -14,21 +14,19 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "Census 2021 - Sunday 21 March", news_path(anchor: "census") %></p></li>
+        <li><p><%= link_to "Letter re Library to Councillors and MPs", news_path(anchor: "lib_MP") %></p></li>
         <li><p><%= link_to "Find out about the Purley Way masterplan consultation", "http://www.riddlesdownresidents.org.uk/planningnr.html#PurleyWay" %> With thanks to the Riddlesdown Residents Association for the information.</p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Police campaign against catalytic convertor theft", police_path(anchor: "basswood") %></p></li>
-        <li><p><%= link_to "Library consultation webinars", news_path(anchor: "webinar") %></p></li>
         <li><p><%= link_to "Update on traffic around Ridgeway School", news_path(anchor: "southcote") %></p></li>
-        <li><p><%= link_to "Census 2021 - Sunday 21 March", news_path(anchor: "census") %></p></li>
-        <li><p><%= link_to "Alterations to Train services", news_path(anchor: "trains") %></p></li>
-        <li><p><%= link_to "Application received re Library", news_path(anchor: "lib_app") %></p></li>
-        <li><p><%= link_to "Consultation on closure of Sanderstead library", news_path(anchor: "lib_closure") %></p></li>
-        <li><p><%= link_to "Beware latest text scam about covid vaccination", news_path(anchor: "vaccination") %></p></li>                   
+       
+                          
       </ul>
 
       <h2 class="clear"><%= link_to "Planning News", "pages/planning" %></h2>
       <ul>
-        <li><P><%= link_to "Latest planning applications", "resource/SRAPlanningApplications_Feb21.pdf" %></P></li>
+        <li><P><%= link_to "Latest planning applications", "resource/SRA_PlanningApplications_mar21.pdf" %></P></li>
         <li><p><%= link_to "2-4 Addington Road", "pages/planning#2addington" %></p></li>
         <li><p><%= link_to "51 The Ridge Way", "pages/planning#51theridgeway" %></p></li>
         <li><p><%= link_to "129 Mayfield Road", "pages/planning#129mayfield" %></p></li>
