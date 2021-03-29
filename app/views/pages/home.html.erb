@@ -14,8 +14,8 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <li><p><%= link_to "DEMOC referendum confirmed for 7th October", news_path(anchor: "democ_referendum") %></p></li>
         <li><p><%= link_to "Sanderstead Library listed as an Asset of Community Value", news_path(anchor: "lib_decision") %></h4></p>
-        <li><p><%= link_to "Census 2021 - Sunday 21 March", news_path(anchor: "census") %></p></li>
         <li><p><%= link_to "Letter re Library to Councillors and MPs", news_path(anchor: "lib_MP") %></p></li>
         <li><p><%= link_to "Find out about the Purley Way masterplan consultation", "http://www.riddlesdownresidents.org.uk/planningnr.html#PurleyWay" %> With thanks to the Riddlesdown Residents Association for the information.</p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
@@ -28,24 +28,19 @@
       <h2 class="clear"><%= link_to "Planning News", "pages/planning" %></h2>
       <ul>
         <li><P><%= link_to "Latest planning applications", "resource/SRA_PlanningApplications_mar21.pdf" %></P></li>
+        <li><p><%= link_to "34A, 34B and rear of 34 Arkwright Road", "pages/planning#34arkwright" %></p></li>
         <li><p><%= link_to "2-4 Addington Road", "pages/planning#2addington" %></p></li>
         <li><p><%= link_to "51 The Ridge Way", "pages/planning#51theridgeway" %></p></li>
         <li><p><%= link_to "129 Mayfield Road", "pages/planning#129mayfield" %></p></li>
         <li><p><%= link_to "11 Britton Hill Road", "pages/planning#11britton" %></p></li>
         <li><p><%= link_to "18 Brambledown Road", "pages/planning#18brambledown" %></p></li>
         <li><p><%= link_to "Garages to the rear of 39 - 41 Elmfield Way", "pages/planning#39elmfield" %></p></li>
-        <li><p><%= link_to "70 Arkwright Road", "pages/planning#70ark" %></p></li>
-        <li><p><%= link_to "8 High Beech", "pages/planning#8high" %></p></li>
-        <li><p><%= link_to "44 Sanderstead Hill", "pages/planning#44sanderstead" %></p></li>
-        <li><p><%= link_to "103 Wentworth Way", "pages/planning#103wentworth" %></p></li>
-        <li><p><%= link_to "85 Purley Downs Road", "pages/planning#85pdr" %></p></li>
-        <li><p><%= link_to "11 The Windings", "pages/planning#11windings" %></p></li>
-        <li><p><%= link_to "Development of garages to the rear of Elmfield Way", "pages/planning#elmfield" %></p></li>
+       
       </ul>
       <h2>Membership</h2>
       <div class="row">
         <div class="col-md-4">
-          <%= image_tag "small-images/Sand_news_sep20.jpg", class: "shadow_small_image" %>
+          <%= image_tag "small-images/Sand_news_spring2021.jpg", class: "shadow_small_image" %>
         </div>
         <div class="col-md-8">
           <h2>Sanderstead News</h2>
@@ -85,8 +80,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
-      <b>Thursday 25 March</b>
-      <p><%= link_to "Online seminar on housing in the pandemic", events_path(anchor: "housing_seminar") %></p>
       <p>Regular events on hold during lockdown</p>
       <b>2nd Thursday of month</b>
       <p><%= link_to "The Arts Society Croydon", events_path(anchor: "theartssept") %></p>
