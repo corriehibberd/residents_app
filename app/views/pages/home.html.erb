@@ -33,7 +33,9 @@
 
       <h2 class="clear"><%= link_to "Planning News", "pages/planning" %></h2>
       <ul>
-        <li><P><%= link_to "Latest planning applications", "resource/SRAPlanningApplications_apr21.pdf" %></P></li>
+        <li><P><%= link_to "Latest planning applications", "resource/SRAPlanningApplications_apr(4).pdf" %></P></li>
+        <li><p><%= link_to "62 The Ridge Way", "pages/planning#62theridgeway" %></p></li>
+        <li><p><%= link_to "19 Sanderstead Hill", "pages/planning#18sandersteadhill" %></p></li>
         <li><p><%= link_to "2 Shaw Crescent", "pages/planning#2shaw" %></p></li>
         <li><p><%= link_to "158 Purley Downs Road", "pages/planning#158purley_dpwns" %></p></li>
         <li><p><%= link_to "34A, 34B and rear of 34 Arkwright Road", "pages/planning#34arkwright" %></p></li>
@@ -88,6 +90,10 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
+      <b>Saturday 17 April</b>
+      <p><%= link_to "Purley Beeches working party", events_path(anchor: "beeches_apr") %></p>
+      <b>Saturday 25 September</b>
+      <p><%= link_to "Sanderstead Neighbourhood Care, Quiz Night", events_path(anchor: "quiz") %></p>
       <p>Regular events on hold during lockdown</p>
       <b>2nd Thursday of month</b>
       <p><%= link_to "The Arts Society Croydon", events_path(anchor: "theartssept") %></p>
