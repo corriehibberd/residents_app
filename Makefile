@@ -19,3 +19,7 @@ DB_TARGETS = db-migrate db-rollback
 .PHONY: $(DB_TARGETS)
 $(DB_TARGETS): %:;
 	docker-compose exec web bin/rake $(subst -,:,$@)
+
+.PHONY: build-and-up
+build-and-up:
+	docker-compose up --build
