@@ -13,6 +13,7 @@
       <ul>
 
         <h4>May 2021</h4>
+        <li><h4><%= link_to "Notes on DEMOC meeting", news_path(anchor: "DEMOC_zoom") %></h4></li>
         <li><h4><%= link_to "DEMOC online launch event", news_path(anchor: "DEMOClaunch") %></h4></li>
 
         <h4>April 2021</h4>
@@ -86,7 +87,6 @@
         <li><h4><%= link_to "Local Councillors raise 30K for Lily Pad appeal", news_path(anchor: "lily") %></h4></li>
         <li><h4><%= link_to "A Cherry tree for Sanderstead", news_path(anchor: "sakura") %></h4></li>
         <li><h4><%= link_to "MP Chris Philp calls for action against Croydon's planning blight", news_path(anchor: "petition") %></h4></li>
-        <li><h4><%= link_to "Sanderstead LIbrary Poetry Competition", news_path(anchor: "poetry") %></h4></li>
         <li><h4><%= link_to "Red Box Project Collection", news_path(anchor: "redbox") %></h4></li>
         <li><h4><%= link_to "Planning application for 12 Ridge Way", news_path(anchor: "12ridgeway") %></h4></li>
         <li><h4><%= link_to "Croydon Advertiser reports residents' concern over Barrowsfield development", "https://www.croydonadvertiser.co.uk/news/new-sanderstead-flats-look-like-2274950", target: "_blank" %></h4></li>
@@ -104,7 +104,7 @@
         <li><h4><%= link_to "Trading Standards alert", anchor: "beware" %></h4></li>
         <li><h4><%= link_to "Keeping your memory strong", anchor: "memory" %></h4></li>
         <li><h4><%= link_to "Call blockers for people with dementia", anchor: "block" %></h4></li>
-        <li><h4><%= link_to "Neighbourhood watch newsletter", "resource/CroydonEye_Autumn2017.pdf" %></h4></li>
+
         <li><h4><%= link_to "Residents form a group to fight proposed developments in the area", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></h4></li>
         <li><h4><%= link_to "Changes to way Croydon Council advises residents about planning", anchor: "planning" %></h4></li>
         <li><h4><%= link_to "Police Action Fraud Website", police_path(anchor: "fraud") %></h4></li>
@@ -133,9 +133,12 @@
       <h2> News in Detail</h2>
 
       <h3>May 2021</h3>
+
+      <h3><a class="anchor" id="top" name="DEMOC_zoom"></a>Notes from DEMOC launch Zoom meeting</h3>
+      <p>A meeting on Zoom was held on 12 May to launch the DEMOC campaign for a Directly Elected Mayor Of Croydon. <%= link_to "Click here for the notes of the meeting", "resource/DEMOC_12.5.21.pdf" %>.</p>
+
       <h3><a class="anchor" id="top" name="DEMOClaunch"></a>DEMOC online launch event</h3>
-      <p>On Wednesday 12 May, the residents' campaign for a Directly Elected Mayor Of Croydon (DEMOC) are holding their online launch event. The campaign's online launch will be an important step in the run up to Referendum Day on 7 October. The details are: Wed, 12 May 2021, 20:00 – 21:00. If you would like to attend this online event, then please register at: 
-        <%= link_to "https://www.eventbrite.co.uk/e/residents-campaign-for-an-elected-mayor-of-croydon-tickets-151975680351", "https://www.eventbrite.co.uk/e/residents-campaign-for-an-elected-mayor-of-croydon-tickets-151975680351" %></p>
+      <p>On Wednesday 12 May, the residents' campaign for a Directly Elected Mayor Of Croydon (DEMOC) are holding their online launch event. The campaign's online launch will be an important step in the run up to Referendum Day on 7 October. The details are: Wed, 12 May 2021, 20:00 – 21:00.</p>
 
       <h3>April 2021</h3>
       <h3><a class="anchor" id="top" name="fostering"></a>30 households needed for fostering</h3>
@@ -618,7 +621,7 @@
 
       <h3><a class="anchor" id="top" name="memorial"></a>Sanderstead Memorial Hall</h3>
       <p>You may be aware of Sanderstead Memorial Hall on Purley Oaks Road. It was built as a tribute to the men and women who died or served their country in the First World War. The hall was opened in June 1922 by Vice Admiral A.F.B. Carpenter VC of Zeebrugge fame. The Sanderstead Hall Association was formed in 1923 to manage the hall. The hall is used as a facility for residents of Sanderstead and, subject to availability and proposed use, may be hired. It is used on a regular basis for various activities by several groups. These include: The Cavat School of Dance, Castle Day Nursery, Dog Training Class, Beeches Badminton Club, Sanderstead Hall Badminton Club.</p>
-      <p>We are looking for volunteers to join our small committee. The duties are not onerous as we have an excellent Business Manager, Caroline Hubbard, who manages the hall on a daily basis. The small, volunteer committee meet twice a year to review the management of the hall and any refurbishments necessary. If you are a resident of Sanderstead and interested in finding out more please contact: Caroline Hubbard on 07775 680087 or Malcolm Saunders on 020 8657 1795. Malcom Saunders</p>
+      <p>We are looking for volunteers to join our small committee. The duties are not onerous as we have an excellent Business Manager, Caroline Hubbard, who manages the hall on a daily basis. The small, volunteer committee meet twice a year to review the management of the hall and any refurbishments necessary. If you are a resident of Sanderstead and interested in finding out more please contact: Caroline Hubbard on 07775 680087</p>
 
 
       <h3><a class="anchor" id="top" name="cancer"></a>South East Cancer Help Centre</h3>
@@ -636,22 +639,10 @@
       <p>In response to a request by the Sanderstead Residents’ Association, the Council welcomes residents to email their tree requests which will then be considered during the five year planting programme  (April 2018 to March 2023).</p>
       <p>Contact Email Address:   TreesandWoodlands@croydon.gov.uk</p>
 
-      <h3><a class="anchor" id="top" name="norwood"></a>SRA supports planning campaign</h3>
-      <p>Sanderstead Residents Association is supporting the campaign started by Alex Toogood to promote legal action against Croydon Council's planning department and the building company "Brick by Brick". <%= link_to "Read the report in the Croydon Advertiser", "https://www.croydonadvertiser.co.uk/news/croydon-news/mum-ready-take-legal-action-1522599" %></p>
 
       <h3><a class="anchor" id="top" name="developer"></a>Points to consider if approached by a developer</h3>
-      <p><%= link_to "Riddlesdown Residents' Association website has useful information about what a householder should consider if approached by a developer wishing to buy their home.", "http://www.riddlesdownresidents.org.uk/planning-tips%20on%20apps.html#Points2" %></p>
+      <p><%= link_to "Riddlesdown Residents' Association website has useful information about what a householder should consider if approached by a developer wishing to buy their home.", "http://www.riddlesdownresidents.org.uk/planning-tips%20on%20apps.html#Points2" %></p>      
 
-      <h3><a class="anchor" id="top" name="medical"></a>Selsdon Park Medical Practice needs your help</h3>
-      <p>The Selsdon Park Medical Practice Patient Participation Group (PPG) was established to strengthen the relationship between the Practice and its Patients. The PPG committee consists of up to twelve members who meet regularly to discuss the services on offer and how improvements can be made for the benefit of patients and the practice. The make up of the committee should reflect that of the patient body but at the present time the committee lacks representation from those aged under 45 years (including young parents), carers, disabled and other homebound individuals who find it difficult to attend regular meetings. The committee intends to set up a reference group to involve these patient categories by inviting subjects for discussion and seeking comment on agendas prior to meetings. If you are a patient of the practice and would like to be included in this reference group or if you would like to raise any practice issues you can contact the committee at their email address: selsdonppg@gmail.com or through reception at the surgery.</p>
-      
-
-      <h3><a class="anchor" id="top" name="brownies"></a>3rd Sanderstead Brownies are looking for more adult volunteers</h3>
-      <p>The 3rd Sanderstead Brownies is 90 years old this year. But they could close unless enough volunteers step forward to help run the group. <%= link_to "Read more", "resource/3rd_Sanderstead_Brownies.pdf" %></p>
-
-      <h3><a class="anchor" id="top" name="cbnwa"></a>Neighbourhood Watch appeals for help and donations</h3>
-      <p>There is a real risk that Croydon Borough Neighbourhood Watch will have to close at the end of April due to a lack of short-term funding. At a time of such concern about crime in our borough this would be a serious development. We are therefore writing to ask you to make a donation to keep the Charity going... <%= link_to "Read the full details here", "resource/CBNWA29Jan18.pdf" %>.</p>
-      <p>
 
       <a class="anchor" id="top" name="beware"></a>
       <h3>Beware offers too good to be true</h3>
@@ -685,8 +676,6 @@
       </ol>     
       If you answered yes to the above then please apply at <%= link_to "www.friendsagainstscams.org.uk/callblocker", "http://www.friendsagainstscams.org.uk/callblocker" %>
       </p>
-      <a class="anchor" id="top" name="watch"></a>
-      <h3><%= link_to "Download a copy of the latest Neighbourhood Watch newsletter here", "resource/CroydonEye_Autumn2017.pdf" %> </h3>
 
       <h3><%= link_to "Residents form a group to fight proposed developments in the area - Read the report in the Croydon Advertiser", "http://www.croydonadvertiser.co.uk/news/croydon-news/sanderstead-group-protests-proposals-dozens-548410" %></h3>
 
