@@ -16,6 +16,8 @@
      
       <h2  class="clear">News</h2>
       <ul>
+        <h4>May 2021</h4>
+        <li><p><%= link_to "DEMOC campaign video", news_path(anchor: "DEMOCvideo") %></p></li>
         <li><p><%= link_to "Notes on DEMOC meeting", news_path(anchor: "DEMOC_zoom") %></p></li>
          <li><p><%= link_to "DEMOC online launch event", news_path(anchor: "DEMOClaunch") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
@@ -92,8 +94,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
-      <b>Saturday 15 May</b>
-      <p><%= link_to "Purley Beeches working party", events_path(anchor: "fopb") %></p>
       <b>Thursday 27 May</b>
       <p><%= link_to "SRA AGM on Zoom", events_path(anchor: "agm") %></p>
       <b>Saturday 25 September</b>
