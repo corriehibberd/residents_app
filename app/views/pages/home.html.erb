@@ -26,17 +26,6 @@
         <li><p><%= link_to "Library drop-in", news_path(anchor: "libraryjune") %></p></li>
         <li><p><%= link_to "Protect against phishing scams", police_path(anchor: "phishing") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
-        <h4>May 2021</h4>
-        <li><p><%= link_to "Croydon Children's Centres consultation", news_path(anchor: "childrencentre") %></p></li>
-        <li><p><%= link_to "Chairman's Report to the 2021 AGM", chairman_path %></p></li>
-        <li><p><%= link_to "Full Police report to the SRA AGM 2021", police_path(anchor: "agmreport") %></p></li>
-        <li><p><%= link_to "Roadworks on A22 Godstone Road in June", "resource/A22_GodstoneRd.pdf" %></p></li>
-        <li><p><%= link_to "20 minutes free parking for station pickup and dropoff", news_path(anchor: "20minutes") %></p></li>
-        <li><p><%= link_to "DEMOC campaign video", news_path(anchor: "DEMOCvideo") %></p></li>
-        <li><p><%= link_to "Notes on DEMOC meeting", news_path(anchor: "DEMOC_zoom") %></p></li>
-         <li><p><%= link_to "DEMOC online launch event", news_path(anchor: "DEMOClaunch") %></p></li>
-        
-        <li><p><%= link_to "Fostering households needed", news_path(anchor: "fostering") %></p></li>
        
                           
       </ul>
@@ -108,8 +97,10 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
-       <b>Saturday 10 July</b>
-      <p><%= link_to "Litter picking", events_path(anchor: "litter") %></p>
+      <b>Tuesday 26 July</b>
+      <p><%= link_to "DEMOC meeting online", events_path(anchor: "democ") %></p>
+      <b>Through the summer holidays</b>
+      <p><%= link_to "Library Summer reading challenge", events_path(anchor: "libsummer21") %></p>
       <b>Saturday 25 September</b>
       <p><%= link_to "Sanderstead Neighbourhood Care, Quiz Night", events_path(anchor: "quiz") %></p>
       <b>Fridays</b>
