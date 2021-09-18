@@ -36,7 +36,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+
 
 #Important: You may need to add a javascript runtime to your Gemfile in order for bootstrap's LESS files to compile to CSS.
 #execJS supports these runtimes:
