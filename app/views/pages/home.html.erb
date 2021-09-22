@@ -17,6 +17,7 @@
       <h2  class="clear">News</h2>
       <ul>
         <h4>September 2021</h4>
+         <li><p><%= link_to "A short survey from Chris Philp MP about local and national issues", news_path(anchor: "philpsurvey") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <h4>August 2021</h4>
         <li><p><%= link_to "New Trustees needed for Abbeyfield Sanderstead", "resource/Abbeyfield_new_trustees.pdf" %></p></li>
@@ -100,6 +101,8 @@
       <p><%= link_to "Launch Meeting for DEMOC", events_path(anchor: "democlaunch") %></p>
       <b>Saturday 9 October</b>
       <p><%= link_to "Book Sale", events_path(anchor: "books") %></p>
+      <b>Sunday 7 November</b>
+      <p><%= link_to "Fireworks Display", events_path(anchor: "fireworks") %></p>
       <p>Regular events</p>
       <b>Fridays</b>
       <p><%= link_to "Select and collect at the library", events_path(anchor: "select") %></p>
