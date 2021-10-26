@@ -17,14 +17,13 @@
       <h2  class="clear">News</h2>
       <ul>
         <h4>October 2021</h4>
+        <li><p><%= link_to "Sign a petition to save Purley Pool from closure", news_path(anchor: "ppool") %></p></li>
         <li><p><%= link_to "Library Grounds Clean up and new banner", news_path(anchor: "libclean") %></p></li>
         <li><p><%= link_to "Attempted abduction", news_path(anchor: "nextdoor") %></p></li>
         <h4>September 2021</h4>
          <li><p><%= link_to "A short survey from Chris Philp MP about local and national issues", news_path(anchor: "philpsurvey") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
-        <h4>August 2021</h4>
-        <li><p><%= link_to "New Trustees needed for Abbeyfield Sanderstead", "resource/Abbeyfield_new_trustees.pdf" %></p></li>
-        <li><p><%= link_to "List of planning applications refused in the South of the Borough of Croydon.", "resource/planning_refusal_croydon_south.pdf" %> As compiled by RRA for CARA (Croydon Alliance of Residents Associations) of which SRA is a member. </p></li>    
+            
                           
       </ul>
 
@@ -97,12 +96,16 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
+      <b>Thursday 28 October</b>
+      <p><%= link_to "Zoom meeting re Purley Pool", events_path(anchor: "pool") %></p>
+      <b>Wednesday 3 November</b>
+      <p><%= link_to "Public meeting re Purley Pool", events_path(anchor: "pool") %></p>
       <b>Sunday 7 November</b>
       <p><%= link_to "Fireworks Display", events_path(anchor: "fireworks") %></p>
       <p>Regular events</p>
       <b>Fridays</b>
       <p><%= link_to "Select and collect at the library", events_path(anchor: "select") %></p>
-      <b>Tuesdays and Fridays</b>
+      <b>Wednesdays and Fridays</b>
       <p><%= link_to "Toddler Groups at All Saints", events_path(anchor: "toddlers") %></p>      
       <b>Fortnightly on a Friday</b>
       <p><%= link_to "Coffee Pot at All Saints", events_path(anchor: "coffeepot") %></p>
