@@ -11,6 +11,8 @@
     <div class="col-md-4 col-xs-12 grey-column">
       <h2>News Headlines</h2>
       <ul>
+        <h4>November 2021</h4>
+        <li><h4><%= link_to "Poppy appeal", news_path(anchor: "poppies") %></h4></li>
         <h4>October 2021</h4>
         <li><h4><%= link_to "Save Purley Pool from closure", news_path(anchor: "ppool") %></h4></li>
         <li><h4><%= link_to "Library Grounds Clean up", news_path(anchor: "libclean") %></h4></li>
@@ -147,9 +149,13 @@
 
       <h2> News in Detail</h2>
 
-      <h3>October 2021</h3>
+      <h3>November 2021</h3>
+      <h3><a class="anchor" id="top" name="poppies"></a>Royal British Legion Poppy Appeal</h3>
+      <p>Sanderstead Residents' Association are pleased to support the British Legion in this years poppy appeal by putting up poppies at Cranleigh Parade, Elmfield Way, Sanderstead Parade and Hamsey Green</p>
+      <p><%= image_tag "poppies.jpg", alt: "Poppy on Sanderstead Parade" %>
 
-      <h3><a href="anchor" id="top" name="ppool"></a>Save Purley Pool from Closure</h3>
+      <h3>October 2021</h3>
+      <h3><a class="anchor" id="top" name="ppool"></a>Save Purley Pool from Closure</h3>
       <p>MP Chris Philp and Croydon Mayoral Candidate, Jason Perry write:</p>
       <p>Croydon's Labour Council has just published shocking plans to permanently close Purley Pool.</p>
       <p>The Pool is a much-loved and much-used local resource, with schools and charities using it. It is critical for people from Coulsdon, Kenley, Purley, Sanderstead and South Croydon who would otherwise have very long journeys. The pool and leisure centre is a key part of local people staying healthy. While the site would benefit from updating, until this can be arranged we believe that it should be immediately re-opened.</p>
