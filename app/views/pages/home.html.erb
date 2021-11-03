@@ -32,6 +32,7 @@
       <h2 class="clear"><%= link_to "Planning News", "pages/planning" %></h2>
       <ul>
         <li><p><%= link_to "Latest planning applications", "resource/SRAPlanningApplications_oct21(2).pdf" %></P></li>
+        <li><p><%= link_to "44 Sanderstead Hill", "pages/planning#44sandersteadhill" %></p></li>
         <li><p><%= link_to "85 Purley Downs Road", "pages/planning#85purleydowns" %></p></li>
         <li><p><%= link_to "18 Brambledown Road", "pages/planning#18brambledown" %></p></li>
         <li><p><%= link_to "67 Kendal Avenue South", "pages/planning#67kendal" %></p></li>
@@ -98,10 +99,10 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
-      <b>Wednesday 3 November</b>
-      <p><%= link_to "Public meeting re Purley Pool", events_path(anchor: "pool") %></p>
       <b>Sunday 7 November</b>
       <p><%= link_to "Fireworks Display", events_path(anchor: "fireworks") %></p>
+      <b>Saturday 13 November</b>
+      <p><%= link_to "Purley Beeches Bonfire Party", events_path(anchor: "beechesnov") %></p>
       <p>Regular events</p>
       <b>Fridays</b>
       <p><%= link_to "Select and collect at the library", events_path(anchor: "select") %></p>
