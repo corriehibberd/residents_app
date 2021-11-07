@@ -17,6 +17,7 @@
       <h2  class="clear">News</h2>
       <ul>
         <h4>November 2021</h4>
+        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Poppy appeal", news_path(anchor: "poppies") %></p></li>
         <h4>October 2021</h4>
         <li><p><%= link_to "Sign a petition to save Purley Pool from closure", news_path(anchor: "ppool") %></p></li>
@@ -24,7 +25,6 @@
         <li><p><%= link_to "Attempted abduction", news_path(anchor: "nextdoor") %></p></li>
         <h4>September 2021</h4>
          <li><p><%= link_to "A short survey from Chris Philp MP about local and national issues", news_path(anchor: "philpsurvey") %></p></li>
-        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
             
                           
       </ul>
@@ -99,10 +99,12 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
-      <b>Sunday 7 November</b>
-      <p><%= link_to "Fireworks Display", events_path(anchor: "fireworks") %></p>
       <b>Saturday 13 November</b>
       <p><%= link_to "Purley Beeches Bonfire Party", events_path(anchor: "beechesnov") %></p>
+      <b>Saturday 27 November</b>
+      <p><%= link_to "Switching on Christmas lights", events_path(anchor: "lights") %></p>
+      <b>Sunday 19 December</b>
+      <p><%= link_to "Carols by candlelight", events_path(anchor: "carols") %></p>
       <p>Regular events</p>
       <b>Fridays</b>
       <p><%= link_to "Select and collect at the library", events_path(anchor: "select") %></p>
