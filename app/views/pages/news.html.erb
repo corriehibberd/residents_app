@@ -12,6 +12,7 @@
       <h2>News Headlines</h2>
       <ul>
         <h4>November 2021</h4>
+        <li><h4><%= link_to "Sanderstead Christmas lights", news_path(anchor: "lights") %></h4></li>
         <li><h4><%= link_to "Wildflower meadow at Sanderstead library", news_path(anchor: "libflowers") %></h4></li>
         <li><h4><%= link_to "Poppy appeal", news_path(anchor: "poppies") %></h4></li>
         <h4>October 2021</h4>
@@ -151,6 +152,10 @@
       <h2> News in Detail</h2>
 
       <h3>November 2021</h3>
+
+      <h3><a class="anchor" id="top" name="lights"></a>Christmas lights switched on</h3>
+      <p>Santa Claus was on hand to switch on Sanderstead Christmas lights on 28th November. The lights are sponsored by the Sanderstead Residents' Association with our local councillors.</p>
+      <p><%= image_tag "santa_lights2021-400px.jpg", alt: "Christmas lights" %></p>
 
       <h3><a class="anchor" id="top" name="libflowers"></a>Wildflower Meadow at Sanderstead Library</h3>
       <p>Wild flowers and hundreds of seeds have been planted in a designated area of Sanderstead Library garden</p>
