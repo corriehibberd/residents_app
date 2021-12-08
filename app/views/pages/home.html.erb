@@ -17,6 +17,7 @@
       <h2  class="clear">News</h2>
       <ul>
         <h4>December 2021</h4>
+        <li><p><%= link_to "Cherry trees planted on Sanderstead Rec", news_path(anchor: "cherry") %></p></li>
         <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <h4>November 2021</h4>
          <li><p><%= link_to "Sanderstead Christmas lights", news_path(anchor: "lights") %></p></li>
@@ -100,8 +101,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2021</h4>
-      <b>Wednesday 8 December</b>
-      <p><%= link_to "Friends of Purley Beeches AGM", events_path(anchor: "beechesdec") %></p>
       <b>Sunday 19 December</b>
       <p><%= link_to "Carols by candlelight", events_path(anchor: "carols") %></p>
       <p>Regular events</p>
