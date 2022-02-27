@@ -1,4 +1,4 @@
-FROM ruby:2.6.7
+FROM ruby:2.6.9
 
 # Install yarn
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
