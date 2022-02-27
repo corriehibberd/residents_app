@@ -199,7 +199,7 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 RUBY VERSION
-   ruby 2.6.7p197
+   ruby 2.6.9p207
 
 BUNDLED WITH
    1.17.2
