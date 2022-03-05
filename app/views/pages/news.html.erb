@@ -12,6 +12,8 @@
       <h2>News Headlines</h2>
       <ul>
         <h4>March 2022</h4>
+        <li><h4><%= link_to "School Street Schemes dropped", news_path(anchor: "street_schemes") %></h4></li>
+        <!--<li><h4><%= link_to "Sanderstead sign restoration", news_path(anchor: "sign") %></h4></li>-->
         <li><h4><%= link_to "Sanderstead Road closure 5 and 6 March 2022", news_path(anchor: "road") %></h4></li>
         <h4>january 2022</h4>
         <li><h4><%= link_to "Consultation to expand the Surrey Hills area of outstanding natural beauty", news_path(anchor: "aonb") %></h4></li>
@@ -159,6 +161,16 @@
 
       <h2> News in Detail</h2>
       <h3>March 2022</h3>
+
+      <h3><a class="anchor" id="top" name="street_schemes"></a>School Street Schemes dropped</h3>
+      <p>"Inside Croydon" reports that the Council has had to drop the School Street scheme restrictions because it failed to organise in advance any replacement for what were temporary measures. <%= link_to "See report on Inside Croydon", "https://insidecroydon.com/2022/03/04/school-street-schemes-dropped-after-council-failed-to-consult/" %></p>
+
+      <!--<h3><a class="anchor" id="top" name="sign"></a>Sanderstead sign restoration for the Jubilee</h3>
+      <p>The committee of Sanderstead Residents’ Association are pleased to announce that they have arranged for the Sanderstead sign to be remade as closely as possible to the original in honour of HM Queen Elizabeth II’s Platinum Jubilee.</p>
+      <p>The new sign will be in place in time for the Jubilee weekend in June.</p>
+      <p>The cost for this is being shared between SRA and the Sanderstead Councillors, however due to the work involved, it is quite costly and any donations will be gratefully received. Email: chairman@sanderstead-residents.co.uk</p>
+      <p><%= image_tag "sanderstead_sign.jpg", alt: "Sanderstead Sign" %></p>-->
+
       <h3><a class="anchor" id="top" name="road"></a>Sanderstead Road closure 5 and 6 March 2022</h3>
       <p>To facilitate a duct installation works Community Fibre will be closing Sanderstead Road between its junctions with East Hill and West Hill on Saturday 5th and Sunday 6th March 2022. The signed diversion for displaced traffic will be via Brighton Road, Godstone Road, Downs Court Road and Mitchley Avenue.</p>
 
