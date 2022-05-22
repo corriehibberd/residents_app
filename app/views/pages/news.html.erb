@@ -12,6 +12,8 @@
       <h2>News Headlines</h2>
       <ul>
         <h4>May 2022</h4>
+        <li><h4><%= link_to "Have your say on the London wide ULEZ", news_path(anchor: "ulez") %></h4></li>
+        <li><h4><%= link_to "Hamsey Green pond and litter picking on the Rec", news_path(anchor: "pondandpick") %></h4></li>
         <li><h4><%= link_to "Sanderstead Sign restored", news_path(anchor: "sign_restored") %></h4></li>
         <h4>April 2022</h4>
         <li><h4><%= link_to "Award for services to scouting received", news_path(anchor: "award") %></h4></li>
@@ -167,6 +169,15 @@
 
       <h2> News in Detail</h2>
       <h3>May 2022</h3>
+
+      <h3><a href="anchor" id="top" name="ulez"></a><%= link_to "Have your say on the London wide ULEZ", "https://haveyoursay.tfl.gov.uk/cleanair?cid=clean-air" %></h3>
+      <p>Transport for London has launched a <%= link_to "consultation", "https://haveyoursay.tfl.gov.uk/cleanair?cid=clean-air" %> seeking  our views on expanding the Ultra Low Emission Zone (ULEZ) London-wide. We have until 29 July to have our say. The Mayor has asked TfL to consult on these proposals and to begin to develop a longer-term smart road user charging system to address the triple challenges facing London of toxic air pollution, the climate emergency and traffic congestion.</p>
+      <p>Tfl wants to encourage us to have our say on our proposals to help achieve a clean, green and healthy future London. Additionally, they want to hear our views on how we shape a future road user charging solution to address the triple challenges. We can share our views through the consultation survey, or by writing to them or calling using the following details: call on 0343 222 1155 or email at cleanairyourview@tfl.gov.uk. </p>
+
+      <h3><a href="anchor" id="top" name="pondandpick"></a>FOSRGAGS on Hamsey Green pond and litter picking on Sanderstead Rec</h3>
+
+      <p>FOSRGAGS (Friends of Sanderstead Recreation Ground and Green Spaces) is calling for more funding to help restore and maintain Hamsey Green pond. A big effort has been put in to clear out the weed and make it a pleasant place to visit, but more funding is needed to keep it in good condition. Please donate via their "crowdfunder" site at <%= link_to "www.crowdfunder.co.uk/p/hamsey-green-pond", "https://www.crowdfunder.co.uk/p/hamsey-green-pond" %></p>
+      <p>Litter picking dates for Sanderstead Rec: Saturdays 11th June, 9th July, 13th August and 10th September between 12 and 4 pm. Pickers and hoops available from Priscilla's.</p>
 
       <h3><a class="anchor" id="top" name="sign_restored"></a>Sanderstead Sign restored for the Jubilee</h3>
 
