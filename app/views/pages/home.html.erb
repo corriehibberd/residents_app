@@ -17,10 +17,10 @@
       <h2  class="clear">News</h2>
       <ul>
         <h4>July 2022</h4>
+        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
         <li><p><%= link_to "Filming taking place in Sanderstead", news_path(anchor: "film") %></p></li>
         <li><p><%= link_to "Don't miss the Gruffy Fair, 2 July 12.30 - 5", events_path(anchor: "gruffy") %></p></li>
-        <h4>June 2022</h4>
-        <li><p><%= link_to "Read the monthly update from our Neighbourhood Police Team", police_path(anchor: "update") %></p></li>
+        
         <h4>May 2022</h4>
         <li><p><%= link_to "Have your say on the London wide ULEZ", news_path(anchor: "ulez") %></p></li>
         <li><p><%= link_to "Hamsey Green pond and litter picking on the Rec", news_path(anchor: "pondandpick") %></p></li>
@@ -30,7 +30,7 @@
 
       <h2 class="clear"><%= link_to "Planning News", "pages/planning" %></h2>
       <ul>
-        <li><p><%= link_to "Latest planning applications", "resource/SRAPlanningApplications_jun22.pdf" %></P></li>
+        <li><p><%= link_to "Latest planning applications", "resource/SRAPlanningApplications_jul22.pdf" %></P></li>
         <li><p><%= link_to "20 Rectory Park", "pages/planning#20rectory" %>
         <li><p><%= link_to "18 Rectory Park", "pages/planning#18rectory" %>. Approved April 22</p></li>
         <li><p><%= link_to "Red Gables, 2 Beech Avenue", "pages/planning#2beech" %></p></li>
@@ -100,10 +100,6 @@
       <%= link_to("Events", events_path, class: 'btn btn-primary') %>
       <br/>  
       <h4>2022</h4>
-      <b>Monday 27 June</b>
-      <p><%= link_to "Sanderstead library reading group", events_path(anchor: "reading") %></p>
-      <b>Saturday 2 July</b>
-      <p><%= link_to "Gruffy Fair", events_path(anchor: "Gruffy") %></p>
       <p>Regular events</p>
       <b>2nd Saturday of the month</b>
       <p><%= link_to "Litter picking on Sanderstead Rec", events_path(anchor: "litterpick") %></p>
